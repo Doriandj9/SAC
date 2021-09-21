@@ -2,15 +2,15 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="./Public/css/styles_component.css">
-	<link rel="stylesheet" href="./Public/css/styles_layout.css">
+	<link rel="stylesheet" href="/public/css/styles_component.css">
+	<link rel="stylesheet" href="/public/css/styles_layout.css">
 	<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
 	<title><?= $title; ?></title>
 </head>
 <body>
 	<div class="maincontain">
 
-		<div class="header" style="background-image: url(./Public/img/sac.png);"></div>
+		<div class="header" style="background-image: url(/public/img/sac.png);"></div>
 		
 		<div class="body">
 			
@@ -30,7 +30,7 @@
 
 			<div><div class="contain_box" id="bxs">
 				<div class="contain_head">
-					<div id="ico"><img src="./img/perfil.svg" alt="perfil-icon" width="30px"></div>
+					<div id="ico"><img src="/public/img/perfil.svg" alt="perfil-icon" width="30px"></div>
 					<div id="wel">Bienvenido(a): {nombre,apellido}</div>
 					<div id="car">Carrera de: {nombre_carrera}</div>
 				</div>

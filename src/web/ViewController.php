@@ -7,13 +7,22 @@ class ViewController implements \frame\WebRoutes{
     {
 
         $loginController = new \controllers\Login();
-        return [
+        $homeController = new  \controllers\Home();
+            return [
             '' => [
                 'GET' => [
                     'controller' => $loginController,
                     'action' => 'homeLogin'
                 ]
+                ],
+
+        'home' => [
+            'GET' => [
+                'controller' => $homeController,
+                'action' => 'home'
             ]
+            ],
         ];
     }
+
 }
