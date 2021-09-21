@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="/public/css/styles_component.css">
 	<link rel="stylesheet" href="/public/css/styles_layout.css">
-	<title><<?= $title; ?></title>
+	<title> <?= $title; ?></title>
 </head>
 <body>
 	<div class="maincontain">

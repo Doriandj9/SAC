@@ -35,7 +35,14 @@ class EntryPoint{
         $action = $array[$this->route][$this->method]['action'];
 
         $result = $controller->$action();
-        $title = $result['title'];
+        if(isset($result['login'])){
+            $content = $this->loadTemplate($result['template']);
+            echo $this->loadTemplate('templates/layoutlogin.html.php', [
+                'title' => $result['title'],
+                'content' => $content
+            ]);
+        }else{
+            $title = $result['title'];
             if(isset($result['variables'])){
                 $content = $this->loadTemplate($result['template'], $result['variables']);
             }else{
@@ -46,6 +53,8 @@ class EntryPoint{
                 'title' => $title,
                 'content' => $content
             ]);
+        }
+        
 
     }
 }
