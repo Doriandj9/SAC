@@ -1,3 +1,5 @@
 
+<h2>SISTEMA DE ASEGURAMIENTO DE LA CALIDAD</h2>
 
-<p>lorem ipsum dolor sit amet consectetur adipisicing elit. Quos impedit, rerum quae commodi itaque veritatis. Fugit totam blanditiis, debitis odio consequuntur beatae fuga ea, aut maxime tempore maiores ipsum? Sequi.</p>
+<p>SEAC, esta diseñado con la finalidad de gestionar el fluido de informacion de los criterios de evaluacion d elas carreras que sugiere el CEAACES.
+Es una aplicacion Web de facil acceso que garantiza seguridad y consistencia en el majeo de la informacion.</p>
