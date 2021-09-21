@@ -7,7 +7,7 @@ try{
     echo "hola";
     echo "Que pex";
     echo "dsadasdas";
-    
+    echo "marica";
 
 }catch(\PDOException $e){
 
