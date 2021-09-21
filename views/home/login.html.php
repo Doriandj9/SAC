@@ -1,6 +1,3 @@
-<?php
-
-?>
 <div class="body_lg">
     
     <div class="box_lg">
