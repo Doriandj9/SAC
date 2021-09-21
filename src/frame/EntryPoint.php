@@ -36,6 +36,10 @@ class EntryPoint{
 
         $result = $controller->$action();
         $title = $result['title'];
+        if(isset($result['login'])){
+            $content = $this->loadTemplate($result['template']);
+            include __DIR__ . '/../../views/templates/layoutlogin.html.php';
+        }else{
             if(isset($result['variables'])){
                 $content = $this->loadTemplate($result['template'], $result['variables']);
             }else{
@@ -46,6 +50,9 @@ class EntryPoint{
                 'title' => $title,
                 'content' => $content
             ]);
+
+        }
+        
 
     }
 }
