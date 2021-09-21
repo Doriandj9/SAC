@@ -4,10 +4,6 @@
 
 try{
     $route = ltrim(strtok($_SERVER['REQUEST_URI'],'?'),'/');
-    echo "hola";
-    echo "Que pex";
-    echo "dsadasdas";
-    
 
 }catch(\PDOException $e){
 

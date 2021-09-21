@@ -1,0 +1,64 @@
+:root{
+    --color-azul-barras:#46728B;
+    --color-footer:#59809D;
+    --color-gris-cajas:#F1F2EE;
+    --color-header:#ECECEC;
+    --color-html-fondo:#ccc;
+    --color-selector:#505c6a;
+    }
+    
+    html, body{
+        margin: 0;
+        padding: 0;
+        background-color: var(--color-html-fondo);
+        font: 12px Georgia, Serif;
+    }
+    a{
+        text-decoration: none;
+    }
+    img{
+        max-width: 100%;
+    }
+    hr{
+        color: var(--color-html-fondo);
+    }
+    /*Contenedor padre*/
+    .maincontain{
+        max-width: 80em;
+        min-width: 60em;
+        margin-left: auto;
+        margin-right: auto;
+        color: #000;
+        min-height: 400px;
+        border: 1px solid #000;
+        margin-top: 10px;
+    }
+    /*Cabecera de la pagina*/
+    .header{
+        background-image: url(./Public/img/sac.png);
+        background-size: initial;
+        background-repeat: no-repeat;
+        height: 118px;
+        width: 100%;
+    }
+
+
+/*pie de pagina*/
+.footer{
+	--border: 1px solid #000;
+	background-color: var(--color-footer);
+	height: auto;
+	text-align: center;
+	color: #fff;
+	padding: 5px;
+}
+/* Image de licencia libre */
+.cc{
+	background-image: url(./Public/img/cc.png);
+	background-size: 80px;
+	background-repeat: no-repeat;
+	width: 80px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
