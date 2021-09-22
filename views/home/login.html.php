@@ -16,7 +16,7 @@
                     <div class="head_lg">Inicio de sesión</div>
                     <div class="lg">
                         <div class="form">
-                            <form action="inicio" method="POST">
+                            <form action="/home" method="POST">
                                 <div><label>Usuario:</label></div>
                                 <div class="ipt"><input type="text" placeholder="Correo institucional" required autofocus="on"></div>
                                 <div><label>Contraseña:</label></div>

@@ -8,6 +8,8 @@ class ViewController implements \frame\WebRoutes{
 
         $loginController = new \controllers\Login();
         $homeController = new  \controllers\Home();
+        $teachersController = new  \controllers\Teachers();
+
             return [
             '' => [
                 'GET' => [
@@ -20,17 +22,54 @@ class ViewController implements \frame\WebRoutes{
             'GET' => [
                 'controller' => $homeController,
                 'action' => 'home'
+            ],
+            'POST' => [
+                'controller' => $homeController,
+                'action' => 'home'
             ]
             ],
 
-            'ingreso' => [
+            'entry/evidences' => [
                 'GET' => [
-                    'controller' => $homeController,
+                    'controller' => $teachersController,
                     'action' => 'ingreso'
                 ],
                 'POST' => [
-                    'controller' => $homeController,
+                    'controller' => $teachersController,
                     'action' => 'ingreso'
+                ]
+                ],
+
+            'show/evidences' => [
+                'GET' => [
+                    'controller' => $teachersController,
+                    'action' => 'evidencias'
+                ],
+                'POST' => [
+                    'controller' => $teachersController,
+                    'action' => 'evidencias'
+                ]
+                ],
+
+            'generate/reports' => [
+                'GET' => [
+                    'controller' => $teachersController,
+                    'action' => 'reportes'
+                ],
+                'POST' => [
+                    'controller' => $teachersController,
+                    'action' => 'reportes'
+                ]
+                ],
+
+            'change/password' => [
+                'GET' => [
+                    'controller' => $teachersController,
+                    'action' => 'actualizarClave'
+                ],
+                'POST' => [
+                    'controller' => $teachersController,
+                    'action' => 'actualizarClave'
                 ]
                 ],
         ];
