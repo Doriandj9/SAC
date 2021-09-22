@@ -22,6 +22,17 @@ class ViewController implements \frame\WebRoutes{
                 'action' => 'home'
             ]
             ],
+
+            'ingreso' => [
+                'GET' => [
+                    'controller' => $homeController,
+                    'action' => 'ingreso'
+                ],
+                'POST' => [
+                    'controller' => $homeController,
+                    'action' => 'ingreso'
+                ]
+                ],
         ];
     }
 

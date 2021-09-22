@@ -18,8 +18,8 @@
 				<div class="menu_head">Menu Principal</div>
 					<div class="menu_body"><hr>
 						<div class="menu">
-						<a href="">Inicio</a>
-						<a href="">Ingreso</a>
+						<a href="/home">Inicio</a>
+						<a href="/ingreso">Ingreso</a>
 						<a href="">Evidencias</a>
 						<a href="">Reportes</a>
 						<a href="">Cambiar clave</a>
@@ -42,7 +42,7 @@
 		</div>
 		
 		<div class="footer">
-			<div class="cc" style="background-image: url(./Public/img/cc.png);"></div>
+			<div class="cc" style="background-image: url(/public/img/cc.png);"></div>
 			<div>Esta obra está bajo una Licencia Creative Commons Atribución - No Comercial - Sin Obras Derivadas 3.0 Ecuador <br>This site is powered by Carrera de Software</div>
 		</div>
 	</div>
