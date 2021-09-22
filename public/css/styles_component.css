@@ -125,7 +125,7 @@
 }
 
 .contain_body{
-	padding: 0px 50px;
+	padding: 0px 10px;
 	text-align: justify;
 }
 
@@ -233,6 +233,7 @@
 	line-height: 30px;
 	border-radius: 12px 12px 0px 0px;
 	font-weight: bold;
+	width: fit-content;
 }
 
 .bntlt{
@@ -279,7 +280,35 @@
 	height: 30px;
 }
 
+h2 {
+	text-align: center;
+}
 
+.column{
+	/* border: 1px solid #000; */
+	display: grid;
+	grid-auto-flow: column;
+	text-align: center;
+	width: fit-content;
+	grid-template-columns: calc(100% / 5) calc(100% / 5) calc(100% / 5) calc(100% / 5) calc(100% / 5);
+}
+
+.column > div{
+	/* border: 1px solid #000; */
+	width: fit-content;
+	padding: 5px;
+	overflow: hidden;
+}
+
+.link{
+	background-color: var(--color-footer);
+	color: white;
+	height: 20px;
+	line-height: 20px;
+}
+.link a{
+	color: red;
+}
 
 /*Estilos rapidos*/
 #cnt{
@@ -288,4 +317,769 @@
 #bxs{
 	box-shadow: 2px 2px 5px #999;
 }
+/* Estilos por id */
+#legend{
+	border: 1px solid var(--color-azul-barras);
+	width: 80%;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#legend > div{
+	font-size: small;
+	width: fit-content;
+}
 
+
+
+
+#legend > div:nth-child(1){
+	font-weight: bold;
+	background-color: var(--color-footer);
+	height: 30px;
+	line-height: 30px;
+}
+
+#list-evid{
+	border: 1px solid var(--color-azul-barras);
+	width: 100%;
+}
+
+#list-evid .column {
+	grid-template-columns: calc(100% / 6) calc(100% / 5) calc(100% / 3) calc(100% / 8) calc(100% / 6);
+}
+
+#list-evid > div:nth-child(1){
+	font-weight: bold;
+	background-color: var(--color-footer);
+	height: auto;
+}
+#list-evid .column > #row{
+	height: auto;
+	width: fit-content;
+}
+/*Estilos para cambio de claves*/
+.cl {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.cl form>div:first-child {
+   margin-top: 40px;
+}
+.cl form>div {
+
+	margin-bottom: 40px;
+}
+.cl form>div {
+	display: flex;
+	justify-content: space-between;
+	
+}
+.cl form>div>input{
+	margin-left: 20px;
+}
+
+#btnGuardarContrasenia {
+	background-color: var(--color-footer);
+	color: white;
+	padding: 10px;
+	width: 100px;
+	border-radius: 15px;
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Leyton */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Jerson */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Nathy */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Dorian*/
