@@ -19,11 +19,11 @@
 					<div class="menu_body"><hr>
 						<div class="menu">
 						<a href="/home">Inicio</a>
-						<a href="/ingreso">Ingreso</a>
-						<a href="">Evidencias</a>
-						<a href="">Reportes</a>
-						<a href="">Cambiar clave</a>
-						<a href="">Salir</a>
+						<a href="/entry/evidences">Ingreso</a>
+						<a href="/show/evidences">Evidencias</a>
+						<a href="/generate/reports">Reportes</a>
+						<a href="/change/password">Cambiar clave</a>
+						<a href="/">Salir</a>
 						</div>
 					</div>
 			</div></div>

@@ -8,7 +8,9 @@ class ViewController implements \frame\WebRoutes{
 
         $loginController = new \controllers\Login();
         $homeController = new  \controllers\Home();
-        $passwordcontroller = new \controllers\Password(); 
+        $passwordController = new \controllers\Password(); 
+        $teachersController = new  \controllers\Teachers();
+        
             return [
             '' => [
                 'GET' => [
@@ -21,30 +23,56 @@ class ViewController implements \frame\WebRoutes{
             'GET' => [
                 'controller' => $homeController,
                 'action' => 'home'
+            ],
+            'POST' => [
+                'controller' => $homeController,
+                'action' => 'home'
             ]
             ],
 
-            'ingreso' => [
+            'entry/evidences' => [
                 'GET' => [
-                    'controller' => $homeController,
+                    'controller' => $teachersController,
                     'action' => 'ingreso'
                 ],
                 'POST' => [
-                    'controller' => $homeController,
+                    'controller' => $teachersController,
                     'action' => 'ingreso'
                 ]
                 ],
 
-                'change/password' => [
-                    'GET' => [
-                        'controller' => $passwordcontroller,
-                        'action' => 'password'
-                    ],
-                    'POST' => [
-                        'controller' => $passwordcontroller,
-                        'action' => 'password'
-                    ]
-                    ],
+            'show/evidences' => [
+                'GET' => [
+                    'controller' => $teachersController,
+                    'action' => 'evidencias'
+                ],
+                'POST' => [
+                    'controller' => $teachersController,
+                    'action' => 'evidencias'
+                ]
+                ],
+
+            'generate/reports' => [
+                'GET' => [
+                    'controller' => $teachersController,
+                    'action' => 'reportes'
+                ],
+                'POST' => [
+                    'controller' => $teachersController,
+                    'action' => 'reportes'
+                ]
+                ],
+
+            'change/password' => [
+                'GET' => [
+                    'controller' => $passwordController,
+                    'action' => 'password'
+                ],
+                'POST' => [
+                    'controller' => $passwordController,
+                    'action' => 'password'
+                ]
+                ],
         ];
     }
 
