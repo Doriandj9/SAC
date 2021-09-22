@@ -8,8 +8,9 @@ class ViewController implements \frame\WebRoutes{
 
         $loginController = new \controllers\Login();
         $homeController = new  \controllers\Home();
+        $passwordController = new \controllers\Password(); 
         $teachersController = new  \controllers\Teachers();
-
+        
             return [
             '' => [
                 'GET' => [
@@ -64,12 +65,12 @@ class ViewController implements \frame\WebRoutes{
 
             'change/password' => [
                 'GET' => [
-                    'controller' => $teachersController,
-                    'action' => 'actualizarClave'
+                    'controller' => $passwordController,
+                    'action' => 'password'
                 ],
                 'POST' => [
-                    'controller' => $teachersController,
-                    'action' => 'actualizarClave'
+                    'controller' => $passwordController,
+                    'action' => 'password'
                 ]
                 ],
         ];

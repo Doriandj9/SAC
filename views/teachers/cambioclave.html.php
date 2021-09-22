@@ -1,1 +1,0 @@
-<div id="cnt">Cambiar clave</div>
