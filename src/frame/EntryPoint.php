@@ -34,13 +34,21 @@ class EntryPoint{
         $action = $array[$this->route][$this->method]['action'];
         $result = $controller->$action();
         $title = $result['title'];
-        if(isset($array['login']) && !$this->viewController->getAutentification()->validationAll()){
+        if(isset($array[$this->route]['login']) && !$this->viewController->getAutentification()->validationAll()){
             header('location: /');
         }else{
 
             if(isset($result['login'])){
-                $content = $this->loadTemplate($result['template']);
-                include __DIR__ . '/../../views/templates/layoutlogin.html.php';
+                if(isset($result['variables'])){
+                    $content = $this->loadTemplate($result['template'], $result['variables']);
+                }else{
+                    $content = $this->loadTemplate($result['template']);
+                }
+                
+                echo  $this->loadTemplate('templates/layoutlogin.html.php', [
+                    'title' => $title,
+                    'content' => $content
+                ]); 
             }else{
                 if(isset($result['variables'])){
                     $content = $this->loadTemplate($result['template'], $result['variables']);

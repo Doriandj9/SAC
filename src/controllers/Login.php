@@ -12,7 +12,7 @@ public function __construct(\controllers\Autentification $autenticaction)
 
     public function homeLogin(){
         return [
-            'title' => 'Sistema de Aseguramiento de la Calidad',
+            'title' => 'SAC',
             'login' => true,
             'template' => 'home/login.html.php'
         ];
@@ -22,8 +22,23 @@ public function __construct(\controllers\Autentification $autenticaction)
         $result = $this->autenticaction->validation($_POST['email'], $_POST['password']);
         if($result){
             header('location: /home');
+        }else{
+            return[
+                'title' => 'SAC',
+                'login' => true,
+                'template' => 'home/login.html.php',
+                'variables' => [
+                    'error' => 'email/contraseña erroneas'
+                ]
+                ];
         }
 
+    }
+
+    public function logout(){
+        unset($_SESSION);
+        session_destroy();
+        header('location:/');
     }
 
     

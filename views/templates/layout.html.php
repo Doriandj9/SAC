@@ -23,7 +23,7 @@
 						<a href="/show/evidences">Evidencias</a>
 						<a href="/generate/reports">Reportes</a>
 						<a href="/change/password">Cambiar clave</a>
-						<a href="/">Salir</a>
+						<a href="/exit">Salir</a>
 						</div>
 					</div>
 			</div></div>

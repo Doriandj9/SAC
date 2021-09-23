@@ -27,6 +27,10 @@ class ViewController implements \frame\WebRoutes{
                 'GET' => [
                     'controller' => $loginController,
                     'action' => 'homeLogin'
+                ],
+                'POST' => [
+                    'controller' => $loginController,
+                    'action' => 'verifyLogin'
                 ]
                 ],
 
@@ -35,10 +39,7 @@ class ViewController implements \frame\WebRoutes{
                 'controller' => $homeController,
                 'action' => 'home'
             ],
-            'POST' => [
-                'controller' => $homeController,
-                'action' => 'home'
-            ],
+            
             'login' => true
             ],
 
@@ -85,6 +86,12 @@ class ViewController implements \frame\WebRoutes{
                     'action' => 'password'
                 ]
                 ],
+            'exit' => [
+                'GET' => [
+                    'controller' => $loginController,
+                    'action' => 'logout'
+                ]
+            ]
         ];
     }
 

@@ -23,7 +23,7 @@ class DataBaseTable{
     }
 
     private function runQuery($query, $params=[]){
-
+        
         $result= $this->pdo->prepare($query);
         $result->execute($params);
         return $result;
@@ -72,7 +72,7 @@ class DataBaseTable{
 
     public function selectFromColumn($column, $restrict){
 
-        $query = 'SELECT * FROM `'. $this->table . '` WHERE `'. $column . '= :'. $this->primaryKey;
+        $query = 'SELECT * FROM `'. $this->table . '` WHERE `'. $column . '`= :'. $this->primaryKey;
         $params = [ $this->primaryKey => $restrict ];
 
         $result = $this->runQuery($query, $params);

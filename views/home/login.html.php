@@ -11,12 +11,18 @@
                         <p>Esta diseñado con la finalidad de gestionar el fluido de información de los criterios de evaluación de las carreras que sugiere el CEAACES. <br> Es un sistema web de facil acceso que garantiza seguridad y consistencia en el manejo de la información.</p>
                     </div>
                 </div>
-
+                <?php if( isset($error)): ?>
+                    <div class="alert">
+                        <p>
+                            <?= $error ?>
+                        </p>
+                    </div>
+                    <?php endif; ?>
                 <div class="box2" id="bxs">
                     <div class="head_lg">Inicio de sesión</div>
                     <div class="lg">
                         <div class="form">
-                            <form action="/home" method="POST">
+                            <form action="" method="POST">
                                 <div><label>Usuario:</label></div>
                                 <div class="ipt"><input type="text" placeholder="Correo institucional" name="email" required autofocus="on"></div>
                                 <div><label>Contraseña:</label></div>
