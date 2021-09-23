@@ -28,7 +28,7 @@ public function __construct(\controllers\Autentification $autenticaction)
                 'login' => true,
                 'template' => 'home/login.html.php',
                 'variables' => [
-                    'error' => 'email/contraseña erroneas'
+                    'error' => 'Correo electrónico y/o contraseña incorrectos. Por favor vuelva a intentarlo.'
                 ]
                 ];
         }
