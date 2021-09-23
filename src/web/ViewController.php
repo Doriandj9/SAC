@@ -11,14 +11,14 @@ class ViewController implements \frame\WebRoutes{
     public function __construct()
     {
         $this->profesorTable= new \models\DataBaseTable(new \models\conection\Conection(),
-                                                        'profesor', 'ci_profesor');
+                                                        'profesor', 'ci_profesor','\entity\Teachers');
         $this->autentification = new \controllers\Autentification($this->profesorTable, 'email_profesor', 'password_profesor');
     }
     public function getRoutes(): array
     {
 
         $loginController = new \controllers\Login($this->autentification, $this->profesorTable);
-        $homeController = new  \controllers\Home();
+        $homeController = new  \controllers\Home($this->autentification);
         $passwordController = new \controllers\Password(); 
         $teachersController = new  \controllers\Teachers();
         
