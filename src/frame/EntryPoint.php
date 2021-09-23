@@ -30,28 +30,32 @@ class EntryPoint{
 
     public function run(){
         $array = $this->viewController->getRoutes();
-
         $controller = $array[$this->route][$this->method]['controller'];
         $action = $array[$this->route][$this->method]['action'];
-
         $result = $controller->$action();
         $title = $result['title'];
-        if(isset($result['login'])){
-            $content = $this->loadTemplate($result['template']);
-            include __DIR__ . '/../../views/templates/layoutlogin.html.php';
+        if(isset($array['login']) && !$this->viewController->getAutentification()->validationAll()){
+            header('location: /');
         }else{
-            if(isset($result['variables'])){
-                $content = $this->loadTemplate($result['template'], $result['variables']);
-            }else{
+
+            if(isset($result['login'])){
                 $content = $this->loadTemplate($result['template']);
+                include __DIR__ . '/../../views/templates/layoutlogin.html.php';
+            }else{
+                if(isset($result['variables'])){
+                    $content = $this->loadTemplate($result['template'], $result['variables']);
+                }else{
+                    $content = $this->loadTemplate($result['template']);
+                }
+    
+                echo $this->loadTemplate('templates/layout.html.php', [
+                    'title' => $title,
+                    'content' => $content
+                ]);
+    
             }
-
-            echo $this->loadTemplate('templates/layout.html.php', [
-                'title' => $title,
-                'content' => $content
-            ]);
-
         }
+        
         
 
     }

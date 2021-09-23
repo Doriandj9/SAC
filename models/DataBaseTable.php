@@ -11,7 +11,7 @@ class DataBaseTable{
 
     public function __construct(\models\conection\Conection $pdo, string $table,
                                     string $primaryKey, string $className='\stdClass',
-                                    array $arguments
+                                    array $arguments=[]
                                 )
     {
         $this->pdo= $pdo->getConection();

@@ -18,7 +18,7 @@
                         <div class="form">
                             <form action="/home" method="POST">
                                 <div><label>Usuario:</label></div>
-                                <div class="ipt"><input type="text" placeholder="Correo institucional" required autofocus="on"></div>
+                                <div class="ipt"><input type="text" placeholder="Correo institucional" name="email" required autofocus="on"></div>
                                 <div><label>Contraseña:</label></div>
                                 <div class="ipt"><input type="password" placeholder="Contraseña" id="pwd" class="masked" name="password" required />
                                 </div>
