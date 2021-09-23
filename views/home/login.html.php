@@ -25,7 +25,7 @@
                                 <div class="cbox"><input  type="checkbox" name="eye" id="eye" onclick="showHide()"><label for="eye"> Mostrar contraseña.</label>
                                 </div>
                                 <div><button class="btn_ing">Ingresar</button></div>
-                            </form>
+                            </form> 
                         </div>
                     </div>
                 </div>
