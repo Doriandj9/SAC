@@ -30,4 +30,5 @@
 	</div>
 </body>
 <script src="/public/js/jss.js"></script>
+<script src="/public/js/main.js"></script>
 </html>
