@@ -17,7 +17,7 @@ class ViewController implements \frame\WebRoutes{
     public function getRoutes(): array
     {
 
-        $loginController = new \controllers\Login($this->autentification);
+        $loginController = new \controllers\Login($this->autentification, $this->profesorTable);
         $homeController = new  \controllers\Home();
         $passwordController = new \controllers\Password(); 
         $teachersController = new  \controllers\Teachers();

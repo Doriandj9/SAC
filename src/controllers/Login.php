@@ -4,13 +4,22 @@ namespace controllers;
 
 class Login{
 private $autenticaction;
-
-public function __construct(\controllers\Autentification $autenticaction)
+private $profesorTable;
+public function __construct(\controllers\Autentification $autenticaction, \models\DataBaseTable $profesorTable)
 {
     $this->autenticaction= $autenticaction;
+    $this->profesorTable= $profesorTable;
 }
 
     public function homeLogin(){
+        $passwordHash= password_hash('dorian', PASSWORD_DEFAULT);
+        $paras = [
+            'ci_profesor' => '0250186668',
+            'nombre_profesor' => 'dorian',
+            'email_profesor' => 'dorian@gmail.com',
+            'password_profesor' => $passwordHash
+        ];
+       // $this->profesorTable->insert($paras);
         return [
             'title' => 'SAC',
             'login' => true,

@@ -18,8 +18,8 @@ class Autentification{
 
     public function validation($email, $password){
         $result = $this->profesorTable->selectFromColumn('email_profesor', strtolower($email));
-
-        if($result && $result[0]->{$this->password_profesor} ==  $password){
+       
+        if($result && password_verify($password,$result[0]->{$this->password_profesor})  ){
             session_regenerate_id();
                 $_SESSION['email'] = $email;
                 $_SESSION['password'] = $result[0]->{$this->password_profesor};
