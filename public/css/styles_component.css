@@ -233,7 +233,7 @@
 	line-height: 30px;
 	border-radius: 12px 12px 0px 0px;
 	font-weight: bold;
-	width: fit-content;
+	width: 100%;
 }
 
 .bntlt{
@@ -289,13 +289,13 @@ h2 {
 	display: grid;
 	grid-auto-flow: column;
 	text-align: center;
-	width: fit-content;
+	width: 100%;
 	grid-template-columns: calc(100% / 5) calc(100% / 5) calc(100% / 5) calc(100% / 5) calc(100% / 5);
 }
 
 .column > div{
 	/* border: 1px solid #000; */
-	width: fit-content;
+	width: 100%;
 	padding: 5px;
 	overflow: hidden;
 }
@@ -329,7 +329,7 @@ h2 {
 }
 #legend > div{
 	font-size: small;
-	width: fit-content;
+	width: 100%;
 }
 
 
@@ -358,7 +358,7 @@ h2 {
 }
 #list-evid .column > #row{
 	height: auto;
-	width: fit-content;
+	width: 100%;
 }
 /*Estilos para cambio de claves*/
 .cl {
