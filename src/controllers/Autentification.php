@@ -18,7 +18,6 @@ class Autentification{
 
     public function validation($email, $password){
         $result = $this->profesorTable->selectFromColumn('email_profesor', strtolower($email));
-       
         if($result && password_verify($password,$result[0]->{$this->password_profesor})  ){
             session_regenerate_id();
                 $_SESSION['email'] = $email;
@@ -44,4 +43,13 @@ class Autentification{
         }
     }
 
+    public function getUser(){
+
+        if($this->validationAll()){
+            return $this->profesorTable->selectFromColumn('email_profesor', $_SESSION['email'])[0];
+        }else{
+            return false;
+        }
+        
+    }
 }

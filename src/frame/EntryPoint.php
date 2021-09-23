@@ -55,10 +55,13 @@ class EntryPoint{
                 }else{
                     $content = $this->loadTemplate($result['template']);
                 }
-    
+                $user = $this->viewController->getAutentification()->getUser();
+                $responsabilidad = $this->viewController->getResponsability();
                 echo $this->loadTemplate('templates/layout.html.php', [
                     'title' => $title,
-                    'content' => $content
+                    'content' => $content,
+                    'user' => $user,
+                    'responsabilidad' => $responsabilidad
                 ]);
     
             }

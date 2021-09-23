@@ -13,11 +13,12 @@ public function __construct(\controllers\Autentification $autenticaction, \model
 
     public function homeLogin(){
         $passwordHash= password_hash('2100702667', PASSWORD_DEFAULT);
-        $paras = [
-            'ci_profesor' => '0202094322',
-            'nombre_profesor' => 'Oswaldo',
-            'email_profesor' => 'oswaldo@gmail.com',
-            'password_profesor' => $passwordHash
+        $paras = [    
+            'ci_profesor' => '0250666666',
+            'nombre_profesor' => 'Denis',
+            'email_profesor' => 'denis@gmail.com',
+            'password_profesor' => $passwordHash,
+            'permission' => 16
         ];
     //    $this->profesorTable->insert($paras);
         return [
