@@ -1,3 +1,9 @@
+<?php
+	if(isset($_SESSION['email'])){
+		header('location: /home');
+	}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,4 +30,5 @@
 	</div>
 </body>
 <script src="/public/js/jss.js"></script>
+<script src="/public/js/main.js"></script>
 </html>

@@ -20,16 +20,20 @@
                     <!-- Generando tabla dentro de un div -->
                     <div class="tbing">
                         <table>
+                            <thead>
                             <tr class="hdtb">
-                                <td>Criterio</td>
-                                <td>Estandar</td>
-                                <td>Elemento</td>
-                                <td>Nombre de la evidencia</td>
-                                <td>PDF</td>
-                                <td>DOC</td>
-                                <td>XLS</td>
-                                <td>Estado</td>
+                                <th>Criterio</th>
+                                <th>Estandar</th>
+                                <th>Elemento</th>
+                                <th>Nombre de la evidencia</th>
+                                <th colspan="3">Formato</th>
+                                <!-- <th>PDF</th>
+                                <th>DOC</th>
+                                <th>XLS</th> -->
+                                <th>Estado</th>
                             </tr>
+                            </thead>
+                            <tbody>
                             <tr class="bytb">
                                 <td>{Criterio}</td>
                                 <td>{Estandar}</td>
@@ -40,6 +44,7 @@
                                 <td><label for="xlsx"><img src="/public/img/xls1.svg" alt=".xlsx" title="Clic aquí para subir un archivo."></label><input type="file" id="xlsx" name="xlsx" accept=".xlsx" /></td>
                                 <td>{no entregado}</td>
                             </tr>
+                            </tbody>
                         </table>
                     </div>
                     

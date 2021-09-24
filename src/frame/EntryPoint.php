@@ -30,28 +30,43 @@ class EntryPoint{
 
     public function run(){
         $array = $this->viewController->getRoutes();
-
         $controller = $array[$this->route][$this->method]['controller'];
         $action = $array[$this->route][$this->method]['action'];
-
         $result = $controller->$action();
         $title = $result['title'];
-        if(isset($result['login'])){
-            $content = $this->loadTemplate($result['template']);
-            include __DIR__ . '/../../views/templates/layoutlogin.html.php';
+        if(isset($array[$this->route]['login']) && !$this->viewController->getAutentification()->validationAll()){
+            header('location: /');
         }else{
-            if(isset($result['variables'])){
-                $content = $this->loadTemplate($result['template'], $result['variables']);
+
+            if(isset($result['login'])){
+                if(isset($result['variables'])){
+                    $content = $this->loadTemplate($result['template'], $result['variables']);
+                }else{
+                    $content = $this->loadTemplate($result['template']);
+                }
+                
+                echo  $this->loadTemplate('templates/layoutlogin.html.php', [
+                    'title' => $title,
+                    'content' => $content
+                ]); 
             }else{
-                $content = $this->loadTemplate($result['template']);
+                if(isset($result['variables'])){
+                    $content = $this->loadTemplate($result['template'], $result['variables']);
+                }else{
+                    $content = $this->loadTemplate($result['template']);
+                }
+                $user = $this->viewController->getAutentification()->getUser();
+                $responsabilidad = $this->viewController->getResponsability();
+                echo $this->loadTemplate('templates/layout.html.php', [
+                    'title' => $title,
+                    'content' => $content,
+                    'user' => $user,
+                    'responsabilidad' => $responsabilidad
+                ]);
+    
             }
-
-            echo $this->loadTemplate('templates/layout.html.php', [
-                'title' => $title,
-                'content' => $content
-            ]);
-
         }
+        
         
 
     }
