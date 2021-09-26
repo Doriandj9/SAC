@@ -107,11 +107,12 @@ class ViewController implements \frame\WebRoutes{
     {
         $user = $this->autentification->getUser();
         $responsabilidad = $this->responsabilidadTable->selectFromColumn('profesor_ci',$user->ci_profesor);
-        if($responsabilidad){
-            return $responsabilidad;
-        }else{
-            return [];
-        }
+        return $responsabilidad ? $responsabilidad: [];
+        // if($responsabilidad){
+        //     return $responsabilidad;
+        // }else{
+        //     return [];
+        // }
             
     }
 }
