@@ -24,6 +24,7 @@ class ViewController implements \frame\WebRoutes{
         $homeController = new  \controllers\Home($this->autentification);
         $passwordController = new \controllers\Password(); 
         $teachersController = new  \controllers\Teachers();
+        $adminController = new \controllers\Admin();
         
             return [
             '' => [
@@ -94,7 +95,13 @@ class ViewController implements \frame\WebRoutes{
                     'controller' => $loginController,
                     'action' => 'logout'
                 ]
-            ]
+                ],
+                'admin/permises/access' => [
+                    'GET' => [
+                        'controller' => $adminController,
+                        'action' => 'permiseActions'
+                    ]
+                ]
         ];
     }
 

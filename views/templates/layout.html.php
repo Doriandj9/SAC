@@ -24,7 +24,7 @@
 						<a href="/generate/reports">Reportes</a>
 						<?php else: if($user->hashPermission(\entity\Teachers::ADMINSTRADOR)):?>
 							<a href="/generate/reports">Cargar Informacion</a>
-						<a href="/generate/reports">Permisos de Acceso</a>
+						<a href="/admin/permises/access">Permisos de Acceso</a>
 						<a href="/generate/reports">Configuracion Basica</a>
 						<?php else: ?>
 							<a href="/entry/evidences">Ingreso</a>
