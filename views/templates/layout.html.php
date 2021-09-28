@@ -20,7 +20,7 @@
 						<div class="menu">
 						<a href="/home">Inicio</a>
 						<?php if(!empty($responsabilidad) && $responsabilidad[0]->nombre_responsabilidad  == 'Evaluador'):?>
-						<a href="/generate/reports">Evaluación</a>
+						<a href="/evaluation/evidences">Evaluación</a>
 						<a href="/generate/reports">Reportes</a>
 						<?php else: if($user->hashPermission(\entity\Teachers::ADMINSTRADOR)):?>
 							<a href="/generate/reports">Cargar Informacion</a>

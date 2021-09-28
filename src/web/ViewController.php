@@ -25,7 +25,7 @@ class ViewController implements \frame\WebRoutes{
         $passwordController = new \controllers\Password(); 
         $teachersController = new  \controllers\Teachers();
         $adminController = new \controllers\Admin();
-        
+        $evaluatorController = new \controllers\Evaluator();
             return [
             '' => [
                 'GET' => [
@@ -101,7 +101,13 @@ class ViewController implements \frame\WebRoutes{
                         'controller' => $adminController,
                         'action' => 'permiseActions'
                     ]
-                ]
+                    ],
+                'evaluation/evidences'=> [
+                    'GET' => [
+                        'controller' => $evaluatorController,
+                        'action' => 'evaluator'
+                    ]
+                    ], 
         ];
     }
 
@@ -122,4 +128,7 @@ class ViewController implements \frame\WebRoutes{
         // }
             
     }
+
+
+
 }
