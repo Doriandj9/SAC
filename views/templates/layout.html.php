@@ -22,7 +22,7 @@
 						<?php if(!empty($responsabilidad) && $responsabilidad[0]->nombre_responsabilidad  == 'Evaluador'):?>
 						<a href="/generate/reports">Evaluación</a>
 						<a href="/generate/reports">Reportes</a>
-						<?php else: if($user->hashPermission(\entity\Teachers::ADMINSTRADOR)): ?>
+						<?php else: if($user->hashPermission(\entity\Teachers::ADMINSTRADOR)):?>
 							<a href="/generate/reports">Cargar Informacion</a>
 						<a href="/generate/reports">Permisos de Acceso</a>
 						<a href="/generate/reports">Configuracion Basica</a>
