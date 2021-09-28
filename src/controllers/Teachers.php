@@ -3,12 +3,21 @@
 namespace controllers;
 
 class Teachers{
+    private $evidencesTable;
 
+    public function __construct(\models\DataBaseTable $evidencesTable)
+    {
+        $this->evidencesTable= $evidencesTable;
+    }
 
     public function ingreso(){
+        $evidences = $this->evidencesTable->select();
         return [
             'title' => 'Ingreso de evidencias - SAC',
-            'template' => 'teachers/ingreso.html.php'
+            'template' => 'teachers/ingreso.html.php',
+            'variables' => [
+                'evidences' => $evidences
+            ]
         ];
     }
 
@@ -33,5 +42,7 @@ class Teachers{
         ];
     }
 
-    
+    public function guardar(){
+        var_dump($_FILES);
+    }
 }

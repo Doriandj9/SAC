@@ -255,7 +255,7 @@
 	opacity: 1;
 }
 .tbing{
-	background-color: black;
+
 	width: 100%;
 }
 .tbing table{
@@ -778,6 +778,7 @@ margin-right: 10px;
 	border-radius: 10px;
 	display: block;
 	margin: 10px auto 0 auto;
+	font-weight: bold;
 }
 
 

@@ -19,6 +19,7 @@
                     </form>
                     <!-- Generando tabla dentro de un div -->
                     <div class="tbing">
+                        <form action="" method="post" enctype="multipart/form-data">
                         <table>
                             <thead>
                             <tr class="hdtb">
@@ -27,9 +28,6 @@
                                 <th>Elemento</th>
                                 <th>Nombre de la evidencia</th>
                                 <th colspan="3">Formato</th>
-                                <!-- <th>PDF</th>
-                                <th>DOC</th>
-                                <th>XLS</th> -->
                                 <th>Estado</th>
                             </tr>
                             </thead>
@@ -46,5 +44,8 @@
                             </tr>
                             </tbody>
                         </table>
+                        <input type="submit" value="Guardar">
+                        </form>
                     </div>
+                    
                     
