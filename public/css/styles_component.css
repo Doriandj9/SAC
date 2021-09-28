@@ -1090,3 +1090,16 @@ h2 {
 
 
 /*Dorian*/
+
+
+.admin-permission{
+margin: 1rem auto;
+}
+.admin-permission-content{
+	width: 22rem;
+	height: 18rem;
+	margin: auto;
+}
+.admin-message-index{
+	text-align: center;
+}
