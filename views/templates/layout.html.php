@@ -19,11 +19,22 @@
 					<div class="menu_body"><hr>
 						<div class="menu">
 						<a href="/home">Inicio</a>
-						<a href="/entry/evidences">Ingreso</a>
+						<?php if(!empty($responsabilidad) && $responsabilidad[0]->nombre_responsabilidad  == 'Evaluador'):?>
+						<a href="/generate/reports">Evaluación</a>
+						<a href="/generate/reports">Reportes</a>
+						<?php else: if($user->hashPermission(\entity\Teachers::ADMINSTRADOR)):?>
+							<a href="/generate/reports">Cargar Informacion</a>
+						<a href="/generate/reports">Permisos de Acceso</a>
+						<a href="/generate/reports">Configuracion Basica</a>
+						<?php else: ?>
+							<a href="/entry/evidences">Ingreso</a>
 						<a href="/show/evidences">Evidencias</a>
 						<a href="/generate/reports">Reportes</a>
+						<?php endif; ?>
+							<?php endif; ?>					
 						<a href="/change/password">Cambiar clave</a>
 						<a href="/exit">Salir</a>
+						
 						</div>
 					</div>
 			</div></div>
@@ -31,7 +42,7 @@
 			<div><div class="contain_box" id="bxs">
 				<div class="contain_head">
 					<div id="ico"><img src="/public/img/perfil.svg" alt="perfil-icon" width="30px"></div>
-					<div id="wel">Bienvenido(a): {nombre,apellido}</div>
+					<div id="wel">Bienvenido(a): <?= $user->nombre_profesor?> </div>
 					<div id="car">Carrera de: {nombre_carrera}</div>
 				</div>
 				<div class="contain_body">

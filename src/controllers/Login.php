@@ -12,6 +12,7 @@ public function __construct(\controllers\Autentification $autenticaction, \model
 }
 
     public function homeLogin(){
+<<<<<<< HEAD
         $passwordHash= password_hash('nathy123', PASSWORD_DEFAULT);
         $paras = [
             'ci_profesor' => '0202468831',
@@ -20,6 +21,17 @@ public function __construct(\controllers\Autentification $autenticaction, \model
             'password_profesor' => $passwordHash
         ];
        //$this->profesorTable->insert($paras);
+=======
+        $passwordHash= password_hash('2100702667', PASSWORD_DEFAULT);
+        $paras = [    
+            'ci_profesor' => '0250666666',
+            'nombre_profesor' => 'Denis',
+            'email_profesor' => 'denis@gmail.com',
+            'password_profesor' => $passwordHash,
+            'permission' => 16
+        ];
+    //    $this->profesorTable->insert($paras);
+>>>>>>> 9eafa7ca5e22ba82006d6ddd4c757874eba3ef28
         return [
             'title' => 'SAC',
             'login' => true,
