@@ -13,11 +13,16 @@ class Admin{
     }
     public function permiseActions(){
 
+        $objetReflectio = new \ReflectionClass('\entity\Teachers');
+        $permission = $objetReflectio->getConstants();
 
         if(isset($_GET['id'])){
             return [
                 'title' => 'Editar Permisos',
-                'template' => 'admin/editPermission.html.php'
+                'template' => 'admin/editPermission.html.php',
+                'variables' => [
+                    'permissions' => $permission
+                ]
             ];
         }else{
             return [

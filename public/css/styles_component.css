@@ -1162,3 +1162,47 @@ margin-right: 10px;
 
 
 /*Dorian*/
+
+
+.admin-permission{
+margin: 1rem auto;
+}
+.admin-permission-content{
+	width: 30rem;
+	height:20rem;
+	margin: auto;
+	background-color: #C4C4C4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+}
+
+.admin-message-index{
+	text-align: center;
+}
+.submit-permission{
+	display: block;
+	margin: auto;
+	margin-top: 0.5rem;
+	background-color: #46728B;
+	border-radius: 0.9rem;
+	color: white;
+	font-weight: bold;
+	width: 7.2rem;
+	height: 2.5rem;
+}
+.fondo-permission>div{
+	height: 2.8rem;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+.fondo-permission>div>input{
+	width: 20px;
+	height: 20px;
+}
+.fondo-permission>div>label{
+	font-size: 1rem;
+	font-weight: bold;
+}
