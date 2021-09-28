@@ -12,15 +12,15 @@ public function __construct(\controllers\Autentification $autenticaction, \model
 }
 
     public function homeLogin(){
-        $passwordHash= password_hash('2100702667', PASSWORD_DEFAULT);
+        $passwordHash= password_hash('0202123691', PASSWORD_DEFAULT);
         $paras = [    
-            'ci_profesor' => '0250666666',
-            'nombre_profesor' => 'Denis',
-            'email_profesor' => 'denis@gmail.com',
+            'ci_profesor' => '0202123691',
+            'nombre_profesor' => 'Jerson',
+            'email_profesor' => 'jerchimbo@mailes.ueb.edu.ec',
             'password_profesor' => $passwordHash,
-            'permission' => 16
+            'permission' => ''
         ];
-    //    $this->profesorTable->insert($paras);
+    //$this->profesorTable->insert($paras);
         return [
             'title' => 'SAC',
             'login' => true,
