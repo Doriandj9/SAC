@@ -85,7 +85,7 @@ class DataBaseTable{
         return $result->fetchAll(\PDO::FETCH_CLASS, $this->className, $this->arguments);
     }
     public function dos(){
-        
+        echo "hola";  
     }
     public function selectJoinFull(){
         $query = 'SELECT `nombre_criterio`,`cod_evidencia`,
