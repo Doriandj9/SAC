@@ -61,7 +61,8 @@ class ViewController implements \frame\WebRoutes{
                 'POST' => [
                     'controller' => $teachersController,
                     'action' => 'guardar'
-                ]
+                ],
+                'login' => true
                 ],
 
             'show/evidences' => [
@@ -72,7 +73,8 @@ class ViewController implements \frame\WebRoutes{
                 'POST' => [
                     'controller' => $teachersController,
                     'action' => 'evidencias'
-                ]
+                ],
+                'login' => true
                 ],
 
             'generate/reports' => [
