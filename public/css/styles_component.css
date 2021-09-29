@@ -255,7 +255,7 @@
 	opacity: 1;
 }
 .tbing{
-	background-color: black;
+
 	width: 100%;
 }
 .tbing table{
@@ -280,7 +280,9 @@
 	width: 30px;
 	height: 30px;
 }
-
+.bytb > td{
+	height: 20px;
+}
 h2 {
 	text-align: center;
 }
@@ -401,14 +403,6 @@ h2 {
 
 
 
-
-
-
-
-
-
-
-
 /* Leyton */
 .continUp{
 	display: grid;
@@ -427,8 +421,28 @@ h2 {
 }
 
 
+/* Jerson */
 
 
+/* Nathy */
+.permisaccess{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.permistable > thead > tr > th{
+	background-color: #c4c4c4;
+	text-align: center;
+	height: 30px;
+	width: 250px;
+}
+.permistable > tbody > tr > td{
+	background-color: #c4c4c4;
+	text-align: center;
+	height: 30px;
+	width: 250px;
+}
 
 
 
@@ -719,8 +733,69 @@ h2 {
 
 
 /* Jerson */
+#ba {
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 300px;
+}
+.header-find {
+	text-align: center;
+}
+#ba>div>label {
+margin-right: 10px;
+}
+.content-for-evaluation {
+	margin: auto;
+	width: 450px;
+	height: 200px;
 
+}
+.content-for-evaluation>div{
+	display: flex;
+	justify-content: start;
+	
+}
+.content-for-evaluation>div:first-child{
+	margin-bottom: 10px;
+}
+.content-for-evaluation>div>label{
+	width: 100px;
+}
+#bc {
+  height: 30px;
+  width: 230px;
+  margin-right: 10px;
+}
+#cal {
+	height: 25px;
+	width: 100px;
 
+  }
+  #ob {
+	
+	height: 100px;
+	width: 300px;
+	
+  }
+#btnbuscar {
+	background-color: var(--color-footer);
+	color: white;
+	width: 140px;
+	height: 30px;
+	border-radius: 10px;
+	margin: auto;
+}
+#btnGuardar {
+	background-color: var(--color-footer);
+	color: white;
+	padding: 10px;
+	width: 100px;
+	border-radius: 10px;
+	display: block;
+	margin: 10px auto 0 auto;
+	font-weight: bold;
+}
 
 
 
@@ -1104,3 +1179,47 @@ h2 {
 
 
 /*Dorian*/
+
+
+.admin-permission{
+margin: 1rem auto;
+}
+.admin-permission-content{
+	width: 30rem;
+	height:20rem;
+	margin: auto;
+	background-color: #C4C4C4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+}
+
+.admin-message-index{
+	text-align: center;
+}
+.submit-permission{
+	display: block;
+	margin: auto;
+	margin-top: 0.5rem;
+	background-color: #46728B;
+	border-radius: 0.9rem;
+	color: white;
+	font-weight: bold;
+	width: 7.2rem;
+	height: 2.5rem;
+}
+.fondo-permission>div{
+	height: 2.8rem;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+.fondo-permission>div>input{
+	width: 20px;
+	height: 20px;
+}
+.fondo-permission>div>label{
+	font-size: 1rem;
+	font-weight: bold;
+}

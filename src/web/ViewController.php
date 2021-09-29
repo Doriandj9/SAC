@@ -8,6 +8,7 @@ class ViewController implements \frame\WebRoutes{
     private $profesorTable;
     private $autentification;
     private $responsabilidadTable;
+    private $evidencesTable;
      
     public function __construct()
     {
@@ -15,7 +16,12 @@ class ViewController implements \frame\WebRoutes{
                                                         'profesor', 'ci_profesor','\entity\Teachers');
         $this->responsabilidadTable = new \models\DataBaseTable(new \models\conection\Conection(), 
                                                         'responsabilidad', 'cod_responsabilidad');
+                                                        $this->evidencesTable = new \models\DataBaseTable( new \models\conection\Conection(),
+                                                        'evidencia', 'cod_evidencia' 
+    );
         $this->autentification = new \controllers\Autentification($this->profesorTable, 'email_profesor', 'password_profesor');
+
+        
     }
     public function getRoutes(): array
     {
@@ -23,7 +29,7 @@ class ViewController implements \frame\WebRoutes{
         $loginController = new \controllers\Login($this->autentification, $this->profesorTable);
         $homeController = new  \controllers\Home($this->autentification);
         $passwordController = new \controllers\Password(); 
-        $teachersController = new  \controllers\Teachers();
+        $teachersController = new  \controllers\Teachers($this->evidencesTable);
         $adminController = new \controllers\Admin();
         $evaluatorController = new \controllers\Evaluator();
             return [
@@ -54,7 +60,7 @@ class ViewController implements \frame\WebRoutes{
                 ],
                 'POST' => [
                     'controller' => $teachersController,
-                    'action' => 'ingreso'
+                    'action' => 'guardar'
                 ]
                 ],
 
