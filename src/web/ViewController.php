@@ -142,17 +142,12 @@ class ViewController implements \frame\WebRoutes{
     public function hashPermission($permission): bool
     {
         $user = $this->autentification->getUser();
-        if($user->hashPermission($permission)){
-            return true;
-        }else{
-            return false;
-        }
+        return $user->hashPermission($permission) ? true: false;
     }
 
     public function hashResponsability($responsability): bool
     {
         $user = $this->autentification->getUser();
-
         return $user->hashResponsability($responsability) ? true: false;
     }
 }
