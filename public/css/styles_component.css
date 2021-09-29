@@ -280,7 +280,9 @@
 	width: 30px;
 	height: 30px;
 }
-
+.bytb > td{
+	height: 20px;
+}
 h2 {
 	text-align: center;
 }

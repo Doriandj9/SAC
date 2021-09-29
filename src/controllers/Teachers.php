@@ -11,7 +11,7 @@ class Teachers{
     }
 
     public function ingreso(){
-        $evidences = $this->evidencesTable->select();
+        $evidences = $this->evidencesTable->selectJoinFull();
         return [
             'title' => 'Ingreso de evidencias - SAC',
             'template' => 'teachers/ingreso.html.php',
@@ -43,6 +43,15 @@ class Teachers{
     }
 
     public function guardar(){
-        var_dump($_FILES);
+        var_dump($_FILES['file']);
+        if(isset($_FILES['file']['pdf']['name'])){
+            $archivo = (file_get_contents($_FILES['file']['pdf']['tmp_name']));
+        $params = [
+            'pdf_archivo' => $archivo
+        ];
+        $this->evidencesTable->update($params ,  $_POST['cod'],);
+        }
+        
+       // header('location:/');
     }
 }

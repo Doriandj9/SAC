@@ -32,16 +32,37 @@
                             </tr>
                             </thead>
                             <tbody>
-                            <tr class="bytb">
-                                <td>{Criterio}</td>
+                                <?php foreach($evidences as $key => $value): ?>
+                                    
+                                    <tr class="bytb">
+                                        <td> <?= $value->nombre_criterio ?? ''; ?>  </td>
+                                        <td> <?= $value->cod_estandar ?? ''; ?> </td>
+                                        <td> <?= $value->cod_elemento ?? ''; ?> </td>
+                                        <td> <?= $value->nombre_evidencia ?? ''; ?> </td>
+                                        <td> <label for="pdf">
+                                            <img src="/public/img/pdf1.svg" alt=".pdf" title="Clic aquí para subir un archivo.">
+                                        </label><input type="file" id="pdf" name="file[pdf]" accept=".pdf" /> </td>
+                                        <td> <label for="doc">
+                                            <img src="/public/img/doc1.svg" alt=".doc" title="Clic aquí para subir un archivo.">
+                                        </label><input type="file" id="doc" name="file[doc]" accept=".doc" /></td>
+                                        <td> <label for="xlsx">
+                                            <img src="/public/img/xls1.svg" alt=".xlsx" title="Clic aquí para subir un archivo.">
+                                        </label><input type="file" id="xlsx" name="file[xlsx]" accept=".xlsx" /> </td>
+                                        <td> Estado <input type="text" name="cod" hidden value="<?= $value->cod_evidencia;?>" id=""></td>
+                                        
+                                    </tr>
+                                <?php endforeach; ?>
+
+
+                                <!-- <td>{Criterio}</td>
                                 <td>{Estandar}</td>
                                 <td>{Elemento}</td>
                                 <td>{Nombre de la evidencia}</td>
                                 <td><label for="pdf"><img src="/public/img/pdf1.svg" alt=".pdf" title="Clic aquí para subir un archivo."></label><input type="file" id="pdf" name="pdf" accept=".pdf" /></td>
                                 <td><label for="doc"><img src="/public/img/doc1.svg" alt=".doc" title="Clic aquí para subir un archivo."></label><input type="file" id="doc" name="doc" accept=".doc" /></td>
                                 <td><label for="xlsx"><img src="/public/img/xls1.svg" alt=".xlsx" title="Clic aquí para subir un archivo."></label><input type="file" id="xlsx" name="xlsx" accept=".xlsx" /></td>
-                                <td>{no entregado}</td>
-                            </tr>
+                                <td>{no entregado}</td> -->
+                
                             </tbody>
                         </table>
                         <input type="submit" value="Guardar">
