@@ -84,9 +84,7 @@ class DataBaseTable{
         $result = $this->runQuery($query);
         return $result->fetchAll(\PDO::FETCH_CLASS, $this->className, $this->arguments);
     }
-    public function dos(){
-        $_FILES['dos'];
-    }
+   
     public function selectJoinFull(){
         $query = 'SELECT `nombre_criterio`,`cod_evidencia`,
         `cod_elemento`, `jasd`, `pdf_archivo`, `docx_archivo`, `xlxs_archivo`
