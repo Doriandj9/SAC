@@ -62,7 +62,7 @@ class ViewController implements \frame\WebRoutes{
                     'controller' => $teachersController,
                     'action' => 'guardar'
                 ],
-                'login' => true,
+                'login' => true
                 ],
 
             'show/evidences' => [
@@ -85,7 +85,8 @@ class ViewController implements \frame\WebRoutes{
                 'POST' => [
                     'controller' => $teachersController,
                     'action' => 'reportes'
-                ]
+                ],
+                'login' => true
                 ],
 
             'change/password' => [
@@ -96,7 +97,8 @@ class ViewController implements \frame\WebRoutes{
                 'POST' => [
                     'controller' => $passwordController,
                     'action' => 'password'
-                ]
+                ],
+                'login' => true
                 ],
             'exit' => [
                 'GET' => [
@@ -108,19 +110,22 @@ class ViewController implements \frame\WebRoutes{
                     'GET' => [
                         'controller' => $adminController,
                         'action' => 'admin'
-                    ]
+                    ],
+                    'login' => true
                     ],
                 'admin/permises/access' => [
                     'GET' => [
                         'controller' => $adminController,
                         'action' => 'permiseActions'
-                    ]
+                    ],
+                    'login' => true
                     ],
                 'evaluation/evidences'=> [
                     'GET' => [
                         'controller' => $evaluatorController,
                         'action' => 'evaluator'
-                    ]
+                    ],
+                    'login' => true
                     ], 
         ];
     }
