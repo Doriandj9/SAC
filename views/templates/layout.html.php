@@ -23,7 +23,7 @@
 						<a href="/evaluation/evidences">Evaluación</a>
 						<a href="/generate/reports">Reportes</a>
 						<?php else: if($user->hashPermission(\entity\Teachers::ADMINSTRADOR)):?>
-							<a href="/generate/reports">Cargar Informacion</a>
+							<a href="/admin/upload/information">Cargar Informacion</a>
 						<a href="/admin/permises/access">Permisos de Acceso</a>
 						<a href="/generate/reports">Configuracion Basica</a>
 						<?php else: ?>

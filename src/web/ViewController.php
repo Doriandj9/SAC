@@ -96,6 +96,12 @@ class ViewController implements \frame\WebRoutes{
                     'action' => 'logout'
                 ]
                 ],
+                'admin/upload/information' => [
+                    'GET' => [
+                        'controller' => $adminController,
+                        'action' => 'admin'
+                    ]
+                    ],
                 'admin/permises/access' => [
                     'GET' => [
                         'controller' => $adminController,

@@ -4,7 +4,7 @@ namespace controllers;
 
 class Admin{
 
-    public function home(){
+    public function admin(){
        
         return [
             'title' => 'Administrador - SAC',

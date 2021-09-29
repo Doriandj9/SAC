@@ -410,7 +410,21 @@ h2 {
 
 
 /* Leyton */
-
+.continUp{
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-columns: 220px;
+}
+.layUp{
+	border: 1px solid black;
+	text-align: right;
+	padding: 5px;
+	font-weight: bold;
+}
+.frmUp{
+	border: 1px solid black;
+	padding: 5px;
+}
 
 
 
