@@ -13,7 +13,7 @@ class ViewController implements \frame\WebRoutes{
     public function __construct()
     {
         $this->profesorTable= new \models\DataBaseTable(new \models\conection\Conection(),
-                                                        'profesor', 'ci_profesor','\entity\Teachers');
+                                                        'profesor', 'ci_profesor','\entity\Teachers',[&$this->responsabilidadTable]);
         $this->responsabilidadTable = new \models\DataBaseTable(new \models\conection\Conection(), 
                                                         'responsabilidad', 'cod_responsabilidad');
                                                         $this->evidencesTable = new \models\DataBaseTable( new \models\conection\Conection(),
@@ -120,14 +120,16 @@ class ViewController implements \frame\WebRoutes{
                         'controller' => $adminController,
                         'action' => 'permiseActions'
                     ],
-                    'login' => true
+                    'login' => true,
+                    'permission' => \entity\Teachers::ADMINSTRADOR
                     ],
                 'evaluation/evidences'=> [
                     'GET' => [
                         'controller' => $evaluatorController,
                         'action' => 'evaluator'
                     ],
-                    'login' => true
+                    'login' => true,
+                    'responsability' => \web\Responsability::EVALUADOR
                     ], 
         ];
     }
@@ -137,19 +139,20 @@ class ViewController implements \frame\WebRoutes{
         return $this->autentification;
     }
 
-    public function getResponsability(): array
+    public function hashPermission($permission): bool
     {
         $user = $this->autentification->getUser();
-        $responsabilidad = $this->responsabilidadTable->selectFromColumn('profesor_ci',$user->ci_profesor);
-        return $responsabilidad ? $responsabilidad: [];
-        // if($responsabilidad){
-        //     return $responsabilidad;
-        // }else{
-        //     return [];
-        // }
-            
+        if($user->hashPermission($permission)){
+            return true;
+        }else{
+            return false;
+        }
     }
 
+    public function hashResponsability($responsability): bool
+    {
+        $user = $this->autentification->getUser();
 
-
+        return $user->hashResponsability($responsability) ? true: false;
+    }
 }

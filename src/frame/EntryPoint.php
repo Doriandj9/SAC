@@ -36,9 +36,12 @@ class EntryPoint{
         $title = $result['title'];
         if(isset($array[$this->route]['login']) && !$this->viewController->getAutentification()->validationAll()){
             header('location: /');
-        }else if($array){
-
-        }else{
+        }else if(isset($array[$this->route]['permission']) && !$this->viewController->hashPermission($array[$this->route]['permission'])) {
+                header('location: /');
+        }else if(isset($array[$this->route]['responsability']) && !$this->viewController->
+        hashResponsability($array[$this->route]['responsability'])) {
+                header('location: /');
+        }else {
 
             if(isset($result['login'])){
                 if(isset($result['variables'])){
@@ -58,12 +61,10 @@ class EntryPoint{
                     $content = $this->loadTemplate($result['template']);
                 }
                 $user = $this->viewController->getAutentification()->getUser();
-                $responsabilidad = $this->viewController->getResponsability();
                 echo $this->loadTemplate('templates/layout.html.php', [
                     'title' => $title,
                     'content' => $content,
-                    'user' => $user,
-                    'responsabilidad' => $responsabilidad
+                    'user' => $user
                 ]);
     
             }
