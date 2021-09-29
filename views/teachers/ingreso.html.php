@@ -48,7 +48,7 @@
                                         <td> <label for="xlsx">
                                             <img src="/public/img/xls1.svg" alt=".xlsx" title="Clic aquí para subir un archivo.">
                                         </label><input type="file" id="xlsx" name="file[xlsx]" accept=".xlsx" /> </td>
-                                        <td> Estado <input type="text" name="cod" hidden value="<?= $value->cod_evidencia;?>" id=""></td>
+                                        <td> Estado <input type="text" name="cod" hidden value="<?= $value->cod_evidencia;?>" id="cod"></td>
                                         
                                     </tr>
                                 <?php endforeach; ?>
