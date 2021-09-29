@@ -62,6 +62,7 @@ class ViewController implements \frame\WebRoutes{
                     'controller' => $teachersController,
                     'action' => 'guardar'
                 ],
+
                 'login' => true,
                 ],
 
@@ -74,6 +75,7 @@ class ViewController implements \frame\WebRoutes{
                     'controller' => $teachersController,
                     'action' => 'evidencias'
                 ],
+                
                 'login' => true
                 ],
 

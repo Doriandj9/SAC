@@ -36,6 +36,8 @@ class EntryPoint{
         $title = $result['title'];
         if(isset($array[$this->route]['login']) && !$this->viewController->getAutentification()->validationAll()){
             header('location: /');
+        }else if($array){
+
         }else{
 
             if(isset($result['login'])){
