@@ -1,0 +1,1450 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DATOS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.2.12.3</codigo>
+		<item>1</item>
+		<elementoFundamental>12</elementoFundamental>
+		<nombreEvidencia>(Listados de asistentes con firmas, fotografías, actas de sesiones y resoluciones, invitaciones actores externos) en el desarrollo de la Planificación de la Carrera</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.10.53.7</codigo>
+		<item>2</item>
+		<elementoFundamental>53</elementoFundamental>
+		<nombreEvidencia>Acta de entrega del laboratorio a la carrera.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 4.25.146.4</codigo>
+		<item>3</item>
+		<elementoFundamental>146 - 148 - 149 - 150</elementoFundamental>
+		<nombreEvidencia>Actas de calificación.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.3.14.4</codigo>
+		<item>4</item>
+		<elementoFundamental>14</elementoFundamental>
+		<nombreEvidencia>Ajustes curricular de Carrera</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.9.52.2</codigo>
+		<item>5</item>
+		<elementoFundamental>52</elementoFundamental>
+		<nombreEvidencia>Analisis de la base de datos de libros existentes en biblioteca para cada carrera (ediciones actualizadas)</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.9.47.3</codigo>
+		<item>6</item>
+		<elementoFundamental>47 - 49</elementoFundamental>
+		<nombreEvidencia>Base de datos de los libros físico y digital de la Carrera (5 años) ( Firmado y sellado por Biblioteca central)</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.3.13.5</codigo>
+		<item>7</item>
+		<elementoFundamental>13 - 87 - 88</elementoFundamental>
+		<nombreEvidencia>Calendario Académico Institucional</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.4.22.2</codigo>
+		<item>8</item>
+		<elementoFundamental>22</elementoFundamental>
+		<nombreEvidencia>Certificación de los beneficiarios de los proyectos de Vinculación.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.9.47.6</codigo>
+		<item>9</item>
+		<elementoFundamental>47 - 49</elementoFundamental>
+		<nombreEvidencia>Certificación de pago de la compra de libros (Factura de compra)</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.7.39.2</codigo>
+		<item>10</item>
+		<elementoFundamental>39</elementoFundamental>
+		<nombreEvidencia>Contenidos mínimos en nivelación</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.12.64.2</codigo>
+		<item>11</item>
+		<elementoFundamental>64 - 83 - 166 - 167 - 168</elementoFundamental>
+		<nombreEvidencia>Contratos, nombramiento y/o acción de personal de los profesores investigadores de acuerdo a su tiempo de dedicación</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.1.6.2</codigo>
+		<item>12</item>
+		<elementoFundamental>6</elementoFundamental>
+		<nombreEvidencia>Convenios Marcos y específicos de carrera (Vinculación, Investigación)</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.2.11.3</codigo>
+		<item>13</item>
+		<elementoFundamental>11</elementoFundamental>
+		<nombreEvidencia>Convenios y cartas de aceptación para redes de investigación</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 4.24.142.4</codigo>
+		<item>14</item>
+		<elementoFundamental>142 - 151</elementoFundamental>
+		<nombreEvidencia>Cronograma de Tutorias del docente con horas.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.1.4.5</codigo>
+		<item>15</item>
+		<elementoFundamental>4 - 14 - 26 - 63 - 72 - 78 - 85 - 90 - 141 - 142 - 151</elementoFundamental>
+		<nombreEvidencia>Distributivo académico de la carrera.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.1.4.8</codigo>
+		<item>16</item>
+		<elementoFundamental>4 - 73 - 74 - 76</elementoFundamental>
+		<nombreEvidencia>Documento de conformación de grupos de investigación de la Carrera (Listado de grupos de investigación de la Carrera.)</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 5.27.160.3</codigo>
+		<item>17</item>
+		<elementoFundamental>160</elementoFundamental>
+		<nombreEvidencia>Documentos que contengan la planificación, ejecución y resultados del análisis socioeconómico, asignación de ayudas o becas de la unidad de bienestar universitario que evidencia el mejoramiento del rendimiento académico de los estudianes de la carrera.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.1.5.7</codigo>
+		<item>18</item>
+		<elementoFundamental>5 - 11 - 155</elementoFundamental>
+		<nombreEvidencia>Estatuto</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.1.2.3</codigo>
+		<item>19</item>
+		<elementoFundamental>2 - 3 - 4 - 10 - 79 - 123 - 125 - 126</elementoFundamental>
+		<nombreEvidencia>Estudio de pertinencia de la carrera.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.1.5.2</codigo>
+		<item>20</item>
+		<elementoFundamental>5 - 126</elementoFundamental>
+		<nombreEvidencia>Estudio de prospectiva de carrera</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 4.22.135.2</codigo>
+		<item>21</item>
+		<elementoFundamental>135 - 137</elementoFundamental>
+		<nombreEvidencia>Evaluación de silabo</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 4.23.138.3</codigo>
+		<item>22</item>
+		<elementoFundamental>138</elementoFundamental>
+		<nombreEvidencia>Informe de uso del EVEA.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.12.64.1</codigo>
+		<item>23</item>
+		<elementoFundamental>64 - 70</elementoFundamental>
+		<nombreEvidencia>Evidencia del título  de cuarto nivel  MSc SENESCYT</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.13.68.1</codigo>
+		<item>24</item>
+		<elementoFundamental>68</elementoFundamental>
+		<nombreEvidencia>Evidencia del título  de cuarto nivel  MScE , rankings de universidades Latinoamérica, logros académicos y experiencia en investigación</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.13.69.2</codigo>
+		<item>25</item>
+		<elementoFundamental>69</elementoFundamental>
+		<nombreEvidencia>Evidencia del título  de cuarto nivel  PhD (LEYENDA)</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.13.67.2</codigo>
+		<item>26</item>
+		<elementoFundamental>67</elementoFundamental>
+		<nombreEvidencia>Evidencia del título  de cuarto nivel  PhDE (registrado en la SENESCYT)</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.8.45.6</codigo>
+		<item>27</item>
+		<elementoFundamental>45</elementoFundamental>
+		<nombreEvidencia>Formatos de calificación de los trabajos de titulación</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.8.45.4</codigo>
+		<item>28</item>
+		<elementoFundamental>45</elementoFundamental>
+		<nombreEvidencia>Formatos de registro de tutores, directores, coordinadores, profesores de grupos de investigación.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.8.41.3</codigo>
+		<item>29</item>
+		<elementoFundamental>41 - 42 - 43 - 44</elementoFundamental>
+		<nombreEvidencia>Guías de titulación</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 4.24.142.3</codigo>
+		<item>30</item>
+		<elementoFundamental>142 - 151</elementoFundamental>
+		<nombreEvidencia>Horarios de docentes con horas de tutorias académicas</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.6.33.3</codigo>
+		<item>31</item>
+		<elementoFundamental>33</elementoFundamental>
+		<nombreEvidencia>Informe comparativo de sílabos entre ciclos y contenidos mínimos (modificación de contenidos)</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 4.21.125.4</codigo>
+		<item>32</item>
+		<elementoFundamental>125</elementoFundamental>
+		<nombreEvidencia>Informe comparativo del perfil de egreso con los resultados de aprendizaje de los estudiantes</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.4.20.4</codigo>
+		<item>33</item>
+		<elementoFundamental>20</elementoFundamental>
+		<nombreEvidencia>Informe consolidado de los proyectos de vinculación con sus estatus</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 4.25.147.3</codigo>
+		<item>34</item>
+		<elementoFundamental>147</elementoFundamental>
+		<nombreEvidencia>Informe consolidado de resultados de las PAE, de la Carrera</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.9.49.6</codigo>
+		<item>35</item>
+		<elementoFundamental>49</elementoFundamental>
+		<nombreEvidencia>Informe de adquisición de libros de la carrera (resultados de compra en función de los solicitado por docentes)</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.6.33.2</codigo>
+		<item>36</item>
+		<elementoFundamental>33 - 34 - 35 - 36</elementoFundamental>
+		<nombreEvidencia>Informe de ajustes de Carrera.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.14.74.8</codigo>
+		<item>37</item>
+		<elementoFundamental>74</elementoFundamental>
+		<nombreEvidencia>Informe de avance de actividades de investigación del ciclo.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 5.27.159.4</codigo>
+		<item>38</item>
+		<elementoFundamental>159</elementoFundamental>
+		<nombreEvidencia>Informe de Becas</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.16.89.2</codigo>
+		<item>39</item>
+		<elementoFundamental>89</elementoFundamental>
+		<nombreEvidencia>Informe de capacitación</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.3.17.2</codigo>
+		<item>40</item>
+		<elementoFundamental>17</elementoFundamental>
+		<nombreEvidencia>Informe de cumplimiento del plan de comunicaión</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.8.41.5</codigo>
+		<item>41</item>
+		<elementoFundamental>41 - 42 - 43 - 44</elementoFundamental>
+		<nombreEvidencia>Informe de cumplimiento del plan de la Unidad de Titulación</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.6.30.2</codigo>
+		<item>42</item>
+		<elementoFundamental>30 - 31 - 32 - 36</elementoFundamental>
+		<nombreEvidencia>Informe de cumplimiento del plan de seguimiento a graduados</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.5.28.4</codigo>
+		<item>43</item>
+		<elementoFundamental>28 - 29</elementoFundamental>
+		<nombreEvidencia>Informe de cumplimiento del sílabo del Sianet y uso de la platorma Evea por Carrera</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.6.34.1</codigo>
+		<item>44</item>
+		<elementoFundamental>34</elementoFundamental>
+		<nombreEvidencia>Informe de difusión de resultados del seguimiento a graduados.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 5.27.159.3</codigo>
+		<item>45</item>
+		<elementoFundamental>159</elementoFundamental>
+		<nombreEvidencia>Informe de difusión de los servicios de bienestar universitario a través de redes sociales.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 4.23.139.2</codigo>
+		<item>46</item>
+		<elementoFundamental>139 - 150</elementoFundamental>
+		<nombreEvidencia>Informe de ejecución de PAE y PIS</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 4.24.144.6</codigo>
+		<item>47</item>
+		<elementoFundamental>144</elementoFundamental>
+		<nombreEvidencia>Informe de ejecución del plan de vinculación con la sociedad e investigación.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.3.13.4</codigo>
+		<item>48</item>
+		<elementoFundamental>13</elementoFundamental>
+		<nombreEvidencia>Informe de ejecución del sílabo por ciclo</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 4.25.147.1</codigo>
+		<item>49</item>
+		<elementoFundamental>147</elementoFundamental>
+		<nombreEvidencia>Informe de ejecuciòn y resultados de los proyectos integradores de saberes</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.1.6.3</codigo>
+		<item>50</item>
+		<elementoFundamental>6</elementoFundamental>
+		<nombreEvidencia>Informe de elaboración del PEI</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 4.21.121.5</codigo>
+		<item>51</item>
+		<elementoFundamental>121</elementoFundamental>
+		<nombreEvidencia>Informe de elaboración del perfil de egreso (con la participación de actores relevantes  en su revisión y validación)</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.11.57.1</codigo>
+		<item>52</item>
+		<elementoFundamental>57</elementoFundamental>
+		<nombreEvidencia>Informe de evaluación a la plataforma (conectividad, acceso)-  Director de Sistemas.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.5.28.2</codigo>
+		<item>53</item>
+		<elementoFundamental>28 - 29 - 50 - 124 - 140</elementoFundamental>
+		<nombreEvidencia>Informe de evaluación de Sílabo por carrera</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.11.59.1</codigo>
+		<item>54</item>
+		<elementoFundamental>59</elementoFundamental>
+		<nombreEvidencia>Informe de evaluación de utilidad de la plataforma (que involucre a profesores y estudiantes)</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.2.12.2</codigo>
+		<item>55</item>
+		<elementoFundamental>12</elementoFundamental>
+		<nombreEvidencia>Informe de evaluación del PEDI (Evidencias de proceso de formulación del Plan estratégico y estudio prospectivo de facultad) </nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.3.16.2</codigo>
+		<item>56</item>
+		<elementoFundamental>16 - 86 - 87 - 88</elementoFundamental>
+		<nombreEvidencia>Informe de evaluaciones a docentes por carrera para la implementación de estrategias</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.2.9.1</codigo>
+		<item>57</item>
+		<elementoFundamental>9</elementoFundamental>
+		<nombreEvidencia>Informe de formulación del plan estratégico con la participación de actores claves</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.1.5.4</codigo>
+		<item>58</item>
+		<elementoFundamental>5 - 13 - 27</elementoFundamental>
+		<nombreEvidencia>Informe de gestión Académica de la carrera</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.4.23.1</codigo>
+		<item>59</item>
+		<elementoFundamental>23</elementoFundamental>
+		<nombreEvidencia>Informe de impacto del proyecto ejecutados de vinculación</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.3.15.4</codigo>
+		<item>60</item>
+		<elementoFundamental>15 - 16</elementoFundamental>
+		<nombreEvidencia>Informe de implementación de propuestas de estudiantes y docentes para mejora de los procesos de aprendizaje esperados</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.9.52.1</codigo>
+		<item>61</item>
+		<elementoFundamental>52</elementoFundamental>
+		<nombreEvidencia>Informe de la Carrera respecto a la calidad de los recursos bibliográficos.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 5.27.159.2</codigo>
+		<item>62</item>
+		<elementoFundamental>159</elementoFundamental>
+		<nombreEvidencia>Informe de la participación de los estudiantes de la carrera en la socialización de los beneficios que brinda bienestar uniresitario</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.8.45.3</codigo>
+		<item>63</item>
+		<elementoFundamental>45 - 46</elementoFundamental>
+		<nombreEvidencia>Informe de la Unidad de Titulación para conocer asignación de Directores,  pares académicos, estudiantes por modalidades de titulación.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.8.42.5</codigo>
+		<item>64</item>
+		<elementoFundamental>42 - 45</elementoFundamental>
+		<nombreEvidencia>Informe de los docentes con horas de titulación de los trabajos asignados en el periodo acádemico.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 4.21.127.1</codigo>
+		<item>65</item>
+		<elementoFundamental>127</elementoFundamental>
+		<nombreEvidencia>Informe de mecanismos utilizados para la difusión de las carreras (ferias, medios de comunicación, entre otros)</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.1.7.3</codigo>
+		<item>66</item>
+		<elementoFundamental>7</elementoFundamental>
+		<nombreEvidencia>Informe de medición de impactos de las carreras en el contexto</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.9.51.2</codigo>
+		<item>67</item>
+		<elementoFundamental>51</elementoFundamental>
+		<nombreEvidencia>Informe de que la cantidad bibliografica, son suficientes, adecuados, pertinentes y vigentes.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 4.22.130.2</codigo>
+		<item>68</item>
+		<elementoFundamental>130</elementoFundamental>
+		<nombreEvidencia>Informe de resultados de aprendizaje de los estudiantes de la carrera según el cuadro de equivalencias del reglamento de evaluación estudiantil.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 4.25.150.3</codigo>
+		<item>69</item>
+		<elementoFundamental>150</elementoFundamental>
+		<nombreEvidencia>Informe de resultados de PAE / PIS</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 5.26.153.2</codigo>
+		<item>70</item>
+		<elementoFundamental>153 - 156 - 160</elementoFundamental>
+		<nombreEvidencia>Informe de resultados relacionados a los beneficios de bienestar universitario de los estudiantes de la carrera.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.1.2.4</codigo>
+		<item>71</item>
+		<elementoFundamental>2 - 7 - 121 - 122</elementoFundamental>
+		<nombreEvidencia>Informe de seguimiento a graduados y medición de impactos</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.4.23.2</codigo>
+		<item>72</item>
+		<elementoFundamental>23</elementoFundamental>
+		<nombreEvidencia>Informe de seguimiento al desarrollo de los proyectos de vinculación</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.3.19.2</codigo>
+		<item>73</item>
+		<elementoFundamental>19</elementoFundamental>
+		<nombreEvidencia>Informe de seguimiento al plan  de apoyo a los estudiantes</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.3.18.3</codigo>
+		<item>74</item>
+		<elementoFundamental>18</elementoFundamental>
+		<nombreEvidencia>Informe de seguimiento al plan de mejoramiento de la Calidad</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.5.28.3</codigo>
+		<item>75</item>
+		<elementoFundamental>28 - 29</elementoFundamental>
+		<nombreEvidencia>Informe de seguimiento al sílabo por estudiantes</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.7.40.1</codigo>
+		<item>76</item>
+		<elementoFundamental>40</elementoFundamental>
+		<nombreEvidencia>Informe de socialización de políticas de SOFisión en unidades académicas</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.6.33.1</codigo>
+		<item>77</item>
+		<elementoFundamental>33</elementoFundamental>
+		<nombreEvidencia>Informe de socilización de resultados de seguimiento a graduados</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 4.22.136.1</codigo>
+		<item>78</item>
+		<elementoFundamental>136 - 141 - 142 - 143 - 144 - 145 - 151 - 161</elementoFundamental>
+		<nombreEvidencia>Informe de tutorias académicas en función del plan que incluya estadísticas de indices de repitencia a través de las evaluaciones en el proceso de enseñanza aprendizaje.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.10.53.8</codigo>
+		<item>79</item>
+		<elementoFundamental>53</elementoFundamental>
+		<nombreEvidencia>Informe de uso de equipos por estudiante y carrera (contador numerico de uso de equipos, listado de alumnos).</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.11.56.4</codigo>
+		<item>80</item>
+		<elementoFundamental>56 - 58 - 59 - 161 - 162 - 164</elementoFundamental>
+		<nombreEvidencia>Informe de utilización del Entorno de Aprendizaje Virtual de los docentes y estudiantes (uso del chat,evaluaciones, foros, entre otros) por carreras.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.10.53.5</codigo>
+		<item>81</item>
+		<elementoFundamental>53</elementoFundamental>
+		<nombreEvidencia>Informe del espacio físico asignado al laboratorio por cantidad de equipos  (Documento firmado y sellado por el Responsable de los laboratorios)</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 5.27.157.2</codigo>
+		<item>82</item>
+		<elementoFundamental>157 - 158</elementoFundamental>
+		<nombreEvidencia>Informe del proceso de otorgamiento de Becas</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.3.13.3</codigo>
+		<item>83</item>
+		<elementoFundamental>13</elementoFundamental>
+		<nombreEvidencia>Informe del sianet del cumplimiento del contenido</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 4.25.152.1</codigo>
+		<item>84</item>
+		<elementoFundamental>152</elementoFundamental>
+		<nombreEvidencia>Informe del sianet del rendimiento de los estudiantes</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.3.18.4</codigo>
+		<item>85</item>
+		<elementoFundamental>18 - 19</elementoFundamental>
+		<nombreEvidencia>Informe final de la implementación del Plan de mejoramiento de la autoevaluación</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.10.53.4</codigo>
+		<item>86</item>
+		<elementoFundamental>53</elementoFundamental>
+		<nombreEvidencia>Informe técnico del estado de los laboratorios (mantenimientos, preventivos, predictivos, calibración).</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 4.22.128.2</codigo>
+		<item>87</item>
+		<elementoFundamental>128 - 130</elementoFundamental>
+		<nombreEvidencia>Informes de ajustes curriculares de carrera</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.3.16.1</codigo>
+		<item>88</item>
+		<elementoFundamental>16 - 18</elementoFundamental>
+		<nombreEvidencia>Informes de Autoevaluación de la carrera </nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.5.25.1</codigo>
+		<item>89</item>
+		<elementoFundamental>25</elementoFundamental>
+		<nombreEvidencia>Informes de comisión académica de cada Facultad (firmas acuerdos fotografías</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.9.48.4</codigo>
+		<item>90</item>
+		<elementoFundamental>48</elementoFundamental>
+		<nombreEvidencia>Informes de ejecución de los planes de inducción de base de datos, titulación, concurso proyectos de investigación.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.16.91.1</codigo>
+		<item>91</item>
+		<elementoFundamental>91</elementoFundamental>
+		<nombreEvidencia>Informes de evaluación de desempeño docente</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 5.27.159.5</codigo>
+		<item>92</item>
+		<elementoFundamental>159</elementoFundamental>
+		<nombreEvidencia>Informes de Homologación</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.16.90.4</codigo>
+		<item>93</item>
+		<elementoFundamental>90</elementoFundamental>
+		<nombreEvidencia>Informes de horas de gestión de los docentes.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.4.22.1</codigo>
+		<item>94</item>
+		<elementoFundamental>22</elementoFundamental>
+		<nombreEvidencia>Informes de los proyectos de vinculación culminados con medición de impacto. </nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.3.15.2</codigo>
+		<item>95</item>
+		<elementoFundamental>15</elementoFundamental>
+		<nombreEvidencia>Informes de reuniones de socialización de las actividades de carrera </nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.16.88.4</codigo>
+		<item>96</item>
+		<elementoFundamental>88 - 92</elementoFundamental>
+		<nombreEvidencia>Informes de socialización de los resultados de evaluación de desempeño docente</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.9.50.2</codigo>
+		<item>97</item>
+		<elementoFundamental>50 - 135</elementoFundamental>
+		<nombreEvidencia>Lineamientos institucionales para la organización del aprendizaje como instrumernto de aplicación para las buenas prácticas academicas (planificación y ejecución de horas PAE, anexos (listado de estudiantes, informe de estudiantes, registron de calificación de PAE)</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.1.4.7</codigo>
+		<item>98</item>
+		<elementoFundamental>4 - 20 - 21 - 46 - 73 - 74 - 76 - 82 - 129</elementoFundamental>
+		<nombreEvidencia>Lineas de investigación aprobadas de la carrera.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 5.31.174.1</codigo>
+		<item>99</item>
+		<elementoFundamental>174</elementoFundamental>
+		<nombreEvidencia>Lista certíficada actualizada, generada desde el Sianet por secretaria de carrera del total de estudiantes de las cohortes definidas que concluyeron el proceso de Titulación (Proyecto de titulación o aprobaron el examen complexivo)</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 5.26.154.1</codigo>
+		<item>100</item>
+		<elementoFundamental>154 - 160 - 156</elementoFundamental>
+		<nombreEvidencia>Lista certificada de estudiantes a quienes se les ha concedido algún tipo de beneficio o servicio, especificando el tipo y monto del apoyo.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.15.83.2</codigo>
+		<item>101</item>
+		<elementoFundamental>83</elementoFundamental>
+		<nombreEvidencia>Lista de profesores  titulares con dedicación a tiempo completo</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.15.84.1</codigo>
+		<item>102</item>
+		<elementoFundamental>84</elementoFundamental>
+		<nombreEvidencia>Lista total de profesores relacionados con la carrera </nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.18.97.1</codigo>
+		<item>103</item>
+		<elementoFundamental>97</elementoFundamental>
+		<nombreEvidencia>Listado  de Artículos cientificos publicados por docentes de la carrera incluido el valor, entre 0 y 1, otorgado al impacto local, regional o nacional atribuido al artículo ¡-ésimo</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.18.99.1</codigo>
+		<item>104</item>
+		<elementoFundamental>99-108-112</elementoFundamental>
+		<nombreEvidencia>Listado  de Artículos cientificos publicados por docentes de la carrera incluido el valor, entre 0 y 1, otorgado al impacto local, regional o nacional atribuido al artículo ¡-ésimo con sus respectivos links</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.19.104.1</codigo>
+		<item>105</item>
+		<elementoFundamental>104</elementoFundamental>
+		<nombreEvidencia>Listado  de profesores de la carrera que son Autores o Coautores</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.8.45.5</codigo>
+		<item>106</item>
+		<elementoFundamental>45</elementoFundamental>
+		<nombreEvidencia>Listado certificado  de estudiantes en titulación.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 5.30.170.1</codigo>
+		<item>107</item>
+		<elementoFundamental>170</elementoFundamental>
+		<nombreEvidencia>Listado certíficado por secretaria de carrera de los estudiantes de las cohortes seleccionadas que se mantienen en la carrera durante el periodo de evaluación.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 5.31.175.1</codigo>
+		<item>108</item>
+		<elementoFundamental>175</elementoFundamental>
+		<nombreEvidencia>Listado certíficado por secretaria de carrera del total de estudiantes de las cohortes definidas para el cálculo de la titulación</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 5.30.171.1</codigo>
+		<item>109</item>
+		<elementoFundamental>171</elementoFundamental>
+		<nombreEvidencia>Listado certíficado por secretaria de carrera del total de estudiantes de las cohortes definidas para el cálculo de retención en un periodos de dos años.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.16.92.3</codigo>
+		<item>110</item>
+		<elementoFundamental>92</elementoFundamental>
+		<nombreEvidencia>Listado de asistencia de docentes a la socialización de resultados de evaluación docente de la carrera.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 5.29.169.1</codigo>
+		<item>111</item>
+		<elementoFundamental>169</elementoFundamental>
+		<nombreEvidencia>Listado de estudiantes matriculados durante los períodos académicos ordinarios por ciclo, asignatura y paralelo.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.13.67.4</codigo>
+		<item>112</item>
+		<elementoFundamental>67</elementoFundamental>
+		<nombreEvidencia>Listado de IES  en los rankings de Universidades de  Latinoamericana que evidencien los logros académicos y experiencia en investigación</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.13.67.3</codigo>
+		<item>113</item>
+		<elementoFundamental>67</elementoFundamental>
+		<nombreEvidencia>Listado de IES para el programa de becas para doctorado (PHD) para docentes de universidades y escuelas politécnicas </nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.14.80.2</codigo>
+		<item>114</item>
+		<elementoFundamental>80</elementoFundamental>
+		<nombreEvidencia>Listado de la producción cientifica (libros, capitulos de libros, Artículos, ponencias) que sean coherentes con el contexto local, nacional, regional o mundial.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.14.79.1</codigo>
+		<item>115</item>
+		<elementoFundamental>79</elementoFundamental>
+		<nombreEvidencia>Listado de la producción cientifica (libros, capitulos de libros, Artículos, ponencias) relacionadas a las lineas de investigación y con el estudio de pertinencia de la carrera.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.14.78.1</codigo>
+		<item>116</item>
+		<elementoFundamental>78</elementoFundamental>
+		<nombreEvidencia>Listado de la producción cientifica (libros, capitulos de libros, Artículos, ponencias) relacionadas a las lineas de investigación y las asignaturas de la carrera.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.14.81.1</codigo>
+		<item>117</item>
+		<elementoFundamental>81</elementoFundamental>
+		<nombreEvidencia>Listado de la producción cientifica (libros, capitulos de libros, Artículos, ponencias) relacionados con las lineas de investigación y los proyectos de titulación aprobados de la carrera.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.9.47.5</codigo>
+		<item>118</item>
+		<elementoFundamental>47</elementoFundamental>
+		<nombreEvidencia>Listado de libros adquiridos por carreras</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.17.93.1</codigo>
+		<item>119</item>
+		<elementoFundamental>93</elementoFundamental>
+		<nombreEvidencia>Listado de profesores que han realizado a ponencias y/o eventos de actualización científica y pedagógica  en el periodo de evaluación con su sumatoria</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.14.73.5</codigo>
+		<item>120</item>
+		<elementoFundamental>73 - 74</elementoFundamental>
+		<nombreEvidencia>Listado de programas de y/o Proyectos de investigación Aprobados de la carrera; incluye participantes docentes y estudiantes</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.14.75.2</codigo>
+		<item>121</item>
+		<elementoFundamental>75 - 77</elementoFundamental>
+		<nombreEvidencia>Listado de proyectos aprobados ejecutados y en ejecución de la carrera en el periodo de evaluación en relación a las lineas de investigación de la carrera.
+Listado de profesores con titularidad que forman parte de gupos de investigación de la carrera</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.4.21.3</codigo>
+		<item>122</item>
+		<elementoFundamental>21</elementoFundamental>
+		<nombreEvidencia>Listado de proyectos de vinculación aprobados, ejecutados y de ejecución e informes finales certificado</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.7.38.1</codigo>
+		<item>123</item>
+		<elementoFundamental>38</elementoFundamental>
+		<nombreEvidencia>Listado de selección de estudiantes por género, discapacidad, autodenominación, etnia, lugar de origen, edad de la carrera.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.13.67.1</codigo>
+		<item>124</item>
+		<elementoFundamental>67</elementoFundamental>
+		<nombreEvidencia>Listado de universidades de excelencia </nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.13.71.1</codigo>
+		<item>125</item>
+		<elementoFundamental>71 - 94 - 98 - 105 - 113</elementoFundamental>
+		<nombreEvidencia>Listado del total de profesores de la carrera</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.14.73.7</codigo>
+		<item>126</item>
+		<elementoFundamental>73 - 74</elementoFundamental>
+		<nombreEvidencia>Listado grupo de redes de investigación externos</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.20.119.1</codigo>
+		<item>127</item>
+		<elementoFundamental>119</elementoFundamental>
+		<nombreEvidencia>Listado total de capitulos, publicados por profesores de la carrera, incluido el valor, entre 0 y 0,5, otorgado al impacto local, regional o nacional atribuido al libro ¡-ésimo con sus respectivos links</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.10.55.1</codigo>
+		<item>128</item>
+		<elementoFundamental>55</elementoFundamental>
+		<nombreEvidencia>Listado total de laboratorios equipos, mobiliarios, softwares  de la carrera a evaluar</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.20.114.1</codigo>
+		<item>129</item>
+		<elementoFundamental>114</elementoFundamental>
+		<nombreEvidencia>Listado total de libros, publicados por profesores de la carrera, incluido el valor, entre 0 y 1, otorgado al impacto local, regional o nacional atribuido al libro ¡-ésimo con sus respectivos links</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.14.73.8</codigo>
+		<item>130</item>
+		<elementoFundamental>73 - 74</elementoFundamental>
+		<nombreEvidencia>Listados de docentes y estudiantes de los proyectos de investigación </nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.20.111.1</codigo>
+		<item>131</item>
+		<elementoFundamental>111</elementoFundamental>
+		<nombreEvidencia>Listados de profesores que han publicado  libros o capítulos de libros de la carrera con sus respectivos links</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.19.103.1</codigo>
+		<item>132</item>
+		<elementoFundamental>103</elementoFundamental>
+		<nombreEvidencia>Listados de profesores que han publicado artículos cientificos (autores y coautores) de la carrera con sus respectivos links en revistas de impacto mundial</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.18.96.1</codigo>
+		<item>133</item>
+		<elementoFundamental>96</elementoFundamental>
+		<nombreEvidencia>Listados de profesores que han publicado artículos cientificos (autores y coautores) de la carrera con sus respectivos links en revistas de impacto mundial incluido el indice SJR otorgado al artículo i-ésimo.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 5.29.166.1</codigo>
+		<item>134</item>
+		<elementoFundamental>166 - 167 - 168</elementoFundamental>
+		<nombreEvidencia>Listados filtrado del distributivo académico de la carrera, certificado por secretaria de carrera.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 5.29.165.1</codigo>
+		<item>135</item>
+		<elementoFundamental>165</elementoFundamental>
+		<nombreEvidencia>Listas certificadas emitidas por secretaria de carrera de los estudiantes matriculados.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.1.5.3</codigo>
+		<item>136</item>
+		<elementoFundamental>5</elementoFundamental>
+		<nombreEvidencia>LOES (Ley Organica de Educacion Superior)</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.1.4.6</codigo>
+		<item>137</item>
+		<elementoFundamental>4 - 65 - 132 - 133 - 134 - 138</elementoFundamental>
+		<nombreEvidencia>Malla curricular aprobada y en vigencia al momento de la evaluación  con prerequisitos y corequisitos.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.6.35.2</codigo>
+		<item>138</item>
+		<elementoFundamental>35</elementoFundamental>
+		<nombreEvidencia>Mallas antes del ajuste y con el ajuste curricular</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.10.53.6</codigo>
+		<item>139</item>
+		<elementoFundamental>53</elementoFundamental>
+		<nombreEvidencia>Manual de seguridad de uso de laboratorios</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.16.86.4</codigo>
+		<item>140</item>
+		<elementoFundamental>86</elementoFundamental>
+		<nombreEvidencia>Manual de uso Software para la evaluación docente </nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.11.56.3</codigo>
+		<item>141</item>
+		<elementoFundamental>56 - 57 - 60 - 61 - 62 - 163</elementoFundamental>
+		<nombreEvidencia>Manual de usuario del EVEA –  Documento del Director de Sistemas con firmas y sellos, legalizado </nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 4.24.145.2</codigo>
+		<item>142</item>
+		<elementoFundamental>145</elementoFundamental>
+		<nombreEvidencia>Matriz comparativa de notas entre parciales resultado de tutorias.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 4.22.129.3</codigo>
+		<item>143</item>
+		<elementoFundamental>129</elementoFundamental>
+		<nombreEvidencia>Matriz comparativa de plan de estudios, objetivos de carrera, resultados de aprendizaje. Perfil de egreso y lineas de investigación</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.4.22.3</codigo>
+		<item>144</item>
+		<elementoFundamental>22</elementoFundamental>
+		<nombreEvidencia>Matriz comparativa entre lineas de investigación, Proyecto de vinculación y asignaturas de la carrera.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.14.75.1</codigo>
+		<item>145</item>
+		<elementoFundamental>75</elementoFundamental>
+		<nombreEvidencia>Matriz con el listado de docentes que pertenecen a grupos de investigación con al menos una publicación o que esten desarrollando un proyecto de investigación acorde a las lineas de investigación de la carrera y en el periodo de evaluación. </nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.12.66.1</codigo>
+		<item>146</item>
+		<elementoFundamental>66</elementoFundamental>
+		<nombreEvidencia>Matriz de asignaturas dictadas por profesores con formación de posgrado de maestría o equivalente afín a la asignatura</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.14.74.10</codigo>
+		<item>147</item>
+		<elementoFundamental>74</elementoFundamental>
+		<nombreEvidencia>Matriz de estudiantes de grado que participan en proyectos de investigación</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.2.12.1</codigo>
+		<item>148</item>
+		<elementoFundamental>12</elementoFundamental>
+		<nombreEvidencia>Matriz de involucrados en la Planificación de la Carrera</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.14.74.9</codigo>
+		<item>149</item>
+		<elementoFundamental>74</elementoFundamental>
+		<nombreEvidencia>Matriz de los grupos de investigación y su contribución al desarrollo de la investigación formativa y a la integración  con un currículo de la carrera y los proyectos de vinculación con la sociedad </nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.5.26.3</codigo>
+		<item>150</item>
+		<elementoFundamental>26</elementoFundamental>
+		<nombreEvidencia>Matriz de registros de cumplimiento de horários</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.10.54.1</codigo>
+		<item>151</item>
+		<elementoFundamental>54</elementoFundamental>
+		<nombreEvidencia>Matriz de valoración de disponibilidad enfocado en equipamiento y funcionalidad según el plan de prácticas.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.13.69.1</codigo>
+		<item>152</item>
+		<elementoFundamental>69</elementoFundamental>
+		<nombreEvidencia>Matriz que contenga Lista de docentes con título de PHD, Universidad, año de obtención del Título.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 4.21.123.1</codigo>
+		<item>153</item>
+		<elementoFundamental>123 - 125</elementoFundamental>
+		<nombreEvidencia>Modelo educacional de la Universidad del periodo de evaluación.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.10.53.1</codigo>
+		<item>154</item>
+		<elementoFundamental>53</elementoFundamental>
+		<nombreEvidencia>Normativa  / Reglamento de procesos de práctica</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.6.36.4</codigo>
+		<item>155</item>
+		<elementoFundamental>36</elementoFundamental>
+		<nombreEvidencia>Nueva oferta académica de pre y posgrado</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.9.47.4</codigo>
+		<item>156</item>
+		<elementoFundamental>47</elementoFundamental>
+		<nombreEvidencia>Número de ejemplares físicos que existen por libro ( Firmado y sellado por Biblioteca General)</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.9.51.1</codigo>
+		<item>157</item>
+		<elementoFundamental>51</elementoFundamental>
+		<nombreEvidencia>Número de estudiantes por libro ( Firmado y sellado por Secretaría de Carrera)</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.9.49.1</codigo>
+		<item>158</item>
+		<elementoFundamental>49</elementoFundamental>
+		<nombreEvidencia>Oficio de requeriemto de libros en base a las necesidades para investigación y titulación (coordinación de carrera)</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.9.49.2</codigo>
+		<item>159</item>
+		<elementoFundamental>49</elementoFundamental>
+		<nombreEvidencia>Oficio de requeriemto de libros en base a las necesidades para investigación y titulación (Decanato consolidado de las carreras)</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 4.21.127.2</codigo>
+		<item>160</item>
+		<elementoFundamental>127</elementoFundamental>
+		<nombreEvidencia>Página web de la Universidad</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.1.1.4</codigo>
+		<item>161</item>
+		<elementoFundamental>1 - 4 - 10 -</elementoFundamental>
+		<nombreEvidencia>PDOT Local, Provincial y Regional</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.1.1.5</codigo>
+		<item>162</item>
+		<elementoFundamental>1 - 5 - 8 - 11 - 82</elementoFundamental>
+		<nombreEvidencia>PEDI (Plan Estratégico de Desarrollo Institucional).</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.7.37.2</codigo>
+		<item>163</item>
+		<elementoFundamental>37</elementoFundamental>
+		<nombreEvidencia>Perfil de ingreso</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.3.19.1</codigo>
+		<item>164</item>
+		<elementoFundamental>19</elementoFundamental>
+		<nombreEvidencia>Plan de apoyo a los estudiantes que rinden el examen nacional de evaluación de carreras</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.3.14.1</codigo>
+		<item>165</item>
+		<elementoFundamental>14</elementoFundamental>
+		<nombreEvidencia>Plan de Aseguramiento de la Calidad Carrera</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.3.15.1</codigo>
+		<item>166</item>
+		<elementoFundamental>15</elementoFundamental>
+		<nombreEvidencia>Plan de autoevaluación interno de Carreras</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.2.11.1</codigo>
+		<item>167</item>
+		<elementoFundamental>11 - 89 -</elementoFundamental>
+		<nombreEvidencia>Plan de Capacitación Docente y perfeccionamiento docente de la Carrera</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.3.17.1</codigo>
+		<item>168</item>
+		<elementoFundamental>17</elementoFundamental>
+		<nombreEvidencia>Plan de comunicación interna y externa de Carrera (Invitaciones actores, firmas de asistentes, fotografías, actas de socialización)</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.1.4.4</codigo>
+		<item>169</item>
+		<elementoFundamental>4 - 10 - 80 -</elementoFundamental>
+		<nombreEvidencia>Plan de desarrollo nacional</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 4.21.124.2</codigo>
+		<item>170</item>
+		<elementoFundamental>124</elementoFundamental>
+		<nombreEvidencia>Plan de estudios.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.2.8.4</codigo>
+		<item>171</item>
+		<elementoFundamental>8 - 27 - 28 - 29 - 37</elementoFundamental>
+		<nombreEvidencia>Plan de gestión académica de la carrera</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.9.48.1</codigo>
+		<item>172</item>
+		<elementoFundamental>48</elementoFundamental>
+		<nombreEvidencia>Plan de inducción sobre el uso de Bases de datos virtuales, búsquedas en la web y los sistemas bibliográficos de la institución a docentes y estudientes a inicios de ciclo académico.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.9.48.3</codigo>
+		<item>173</item>
+		<elementoFundamental>48</elementoFundamental>
+		<nombreEvidencia>Plan de inducción sobre participación en concursos de proyectos de investigación (Bases de datos virtuales, búsquedas en la web y los sistemas bibliográficos de la institución).</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.9.48.2</codigo>
+		<item>174</item>
+		<elementoFundamental>48</elementoFundamental>
+		<nombreEvidencia>Plan de inducción sobre titulación (Bases de datos virtuales, búsquedas en la web y los sistemas bibliográficos de la institución)</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.14.73.2</codigo>
+		<item>175</item>
+		<elementoFundamental>73 - 74 -</elementoFundamental>
+		<nombreEvidencia>Plan de investigación de la Carrera</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.10.53.3</codigo>
+		<item>176</item>
+		<elementoFundamental>53</elementoFundamental>
+		<nombreEvidencia>Plan de mantenimiento de laboratorios</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.6.35.3</codigo>
+		<item>177</item>
+		<elementoFundamental>35</elementoFundamental>
+		<nombreEvidencia>Plan de mejora a la malla y contenidos minimos en función del informe de ajuste de carrera</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.16.91.2</codigo>
+		<item>178</item>
+		<elementoFundamental>91</elementoFundamental>
+		<nombreEvidencia>Plan de mejora del proceso de enseñanza aprendizaje</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.3.14.3</codigo>
+		<item>179</item>
+		<elementoFundamental>14 - 16 - 18 - 27</elementoFundamental>
+		<nombreEvidencia>Plan de mejoras de Carrera</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.1.7.1</codigo>
+		<item>180</item>
+		<elementoFundamental>7</elementoFundamental>
+		<nombreEvidencia>Plan de monitoreo y evaluación de PEI</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 4.24.144.2</codigo>
+		<item>181</item>
+		<elementoFundamental>144</elementoFundamental>
+		<nombreEvidencia>Plan de prácticas pre-profesionales</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 4.22.128.1</codigo>
+		<item>182</item>
+		<elementoFundamental>128</elementoFundamental>
+		<nombreEvidencia>Plan de revisión, actualización del plan de estudios</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.1.2.5</codigo>
+		<item>183</item>
+		<elementoFundamental>2 - 10 - 30 - 31 - 32 - 36</elementoFundamental>
+		<nombreEvidencia>Plan de seguimiento a graduados (políticas)</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.8.41.4</codigo>
+		<item>184</item>
+		<elementoFundamental>41 - 42 - 43 - 44 - 45 - 46</elementoFundamental>
+		<nombreEvidencia>Plan de titulación (para cada modalidad de Titulación)</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 4.24.141.2</codigo>
+		<item>185</item>
+		<elementoFundamental>141 - 142 - 143 - 144 - 151</elementoFundamental>
+		<nombreEvidencia>Plan de Tutorias académicas</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.10.53.2</codigo>
+		<item>186</item>
+		<elementoFundamental>53</elementoFundamental>
+		<nombreEvidencia>Plan de uso de laboratorios (incluye Guía de uso de Laboratorio)</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.4.20.1</codigo>
+		<item>187</item>
+		<elementoFundamental>20 - 144 -</elementoFundamental>
+		<nombreEvidencia>Plan de vinculación con la sociedad e investigación de la carrera</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.4.24.2</codigo>
+		<item>188</item>
+		<elementoFundamental>24</elementoFundamental>
+		<nombreEvidencia>Plan de vinculación e Informe de impacto de los proyecto ejecutados</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.1.1.1</codigo>
+		<item>189</item>
+		<elementoFundamental>1 - 2 - 4 - 5 - 6 - 8 - 10 - 39 - 121 - 123</elementoFundamental>
+		<nombreEvidencia>Plan estratégico carrera (FODA-PESTEL-PROSPECTIVA)</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.1.1.3</codigo>
+		<item>190</item>
+		<elementoFundamental>1</elementoFundamental>
+		<nombreEvidencia>Plan Nacionnal del Buen Vivir.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.16.88.3</codigo>
+		<item>191</item>
+		<elementoFundamental>88</elementoFundamental>
+		<nombreEvidencia>Planes de capacitación docentes en base al informe de evaluación docente </nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 4.23.139.1</codigo>
+		<item>192</item>
+		<elementoFundamental>139 - 144</elementoFundamental>
+		<nombreEvidencia>Planificación PAE y PIS.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.1.5.1</codigo>
+		<item>193</item>
+		<elementoFundamental>5 - 8 - 11 - 47 - 49 - 158</elementoFundamental>
+		<nombreEvidencia>POA  Carrera y Facultad</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.7.37.1</codigo>
+		<item>194</item>
+		<elementoFundamental>37</elementoFundamental>
+		<nombreEvidencia>Políticas de SOFisión</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 5.26.153.3</codigo>
+		<item>195</item>
+		<elementoFundamental>153</elementoFundamental>
+		<nombreEvidencia>Políticas de bienestar universitario</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.14.82.1</codigo>
+		<item>196</item>
+		<elementoFundamental>82</elementoFundamental>
+		<nombreEvidencia>Políticas de gestión de los recursos para la investigación.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.14.73.3</codigo>
+		<item>197</item>
+		<elementoFundamental>73 - 74</elementoFundamental>
+		<nombreEvidencia>Políticas de investigación de la carrera</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.11.56.2</codigo>
+		<item>198</item>
+		<elementoFundamental>56 - 62</elementoFundamental>
+		<nombreEvidencia>Políticas de seguridad de la plataforma</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 4.25.151.7</codigo>
+		<item>199</item>
+		<elementoFundamental>151</elementoFundamental>
+		<nombreEvidencia>Portafolio estudiantil</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.16.86.3</codigo>
+		<item>200</item>
+		<elementoFundamental>86</elementoFundamental>
+		<nombreEvidencia>Programa de evaluación de desempeño docente</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.3.15.3</codigo>
+		<item>201</item>
+		<elementoFundamental>15</elementoFundamental>
+		<nombreEvidencia>Propuestas de estudiantes y docentes para garantizar el logro de los resultados de aprendizaje esperados</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 4.21.121.3</codigo>
+		<item>202</item>
+		<elementoFundamental>121</elementoFundamental>
+		<nombreEvidencia>Proyecto de ajuste de carrera</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.1.1.2</codigo>
+		<item>203</item>
+		<elementoFundamental>1 - 3 - 20 - 21 - 24 - 41 - 43 - 44 - 47 - 51 - 121 - 122 - 123 - 124 - 125 - 129 - 131 - 132 - 133 - 135 - 137 - 155 - 159</elementoFundamental>
+		<nombreEvidencia>Proyecto de carrera de Diseño y Rediseño</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.14.82.4</codigo>
+		<item>204</item>
+		<elementoFundamental>82</elementoFundamental>
+		<nombreEvidencia>Proyectos de Investigación.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.16.88.5</codigo>
+		<item>205</item>
+		<elementoFundamental>88</elementoFundamental>
+		<nombreEvidencia>Reformas al curriculo de la carrera</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 4.24.142.5</codigo>
+		<item>206</item>
+		<elementoFundamental>142 - 151</elementoFundamental>
+		<nombreEvidencia>Registro de socialización del plan y el cronograma.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.11.60.1</codigo>
+		<item>207</item>
+		<elementoFundamental>60 - 61 - 163</elementoFundamental>
+		<nombreEvidencia>Registro de utilización herramientas sincrónicas y asincrónicas EVEA  - Director de Sistemas</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.9.48.5</codigo>
+		<item>208</item>
+		<elementoFundamental>48</elementoFundamental>
+		<nombreEvidencia>Registros de las inducciones impartidas.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 5.26.153.1</codigo>
+		<item>209</item>
+		<elementoFundamental>153 - 155 - 157 - 158 - 160</elementoFundamental>
+		<nombreEvidencia>Reglamento de Becas o ayudas económicas.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.2.11.6</codigo>
+		<item>210</item>
+		<elementoFundamental>11 - 86 - 87 - 90</elementoFundamental>
+		<nombreEvidencia>Reglamento de carrera y escalafón del profesor investigador de la UEB (describir artículos)</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.16.86.2</codigo>
+		<item>211</item>
+		<elementoFundamental>86</elementoFundamental>
+		<nombreEvidencia>Reglamento de evaluación docente</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.3.13.1</codigo>
+		<item>212</item>
+		<elementoFundamental>13 - 135 - 146 - 147 - 148 - 149</elementoFundamental>
+		<nombreEvidencia>Reglamento de evaluación estudiantil.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 4.22.135.5</codigo>
+		<item>213</item>
+		<elementoFundamental>135</elementoFundamental>
+		<nombreEvidencia>Reglamento de regimen académico,</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.8.41.1</codigo>
+		<item>214</item>
+		<elementoFundamental>41 - 42 - 43 - 44 - 45 - 46 - 155</elementoFundamental>
+		<nombreEvidencia>Reglamento de titulación (políticas)</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.11.56.1</codigo>
+		<item>215</item>
+		<elementoFundamental>56 - 62 -</elementoFundamental>
+		<nombreEvidencia>Reglamento de uso y gestión de la plataforma.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 4.25.146.1</codigo>
+		<item>216</item>
+		<elementoFundamental>146</elementoFundamental>
+		<nombreEvidencia>Reporte contenido académico del silabo obtenido del sianet</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.5.26.1</codigo>
+		<item>217</item>
+		<elementoFundamental>26 - 90</elementoFundamental>
+		<nombreEvidencia>Resoluciones y directrices de Comisión académica sobre asignación de horas en distributivo,</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 5.30.172.1</codigo>
+		<item>218</item>
+		<elementoFundamental>172</elementoFundamental>
+		<nombreEvidencia>Resultado del cálculo de la tasa de retención</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 5.31.173.1</codigo>
+		<item>219</item>
+		<elementoFundamental>173</elementoFundamental>
+		<nombreEvidencia>Resultado del cálculo de la tasa de TITULACIÓN</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.8.45.8</codigo>
+		<item>220</item>
+		<elementoFundamental>45</elementoFundamental>
+		<nombreEvidencia>Rubricas de calificación de documentos de titulación</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 4.23.138.4</codigo>
+		<item>221</item>
+		<elementoFundamental>138</elementoFundamental>
+		<nombreEvidencia>Sianet</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 2.9.47.2</codigo>
+		<item>222</item>
+		<elementoFundamental>47 - 50 - 58 - 61 - 62 - 124 - 131 - 132 - 133 - 135 - 137 - 138 - 139 - 140 - 146 - 148</elementoFundamental>
+		<nombreEvidencia>Silabo</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 5.26.155.5</codigo>
+		<item>223</item>
+		<elementoFundamental>155</elementoFundamental>
+		<nombreEvidencia>Sistema de aseguramiento</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.14.73.1</codigo>
+		<item>224</item>
+		<elementoFundamental>73</elementoFundamental>
+		<nombreEvidencia>Sistema de investigación de la Universidad Estatal de Bolívar</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.16.92.1</codigo>
+		<item>225</item>
+		<elementoFundamental>92</elementoFundamental>
+		<nombreEvidencia>Socialización de resultados de la evaluación docente de la carrera.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.17.95.1</codigo>
+		<item>226</item>
+		<elementoFundamental>95</elementoFundamental>
+		<nombreEvidencia>ACP: actualización científica y pedagógicas.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.18.99.1</codigo>
+		<item>227</item>
+		<elementoFundamental>99</elementoFundamental>
+		<nombreEvidencia> β: Factor que corrige por concentración. Se refiere al porcentaje de profesores que es deseable que realicen actividades de investigación y obtengan resultados (es decir, es mayor a cero y a lo sumo, puede ser uno). Este valor, permite definir el estándar.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.18.100.1</codigo>
+		<item>228</item>
+		<elementoFundamental>100</elementoFundamental>
+		<nombreEvidencia>SJR¡: Índice SJR de la revista en la que ha sido publicado el artículo i-ésimo.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.18.101.1</codigo>
+		<item>229</item>
+		<elementoFundamental>101</elementoFundamental>
+		<nombreEvidencia>ɑ¡: Valor, entre 0 y 1, otorgado al impacto local, regional o nacional atribuido al artículo ¡-ésimo.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.18.102.1</codigo>
+		<item>230</item>
+		<elementoFundamental>102</elementoFundamental>
+		<nombreEvidencia>IPAIM:  Índice de producción académica con impacto mundial</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.19.106.1</codigo>
+		<item>231</item>
+		<elementoFundamental>106</elementoFundamental>
+		<nombreEvidencia>NAR: Número de artículos o trabajos científicos de los profesores de la carrera, publicados o aceptados en revistas que constan en bases de datos, cuyos criterios de indexación contemplen parámetros de calidad reconocidos regionalmente.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.19.107.1</codigo>
+		<item>232</item>
+		<elementoFundamental>107</elementoFundamental>
+		<nombreEvidencia>PR¡: Artículos o trabajos científicos del profesor i-ésimo de la carrera.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.19.109.1</codigo>
+		<item>233</item>
+		<elementoFundamental>109</elementoFundamental>
+		<nombreEvidencia>ɑ¡: Valor, entre 0 y 1, otorgado al impacto local, regional o nacional atribuido al artículo i-ésimo.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.19.110.1</codigo>
+		<item>234</item>
+		<elementoFundamental>110</elementoFundamental>
+		<nombreEvidencia>IPAIR: Índice de producción académica con impacto regional.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.18.99.1</codigo>
+		<item>235</item>
+		<elementoFundamental>112</elementoFundamental>
+		<nombreEvidencia>β: Factor que corrige por concentración. Se refiere al porcentaje de profesores que es deseable que realicen actividades de investigación y obtengan resultados (es decir, es mayor a cero y a lo sumo, puede ser uno). Este valor permite definir el estándar</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.20.115.1</codigo>
+		<item>236</item>
+		<elementoFundamental>115</elementoFundamental>
+		<nombreEvidencia>L¡: Libro i-ésimo publicado por profesores de la carrera.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.20.116.1</codigo>
+		<item>237</item>
+		<elementoFundamental>116</elementoFundamental>
+		<nombreEvidencia>ɑ¡: Valor entre 0 y 1, otorgado al impacto local, regional o nacional atribuido al libro i-ésimo o capítulo de libro i-ésimo.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.20.117.1</codigo>
+		<item>238</item>
+		<elementoFundamental>117</elementoFundamental>
+		<nombreEvidencia>CL: Número total de capítulos de libros publicados por profesores de la carrera.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.20.118.1</codigo>
+		<item>239</item>
+		<elementoFundamental>118</elementoFundamental>
+		<nombreEvidencia>CL¡: Capítulo de lihro i-ésimo publicado por profesores de la carrera.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 3.20.120.1</codigo>
+		<item>240</item>
+		<elementoFundamental>120</elementoFundamental>
+		<nombreEvidencia>LCL: Libros y/o capítulos de libros revisados por pares.</nombreEvidencia>
+	</EVIDENCIAS>
+	<EVIDENCIAS>
+		<codigo>1-AD-SOF 1.1.2.1</codigo>
+		<item>241</item>
+		<elementoFundamental>2</elementoFundamental>
+		<nombreEvidencia>Manual de procedimientos</nombreEvidencia>
+	</EVIDENCIAS>
+</DATOS>
