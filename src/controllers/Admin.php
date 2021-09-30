@@ -44,6 +44,12 @@ class Admin{
             echo json_encode(["result"=>0, "time"=>$_POST["time"], "fileName"=>$fileName, "error"=>"no se ha podido mover el archivo"]);
         }
     }
+
+    public function saveDataDataBase(){
+        if(isset($_POST['guardar'])){
+           header('location: /admin/permises/access');
+        }
+    }
     
     public function permiseActions(){
 

@@ -34,8 +34,9 @@
                     if (xhr.readyState === 4) {
                         if (xhr.status === 200) {
                             if (xhr.response) {
-                                uploadedFile(xhr.response, tamanio);
 
+                                    uploadedFile(xhr.response, tamanio);
+                                
                             }
                         } else {
                             console.error(xhr.statusText);
@@ -71,7 +72,6 @@
         dataJ=JSON.parse(dataJ);
 
         let el=document.querySelectorAll("[data-time='"+dataJ.time+dataJ.fileName+"']");
-        console.log(el);
         if (el.length==0) {
             return;
         }
@@ -83,5 +83,38 @@
             el.classList.add("error");
             console.error(dataJ.error);
         }
+        evenListener();
     }
 })();
+
+const inputSave = document.getElementById("guardar-data-click");
+const filesListControl = document.getElementById("filesList");
+inputSave.addEventListener("click",clickDefault);
+function evenListener(){
+    const listadeArchivos = Array.from(filesListControl.children);
+    console.log(listadeArchivos[0].textContent);
+    
+    if (listadeArchivos.length == 3 ){
+        if( listadeArchivos[0].textContent == "distributivoResultXML.json" &&
+        listadeArchivos[1].textContent == "Evidencia.json" &&
+        listadeArchivos[2].textContent == "ListaProfesores.json" ||
+        listadeArchivos[1].textContent == "distributivoResultXML.json" &&
+        listadeArchivos[2].textContent == "Evidencia.json" &&
+        listadeArchivos[0].textContent == "ListaProfesores.json" ||
+        listadeArchivos[2].textContent == "distributivoResultXML.json" &&
+        listadeArchivos[1].textContent == "Evidencia.json" &&
+        listadeArchivos[0].textContent == "ListaProfesores.json"
+        ){
+            inputSave.removeEventListener("click",clickDefault);
+            console.log("ahora si");
+        }
+    }
+            
+ }
+        
+
+function clickDefault(e){
+    e.preventDefault();
+    
+}
+//console.log(filesListControl.querySelectorAll("[data-time]"));

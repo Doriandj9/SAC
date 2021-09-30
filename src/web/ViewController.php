@@ -117,13 +117,21 @@ class ViewController implements \frame\WebRoutes{
                         'controller' => $adminController,
                         'action' => 'uploadInformation'
                     ],
-
-                    'login' => true
+                    'login' => true,
+                    'permission' => \entity\Teachers::ADMINSTRADOR
                     ],
                 'admin/permises/access' => [
                     'GET' => [
                         'controller' => $adminController,
                         'action' => 'permiseActions'
+                    ],
+                    'login' => true,
+                    'permission' => \entity\Teachers::ADMINSTRADOR
+                    ],
+                'admin/data/save' => [
+                    'POST' => [
+                        'controller' => $adminController,
+                        'action' => 'saveDataDataBase'
                     ],
                     'login' => true,
                     'permission' => \entity\Teachers::ADMINSTRADOR
