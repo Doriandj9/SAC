@@ -1,0 +1,3397 @@
+{
+    "distributivo": [  
+        {
+            "Numero": "1",
+            "nombresyApellidos": "ALARCON  QUINATOA GINA JACKELINE",
+            "dedicacion": "TC",
+            "cedula": "0201506672",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "INGENIERA COMERCIAL",
+            "tituloCuartoNivel": "MAGISTER EN GESTION DE MARKETING Y SERVICIO AL CLIENTE",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "INVESTIGACIÓN Y ANÁLISIS DE MERCADOS  ",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "3",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4",
+                "practicasyExperimientacion": "5"
+            }
+        },
+        {
+            "nombresyApellidos": "ALARCON  QUINATOA GINA JACKELINE",
+            "cedula": "0201506672",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "NEURO MARKETING",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "7",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3",
+                "practicasyExperimientacion": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "ALARCON  QUINATOA GINA JACKELINE",
+            "cedula": "0201506672",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "MERCADOTECNIA Y COMUNICACIÓN POLÍTICA",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "5",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2",
+                "practicasyExperimientacion": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "ALARCON  QUINATOA GINA JACKELINE",
+            "cedula": "0201506672",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "ALARCON  QUINATOA GINA JACKELINE",
+            "cedula": "0201506672",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "ALARCON  QUINATOA GINA JACKELINE",
+            "cedula": "0201506672",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "ALARCON  QUINATOA GINA JACKELINE",
+            "cedula": "0201506672",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "PREPARACIÓN Y ACTUALIZACIÓN DE CONTENIDOS DE CLASES, SEMINARIOS, TALLERES, ENTRE OTROS",
+            "horasSemanales": {
+                "otros": "5"
+            }
+        },
+        {
+            "nombresyApellidos": "ALARCON  QUINATOA GINA JACKELINE",
+            "cedula": "0201506672",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "PREPARACIÓN, ELABORACIÓN, APLICACIÓN Y  CALIFICACIÓN DE EXÁMENES, TRABAJOS Y PRÁCTICAS",
+            "horasSemanales": {
+                "otros": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "ALARCON  QUINATOA GINA JACKELINE",
+            "cedula": "0201506672",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "DIRECCIÓN Y TUTORÍA DE TRABAJOS PARA LA OBTENCIÓN DEL TÍTULO, CON EXCEPCIÓN DE TESIS DOCTORALES O DE MAESTRÍAS DE INVESTIGACIÓN",
+            "horasSemanales": {
+                "tutorias": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "ALARCON  QUINATOA GINA JACKELINE",
+            "cedula": "0201506672",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "DISEÑO DE PROYECTOS DE CARRERA Y PROGRAMAS DE ESTUDIO DE GRADO Y POSTGRADO",
+            "horasSemanales": {
+                "gestion": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "ALARCON  QUINATOA GINA JACKELINE",
+            "cedula": "0201506672",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "LA DIRECCIÓN Y GESTIÓN DE LOS PROCESOS DE DOCENCIA E INVESTIGACIÓN EN SUS DISTINTOS NIVELES DE ORGANIZACIÓN ACADÉMICA E INSTITUCIONAL (ASEGURAMIENTO DE LA CALIDAD)",
+            "horasSemanales": {
+                "gestion": "4"
+            },
+            "totalFAC": "38",
+            "totalUEB": "38"
+        },
+        {
+            "Numero": "2",
+            "nombresyApellidos": "ALBÁN GALLO MANUEL EDUARDO",
+            "dedicacion": "MT",
+            "cedula": "1712635265",
+            "categoria": "AUXILIAR ",
+            "tituloTercerNivel": "LICENCIADO EN COMUNICACIÓN SOCIAL",
+            "tituloCuartoNivel": "MASTER EN CIENCIAS POLÍTICAS ",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN ",
+            "asignaturayActividades": "TALLER DE TRABAJO DE TITULACIÓN",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "8",
+            "paralelo": "A",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "6"
+            }
+        },
+        {
+            "nombresyApellidos": "ALBÁN GALLO MANUEL EDUARDO",
+            "cedula": "1712635265",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN ",
+            "asignaturayActividades": "PERIODISMO DIGITAL",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "7",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "ALBÁN GALLO MANUEL EDUARDO",
+            "cedula": "1712635265",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN ",
+            "asignaturayActividades": "MEDIOS DIGITALES DE RADIO",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "4",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "ALBÁN GALLO MANUEL EDUARDO",
+            "cedula": "1712635265",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "ADMINISTRACIÓN DE MEDIOS ",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "4",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "ALBÁN GALLO MANUEL EDUARDO",
+            "cedula": "1712635265",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "ADMINISTRACIÓN DE MEDIOS ",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "4",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "ALBÁN GALLO MANUEL EDUARDO",
+            "cedula": "1712635265",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN ",
+            "asignaturayActividades": "PREPARACIÓN, ELABORACIÓN, APLICACIÓN Y  CALIFICACIÓN DE EXÁMENES, TRABAJOS Y PRÁCTICAS",
+            "horasSemanales": {
+                "otros": "1"
+            },
+            "totalFAC": "20",
+            "totalUEB": "20"
+        },
+        {
+            "Numero": "3",
+            "nombresyApellidos": "ALBAN TRUJILLO PAOLA ESTEFANIA ",
+            "dedicacion": "MT",
+            "cedula": "0201581196",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "INGENIERA EN MARKETING ",
+            "tituloCuartoNivel": "MAGISTER EN  PROYECTOS PRODUCTIVOS Y SOCIALES ",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "NEGOCIACIÓN AVANZADA",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "4",
+            "paralelo": "A",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "ALBAN TRUJILLO PAOLA ESTEFANIA ",
+            "cedula": "0201581196",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "EVALUACIÓN DE PROYECTOS",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "7",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "ALBAN TRUJILLO PAOLA ESTEFANIA ",
+            "cedula": "0201581196",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "INVESTIGACIÓN DE MARCA",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "7",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "ALBAN TRUJILLO PAOLA ESTEFANIA ",
+            "cedula": "0201581196",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "ATENCIÓN Y SERVICIO AL CLIENTE",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "8",
+            "paralelo": "A",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "ALBAN TRUJILLO PAOLA ESTEFANIA ",
+            "cedula": "0201581196",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "NEGOCIACIÓN   ",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "3",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "ALBAN TRUJILLO PAOLA ESTEFANIA ",
+            "cedula": "0201581196",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "GESTIÓN Y ADMINISTRACIÓN DE MiPymeS",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "8",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "ALBAN TRUJILLO PAOLA ESTEFANIA ",
+            "cedula": "0201581196",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "LA DIRECCIÓN Y GESTIÓN DE LOS PROCESOS DE DOCENCIA E INVESTIGACIÓN EN SUS DISTINTOS NIVELES DE ORGANIZACIÓN ACADÉMICA E INSTITUCIONAL (ASEGURAMIENTO DE LA CALIDAD)",
+            "horasSemanales": {
+                "gestion": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "ALBAN TRUJILLO PAOLA ESTEFANIA ",
+            "cedula": "0201581196",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "DIRECCIÓN Y TUTORÍA DE TRABAJOS PARA LA OBTENCIÓN DEL TÍTULO, CON EXCEPCIÓN DE TESIS DOCTORALES O DE MAESTRÍAS DE INVESTIGACIÓN",
+            "horasSemanales": {
+                "tutorias": "2"
+            },
+            "totalFAC": "20",
+            "totalUEB": "20"
+        },
+        {
+            "Numero": "4",
+            "nombresyApellidos": "ALVARADO PACHECO EDDY STALIN",
+            "dedicacion": "TC",
+            "cedula": "0703129981",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "INGENIERO INDUSTRIAL",
+            "tituloCuartoNivel": "MAGISTER EN GESTION INDUSTRIAL Y SISTEMAS PRODUCTIVOS",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "REINGENIERÍA DE PROCESOS",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "5",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4",
+                "practicasyExperimientacion": "1"
+            }
+        },
+        {
+            "nombresyApellidos": "ALVARADO PACHECO EDDY STALIN",
+            "cedula": "0703129981",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "GESTIÓN POR PROCESOS",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "4",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4",
+                "practicasyExperimientacion": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "ALVARADO PACHECO EDDY STALIN",
+            "cedula": "0703129981",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "SISTEMAS DE INFORMACIÓN GERENCIAL",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "7",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "ALVARADO PACHECO EDDY STALIN",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "SISTEMAS DE INFORMACIÓN GERENCIAL",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "7",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "ALVARADO PACHECO EDDY STALIN",
+            "cedula": "0703129981",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "GESTIÓN DE LA CALIDAD",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "6",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "ALVARADO PACHECO EDDY STALIN",
+            "cedula": "0703129981",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "GESTIÓN DE LA CALIDAD",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "6",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "ALVARADO PACHECO EDDY STALIN",
+            "cedula": "0703129981",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "PREPARACIÓN Y ACTUALIZACIÓN DE CONTENIDOS DE CLASES, SEMINARIOS, TALLERES, ENTRE OTROS",
+            "horasSemanales": {
+                "otros": "5"
+            }
+        },
+        {
+            "nombresyApellidos": "ALVARADO PACHECO EDDY STALIN",
+            "cedula": "0703129981",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "PREPARACIÓN, ELABORACIÓN, APLICACIÓN Y  CALIFICACIÓN DE EXÁMENES, TRABAJOS Y PRÁCTICAS",
+            "horasSemanales": {
+                "otros": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "ALVARADO PACHECO EDDY STALIN",
+            "cedula": "0703129981",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "DIRECCIÓN Y TUTORÍA DE TRABAJOS PARA LA OBTENCIÓN DEL TÍTULO, CON EXCEPCIÓN DE TESIS DOCTORALES O DE MAESTRÍAS DE INVESTIGACIÓN ",
+            "horasSemanales": {
+                "tutorias": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "ALVARADO PACHECO EDDY STALIN",
+            "cedula": "0703129981",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "OTRAS ACTIVIDADES DE GESTIÓN RELACIONADAS CON LOS PROCESOS ACADÉMICOS ORDINARIOS DE LA INSTITUCIÓN. (EJECUCION DE POA)",
+            "horasSemanales": {
+                "gestion": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "ALVARADO PACHECO EDDY STALIN",
+            "cedula": "0703129981",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN CENTRAL",
+            "asignaturayActividades": "LA DIRECCIÓN Y GESTIÓN DE LOS PROCESOS DE DOCENCIA E INVESTIGACIÓN EN SUS DISTINTOS NIVELES DE ORGANIZACIÓN ACADÉMICA E INSTITUCIONAL (PLANEAMIENTO)",
+            "horasSemanales": {
+                "gestion": "7"
+            },
+            "totalFAC": "40",
+            "totalUEB": "40"
+        },
+        {
+            "Numero": "5",
+            "nombresyApellidos": "ALVARADO RAMOS ERIKA NATALY",
+            "dedicacion": "TP",
+            "cedula": "0604114348",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "INGENIERA EN ECOTURISMO",
+            "tituloCuartoNivel": "MAGISTER EN GESTIÓN INTERNACIONAL DE TURISMO",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "METODOLOGIA DE LA INVESTIGACION CIENTIFICA",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "4",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "ALVARADO RAMOS ERIKA NATALY",
+            "cedula": "0604114348",
+            "categoria": {},
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "METODOLOGIA DE LA INVESTIGACION CIENTIFICA",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "4",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "ALVARADO RAMOS ERIKA NATALY",
+            "cedula": "0604114348",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "ALVARADO RAMOS ERIKA NATALY",
+            "cedula": "0604114348",
+            "categoria": {},
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "ALVARADO RAMOS ERIKA NATALY",
+            "cedula": "0604114348",
+            "categoria": {},
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "ALVARADO RAMOS ERIKA NATALY",
+            "cedula": "0604114348",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "ALVARADO RAMOS ERIKA NATALY",
+            "cedula": "0604114348",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "TURISMO",
+            "asignaturayActividades": "PREPARACIÓN, ELABORACIÓN, APLICACIÓN Y  CALIFICACIÓN DE EXÁMENES, TRABAJOS Y PRÁCTICAS",
+            "horasSemanales": {}
+        },
+        {
+            "Numero": "6",
+            "nombresyApellidos": "BARRAGÁN QUISHPE JAIME AUGUSTO",
+            "dedicacion": "MT",
+            "cedula": "0201011095",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "LICENCIADO EN CIENCIAS DE LA EDUCACIÓN, FÍSICA Y MATEMÁTICAS",
+            "tituloCuartoNivel": "MAGISTER EN DOCENCIA UNIVERSITARIA Y ADMINISTRACIÓN EDUCATIVA",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "BARRAGÁN QUISHPE JAIME AUGUSTO",
+            "cedula": "0201011095",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "BARRAGÁN QUISHPE JAIME AUGUSTO",
+            "cedula": "0201011095",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "BARRAGÁN QUISHPE JAIME AUGUSTO",
+            "cedula": "0201011095",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "BARRAGÁN QUISHPE JAIME AUGUSTO",
+            "cedula": "0201011095",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "FUNDAMENTOS DE MATEMÁTICAS ",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "1",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "BARRAGÁN QUISHPE JAIME AUGUSTO",
+            "cedula": "0201011095",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "PREPARACIÓN Y ACTUALIZACIÓN DE CONTENIDOS DE CLASES, SEMINARIOS, TALLERES, ENTRE OTROS",
+            "horasSemanales": {
+                "otros": "1"
+            }
+        },
+        {
+            "nombresyApellidos": "BARRAGÁN QUISHPE JAIME AUGUSTO",
+            "cedula": "0201011095",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "PREPARACIÓN, ELABORACIÓN, APLICACIÓN Y CALIFICACIÓN DE EXÁMENES, TRABAJOS Y PRÁCTICAS",
+            "horasSemanales": {
+                "otros": "1"
+            }
+        },
+        {
+            "nombresyApellidos": "BARRAGÁN QUISHPE JAIME AUGUSTO",
+            "cedula": "0201011095",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "ORIENTACIÓN Y ACOMPAÑAMIENTO A TRAVÉS DE TUTORÍAS PRESENCIALES, VIRTUALES, INDIVIDUALES O GRUPALES",
+            "horasSemanales": {
+                "tutorias": "2"
+            },
+            "totalFAC": "8",
+            "totalUEB": "8"
+        },
+        {
+            "Numero": "7",
+            "nombresyApellidos": "BARRAGAN QUIZPHE CHRISTIAN FERNANDO",
+            "dedicacion": "MT",
+            "cedula": "0201567203",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "INGENIERO EN SISTEMAS INFORMÁTICOS",
+            "tituloCuartoNivel": "MAGISTER EN SEGURIDAD TELEMÁTICA",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "BARRAGAN QUIZPHE CHRISTIAN FERNANDO",
+            "cedula": "0201567203",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "BARRAGAN QUIZPHE CHRISTIAN FERNANDO",
+            "cedula": "0201567203",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "BARRAGAN QUIZPHE CHRISTIAN FERNANDO",
+            "cedula": "0201567203",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "BARRAGAN QUIZPHE CHRISTIAN FERNANDO",
+            "cedula": "0201567203",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "BARRAGAN QUIZPHE CHRISTIAN FERNANDO",
+            "cedula": "0201567203",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "BARRAGAN QUIZPHE CHRISTIAN FERNANDO",
+            "cedula": "0201567203",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "BARRAGAN QUIZPHE CHRISTIAN FERNANDO",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "BARRAGAN QUIZPHE CHRISTIAN FERNANDO",
+            "cedula": "0201567203",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "BARRAGAN QUIZPHE CHRISTIAN FERNANDO",
+            "cedula": "0201567203",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "horasSemanales": {},
+            "totalFAC": "0",
+            "totalUEB": "0"
+        },
+        {
+            "Numero": "8",
+            "nombresyApellidos": "BARRETO BONILLA JESSICA ANDREA ",
+            "dedicacion": "MT",
+            "cedula": "0604062711",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "INGENIERA EN DISEÑO GRAFICO",
+            "tituloCuartoNivel": "MAGISTER EN GESTION DE MARKETING Y SERVICIO AL CLIENTE",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "FUNDAMENTOS DE DISEÑO GRÁFICO ",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "2",
+            "paralelo": "A",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "BARRETO BONILLA JESSICA ANDREA ",
+            "cedula": "0604062711",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "DISEÑO GRÁFICO",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "3",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "BARRETO BONILLA JESSICA ANDREA ",
+            "cedula": "0604062711",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "CREACIÓN Y EVALUACIÓN DE PRODUCTOS PUBLICITARIOS",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "7",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "BARRETO BONILLA JESSICA ANDREA ",
+            "cedula": "0604062711",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "COMUNICACIÓN ESTRATÉGICA EMPRESARIAL",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "9",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "BARRETO BONILLA JESSICA ANDREA ",
+            "cedula": "0604062711",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "CANALES DE DISTRIBUCIÓN Y EMPAQUES",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "8",
+            "paralelo": "A",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "BARRETO BONILLA JESSICA ANDREA ",
+            "cedula": "0604062711",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "PREPARACIÓN, ELABORACIÓN, APLICACIÓN Y  CALIFICACIÓN DE EXÁMENES, TRABAJOS Y PRÁCTICAS",
+            "horasSemanales": {
+                "otros": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "BARRETO BONILLA JESSICA ANDREA ",
+            "cedula": "0604062711",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "DIRECCIÓN Y TUTORÍA DE TRABAJOS PARA LA OBTENCIÓN DEL TÍTULO, CON EXCEPCIÓN DE TESIS DOCTORALES O DE MAESTRÍAS DE INVESTIGACIÓN",
+            "horasSemanales": {
+                "tutorias": "2"
+            },
+            "totalFAC": "20",
+            "totalUEB": "20"
+        },
+        {
+            "Numero": "9",
+            "nombresyApellidos": "BORJA BORJA CARMITA GALUTH",
+            "dedicacion": "TC",
+            "cedula": "0201541877",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "ECONOMISTA",
+            "tituloCuartoNivel": "MAGISTER EN GESTION DE PROYECTOS SOCIO PRODUCTIVOS",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "ADMINISTRACIÓN FINANCIERA",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "5",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "BORJA BORJA CARMITA GALUTH",
+            "cedula": "0201541877",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "ADMINISTRACIÓN FINANCIERA",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "5",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "BORJA BORJA CARMITA GALUTH",
+            "cedula": "0201541877",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "EMPRENDIMEINTO",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "7",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4",
+                "practicasyExperimientacion": "1"
+            }
+        },
+        {
+            "nombresyApellidos": "BORJA BORJA CARMITA GALUTH",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "MICROECONOMÍA",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "2",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "BORJA BORJA CARMITA GALUTH",
+            "cedula": "0201541877",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "MACROECONOMÍA",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "3",
+            "paralelo": "A",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "BORJA BORJA CARMITA GALUTH",
+            "cedula": "0201541877",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "PREPARACIÓN Y ACTUALIZACIÓN DE CONTENIDOS DE CLASES, SEMINARIOS, TALLERES, ENTRE OTROS",
+            "horasSemanales": {
+                "otros": "1"
+            }
+        },
+        {
+            "nombresyApellidos": "BORJA BORJA CARMITA GALUTH",
+            "cedula": "0201541877",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "PREPARACIÓN, ELABORACIÓN, APLICACIÓN Y  CALIFICACIÓN DE EXÁMENES, TRABAJOS Y PRÁCTICAS",
+            "horasSemanales": {
+                "otros": "1"
+            }
+        },
+        {
+            "nombresyApellidos": "BORJA BORJA CARMITA GALUTH",
+            "cedula": "0201541877",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "DIRECCIÓN Y TUTORÍA DE TRABAJOS PARA LA OBTENCIÓN DEL TÍTULO, CON EXCEPCIÓN DE TESIS DOCTORALES O DE MAESTRÍAS DE INVESTIGACIÓN",
+            "horasSemanales": {
+                "tutorias": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "BORJA BORJA CARMITA GALUTH",
+            "cedula": "0201541877",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "EL DESEMPEÑO DE CARGOS TALES COMO: DIRECTOR O COORDINADOR DE CARRERAS DE EDUCACIÓN SUPERIOR, POSTGRADOS, CENTROS O PROGRAMAS DE INVESTIGACIÓN, VINCULACIÓN CON LA COLECTIVIDAD, DEPARTAMENTOS ACADÉMICOS, EDITOR ACADÉMICO, O DIRECTOR EDITORIAL DE UNA PUBLICACIÓN",
+            "horasSemanales": {
+                "gestion": "24"
+            },
+            "totalFAC": "42",
+            "totalUEB": "42"
+        },
+        {
+            "Numero": "10",
+            "nombresyApellidos": "CABEZAS RAMOS JORGE RENATO ",
+            "dedicacion": "TC",
+            "cedula": "0603036294",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "LICENCIADO EN DISEÑO GRÁFICO",
+            "tituloCuartoNivel": "MAESTRÍA EN INFORMÁTICA EDUCATIVA",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "DISEÑO Y COMUNICACIÓN VISUAL",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "4",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "CABEZAS RAMOS JORGE RENATO ",
+            "cedula": "0603036294",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "DISEÑO Y COMUNICACIÓN VISUAL",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "4",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "CABEZAS RAMOS JORGE RENATO ",
+            "cedula": "0603036294",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "ANIMACIÓN DIGITAL",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "6",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "CABEZAS RAMOS JORGE RENATO ",
+            "cedula": "0603036294",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "ANIMACIÓN DIGITAL",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "6",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "CABEZAS RAMOS JORGE RENATO ",
+            "cedula": "0603036294",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN ",
+            "asignaturayActividades": "MEDIOS DIGITALES DE TELEVISIÓN",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "5",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "CABEZAS RAMOS JORGE RENATO ",
+            "cedula": "0603036294",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN ",
+            "asignaturayActividades": "MEDIOS DIGITALES DE TELEVISIÓN",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "5",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "CABEZAS RAMOS JORGE RENATO ",
+            "cedula": "0603036294",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN ",
+            "asignaturayActividades": "PREPARACIÓN Y ACTUALIZACIÓN DE CONTENIDOS DE CLASES, SEMINARIOS, TALLERES, ENTRE OTROS",
+            "horasSemanales": {
+                "otros": "5"
+            }
+        },
+        {
+            "nombresyApellidos": "CABEZAS RAMOS JORGE RENATO ",
+            "cedula": "0603036294",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN ",
+            "asignaturayActividades": "PREPARACIÓN, ELABORACIÓN, APLICACIÓN Y CALIFICACIÓN DE EXÁMENES, TRABAJOS Y PRÁCTICAS",
+            "horasSemanales": {
+                "otros": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "CABEZAS RAMOS JORGE RENATO ",
+            "cedula": "0603036294",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN ",
+            "asignaturayActividades": "DIRECCIÓN Y TUTORÍA DE TRABAJOS PARA LA OBTENCIÓN DEL TÍTULO, CON EXCEPCIÓN DE TESIS DOCTORALES O DE MAESTRÍAS DE INVESTIGACIÓN",
+            "horasSemanales": {
+                "tutorias": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "CABEZAS RAMOS JORGE RENATO ",
+            "cedula": "0603036294",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN CENTRAL",
+            "asignaturayActividades": "LA DIRECCIÓN Y GESTIÓN DE LOS PROCESOS DE DOCENCIA E INVESTIGACIÓN EN SUS DISTINTOS NIVELES DE ORGANIZACIÓN ACADÉMICA E INSTITUCIONAL (DEP. TICS)",
+            "horasSemanales": {
+                "investigacion": "10"
+            },
+            "totalFAC": "40",
+            "totalUEB": "40"
+        },
+        {
+            "Numero": "11",
+            "nombresyApellidos": "CABRERA REYES RAMÓN EDUARDO",
+            "dedicacion": "MT",
+            "cedula": "0960201572",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "LICENCIADO EN EDUCACION ESP. MATEMATICA",
+            "tituloCuartoNivel": "MAESTRIA EN NUEVAS TECNOLOGIAS DE LA EDUCACION",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "ESTADÍSTICA DESCRIPTIVA  ",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "2",
+            "paralelo": "A",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "CABRERA REYES RAMÓN EDUARDO",
+            "cedula": "0960201572",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "ESTADÍSTICA INFERENCIAL",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "3",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "CABRERA REYES RAMÓN EDUARDO",
+            "cedula": "0960201572",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "TURISMO ",
+            "asignaturayActividades": "MATEMÁTICA FINANCIERA",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "1",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "CABRERA REYES RAMÓN EDUARDO",
+            "cedula": "0960201572",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "CABRERA REYES RAMÓN EDUARDO",
+            "cedula": "0960201572",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "CABRERA REYES RAMÓN EDUARDO",
+            "cedula": "0960201572",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "PREPARACIÓN, ELABORACIÓN, APLICACIÓN Y CALIFICACIÓN DE EXÁMENES, TRABAJOS Y PRÁCTICAS",
+            "horasSemanales": {
+                "otros": "2"
+            },
+            "totalFAC": "20",
+            "totalUEB": "20"
+        },
+        {
+            "Numero": "13",
+            "nombresyApellidos": "CARRASCO LARA GABRIELA PAOLA",
+            "dedicacion": "MT",
+            "cedula": "0201577756",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "ABOGADA DE LOS TRIBUNALES Y JUZGADOS DE LA REPUBLICA",
+            "tituloCuartoNivel": "MASTER UNIVERSITARIO EN GESTION Y ADMINISTRACION PUBLICA",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA ",
+            "asignaturayActividades": "LEGISLACIÓN I",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "2",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "CARRASCO LARA GABRIELA PAOLA",
+            "cedula": "0201577756",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA ",
+            "asignaturayActividades": "LEGISLACIÓN I",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "2",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "CARRASCO LARA GABRIELA PAOLA",
+            "cedula": "0201577756",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA ",
+            "asignaturayActividades": "LEGISLACIÓN II",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "3",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "CARRASCO LARA GABRIELA PAOLA",
+            "cedula": "0201577756",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA",
+            "asignaturayActividades": "LEGISLACIÓN II",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "3",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "CARRASCO LARA GABRIELA PAOLA",
+            "cedula": "0201577756",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "DERECHO MERCANTIL Y LABORAL",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "1",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "CARRASCO LARA GABRIELA PAOLA",
+            "cedula": "0201577756",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "DERECHO MERCANTIL Y LABORAL",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "1",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "DERECHO MERCANTIL Y SOCIETARIO",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "3",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "CARRASCO LARA GABRIELA PAOLA",
+            "cedula": "0201577756",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "PREPARACIÓN Y ACTUALIZACIÓN DE CLASES",
+            "horasSemanales": {
+                "otros": "1"
+            }
+        },
+        {
+            "nombresyApellidos": "CARRASCO LARA GABRIELA PAOLA",
+            "cedula": "0201577756",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "PREPARACIÓN, ELABORACIÓN, APLICACIÓN Y CALIFICACIÓN DE EXÁMENES, TRABAJOS Y PRÁCTICAS",
+            "horasSemanales": {
+                "otros": "1"
+            }
+        },
+        {
+            "nombresyApellidos": "CARRASCO LARA GABRIELA PAOLA",
+            "cedula": "0201577756",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA",
+            "asignaturayActividades": "LA DIRECCIÓN Y GESTIÓN DE LOS PROCESOS DE DOCENCIA E INVESTIGACIÓN EN SUS DISTINTOS NIVELES DE ORGANIZACIÓN ACADÉMICA E INSTITUCIONAL - ( ASEGURAMIENTO DE LA CALIDAD )",
+            "horasSemanales": {
+                "gestion": "2"
+            },
+            "totalFAC": "20",
+            "totalUEB": "20"
+        },
+        {
+            "Numero": "14",
+            "nombresyApellidos": "CASTILLO SANTACRUZ RAFAEL DUBERLY",
+            "dedicacion": "TP",
+            "cedula": "0201616018",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "LICENCIADO EN COMUNICACION SOCIAL",
+            "tituloCuartoNivel": "MAGISTER EN COMUNICACION ORGANIZACIONAL",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "CEREMONIAL Y PROTOCOLO",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "8",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "CASTILLO SANTACRUZ RAFAEL DUBERLY",
+            "cedula": "0201616018",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "PENSAMIENTO FILOSÓFICO",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "1",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "CASTILLO SANTACRUZ RAFAEL DUBERLY",
+            "cedula": "0201616018",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "PENSAMIENTO FILOSÓFICO",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "1",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "CASTILLO SANTACRUZ RAFAEL DUBERLY",
+            "cedula": "0201616018",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "REALIDAD SOCIOECONÓMICA DEL ECUADOR",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "2",
+            "paralelo": "A",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "CASTILLO SANTACRUZ RAFAEL DUBERLY",
+            "cedula": "0201616018",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "REALIDAD SOCIOECONÓMICA DEL ECUADOR",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "2",
+            "paralelo": "B",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "CASTILLO SANTACRUZ RAFAEL DUBERLY",
+            "cedula": "0201616018",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "PREPARACIÓN, ELABORACIÓN, APLICACIÓN Y  CALIFICACIÓN DE EXÁMENES, TRABAJOS Y PRÁCTICAS",
+            "horasSemanales": {
+                "otros": "1"
+            }
+        },
+        {
+            "nombresyApellidos": "CASTILLO SANTACRUZ RAFAEL DUBERLY",
+            "cedula": "0201616018",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "DIRECCIÓN Y TUTORÍA DE TRABAJOS PARA LA OBTENCIÓN DEL TÍTULO, CON EXCEPCIÓN DE TESIS DOCTORALES O DE MAESTRÍAS DE INVESTIGACIÓN ",
+            "horasSemanales": {
+                "tutorias": "2"
+            },
+            "totalFAC": "17",
+            "totalUEB": "17"
+        },
+        {
+            "Numero": "15",
+            "nombresyApellidos": "CHAVEZ CHIMBO GALO WENSESLAO",
+            "dedicacion": "MT",
+            "cedula": "0201315934",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "LICENCIADO EN ADMINISTRACIÓN FINANCIERA",
+            "tituloCuartoNivel": "MAGISTER EN ADMINISTRACION DE EMPRESAS",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "CHAVEZ CHIMBO GALO WENSESLAO",
+            "cedula": "0201315934",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "CHAVEZ CHIMBO GALO WENSESLAO",
+            "cedula": "0201315934",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "CHAVEZ CHIMBO GALO WENSESLAO",
+            "cedula": "0201315934",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "CHAVEZ CHIMBO GALO WENSESLAO",
+            "cedula": "0201315934",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "PREPARACIÓN Y ACTUALIZACIÓN DE CONTENIDOS DE CLASES, SEMINARIOS, TALLERES, ENTRE OTROS",
+            "horasSemanales": {
+                "otros": "1"
+            }
+        },
+        {
+            "nombresyApellidos": "CHAVEZ CHIMBO GALO WENSESLAO",
+            "cedula": "0201315934",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "PREPARACIÓN, ELABORACIÓN, APLICACIÓN Y CALIFICACIÓN DE EXÁMENES, TRABAJOS Y PRÁCTICAS",
+            "horasSemanales": {
+                "otros": "1"
+            }
+        },
+        {
+            "nombresyApellidos": "CHAVEZ CHIMBO GALO WENSESLAO",
+            "cedula": "0201315934",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "OTRAS ACTIVIDADES DE GESTIÓN RELACIONADAS CON LOS PROCESOS ACADÉMICOS ORDINARIOS DE LA INSTITUCIÓN (SEGUIMIENTO A GRADUADOS )",
+            "horasSemanales": {
+                "gestion": "2"
+            },
+            "totalFAC": "4",
+            "totalUEB": "4"
+        },
+        {
+            "Numero": "16",
+            "nombresyApellidos": "CHAVEZ GARCIA ELSITA MARGOTH",
+            "dedicacion": "TC",
+            "cedula": "0201722238",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "INGENIERA COMERCIAL MENCION NEGOCIOS INTERNACIONALES",
+            "tituloCuartoNivel": "MAGISTER EN GESTION DE MARKETING Y SERVICIO AL CLIENTE",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA",
+            "asignaturayActividades": "INVESTIGACIÓN  OPERATIVA",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "5",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "CHAVEZ GARCIA ELSITA MARGOTH",
+            "cedula": "0201722238",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA",
+            "asignaturayActividades": "INVESTIGACIÓN  OPERATIVA",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "5",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "CHAVEZ GARCIA ELSITA MARGOTH",
+            "cedula": "0201722238",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA",
+            "asignaturayActividades": "COMERCIO EXTERIOR",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "8",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "CHAVEZ GARCIA ELSITA MARGOTH",
+            "cedula": "0201722238",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA",
+            "asignaturayActividades": "COMERCIO EXTERIOR",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "8",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "CHAVEZ GARCIA ELSITA MARGOTH",
+            "cedula": "0201722238",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA",
+            "asignaturayActividades": "MARKETING PARA CONTADORES",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "5",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "CHAVEZ GARCIA ELSITA MARGOTH",
+            "cedula": "0201722238",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA",
+            "asignaturayActividades": "MARKETING PARA CONTADORES",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "5",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "CHAVEZ GARCIA ELSITA MARGOTH",
+            "cedula": "0201722238",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA",
+            "asignaturayActividades": "DISEÑO Y ELABORACIÓN DE TRABAJO DE TITULACIÓN",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "7",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "CHAVEZ GARCIA ELSITA MARGOTH",
+            "cedula": "0201722238",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA",
+            "asignaturayActividades": "DISEÑO Y ELABORACIÓN DE TRABAJO DE TITULACIÓN",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "7",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "CHAVEZ GARCIA ELSITA MARGOTH",
+            "cedula": "0201722238",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "NEGOCIOS INTERNACIONALES",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "8",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "CHAVEZ GARCIA ELSITA MARGOTH",
+            "cedula": "0201722238",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "CHAVEZ GARCIA ELSITA MARGOTH",
+            "cedula": "0201722238",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "PROMOCIÓN PUBLICIDAD Y PROPAGANDA",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "3",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "CHAVEZ GARCIA ELSITA MARGOTH",
+            "cedula": "0201722238",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA ",
+            "asignaturayActividades": "PREPARACIÓN Y ACTUALIZACIÓN DE CONTENIDOS DE CLASES, SEMINARIOS, TALLERES, ENTRE OTROS",
+            "horasSemanales": {
+                "otros": "5"
+            }
+        },
+        {
+            "nombresyApellidos": "CHAVEZ GARCIA ELSITA MARGOTH",
+            "cedula": "0201722238",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA ",
+            "asignaturayActividades": "PREPARACIÓN, ELABORACIÓN, APLICACIÓN Y  CALIFICACIÓN DE EXÁMENES, TRABAJOS Y PRÁCTICAS",
+            "horasSemanales": {
+                "otros": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "CHAVEZ GARCIA ELSITA MARGOTH",
+            "cedula": "0201722238",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA ",
+            "asignaturayActividades": "DIRECCIÓN Y TUTORÍA DE TRABAJOS PARA LA OBTENCIÓN DEL TÍTULO, CON EXCEPCIÓN DE TESIS DOCTORALES O DE MAESTRÍAS DE INVESTIGACIÓN ",
+            "horasSemanales": {
+                "tutorias": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "CHAVEZ GARCIA ELSITA MARGOTH",
+            "cedula": "0201722238",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA ",
+            "asignaturayActividades": "LA DIRECCIÓN Y GESTIÓN DE LOS PROCESOS DE DOCENCIA E INVESTIGACIÓN EN SUS DISTINTOS NIVELES DE ORGANIZACIÓN ACADÉMICA E INSTITUCIONAL (ASEGURAMIENTO DE LA CALIDAD)",
+            "horasSemanales": {
+                "investigacion": "7"
+            },
+            "totalFAC": "40",
+            "totalUEB": "40"
+        },
+        {
+            "Numero": "17",
+            "horasSemanales": {}
+        },
+        {
+            "horasSemanales": {}
+        },
+        {
+            "horasSemanales": {}
+        },
+        {
+            "horasSemanales": {}
+        },
+        {
+            "horasSemanales": {}
+        },
+        {
+            "horasSemanales": {
+                "gestion": "2"
+            },
+            "totalFAC": "2",
+            "totalUEB": "20"
+        },
+        {
+            "Numero": "18",
+            "nombresyApellidos": "GARCIA CAMACHO GALUTH IRENE",
+            "dedicacion": "TC",
+            "cedula": "0201618253",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "INGENIERO EN SISTEMAS INFORMÁTICOS",
+            "tituloCuartoNivel": "MAGISTER EN INFORMÁTICA EDUCATIVA",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "SOFTWARE",
+            "asignaturayActividades": "MANTENIMIENTO Y CONFIGURACIÓN DEL SOFTWARE",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "6",
+            "paralelo": "A",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3",
+                "practicasyExperimientacion": "1"
+            }
+        },
+        {
+            "nombresyApellidos": "GARCIA CAMACHO GALUTH IRENE",
+            "cedula": "0201618253",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "SOFTWARE",
+            "asignaturayActividades": "SEGURIDAD DEL SOFTWARE",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "7",
+            "paralelo": "A",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3",
+                "practicasyExperimientacion": "1"
+            }
+        },
+        {
+            "nombresyApellidos": "GARCIA CAMACHO GALUTH IRENE",
+            "cedula": "0201618253",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "SOFTWARE",
+            "asignaturayActividades": "INTERACCIÓN HOMBRE MÁQUINA",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "6",
+            "paralelo": "A",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2",
+                "practicasyExperimientacion": "1"
+            }
+        },
+        {
+            "nombresyApellidos": "GARCIA CAMACHO GALUTH IRENE",
+            "cedula": "0201618253",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "SOFTWARE",
+            "asignaturayActividades": "SISTEMAS DE INFORMACIÓN",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "3",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2",
+                "practicasyExperimientacion": "1"
+            }
+        },
+        {
+            "nombresyApellidos": "GARCIA CAMACHO GALUTH IRENE",
+            "cedula": "0201618253",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "SOFTWARE",
+            "asignaturayActividades": "PREPARACIÓN Y ACTUALIZACIÓN DE CLASES, SEMINARIOS, TALLERES, ENTRE OTROS",
+            "horasSemanales": {
+                "otros": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "GARCIA CAMACHO GALUTH IRENE",
+            "cedula": "0201618253",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "SOFTWARE",
+            "asignaturayActividades": "PREPRACIÓN, ELABORACIÓN, APLICACIÓN Y CALIFICACIÓN DE EXÁMENES, TRABAJOS Y PRÁCTICAS",
+            "horasSemanales": {
+                "otros": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "GARCIA CAMACHO GALUTH IRENE",
+            "cedula": "0201618253",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "SISTEMAS",
+            "asignaturayActividades": "EL DESEMPEÑO DE CARGOS TALES COMO: DIRECTOR O COORDINADOR DE CARRERAS DE EDUCACIÓN SUPERIOR, POSTGRADOS, CENTROS O PROGRAMAS DE INVESTIGACIÓN, VINCULACIÓN CON LA COLECTIVIDAD, DEPARTAMENTOS ACADÉMICOS, EDITOR ACADÉMICO, O DIRECTOR EDITORIAL DE UNA PUBLICACIÓN",
+            "horasSemanales": {
+                "gestion": "20"
+            },
+            "totalFAC": "40",
+            "totalUEB": "40"
+        },
+        {
+            "Numero": "19",
+            "nombresyApellidos": "GARCIA GARCIA VERÓNICA TATIANA",
+            "dedicacion": "MT",
+            "cedula": "0201932183",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "INGENIERA EN CONTABILIDAD Y AUDITORIA",
+            "tituloCuartoNivel": "MAESTRIA EN GESTIÓN DE MARKETING Y SERVICIO AL CLIENTE",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "GARCIA GARCIA VERÓNICA TATIANA",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "GARCIA GARCIA VERÓNICA TATIANA",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "GARCIA GARCIA VERÓNICA TATIANA",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "GARCIA GARCIA VERÓNICA TATIANA",
+            "cedula": "0201932183",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "GARCIA GARCIA VERÓNICA TATIANA",
+            "cedula": "0201932183",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "GARCIA GARCIA VERÓNICA TATIANA",
+            "cedula": "0201932183",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {},
+            "totalFAC": "0",
+            "totalUEB": "0"
+        },
+        {
+            "Numero": "20",
+            "nombresyApellidos": "GARCIA LEÓN JHOHANA GUADALUPE ",
+            "dedicacion": "TP",
+            "cedula": "0201780798",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "LICENCIADA EN ADMINISTRACION DE EMPRESAS DE TURISMO Y HOTELERIA",
+            "tituloCuartoNivel": "MAGISTER EN PLANIFICACION Y GESTION DE PROYECTOS AGROTURISTICOS Y ECOLOGICOS",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "GARCIA LEÓN JHOHANA GUADALUPE ",
+            "cedula": "0201780798",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "GARCIA LEÓN JHOHANA GUADALUPE ",
+            "cedula": "0201780798",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "GARCIA LEÓN JHOHANA GUADALUPE ",
+            "cedula": "0201780798",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "GARCIA LEÓN JHOHANA GUADALUPE ",
+            "cedula": "0201780798",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "GARCIA LEÓN JHOHANA GUADALUPE ",
+            "cedula": "0201780798",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "GARCIA LEÓN JHOHANA GUADALUPE ",
+            "cedula": "0201780798",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "GARCIA LEÓN JHOHANA GUADALUPE ",
+            "cedula": "0201780798",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "GARCIA LEÓN JHOHANA GUADALUPE ",
+            "cedula": "0201780798",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {},
+            "totalFAC": "0",
+            "totalUEB": "0"
+        },
+        {
+            "Numero": "21",
+            "nombresyApellidos": "GAVILANEZ CARDENAS CLARITA VANESSA",
+            "dedicacion": "TC",
+            "cedula": "0201861986",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "PSICOLOGA INDUSTRIAL ",
+            "tituloCuartoNivel": "MAGISTER EN GESTION DEL TALENTO HUMANO",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA ",
+            "asignaturayActividades": "GESTIÓN DEL TALENTO HUMANO",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "4",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "GAVILANEZ CARDENAS CLARITA VANESSA",
+            "cedula": "0201861986",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "GESTIÓN DE TALENTO HUMANO",
+            "asignaturayActividades": "ESCUELAS Y ENFOQUES TEÓRICOS DE LA PSICOLOGÍA APLICADOS AL TALENTO HUMANO",
+            "matrizExtencion": "SAN MIGUEL",
+            "ciclo": "2",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "GAVILANEZ CARDENAS CLARITA VANESSA",
+            "cedula": "0201861986",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "GESTIÓN DE TALENTO HUMANO",
+            "asignaturayActividades": "ESCUELAS Y ENFOQUES TEÓRICOS DE LA PSICOLOGÍA APLICADOS AL TALENTO HUMANO",
+            "matrizExtencion": "SAN MIGUEL",
+            "ciclo": "2",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "GAVILANEZ CARDENAS CLARITA VANESSA",
+            "cedula": "0201861986",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "GAVILANEZ CARDENAS CLARITA VANESSA",
+            "cedula": "0201861986",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "GAVILANEZ CARDENAS CLARITA VANESSA",
+            "cedula": "0201861986",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "GAVILANEZ CARDENAS CLARITA VANESSA",
+            "cedula": "0201861986",
+            "facultad": "ADMINISTRATIVAS",
+            "asignaturayActividades": "PREPARACIÓN Y ACTUALIZACIÓN DE CLASES, SEMINARIOS, TALLERES, ENTRE OTROS",
+            "horasSemanales": {
+                "otros": "5"
+            }
+        },
+        {
+            "nombresyApellidos": "GAVILANEZ CARDENAS CLARITA VANESSA",
+            "cedula": "0201861986",
+            "facultad": "ADMINISTRATIVAS",
+            "asignaturayActividades": "PREPRACIÓN, ELABORACIÓN, APLICACIÓN Y CALIFICACIÓN DE EXÁMENES, TRABAJOS Y PRÁCTICAS",
+            "horasSemanales": {
+                "otros": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "GAVILANEZ CARDENAS CLARITA VANESSA",
+            "cedula": "0201861986",
+            "facultad": "ADMINISTRATIVAS",
+            "asignaturayActividades": "DIRECCIÓN Y TUTORÍA DE TRABAJOS PARA LA OBTENCIÓN DEL TÍTULO, CON EXCEPCIÓN DE TESIS DOCTORALES O DE MAESTRÍAS DE INVESTIGACIÓN ",
+            "horasSemanales": {
+                "tutorias": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "GAVILANEZ CARDENAS CLARITA VANESSA",
+            "cedula": "0201861986",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN CENTRAL ",
+            "asignaturayActividades": "LA DIRECCIÓN Y GESTIÓN DE LOS PROCESOS DE DOCENCIA E INVESTIGACIÓN EN SUS DISTINTOS NIVELES DE ORGANIZACIÓN ACADÉMICA E INSTITUCIONAL (PLANEAMIENTO)",
+            "horasSemanales": {
+                "gestion": "10"
+            },
+            "totalFAC": "28",
+            "totalUEB": "40"
+        },
+        {
+            "Numero": "23",
+            "nombresyApellidos": "IZA LOPEZ KARINA JOHANA",
+            "dedicacion": "MT",
+            "cedula": "0201772092",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "INGENIERA DE EMPRESAS",
+            "tituloCuartoNivel": "MAGISTER EN AUDITORIA INTEGRAL",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA",
+            "asignaturayActividades": "MERCADO DE VALORES Y DE CAPITAL",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "8",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "IZA LOPEZ KARINA JOHANA",
+            "cedula": "0201772092",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA ",
+            "asignaturayActividades": "MERCADO DE VALORES Y DE CAPITAL",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "8",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "IZA LOPEZ KARINA JOHANA",
+            "cedula": "0201772092",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA ",
+            "asignaturayActividades": "BALANCE SOCIAL",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "8",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "IZA LOPEZ KARINA JOHANA",
+            "cedula": "0201772092",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA ",
+            "asignaturayActividades": "BALANCE SOCIAL",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "8",
+            "paralelo": "A",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "IZA LOPEZ KARINA JOHANA",
+            "cedula": "0201772092",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA ",
+            "asignaturayActividades": "CONTABILIDAD DE IFIS\/EPS",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "4",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2",
+                "practicasyExperimientacion": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "IZA LOPEZ KARINA JOHANA",
+            "cedula": "0201772092",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA",
+            "asignaturayActividades": "PREPARACIÓN Y ACTUALIZACIÓN DE CONTENIDOS DE CLASES, SEMINARIOS, TALLERES, ENTRE OTROS",
+            "horasSemanales": {
+                "gestion": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "IZA LOPEZ KARINA JOHANA",
+            "cedula": "0201772092",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA",
+            "asignaturayActividades": "LA DIRECCIÓN Y GESTIÓN DE LOS PROCESOS DE DOCENCIA E INVESTIGACIÓN EN SUS DISTINTOS NIVELES DE ORGANIZACIÓN ACADÉMICA E INSTITUCIONAL - ( ASEGURAMIENTO DE LA CALIDAD )",
+            "horasSemanales": {
+                "gestion": "2"
+            },
+            "totalFAC": "20",
+            "totalUEB": "20"
+        },
+        {
+            "Numero": "24",
+            "nombresyApellidos": "LEÓN MONAR PATRICIA DE LOURDES ",
+            "dedicacion": "TC",
+            "cedula": "0201697299",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "INGENIERA EN MARKETING",
+            "tituloCuartoNivel": "MAGISTER EN GESTION DE MARKETING Y SERVICIO AL CLIENTE",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "SEGMENTACIÓN Y SELECCIÓN DE MERCADOS",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "5",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "LEÓN MONAR PATRICIA DE LOURDES ",
+            "cedula": "0201697299",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "DIRECCIÓN ESTRATÉGICA DE VENTAS",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "6",
+            "paralelo": "A",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "LEÓN MONAR PATRICIA DE LOURDES ",
+            "cedula": "0201697299",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "EMPRENDIMIENTO",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "9",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "LEÓN MONAR PATRICIA DE LOURDES ",
+            "cedula": "0201697299",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "PREPARACIÓN Y ACTUALIZACIÓN DE CLASES, SEMINARIOS, TALLERES, ENTRE OTROS",
+            "horasSemanales": {
+                "otros": "1"
+            }
+        },
+        {
+            "nombresyApellidos": "LEÓN MONAR PATRICIA DE LOURDES ",
+            "cedula": "0201697299",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "PREPRACIÓN, ELABORACIÓN, APLICACIÓN Y CALIFICACIÓN DE EXÁMENES, TRABAJOS Y PRÁCTICAS",
+            "horasSemanales": {
+                "otros": "1"
+            }
+        },
+        {
+            "nombresyApellidos": "LEÓN MONAR PATRICIA DE LOURDES ",
+            "cedula": "0201697299",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "DIRECCIÓN Y TUTORÍA DE TRABAJOS PARA LA OBTENCIÓN DEL TÍTULO, CON EXCEPCIÓN DE TESIS DOCTORALES O DE MAESTRÍAS DE INVESTIGACIÓN ",
+            "horasSemanales": {
+                "tutorias": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "LEÓN MONAR PATRICIA DE LOURDES ",
+            "cedula": "0201697299",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "EL DESEMPEÑO DE CARGOS TALES COMO: DIRECTOR O COORDINADOR DE CARRERAS DE EDUCACIÓN SUPERIOR, POSTGRADOS, CENTROS O PROGRAMAS DE INVESTIGACIÓN, VINCULACIÓN CON LA COLECTIVIDAD, DEPARTAMENTOS ACADÉMICOS, EDITOR ACADÉMICO, O DIRECTOR EDITORIAL DE UNA PUBLICACIÓN",
+            "horasSemanales": {
+                "gestion": "24"
+            },
+            "totalFAC": "40",
+            "totalUEB": "40"
+        },
+        {
+            "Numero": "25",
+            "nombresyApellidos": "LLUMIGUANO POMA MARIA ELENA",
+            "dedicacion": "MT",
+            "cedula": "0201564465",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "INGENIERA COMERCIAL",
+            "tituloCuartoNivel": "MAGISTER EN GERENCIA EMPRESARIAL",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "LLUMIGUANO POMA MARIA ELENA",
+            "cedula": "0201564465",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "LLUMIGUANO POMA MARIA ELENA",
+            "cedula": "0201564465",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "LLUMIGUANO POMA MARIA ELENA",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "LLUMIGUANO POMA MARIA ELENA",
+            "cedula": "0201564465",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "LLUMIGUANO POMA MARIA ELENA",
+            "cedula": "0201564465",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {},
+            "totalFAC": "0",
+            "totalUEB": "0"
+        },
+        {
+            "Numero": "27",
+            "nombresyApellidos": "NUÑEZ SERVONES SABRINA ALEJANDRA ",
+            "dedicacion": "MT",
+            "cedula": "0201659224",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "LICENCIADA EN ADMINISTRACION DE EMPRESAS DE TURISMO Y HOTELERIA ",
+            "tituloCuartoNivel": "MAGISTER EN MARKETING DE DESTINOS Y PRODUCTOS TURISTICOS ",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "NUÑEZ SERVONES SABRINA ALEJANDRA ",
+            "cedula": "0201659224",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "CAMPAÑAS DE COMUNICACIÓN E INFORMACIÓN",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "6",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "NUÑEZ SERVONES SABRINA ALEJANDRA ",
+            "cedula": "0201659224",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "CAMPAÑAS DE COMUNICACIÓN E INFORMACIÓN",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "6",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "NUÑEZ SERVONES SABRINA ALEJANDRA ",
+            "cedula": "0201659224",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "NUÑEZ SERVONES SABRINA ALEJANDRA ",
+            "cedula": "0201659224",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "NUÑEZ SERVONES SABRINA ALEJANDRA ",
+            "cedula": "0201659224",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "NUÑEZ SERVONES SABRINA ALEJANDRA ",
+            "cedula": "0201659224",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "TURISMO",
+            "asignaturayActividades": "PREPARACIÓN Y ACTUALIZACIÓN DE CONTENIDOS DE CLASES, SEMINARIOS, TALLERES, ENTRE OTROS",
+            "horasSemanales": {
+                "otros": "1"
+            }
+        },
+        {
+            "nombresyApellidos": "NUÑEZ SERVONES SABRINA ALEJANDRA ",
+            "cedula": "0201659224",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "TURISMO",
+            "asignaturayActividades": "DIRECCIÓN Y TUTORÍA DE TRABAJOS PARA LA OBTENCIÓN DEL TÍTULO, CON EXCEPCIÓN DE TESIS DOCTORALES O DE MAESTRÍAS DE INVESTIGACIÓN ",
+            "horasSemanales": {
+                "tutorias": "2"
+            },
+            "totalFAC": "11",
+            "totalUEB": "11"
+        },
+        {
+            "Numero": "28",
+            "nombresyApellidos": "OCAÑA MORALES JOSE MIGUEL",
+            "dedicacion": "MT",
+            "cedula": "0602028003",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "LICENCIADO EN COMUNICACIÓN SOCIAL",
+            "tituloCuartoNivel": "MAGISTER EN  COMUNICACIÓN CORPORATIVA",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "PSICOLOGIA DE LA COMUNICACIÓN",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "1",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "OCAÑA MORALES JOSE MIGUEL",
+            "cedula": "0602028003",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN ",
+            "asignaturayActividades": "PSICOLOGIA DE LA COMUNICACIÓN",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "1",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "OCAÑA MORALES JOSE MIGUEL",
+            "cedula": "0602028003",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "PROMOCIÓN PUBLICIDAD Y PROPAGANDA",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "3",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "OCAÑA MORALES JOSE MIGUEL",
+            "cedula": "0602028003",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN ",
+            "asignaturayActividades": "MEDIOS DIGITALES DE RADIO",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "4",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "OCAÑA MORALES JOSE MIGUEL",
+            "cedula": "0602028003",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "ESTUDIO COMPLEXIVO DE LA COMUNICACIÓN",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "9",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "OCAÑA MORALES JOSE MIGUEL",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "PROYECTOS METODOLOGÍA MARCO LÓGICO",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "6",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            },
+            "totalFAC": "20",
+            "totalUEB": "20"
+        },
+        {
+            "Numero": "29",
+            "nombresyApellidos": "PAREDES CRUZ RENATO ESTUARDO",
+            "dedicacion": "TC",
+            "cedula": " 1710052661",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "INGENIERO EN CONTABILIDAD Y AUDITORIA CPA",
+            "tituloCuartoNivel": "MAGISTER EN TRIBUTACION Y DERECHO EMPRESARIAL",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA",
+            "asignaturayActividades": "AUDITORÍA TRIBUTARIA",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "7",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "PAREDES CRUZ RENATO ESTUARDO",
+            "cedula": " 1710052661",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA",
+            "asignaturayActividades": "AUDITORÍA TRIBUTARIA",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "7",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "PAREDES CRUZ RENATO ESTUARDO",
+            "cedula": " 1710052661",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA ",
+            "asignaturayActividades": "GESTIÓN TRIBUTARIA",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "6",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2",
+                "practicasyExperimientacion": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "PAREDES CRUZ RENATO ESTUARDO",
+            "cedula": " 1710052661",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA ",
+            "asignaturayActividades": "GESTIÓN TRIBUTARIA",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "6",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2",
+                "practicasyExperimientacion": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "PAREDES CRUZ RENATO ESTUARDO",
+            "cedula": " 1710052661",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "GESTIÓN TRIBUTARIA",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "4",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "PAREDES CRUZ RENATO ESTUARDO",
+            "cedula": " 1710052661",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "GESTIÓN TRIBUTARIA",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "4",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "PAREDES CRUZ RENATO ESTUARDO",
+            "cedula": " 1710052661",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "PAREDES CRUZ RENATO ESTUARDO",
+            "cedula": " 1710052661",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA",
+            "asignaturayActividades": "PREPARACIÓN Y ACTUALIZACIÓN DE CONTENIDOS DE CLASES, SEMINARIOS, TALLERES, ENTRE OTROS",
+            "horasSemanales": {
+                "otros": "5"
+            }
+        },
+        {
+            "nombresyApellidos": "PAREDES CRUZ RENATO ESTUARDO",
+            "cedula": " 1710052661",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA",
+            "asignaturayActividades": "PREPARACIÓN, ELABORACIÓN, APLICACIÓN Y  CALIFICACIÓN DE EXÁMENES, TRABAJOS Y PRÁCTICAS",
+            "horasSemanales": {
+                "otros": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "PAREDES CRUZ RENATO ESTUARDO",
+            "cedula": " 1710052661",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA",
+            "asignaturayActividades": "DIRECCIÓN Y TUTORÍA DE TRABAJOS PARA LA OBTENCIÓN DEL TÍTULO, CON EXCEPCIÓN DE TESIS DOCTORALES O DE MAESTRÍAS DE INVESTIGACIÓN ",
+            "horasSemanales": {
+                "tutorias": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "PAREDES CRUZ RENATO ESTUARDO",
+            "cedula": " 1710052661",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "DISEÑO DE PROYECTOS DE CARRERA Y PROGRAMAS DE ESTUDIO DE GRADO Y POSTGRADO",
+            "horasSemanales": {
+                "gestion": "6"
+            },
+            "totalFAC": "32",
+            "totalUEB": "32"
+        },
+        {
+            "Numero": "30",
+            "nombresyApellidos": "PAREDES JIMENEZ SANDRA JANETH",
+            "dedicacion": "MT",
+            "cedula": "0201302858",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "LICENCIADA EN COMUNICACION SOCIAL",
+            "tituloCuartoNivel": "MAGISTER EN COMUNICACIÓN",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "TALLER DE COMUNICACIÓN COMUNITARIA",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "4",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "PAREDES JIMENEZ SANDRA JANETH",
+            "cedula": "0201302858",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "TALLER DE COMUNICACIÓN COMUNITARIA",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "4",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "PAREDES JIMENEZ SANDRA JANETH",
+            "cedula": "0201302858",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "HISTORIA DE MEDIOS",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "3",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "PAREDES JIMENEZ SANDRA JANETH",
+            "cedula": "0201302858",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "HISTORIA DE MEDIOS",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "3",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "PAREDES JIMENEZ SANDRA JANETH",
+            "cedula": "0201302858",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN ",
+            "asignaturayActividades": "GESTIÓN Y EMPRENDIMIENTO TRABAJO PRÁCTICO",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "7",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "PAREDES JIMENEZ SANDRA JANETH",
+            "cedula": "0201302858",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "DIRCOM",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "9",
+            "paralelo": "A",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "PAREDES JIMENEZ SANDRA JANETH",
+            "cedula": "0201302858",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "PREPARACIÓN Y ACTUALIZACIÓN DE CONTENIDOS DE CLASES, SEMINARIOS, TALLERES, ENTRE OTROS",
+            "horasSemanales": {
+                "gestion": "2"
+            },
+            "totalFAC": "20",
+            "totalUEB": "20"
+        },
+        {
+            "Numero": "31",
+            "nombresyApellidos": "ROCHINA CHIMBO LAURA CECILIA",
+            "dedicacion": "MT",
+            "cedula": "0201564341",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "INGENIERA EN ESTADÍSTICA INFORMÁTICA",
+            "tituloCuartoNivel": "GESTION DE PROYECTOS DE DESARROLLO",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "SOFTWARE",
+            "asignaturayActividades": "ESTRUCTURAS DISCRÉTAS",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "1",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3",
+                "practicasyExperimientacion": "1"
+            }
+        },
+        {
+            "nombresyApellidos": "ROCHINA CHIMBO LAURA CECILIA",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "SOFTWARE",
+            "asignaturayActividades": "ESTRUCTURAS DISCRÉTAS",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "1",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3",
+                "practicasyExperimientacion": "1"
+            }
+        },
+        {
+            "nombresyApellidos": "ROCHINA CHIMBO LAURA CECILIA",
+            "cedula": "0201564341",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "SOFTWARE",
+            "asignaturayActividades": "SIMULACIÓN",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "6",
+            "paralelo": "A",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "ROCHINA CHIMBO LAURA CECILIA",
+            "cedula": "0201564341",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "SOFTWARE",
+            "asignaturayActividades": "INVESTIGACIÓN DE OPERACIONES",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "5",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "ROCHINA CHIMBO LAURA CECILIA",
+            "cedula": "0201564341",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "ESTADÍSTICA Y PROBABILIDADES",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "3",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "ROCHINA CHIMBO LAURA CECILIA",
+            "cedula": "0201564342",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "PREPARACIÓN Y ACTUALIZACIÓN DE CONTENIDOS DE CLASES, SEMINARIOS, TALLERES, ENTRE OTROS",
+            "horasSemanales": {
+                "otros": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "ROCHINA CHIMBO LAURA CECILIA",
+            "cedula": "0201564341",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "SOFTWARE",
+            "asignaturayActividades": "DIRECCIÓN Y TUTORÍA DE TRABAJOS PARA LA OBTENCIÓN DEL TÍTULO, CON EXCEPCIÓN DE TESIS DOCTORALES O DE MAESTRÍAS DE INVESTIGACIÓN ",
+            "horasSemanales": {
+                "tutorias": "2"
+            },
+            "totalFAC": "20",
+            "totalUEB": "20"
+        },
+        {
+            "Numero": "32",
+            "nombresyApellidos": "SANCHEZ CHAVEZ GERMAN PATRICIO ",
+            "dedicacion": "TC",
+            "cedula": "0201416005",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "INGENIERO EN ECOTURISMO ",
+            "tituloCuartoNivel": "MAGISTER EN GESTIÓN Y DESARROLLO LOCAL ",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "TURISMO Y HOTELERÍA",
+            "asignaturayActividades": "FORMULACIÓN Y EVALUACIÓN DE PROYECTOS TURÍSTICOS",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "7",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "SANCHEZ CHAVEZ GERMAN PATRICIO ",
+            "cedula": "0201416005",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "TURISMO Y HOTELERÍA",
+            "asignaturayActividades": "MODELOS DE DESARROLLO DE LA ACTIVIDAD TURÍSTICA",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "8",
+            "paralelo": "A",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3",
+                "practicasyExperimientacion": "1"
+            }
+        },
+        {
+            "nombresyApellidos": "SANCHEZ CHAVEZ GERMAN PATRICIO ",
+            "cedula": "0201416005",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "TURISMO Y HOTELERÍA",
+            "asignaturayActividades": "MODELO DE DESARROLLO DE LA ACTIVIDAD HOTELERA",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "8",
+            "paralelo": "A",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3",
+                "practicasyExperimientacion": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "SANCHEZ CHAVEZ GERMAN PATRICIO ",
+            "cedula": "0201416005",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "TURISMO",
+            "asignaturayActividades": "PLANIFICACION Y ORDENAMIENTO TERRITORIAL",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "7",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3",
+                "practicasyExperimientacion": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "SANCHEZ CHAVEZ GERMAN PATRICIO ",
+            "cedula": "0201416005",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "TURISMO ",
+            "asignaturayActividades": "PREPARACIÓN Y ACTUALIZACIÓN DE CONTENIDOS DE CLASES, SEMINARIOS, TALLERES, ENTRE OTROS",
+            "horasSemanales": {
+                "otros": "5"
+            }
+        },
+        {
+            "nombresyApellidos": "SANCHEZ CHAVEZ GERMAN PATRICIO ",
+            "cedula": "0201416005",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "TURISMO ",
+            "asignaturayActividades": "PREPARACIÓN, ELABORACIÓN, APLICACIÓN Y  CALIFICACIÓN DE EXÁMENES, TRABAJOS Y PRÁCTICAS",
+            "horasSemanales": {
+                "otros": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "SANCHEZ CHAVEZ GERMAN PATRICIO ",
+            "cedula": "0201416005",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "TURISMO Y HOTELERÍA",
+            "asignaturayActividades": "DIRECCIÓN Y TUTORÍA DE TRABAJOS PARA LA OBTENCIÓN DEL TÍTULO, CON EXCEPCIÓN DE TESIS DOCTORALES O DE MAESTRÍAS DE INVESTIGACIÓN",
+            "horasSemanales": {
+                "tutorias": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "SANCHEZ CHAVEZ GERMAN PATRICIO ",
+            "cedula": "0201416005",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "TURISMO Y HOTELERÍA",
+            "asignaturayActividades": "PARTICIPACIÓN EN ACTIVIDADES DE PROYECTOS SOCIALES, ARTÍSTICOS, PRODUCTIVOS Y EMPRESARIALES DE VINCULACIÓN CON LA SOCIEDAD ARTICULADOS A LA DOCENCIA E INNOVACIÓN EDUCATIVA",
+            "horasSemanales": {
+                "vinculacion": "5"
+            }
+        },
+        {
+            "nombresyApellidos": "SANCHEZ CHAVEZ GERMAN PATRICIO ",
+            "cedula": "0201416005",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "TURISMO ",
+            "asignaturayActividades": "OTRAS ACTIVIDADES DE GESTIÓN RELACIONADAS CON LOS PROCESOS ACADÉMICOS ORDINARIOS DE LA INSTITUCIÓN (EJECUCIÓN DE PROYECTOS POA  )",
+            "horasSemanales": {
+                "gestion": "4"
+            },
+            "totalFAC": "40",
+            "totalUEB": "40"
+        },
+        {
+            "Numero": "33",
+            "nombresyApellidos": "SANCHEZ MACIAS  RAFAEL  ALEJANDRO ",
+            "dedicacion": "MT",
+            "cedula": "0201991536",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "INGENIERO EN EMPRESAS ",
+            "tituloCuartoNivel": "MAGISTER EN ADMINISTRACION DE EMPRESAS MENCION PLANEACION",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "EPISTEMOLOGÍA Y METODOLOGÍA DE LA INVESTIGACIÓN",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "7",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "SANCHEZ MACIAS  RAFAEL  ALEJANDRO ",
+            "cedula": "0201991536",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "EPISTEMOLOGÍA Y METODOLOGÍA DE LA INVESTIGACIÓN",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "7",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "SANCHEZ MACIAS  RAFAEL  ALEJANDRO ",
+            "cedula": "0201991536",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA",
+            "asignaturayActividades": "REALIDAD NACIONAL Y DIVERSIDAD CULTURAL",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "1",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "SANCHEZ MACIAS  RAFAEL  ALEJANDRO ",
+            "cedula": "0201991536",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA",
+            "asignaturayActividades": "EPISTEMOLOGIA Y METODOLOGÍA DE LA INVESTIGACIÓN",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "2",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "SANCHEZ MACIAS  RAFAEL  ALEJANDRO ",
+            "cedula": "0201991536",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "CONTABILIDAD Y AUDITORÍA",
+            "asignaturayActividades": "EPISTEMOLOGIA Y METODOLOGÍA DE LA INVESTIGACIÓN",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "2",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "SANCHEZ MACIAS  RAFAEL  ALEJANDRO ",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "GESTIÓN Y CONTROL DE LA PRODUCCIÓN",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "5",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "SANCHEZ MACIAS  RAFAEL  ALEJANDRO ",
+            "cedula": "0201991536",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "OTRAS ACTIVIDADES DE GESTIÓN RELACIONADAS CON LOS PROCESOS ACADÉMICOS ORDINARIOS DE LA INSTITUCIÓN. (EJECUCION DE POA)",
+            "horasSemanales": {
+                "pis": "3"
+            },
+            "totalFAC": "20",
+            "totalUEB": "20"
+        },
+        {
+            "Numero": "34",
+            "nombresyApellidos": "VALLE ARELLANO DANILO RENATO",
+            "dedicacion": "MT",
+            "cedula": "0201321346",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "LICENCIADA EN COMUNICACION SOCIAL",
+            "tituloCuartoNivel": "MAGÍSTER EN DIRECCIÓN DE COMUNICACIÓN EMPRESARIAL E INSTITUCIONAL",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "EDUCOMUNICACIÓN",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "6",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "VALLE ARELLANO DANILO RENATO",
+            "cedula": "0201321346",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "EDUCOMUNICACIÓN",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "6",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "VALLE ARELLANO DANILO RENATO",
+            "cedula": "0201321346",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "TEORÍA DE LA COMUNICACIÓN LATINOAMERICANA",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "3",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "VALLE ARELLANO DANILO RENATO",
+            "cedula": "0201321346",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "TEORÍA DE LA COMUNICACIÓN LATINOAMERICANA",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "3",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "VALLE ARELLANO DANILO RENATO",
+            "cedula": "0201321346",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "EPISTEMOLOGÍA DE LA COMUNICACIÓN",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "1",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "VALLE ARELLANO DANILO RENATO",
+            "cedula": "0201321346",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "EPISTEMOLOGÍA DE LA COMUNICACIÓN",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "1",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "VALLE ARELLANO DANILO RENATO",
+            "cedula": "0201321346",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "PREPARACIÓN, ELABORACIÓN, APLICACIÓN Y CALIFICACIÓN DE EXÁMENES, TRABAJOS Y PRÁCTICAS",
+            "horasSemanales": {
+                "otros": "1"
+            }
+        },
+        {
+            "nombresyApellidos": "VALLE ARELLANO DANILO RENATO",
+            "cedula": "0201321346",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "DIRECCIÓN Y TUTORÍA DE TRABAJOS PARA LA OBTENCIÓN DEL TÍTULO, CON EXCEPCIÓN DE TESIS DOCTORALES O DE MAESTRÍAS DE INVESTIGACIÓN",
+            "horasSemanales": {
+                "tutorias": "1"
+            },
+            "totalFAC": "20",
+            "totalUEB": "20"
+        },
+        {
+            "Numero": {},
+            "nombresyApellidos": "VELOZ SEGURA ELIZABETH ALEXANDRA",
+            "dedicacion": "MT",
+            "cedula": "0201669884",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "INGENIERIA EN SISTEMAS COMPUTACIONALES",
+            "tituloCuartoNivel": "MASTER UNIVERSITARIO EN INGENIERIA DE SOFTWARE Y SISTEMAS INFORMÁTICOS",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "VELOZ SEGURA ELIZABETH ALEXANDRA",
+            "cedula": "0201669884",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "VELOZ SEGURA ELIZABETH ALEXANDRA",
+            "cedula": "0201669884",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "SOFTWARE",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "VELOZ SEGURA ELIZABETH ALEXANDRA",
+            "cedula": "0201669884",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "SOFTWARE",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "VELOZ SEGURA ELIZABETH ALEXANDRA",
+            "cedula": "0201669884",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "SOFTWARE",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "VELOZ SEGURA ELIZABETH ALEXANDRA",
+            "cedula": "0201669884",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "SOFTWARE",
+            "horasSemanales": {
+                "otros": "2"
+            },
+            "totalFAC": "2",
+            "totalUEB": "2"
+        },
+        {
+            "Numero": {},
+            "nombresyApellidos": "YACCHIREMA TARAGUAY IVÁN MARCELO",
+            "dedicacion": "TC",
+            "cedula": "0201819471",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "INGENIERO EN MARKETING",
+            "tituloCuartoNivel": "MAGISTER EN GESTION DE MARKETING Y SERVICIO AL CLIENTE",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "FUNDAMENTOS DE MARKETING",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "8",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "YACCHIREMA TARAGUAY IVÁN MARCELO",
+            "cedula": "0201819471",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "GESTIÓN DE MARCA",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "8",
+            "paralelo": "A",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "YACCHIREMA TARAGUAY IVÁN MARCELO",
+            "cedula": "0201819471",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "FUNDAMENTOS DEL MARKETING",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "5",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "YACCHIREMA TARAGUAY IVÁN MARCELO",
+            "cedula": "0201819471",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "FUNDAMENTOS DEL MARKETING",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "5",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "YACCHIREMA TARAGUAY IVÁN MARCELO",
+            "cedula": "0201819471",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "GESTIÓN EMPRESARIAL",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "5",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "YACCHIREMA TARAGUAY IVÁN MARCELO",
+            "cedula": "0201819471",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "NUEVAS TENDENCIAS DE MERCADOTECNIA",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "9",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "YACCHIREMA TARAGUAY IVÁN MARCELO",
+            "cedula": "0201819471",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "CADENA DE VALOR",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "8",
+            "paralelo": "A",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "YACCHIREMA TARAGUAY IVÁN MARCELO",
+            "cedula": "0201819471",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "PREPARACIÓN Y ACTUALIZACIÓN DE CONTENIDOS DE CLASES, SEMINARIOS, TALLERES, ENTRE OTROS",
+            "horasSemanales": {
+                "otros": "5"
+            }
+        },
+        {
+            "nombresyApellidos": "YACCHIREMA TARAGUAY IVÁN MARCELO",
+            "cedula": "0201819471",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "PREPARACIÓN, ELABORACIÓN, APLICACIÓN Y  CALIFICACIÓN DE EXÁMENES, TRABAJOS Y PRÁCTICAS",
+            "horasSemanales": {
+                "otros": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "YACCHIREMA TARAGUAY IVÁN MARCELO",
+            "cedula": "0201819471",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "DIRECCIÓN Y TUTORÍA DE TRABAJOS PARA LA OBTENCIÓN DEL TÍTULO, CON EXCEPCIÓN DE TESIS DOCTORALES O DE MAESTRÍAS DE INVESTIGACIÓN ( COORDINACIÓN DE LA UNIDAD DE TITULACIÓN)",
+            "horasSemanales": {
+                "tutorias": "8"
+            }
+        },
+        {
+            "nombresyApellidos": "YACCHIREMA TARAGUAY IVÁN MARCELO",
+            "cedula": "0201819471",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "MERCADOTECNIA",
+            "asignaturayActividades": "OTRAS ACTIVIDADES DE GESTIÓN RELACIONADAS CON LOS PROCESOS ACADÉMICOS ORDINARIOS DE LA INSTITUCIÓN (SEGUIMIENTO A GRADUADOS)",
+            "horasSemanales": {
+                "gestion": "5"
+            },
+            "totalFAC": "44",
+            "totalUEB": "44"
+        },
+        {
+            "Numero": {},
+            "nombresyApellidos": "YANEZ CUADRADO SUSANA ALEXANDRA",
+            "dedicacion": "MT",
+            "cedula": "0601946957",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "ABOGADO DE LOS TRIBUNALES DE JUSTICIA DE LA REPUBLICA",
+            "tituloCuartoNivel": "MAGISTER EN ADMINISTRACION MENCION GERENCIA DE RECURSOS HUMANOS POR COMPETENCIAS",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "YANEZ CUADRADO SUSANA ALEXANDRA",
+            "cedula": "0601946957",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "YANEZ CUADRADO SUSANA ALEXANDRA",
+            "cedula": "0601946957",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "YANEZ CUADRADO SUSANA ALEXANDRA",
+            "cedula": "0601946957",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "YANEZ CUADRADO SUSANA ALEXANDRA",
+            "cedula": "0601946957",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "YANEZ CUADRADO SUSANA ALEXANDRA",
+            "cedula": "0601946957",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "YANEZ CUADRADO SUSANA ALEXANDRA",
+            "cedula": "0601946957",
+            "facultad": "ADMINISTRATIVAS",
+            "horasSemanales": {}
+        },
+        {
+            "nombresyApellidos": "YANEZ CUADRADO SUSANA ALEXANDRA",
+            "cedula": "0601946957",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "PREPARACIÓN, ELABORACIÓN. APLICACIÓN Y CALIFICACIÓN DE EXÁMENES",
+            "horasSemanales": {
+                "gestion": "1"
+            }
+        },
+        {
+            "nombresyApellidos": "YANEZ CUADRADO SUSANA ALEXANDRA",
+            "cedula": "0601946957",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "ADMINISTRACIÓN DE EMPRESAS",
+            "asignaturayActividades": "OTRAS ACTIVIDADES DE GESTIÓN RELACIONADAS CON LOS PROCESOS ACADÉMICOS ORDINARIOS DE LA INSTITUCIÓN (EJECUCIÓN DE PROYECTOS POA  )",
+            "horasSemanales": {
+                "gestion": "2"
+            },
+            "totalFAC": "3",
+            "totalUEB": "3"
+        },
+        {
+            "Numero": {},
+            "nombresyApellidos": "ZAMBRANO MOREIRA MARTHA LIZETH ",
+            "dedicacion": "TC",
+            "cedula": "1311691800",
+            "categoria": "AUXILIAR",
+            "tituloTercerNivel": "LICENCIADA EN COMUNICACIÓN SOCIAL ",
+            "tituloCuartoNivel": "MÁSTER EN DIRECCIÓN DE COMUNICACIÓN EMPRESARIAL E INSTITUCIONAL ",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "COMUNICACIÓN COMUNITARIA",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "1",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "ZAMBRANO MOREIRA MARTHA LIZETH ",
+            "cedula": "1311691800",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "COMUNICACIÓN COMUNITARIA",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "1",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "ZAMBRANO MOREIRA MARTHA LIZETH ",
+            "cedula": "1311691800",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "CULTURA Y COMUNICACIÓN ORGANIZACIONAL",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "3",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "ZAMBRANO MOREIRA MARTHA LIZETH ",
+            "cedula": "1311691800",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "CULTURA Y COMUNICACIÓN ORGANIZACIONAL",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "3",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "ZAMBRANO MOREIRA MARTHA LIZETH ",
+            "cedula": "1311691800",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "GESTION DE AGENCIAS DE PUBLICIDAD",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "5",
+            "paralelo": "A",
+            "modalidad": "MATUTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "ZAMBRANO MOREIRA MARTHA LIZETH ",
+            "cedula": "1311691800",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "GESTION DE AGENCIAS DE PUBLICIDAD",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "5",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "ZAMBRANO MOREIRA MARTHA LIZETH ",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "PROYECTOS METODOLOGÍA MARCO LÓGICO",
+            "matrizExtencion": "MATRIZ",
+            "ciclo": "6",
+            "paralelo": "B",
+            "modalidad": "VESPERTINO",
+            "horasSemanales": {
+                "contactoProfesor": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "ZAMBRANO MOREIRA MARTHA LIZETH ",
+            "cedula": "1311691800",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "PREPARACIÓN Y ACTUALIZACIÓN DE CONTENIDOS DE CLASES, SEMINARIOS, TALLERES, ENTRE OTROS",
+            "horasSemanales": {
+                "otros": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "ZAMBRANO MOREIRA MARTHA LIZETH ",
+            "cedula": "1311691800",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "PREPARACIÓN, ELABORACIÓN, APLICACIÓN Y  CALIFICACIÓN DE EXÁMENES, TRABAJOS Y PRÁCTICAS",
+            "horasSemanales": {
+                "otros": "2"
+            }
+        },
+        {
+            "nombresyApellidos": "ZAMBRANO MOREIRA MARTHA LIZETH ",
+            "cedula": "1311691800",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN SOCIAL",
+            "asignaturayActividades": "LA DIRECCIÓN Y GESTIÓN DE LOS PROCESOS DE DOCENCIA E INVESTIGACIÓN EN SUS DISTINTOS NIVELES DE ORGANIZACIÓN ACADÉMICA E INSTITUCIONAL - ( ASEGURAMIENTO DE LA CALIDAD )",
+            "horasSemanales": {
+                "gestion": "4"
+            }
+        },
+        {
+            "nombresyApellidos": "ZAMBRANO MOREIRA MARTHA LIZETH ",
+            "cedula": "1311691800",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN SOCIAL",
+            "asignaturayActividades": "DIRECCIÓN Y TUTORÍA DE TRABAJOS PARA LA OBTENCIÓN DEL TÍTULO, CON EXCEPCIÓN DE TESIS DOCTORALES O DE MAESTRÍAS DE INVESTIGACIÓN ",
+            "horasSemanales": {
+                "tutorias": "3"
+            }
+        },
+        {
+            "nombresyApellidos": "ZAMBRANO MOREIRA MARTHA LIZETH ",
+            "cedula": "1311691800",
+            "facultad": "ADMINISTRATIVAS",
+            "carrera": "COMUNICACIÓN",
+            "asignaturayActividades": "DISEÑO DE PROYECTOS DE CARRERA Y PROGRAMAS DE ESTUDIO DE GRADO Y POSTGRADO",
+            "horasSemanales": {
+                "gestion": "4"
+            },
+            "totalFAC": "40",
+            "totalUEB": "40"
+        }
+    ]
+}

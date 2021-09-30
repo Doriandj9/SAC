@@ -1,4 +1,0 @@
-Esto es un ejemplo
-Hola que tal
-Hello world
-Bye

@@ -52,7 +52,6 @@ console.log("hola");
                 
                 data.append('time', time);
                 xhr.open('POST', '/admin/upload/information', true);
-                console.log(xhr);
                 xhr.onreadystatechange = function () {
                     if (xhr.readyState === 4) {
                         if (xhr.status === 200) {
@@ -91,8 +90,6 @@ console.log("hola");
      */
     function uploadedFile(data, tamanio) {
         let dataJ = data.substring(0,60+tamanio);
-        //dataJ.substring(0,85);
-        //console.log(dataJ);
         dataJ=JSON.parse(dataJ);
 
         let el=document.querySelectorAll("[data-time='"+dataJ.time+dataJ.fileName+"']");

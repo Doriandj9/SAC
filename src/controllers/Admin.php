@@ -43,16 +43,6 @@ class Admin{
         } else {
             echo json_encode(["result"=>0, "time"=>$_POST["time"], "fileName"=>$fileName, "error"=>"no se ha podido mover el archivo"]);
         }
-        // $resp = [
-        //     'response' => "exitoso"
-        // ];
-        // return [
-        //     'title' => 'Editar Permisos',
-        //         'template' => 'admin/exito.html.php',
-        //         'variables' => [
-        //             'respuesta' => $resp 
-        //         ]
-        //     ];
     }
     
     public function permiseActions(){
