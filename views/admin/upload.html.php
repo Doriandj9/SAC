@@ -11,7 +11,7 @@
                 <div>Arrastra y suelta los archivos aquí<br><br>Tamaño máximo por archivo de <?php echo ini_get("upload_max_filesize");?></div>
             </div>
 
-            <div id="filesList"></div>
+            <div id="filesList">
 
             </div>
         </form>
