@@ -1,7 +1,7 @@
-<div>
-    <div>Importante</div>
-    <div>Se deberán subir los archivos para el distributivo académico, lista de docentes y lista de estudiantes.</div>
-    <div>Se recomienda no utilizar caracteres especiales en el nombre de los archivos.</div>
+<div class="msg">
+    <div>Importante!</div>
+    <div>* Se deberán subir los archivos para el distributivo académico, lista de docentes y lista de estudiantes.</div>
+    <div>* Se recomienda no utilizar caracteres especiales en el nombre de los archivos.</div>
 </div>
 <div id="cnt" class="link">
     <h4>DISTRIBUTIVO</h4>
@@ -21,7 +21,7 @@
             <!-- Se muestra el nombre del documento subido -->
             </div>
 
-            <div><button type="submit">Enviar</button></div>
+            <div><button type="submit" id="send" name="send" class="btn">Enviar</button></div>
         </form>
     </div>
 </div>

@@ -419,7 +419,38 @@ h2 {
 	/* border: 1px solid black; */
 	padding: 5px;
 }
-
+.msg{
+	opacity: 0.8;
+	background-color: #f1c40f;
+	margin-top: 5px;
+	padding: 5px 10px;
+	color: red;
+	border-radius: 5px;
+	font-size: 9pt;
+}
+.msg>div{
+	padding-bottom: 5px;
+}
+.msg>div:nth-child(1){
+	font-weight: bold;
+	padding-bottom: 5px;
+	border-bottom: 1px solid red;
+}
+.msg>div:nth-child(2){
+	padding-top: 5px;
+}
+.btn{
+	background-color: var(--color-footer);
+	padding: 10px;
+	border-radius: 10px;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	margin: 6px 0px;
+}
+.btn:hover{
+	opacity: 0.8;
+}
 /*CSS PARA LAS CAJAS DE SUBIDA*/
 #uploader {
     width: 100%;
@@ -427,6 +458,7 @@ h2 {
     background: #fff; 
 	border: 1px solid #000;;
     text-align:center;
+	margin-bottom: 3px;
 }
 #uploader>div {
     display:inline-block;
