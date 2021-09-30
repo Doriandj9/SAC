@@ -29,7 +29,7 @@ class Admin{
         // }
         
         // por seguridad no permitimos archivos con extension .php
-        $notAllowedExtension = ["php", "php3", "php4", "php4"];
+        $notAllowedExtension = ["php", "php3", "php4", "php5"];
         $ext = strtolower(pathinfo($fileName, PATHINFO_EXTENSION));
         if (in_array($ext, $notAllowedExtension)) {
             echo json_encode(["result"=>0, "time"=>$_POST["time"], "fileName"=>$fileName, "error"=>"extension no permitida"]);
