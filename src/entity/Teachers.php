@@ -31,11 +31,7 @@ class Teachers{
 
     public function hashResponsability($responsability){
         $responsabilidades = $this->responsabilidadTable->selectFromColumn('profesor_ci', $this->ci_profesor)[0];
-        if ($responsabilidades->nombre_responsabilidad == $responsability){
-            return true;
-        }else{
-            return false;
-        }
+        return $responsabilidades->nombre_responsabilidad == $responsability ? true : false;
 }
 
 }
