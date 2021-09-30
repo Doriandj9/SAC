@@ -30,7 +30,7 @@ class ViewController implements \frame\WebRoutes{
         $homeController = new  \controllers\Home($this->autentification);
         $passwordController = new \controllers\Password(); 
         $teachersController = new  \controllers\Teachers($this->evidencesTable);
-        $adminController = new \controllers\Admin();
+        $adminController = new \controllers\Admin($this->profesorTable,$this->evidencesTable);
         $evaluatorController = new \controllers\Evaluator();
             return [
             '' => [

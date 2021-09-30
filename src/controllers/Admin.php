@@ -3,6 +3,14 @@
 namespace controllers;
 class Admin{
 
+    private $profesoresTable;
+    private $evidenciasTable;
+    public function __construct(\models\DataBaseTable $profesoresTable, \models\DataBaseTable $evidenciasTable)
+    {
+        $this->profesoresTable= $profesoresTable;
+        $this->evidenciasTable= $evidenciasTable;
+    }
+
     public function admin(){
        
         return [
@@ -47,7 +55,31 @@ class Admin{
 
     public function saveDataDataBase(){
         if(isset($_POST['guardar'])){
-           header('location: /admin/permises/access');
+            $dataEvidencias = file_get_contents('./public/records/Evidencia.json');
+            $arrayDataEvidencias = json_decode($dataEvidencias, true)['EVIDENCIAS'];
+            foreach($arrayDataEvidencias as $value){
+                $data = [
+                    'cod_evidencia' => $value['codigo'],
+                    'nombre_evidencia' => $value['nombreEvidencia']
+                ];
+                $this->evidenciasTable->insert($data);
+               echo $value['codigo']. "<br>";
+               echo $value['nombreEvidencia']. "<br> <br> <br>";
+            }
+            $dataListadoProfesores = file_get_contents('./public/records/ListaProfesores.json')['lista'];
+            $arrayLista = json_decode($dataListadoProfesores, true);
+
+            // foreach($arrayLista as $value){
+
+            //     $data2 = [
+            //         'ci_profesor' => $value['ci_profesor'],
+            //         'nombre_profesor' => $value['nombre_profesor'],
+            //         'email_profesor' => 
+            //         strtolower(substr(preg_replace('/(.+?)( )(.+?)/i', '$1$3', $value['nombre_profesor']),0,15)). "@ueb.edu.ec"
+            //     ];
+            //     $this->profesoresTable->insert($data2);
+            // }
+           // header('location: /');
         }
     }
     
