@@ -16,10 +16,11 @@
 			
 			<div><div class="menu_box" id="bxs">
 				<div class="menu_head">Menu Principal</div>
-					<div class="menu_body"><hr>
+					<div class="menu_body">
 						<div class="menu">
 						<a href="/home">Inicio</a>
-						<?php if(!empty($responsabilidad) && $responsabilidad[0]->nombre_responsabilidad  == 'Evaluador'):?>
+						<?php  if(!empty($user->getResponsability()) && $user->getResponsability()[0]->nombre_responsabilidad  
+						== \web\Responsability::EVALUADOR):?>
 						<a href="/evaluation/evidences">Evaluación</a>
 						<a href="/generate/reports">Reportes</a>
 						<?php else: if($user->hashPermission(\entity\Teachers::ADMINSTRADOR)):?>

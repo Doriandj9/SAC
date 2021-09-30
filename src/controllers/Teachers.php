@@ -43,9 +43,8 @@ class Teachers{
     }
 
     public function guardar(){
-        var_dump($_FILES['file']);
-        if(isset($_FILES['file']['pdf']['name'])){
-            $archivo = (file_get_contents($_FILES['file']['pdf']['tmp_name']));
+        if(isset($_FILES['pdf']['name'])){
+            $archivo = (file_get_contents($_FILES['pdf']['tmp_name']));
         $params = [
             'pdf_archivo' => $archivo
         ];

@@ -13,7 +13,7 @@ class ViewController implements \frame\WebRoutes{
     public function __construct()
     {
         $this->profesorTable= new \models\DataBaseTable(new \models\conection\Conection(),
-                                                        'profesor', 'ci_profesor','\entity\Teachers');
+                                                        'profesor', 'ci_profesor','\entity\Teachers',[&$this->responsabilidadTable]);
         $this->responsabilidadTable = new \models\DataBaseTable(new \models\conection\Conection(), 
                                                         'responsabilidad', 'cod_responsabilidad');
                                                         $this->evidencesTable = new \models\DataBaseTable( new \models\conection\Conection(),
@@ -61,7 +61,9 @@ class ViewController implements \frame\WebRoutes{
                 'POST' => [
                     'controller' => $teachersController,
                     'action' => 'guardar'
-                ]
+                ],
+
+                'login' => true,
                 ],
 
             'show/evidences' => [
@@ -72,7 +74,9 @@ class ViewController implements \frame\WebRoutes{
                 'POST' => [
                     'controller' => $teachersController,
                     'action' => 'evidencias'
-                ]
+                ],
+                
+                'login' => true
                 ],
 
             'generate/reports' => [
@@ -83,7 +87,8 @@ class ViewController implements \frame\WebRoutes{
                 'POST' => [
                     'controller' => $teachersController,
                     'action' => 'reportes'
-                ]
+                ],
+                'login' => true
                 ],
 
             'change/password' => [
@@ -94,7 +99,8 @@ class ViewController implements \frame\WebRoutes{
                 'POST' => [
                     'controller' => $passwordController,
                     'action' => 'password'
-                ]
+                ],
+                'login' => true
                 ],
             'exit' => [
                 'GET' => [
@@ -107,22 +113,23 @@ class ViewController implements \frame\WebRoutes{
                         'controller' => $adminController,
                         'action' => 'admin'
                     ],
-                    'POST' => [
-                        'controller' => $adminController,
-                        'action' => 'uploadInformation'
-                    ]
+                    'login' => true
                     ],
                 'admin/permises/access' => [
                     'GET' => [
                         'controller' => $adminController,
                         'action' => 'permiseActions'
-                    ]
+                    ],
+                    'login' => true,
+                    'permission' => \entity\Teachers::ADMINSTRADOR
                     ],
                 'evaluation/evidences'=> [
                     'GET' => [
                         'controller' => $evaluatorController,
                         'action' => 'evaluator'
-                    ]
+                    ],
+                    'login' => true,
+                    'responsability' => \web\Responsability::EVALUADOR
                     ], 
         ];
     }
@@ -132,19 +139,15 @@ class ViewController implements \frame\WebRoutes{
         return $this->autentification;
     }
 
-    public function getResponsability(): array
+    public function hashPermission($permission): bool
     {
         $user = $this->autentification->getUser();
-        $responsabilidad = $this->responsabilidadTable->selectFromColumn('profesor_ci',$user->ci_profesor);
-        return $responsabilidad ? $responsabilidad: [];
-        // if($responsabilidad){
-        //     return $responsabilidad;
-        // }else{
-        //     return [];
-        // }
-            
+        return $user->hashPermission($permission) ? true: false;
     }
 
-
-
+    public function hashResponsability($responsability): bool
+    {
+        $user = $this->autentification->getUser();
+        return $user->hashResponsability($responsability) ? true: false;
+    }
 }
