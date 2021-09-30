@@ -113,12 +113,25 @@ class ViewController implements \frame\WebRoutes{
                         'controller' => $adminController,
                         'action' => 'admin'
                     ],
-                    'login' => true
+                    'POST' => [
+                        'controller' => $adminController,
+                        'action' => 'uploadInformation'
+                    ],
+                    'login' => true,
+                    'permission' => \entity\Teachers::ADMINSTRADOR
                     ],
                 'admin/permises/access' => [
                     'GET' => [
                         'controller' => $adminController,
                         'action' => 'permiseActions'
+                    ],
+                    'login' => true,
+                    'permission' => \entity\Teachers::ADMINSTRADOR
+                    ],
+                'admin/data/save' => [
+                    'POST' => [
+                        'controller' => $adminController,
+                        'action' => 'saveDataDataBase'
                     ],
                     'login' => true,
                     'permission' => \entity\Teachers::ADMINSTRADOR
@@ -142,17 +155,12 @@ class ViewController implements \frame\WebRoutes{
     public function hashPermission($permission): bool
     {
         $user = $this->autentification->getUser();
-        if($user->hashPermission($permission)){
-            return true;
-        }else{
-            return false;
-        }
+        return $user->hashPermission($permission) ? true: false;
     }
 
     public function hashResponsability($responsability): bool
     {
         $user = $this->autentification->getUser();
-
         return $user->hashResponsability($responsability) ? true: false;
     }
 }

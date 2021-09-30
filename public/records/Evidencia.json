@@ -1,0 +1,1450 @@
+{
+    "EVIDENCIAS": [
+        {
+            "codigo": "1-AD-SOF 1.2.12.3",
+            "item": "1",
+            "elementoFundamental": "12",
+            "nombreEvidencia": "(Listados de asistentes con firmas, fotografías, actas de sesiones y resoluciones, invitaciones actores externos) en el desarrollo de la Planificación de la Carrera"
+        },
+        {
+            "codigo": "1-AD-SOF 2.10.53.7",
+            "item": "2",
+            "elementoFundamental": "53",
+            "nombreEvidencia": "Acta de entrega del laboratorio a la carrera."
+        },
+        {
+            "codigo": "1-AD-SOF 4.25.146.4",
+            "item": "3",
+            "elementoFundamental": "146 - 148 - 149 - 150",
+            "nombreEvidencia": "Actas de calificación."
+        },
+        {
+            "codigo": "1-AD-SOF 1.3.14.4",
+            "item": "4",
+            "elementoFundamental": "14",
+            "nombreEvidencia": "Ajustes curricular de Carrera"
+        },
+        {
+            "codigo": "1-AD-SOF 2.9.52.2",
+            "item": "5",
+            "elementoFundamental": "52",
+            "nombreEvidencia": "Analisis de la base de datos de libros existentes en biblioteca para cada carrera (ediciones actualizadas)"
+        },
+        {
+            "codigo": "1-AD-SOF 2.9.47.3",
+            "item": "6",
+            "elementoFundamental": "47 - 49",
+            "nombreEvidencia": "Base de datos de los libros físico y digital de la Carrera (5 años) ( Firmado y sellado por Biblioteca central)"
+        },
+        {
+            "codigo": "1-AD-SOF 1.3.13.5",
+            "item": "7",
+            "elementoFundamental": "13 - 87 - 88",
+            "nombreEvidencia": "Calendario Académico Institucional"
+        },
+        {
+            "codigo": "1-AD-SOF 1.4.22.2",
+            "item": "8",
+            "elementoFundamental": "22",
+            "nombreEvidencia": "Certificación de los beneficiarios de los proyectos de Vinculación."
+        },
+        {
+            "codigo": "1-AD-SOF 2.9.47.6",
+            "item": "9",
+            "elementoFundamental": "47 - 49",
+            "nombreEvidencia": "Certificación de pago de la compra de libros (Factura de compra)"
+        },
+        {
+            "codigo": "1-AD-SOF 2.7.39.2",
+            "item": "10",
+            "elementoFundamental": "39",
+            "nombreEvidencia": "Contenidos mínimos en nivelación"
+        },
+        {
+            "codigo": "1-AD-SOF 3.12.64.2",
+            "item": "11",
+            "elementoFundamental": "64 - 83 - 166 - 167 - 168",
+            "nombreEvidencia": "Contratos, nombramiento y\/o acción de personal de los profesores investigadores de acuerdo a su tiempo de dedicación"
+        },
+        {
+            "codigo": "1-AD-SOF 1.1.6.2",
+            "item": "12",
+            "elementoFundamental": "6",
+            "nombreEvidencia": "Convenios Marcos y específicos de carrera (Vinculación, Investigación)"
+        },
+        {
+            "codigo": "1-AD-SOF 1.2.11.3",
+            "item": "13",
+            "elementoFundamental": "11",
+            "nombreEvidencia": "Convenios y cartas de aceptación para redes de investigación"
+        },
+        {
+            "codigo": "1-AD-SOF 4.24.142.4",
+            "item": "14",
+            "elementoFundamental": "142 - 151",
+            "nombreEvidencia": "Cronograma de Tutorias del docente con horas."
+        },
+        {
+            "codigo": "1-AD-SOF 1.1.4.5",
+            "item": "15",
+            "elementoFundamental": "4 - 14 - 26 - 63 - 72 - 78 - 85 - 90 - 141 - 142 - 151",
+            "nombreEvidencia": "Distributivo académico de la carrera."
+        },
+        {
+            "codigo": "1-AD-SOF 1.1.4.8",
+            "item": "16",
+            "elementoFundamental": "4 - 73 - 74 - 76",
+            "nombreEvidencia": "Documento de conformación de grupos de investigación de la Carrera (Listado de grupos de investigación de la Carrera.)"
+        },
+        {
+            "codigo": "1-AD-SOF 5.27.160.3",
+            "item": "17",
+            "elementoFundamental": "160",
+            "nombreEvidencia": "Documentos que contengan la planificación, ejecución y resultados del análisis socioeconómico, asignación de ayudas o becas de la unidad de bienestar universitario que evidencia el mejoramiento del rendimiento académico de los estudianes de la carrera."
+        },
+        {
+            "codigo": "1-AD-SOF 1.1.5.7",
+            "item": "18",
+            "elementoFundamental": "5 - 11 - 155",
+            "nombreEvidencia": "Estatuto"
+        },
+        {
+            "codigo": "1-AD-SOF 1.1.2.3",
+            "item": "19",
+            "elementoFundamental": "2 - 3 - 4 - 10 - 79 - 123 - 125 - 126",
+            "nombreEvidencia": "Estudio de pertinencia de la carrera."
+        },
+        {
+            "codigo": "1-AD-SOF 1.1.5.2",
+            "item": "20",
+            "elementoFundamental": "5 - 126",
+            "nombreEvidencia": "Estudio de prospectiva de carrera"
+        },
+        {
+            "codigo": "1-AD-SOF 4.22.135.2",
+            "item": "21",
+            "elementoFundamental": "135 - 137",
+            "nombreEvidencia": "Evaluación de silabo"
+        },
+        {
+            "codigo": "1-AD-SOF 4.23.138.3",
+            "item": "22",
+            "elementoFundamental": "138",
+            "nombreEvidencia": "Informe de uso del EVEA."
+        },
+        {
+            "codigo": "1-AD-SOF 3.12.64.1",
+            "item": "23",
+            "elementoFundamental": "64 - 70",
+            "nombreEvidencia": "Evidencia del título  de cuarto nivel  MSc SENESCYT"
+        },
+        {
+            "codigo": "1-AD-SOF 3.13.68.1",
+            "item": "24",
+            "elementoFundamental": "68",
+            "nombreEvidencia": "Evidencia del título  de cuarto nivel  MScE , rankings de universidades Latinoamérica, logros académicos y experiencia en investigación"
+        },
+        {
+            "codigo": "1-AD-SOF 3.13.69.2",
+            "item": "25",
+            "elementoFundamental": "69",
+            "nombreEvidencia": "Evidencia del título  de cuarto nivel  PhD (LEYENDA)"
+        },
+        {
+            "codigo": "1-AD-SOF 3.13.67.2",
+            "item": "26",
+            "elementoFundamental": "67",
+            "nombreEvidencia": "Evidencia del título  de cuarto nivel  PhDE (registrado en la SENESCYT)"
+        },
+        {
+            "codigo": "1-AD-SOF 2.8.45.6",
+            "item": "27",
+            "elementoFundamental": "45",
+            "nombreEvidencia": "Formatos de calificación de los trabajos de titulación"
+        },
+        {
+            "codigo": "1-AD-SOF 2.8.45.4",
+            "item": "28",
+            "elementoFundamental": "45",
+            "nombreEvidencia": "Formatos de registro de tutores, directores, coordinadores, profesores de grupos de investigación."
+        },
+        {
+            "codigo": "1-AD-SOF 2.8.41.3",
+            "item": "29",
+            "elementoFundamental": "41 - 42 - 43 - 44",
+            "nombreEvidencia": "Guías de titulación"
+        },
+        {
+            "codigo": "1-AD-SOF 4.24.142.3",
+            "item": "30",
+            "elementoFundamental": "142 - 151",
+            "nombreEvidencia": "Horarios de docentes con horas de tutorias académicas"
+        },
+        {
+            "codigo": "1-AD-SOF 2.6.33.3",
+            "item": "31",
+            "elementoFundamental": "33",
+            "nombreEvidencia": "Informe comparativo de sílabos entre ciclos y contenidos mínimos (modificación de contenidos)"
+        },
+        {
+            "codigo": "1-AD-SOF 4.21.125.4",
+            "item": "32",
+            "elementoFundamental": "125",
+            "nombreEvidencia": "Informe comparativo del perfil de egreso con los resultados de aprendizaje de los estudiantes"
+        },
+        {
+            "codigo": "1-AD-SOF 1.4.20.4",
+            "item": "33",
+            "elementoFundamental": "20",
+            "nombreEvidencia": "Informe consolidado de los proyectos de vinculación con sus estatus"
+        },
+        {
+            "codigo": "1-AD-SOF 4.25.147.3",
+            "item": "34",
+            "elementoFundamental": "147",
+            "nombreEvidencia": "Informe consolidado de resultados de las PAE, de la Carrera"
+        },
+        {
+            "codigo": "1-AD-SOF 2.9.49.6",
+            "item": "35",
+            "elementoFundamental": "49",
+            "nombreEvidencia": "Informe de adquisición de libros de la carrera (resultados de compra en función de los solicitado por docentes)"
+        },
+        {
+            "codigo": "1-AD-SOF 2.6.33.2",
+            "item": "36",
+            "elementoFundamental": "33 - 34 - 35 - 36",
+            "nombreEvidencia": "Informe de ajustes de Carrera."
+        },
+        {
+            "codigo": "1-AD-SOF 3.14.74.8",
+            "item": "37",
+            "elementoFundamental": "74",
+            "nombreEvidencia": "Informe de avance de actividades de investigación del ciclo."
+        },
+        {
+            "codigo": "1-AD-SOF 5.27.159.4",
+            "item": "38",
+            "elementoFundamental": "159",
+            "nombreEvidencia": "Informe de Becas"
+        },
+        {
+            "codigo": "1-AD-SOF 3.16.89.2",
+            "item": "39",
+            "elementoFundamental": "89",
+            "nombreEvidencia": "Informe de capacitación"
+        },
+        {
+            "codigo": "1-AD-SOF 1.3.17.2",
+            "item": "40",
+            "elementoFundamental": "17",
+            "nombreEvidencia": "Informe de cumplimiento del plan de comunicaión"
+        },
+        {
+            "codigo": "1-AD-SOF 2.8.41.5",
+            "item": "41",
+            "elementoFundamental": "41 - 42 - 43 - 44",
+            "nombreEvidencia": "Informe de cumplimiento del plan de la Unidad de Titulación"
+        },
+        {
+            "codigo": "1-AD-SOF 2.6.30.2",
+            "item": "42",
+            "elementoFundamental": "30 - 31 - 32 - 36",
+            "nombreEvidencia": "Informe de cumplimiento del plan de seguimiento a graduados"
+        },
+        {
+            "codigo": "1-AD-SOF 2.5.28.4",
+            "item": "43",
+            "elementoFundamental": "28 - 29",
+            "nombreEvidencia": "Informe de cumplimiento del sílabo del Sianet y uso de la platorma Evea por Carrera"
+        },
+        {
+            "codigo": "1-AD-SOF 2.6.34.1",
+            "item": "44",
+            "elementoFundamental": "34",
+            "nombreEvidencia": "Informe de difusión de resultados del seguimiento a graduados."
+        },
+        {
+            "codigo": "1-AD-SOF 5.27.159.3",
+            "item": "45",
+            "elementoFundamental": "159",
+            "nombreEvidencia": "Informe de difusión de los servicios de bienestar universitario a través de redes sociales."
+        },
+        {
+            "codigo": "1-AD-SOF 4.23.139.2",
+            "item": "46",
+            "elementoFundamental": "139 - 150",
+            "nombreEvidencia": "Informe de ejecución de PAE y PIS"
+        },
+        {
+            "codigo": "1-AD-SOF 4.24.144.6",
+            "item": "47",
+            "elementoFundamental": "144",
+            "nombreEvidencia": "Informe de ejecución del plan de vinculación con la sociedad e investigación."
+        },
+        {
+            "codigo": "1-AD-SOF 1.3.13.4",
+            "item": "48",
+            "elementoFundamental": "13",
+            "nombreEvidencia": "Informe de ejecución del sílabo por ciclo"
+        },
+        {
+            "codigo": "1-AD-SOF 4.25.147.1",
+            "item": "49",
+            "elementoFundamental": "147",
+            "nombreEvidencia": "Informe de ejecuciòn y resultados de los proyectos integradores de saberes"
+        },
+        {
+            "codigo": "1-AD-SOF 1.1.6.3",
+            "item": "50",
+            "elementoFundamental": "6",
+            "nombreEvidencia": "Informe de elaboración del PEI"
+        },
+        {
+            "codigo": "1-AD-SOF 4.21.121.5",
+            "item": "51",
+            "elementoFundamental": "121",
+            "nombreEvidencia": "Informe de elaboración del perfil de egreso (con la participación de actores relevantes  en su revisión y validación)"
+        },
+        {
+            "codigo": "1-AD-SOF 2.11.57.1",
+            "item": "52",
+            "elementoFundamental": "57",
+            "nombreEvidencia": "Informe de evaluación a la plataforma (conectividad, acceso)-  Director de Sistemas."
+        },
+        {
+            "codigo": "1-AD-SOF 2.5.28.2",
+            "item": "53",
+            "elementoFundamental": "28 - 29 - 50 - 124 - 140",
+            "nombreEvidencia": "Informe de evaluación de Sílabo por carrera"
+        },
+        {
+            "codigo": "1-AD-SOF 2.11.59.1",
+            "item": "54",
+            "elementoFundamental": "59",
+            "nombreEvidencia": "Informe de evaluación de utilidad de la plataforma (que involucre a profesores y estudiantes)"
+        },
+        {
+            "codigo": "1-AD-SOF 1.2.12.2",
+            "item": "55",
+            "elementoFundamental": "12",
+            "nombreEvidencia": "Informe de evaluación del PEDI (Evidencias de proceso de formulación del Plan estratégico y estudio prospectivo de facultad) "
+        },
+        {
+            "codigo": "1-AD-SOF 1.3.16.2",
+            "item": "56",
+            "elementoFundamental": "16 - 86 - 87 - 88",
+            "nombreEvidencia": "Informe de evaluaciones a docentes por carrera para la implementación de estrategias"
+        },
+        {
+            "codigo": "1-AD-SOF 1.2.9.1",
+            "item": "57",
+            "elementoFundamental": "9",
+            "nombreEvidencia": "Informe de formulación del plan estratégico con la participación de actores claves"
+        },
+        {
+            "codigo": "1-AD-SOF 1.1.5.4",
+            "item": "58",
+            "elementoFundamental": "5 - 13 - 27",
+            "nombreEvidencia": "Informe de gestión Académica de la carrera"
+        },
+        {
+            "codigo": "1-AD-SOF 1.4.23.1",
+            "item": "59",
+            "elementoFundamental": "23",
+            "nombreEvidencia": "Informe de impacto del proyecto ejecutados de vinculación"
+        },
+        {
+            "codigo": "1-AD-SOF 1.3.15.4",
+            "item": "60",
+            "elementoFundamental": "15 - 16",
+            "nombreEvidencia": "Informe de implementación de propuestas de estudiantes y docentes para mejora de los procesos de aprendizaje esperados"
+        },
+        {
+            "codigo": "1-AD-SOF 2.9.52.1",
+            "item": "61",
+            "elementoFundamental": "52",
+            "nombreEvidencia": "Informe de la Carrera respecto a la calidad de los recursos bibliográficos."
+        },
+        {
+            "codigo": "1-AD-SOF 5.27.159.2",
+            "item": "62",
+            "elementoFundamental": "159",
+            "nombreEvidencia": "Informe de la participación de los estudiantes de la carrera en la socialización de los beneficios que brinda bienestar uniresitario"
+        },
+        {
+            "codigo": "1-AD-SOF 2.8.45.3",
+            "item": "63",
+            "elementoFundamental": "45 - 46",
+            "nombreEvidencia": "Informe de la Unidad de Titulación para conocer asignación de Directores,  pares académicos, estudiantes por modalidades de titulación."
+        },
+        {
+            "codigo": "1-AD-SOF 2.8.42.5",
+            "item": "64",
+            "elementoFundamental": "42 - 45",
+            "nombreEvidencia": "Informe de los docentes con horas de titulación de los trabajos asignados en el periodo acádemico."
+        },
+        {
+            "codigo": "1-AD-SOF 4.21.127.1",
+            "item": "65",
+            "elementoFundamental": "127",
+            "nombreEvidencia": "Informe de mecanismos utilizados para la difusión de las carreras (ferias, medios de comunicación, entre otros)"
+        },
+        {
+            "codigo": "1-AD-SOF 1.1.7.3",
+            "item": "66",
+            "elementoFundamental": "7",
+            "nombreEvidencia": "Informe de medición de impactos de las carreras en el contexto"
+        },
+        {
+            "codigo": "1-AD-SOF 2.9.51.2",
+            "item": "67",
+            "elementoFundamental": "51",
+            "nombreEvidencia": "Informe de que la cantidad bibliografica, son suficientes, adecuados, pertinentes y vigentes."
+        },
+        {
+            "codigo": "1-AD-SOF 4.22.130.2",
+            "item": "68",
+            "elementoFundamental": "130",
+            "nombreEvidencia": "Informe de resultados de aprendizaje de los estudiantes de la carrera según el cuadro de equivalencias del reglamento de evaluación estudiantil."
+        },
+        {
+            "codigo": "1-AD-SOF 4.25.150.3",
+            "item": "69",
+            "elementoFundamental": "150",
+            "nombreEvidencia": "Informe de resultados de PAE \/ PIS"
+        },
+        {
+            "codigo": "1-AD-SOF 5.26.153.2",
+            "item": "70",
+            "elementoFundamental": "153 - 156 - 160",
+            "nombreEvidencia": "Informe de resultados relacionados a los beneficios de bienestar universitario de los estudiantes de la carrera."
+        },
+        {
+            "codigo": "1-AD-SOF 1.1.2.4",
+            "item": "71",
+            "elementoFundamental": "2 - 7 - 121 - 122",
+            "nombreEvidencia": "Informe de seguimiento a graduados y medición de impactos"
+        },
+        {
+            "codigo": "1-AD-SOF 1.4.23.2",
+            "item": "72",
+            "elementoFundamental": "23",
+            "nombreEvidencia": "Informe de seguimiento al desarrollo de los proyectos de vinculación"
+        },
+        {
+            "codigo": "1-AD-SOF 1.3.19.2",
+            "item": "73",
+            "elementoFundamental": "19",
+            "nombreEvidencia": "Informe de seguimiento al plan  de apoyo a los estudiantes"
+        },
+        {
+            "codigo": "1-AD-SOF 1.3.18.3",
+            "item": "74",
+            "elementoFundamental": "18",
+            "nombreEvidencia": "Informe de seguimiento al plan de mejoramiento de la Calidad"
+        },
+        {
+            "codigo": "1-AD-SOF 2.5.28.3",
+            "item": "75",
+            "elementoFundamental": "28 - 29",
+            "nombreEvidencia": "Informe de seguimiento al sílabo por estudiantes"
+        },
+        {
+            "codigo": "1-AD-SOF 2.7.40.1",
+            "item": "76",
+            "elementoFundamental": "40",
+            "nombreEvidencia": "Informe de socialización de políticas de SOFisión en unidades académicas"
+        },
+        {
+            "codigo": "1-AD-SOF 2.6.33.1",
+            "item": "77",
+            "elementoFundamental": "33",
+            "nombreEvidencia": "Informe de socilización de resultados de seguimiento a graduados"
+        },
+        {
+            "codigo": "1-AD-SOF 4.22.136.1",
+            "item": "78",
+            "elementoFundamental": "136 - 141 - 142 - 143 - 144 - 145 - 151 - 161",
+            "nombreEvidencia": "Informe de tutorias académicas en función del plan que incluya estadísticas de indices de repitencia a través de las evaluaciones en el proceso de enseñanza aprendizaje."
+        },
+        {
+            "codigo": "1-AD-SOF 2.10.53.8",
+            "item": "79",
+            "elementoFundamental": "53",
+            "nombreEvidencia": "Informe de uso de equipos por estudiante y carrera (contador numerico de uso de equipos, listado de alumnos)."
+        },
+        {
+            "codigo": "1-AD-SOF 2.11.56.4",
+            "item": "80",
+            "elementoFundamental": "56 - 58 - 59 - 161 - 162 - 164",
+            "nombreEvidencia": "Informe de utilización del Entorno de Aprendizaje Virtual de los docentes y estudiantes (uso del chat,evaluaciones, foros, entre otros) por carreras."
+        },
+        {
+            "codigo": "1-AD-SOF 2.10.53.5",
+            "item": "81",
+            "elementoFundamental": "53",
+            "nombreEvidencia": "Informe del espacio físico asignado al laboratorio por cantidad de equipos  (Documento firmado y sellado por el Responsable de los laboratorios)"
+        },
+        {
+            "codigo": "1-AD-SOF 5.27.157.2",
+            "item": "82",
+            "elementoFundamental": "157 - 158",
+            "nombreEvidencia": "Informe del proceso de otorgamiento de Becas"
+        },
+        {
+            "codigo": "1-AD-SOF 1.3.13.3",
+            "item": "83",
+            "elementoFundamental": "13",
+            "nombreEvidencia": "Informe del sianet del cumplimiento del contenido"
+        },
+        {
+            "codigo": "1-AD-SOF 4.25.152.1",
+            "item": "84",
+            "elementoFundamental": "152",
+            "nombreEvidencia": "Informe del sianet del rendimiento de los estudiantes"
+        },
+        {
+            "codigo": "1-AD-SOF 1.3.18.4",
+            "item": "85",
+            "elementoFundamental": "18 - 19",
+            "nombreEvidencia": "Informe final de la implementación del Plan de mejoramiento de la autoevaluación"
+        },
+        {
+            "codigo": "1-AD-SOF 2.10.53.4",
+            "item": "86",
+            "elementoFundamental": "53",
+            "nombreEvidencia": "Informe técnico del estado de los laboratorios (mantenimientos, preventivos, predictivos, calibración)."
+        },
+        {
+            "codigo": "1-AD-SOF 4.22.128.2",
+            "item": "87",
+            "elementoFundamental": "128 - 130",
+            "nombreEvidencia": "Informes de ajustes curriculares de carrera"
+        },
+        {
+            "codigo": "1-AD-SOF 1.3.16.1",
+            "item": "88",
+            "elementoFundamental": "16 - 18",
+            "nombreEvidencia": "Informes de Autoevaluación de la carrera "
+        },
+        {
+            "codigo": "1-AD-SOF 2.5.25.1",
+            "item": "89",
+            "elementoFundamental": "25",
+            "nombreEvidencia": "Informes de comisión académica de cada Facultad (firmas acuerdos fotografías"
+        },
+        {
+            "codigo": "1-AD-SOF 2.9.48.4",
+            "item": "90",
+            "elementoFundamental": "48",
+            "nombreEvidencia": "Informes de ejecución de los planes de inducción de base de datos, titulación, concurso proyectos de investigación."
+        },
+        {
+            "codigo": "1-AD-SOF 3.16.91.1",
+            "item": "91",
+            "elementoFundamental": "91",
+            "nombreEvidencia": "Informes de evaluación de desempeño docente"
+        },
+        {
+            "codigo": "1-AD-SOF 5.27.159.5",
+            "item": "92",
+            "elementoFundamental": "159",
+            "nombreEvidencia": "Informes de Homologación"
+        },
+        {
+            "codigo": "1-AD-SOF 3.16.90.4",
+            "item": "93",
+            "elementoFundamental": "90",
+            "nombreEvidencia": "Informes de horas de gestión de los docentes."
+        },
+        {
+            "codigo": "1-AD-SOF 1.4.22.1",
+            "item": "94",
+            "elementoFundamental": "22",
+            "nombreEvidencia": "Informes de los proyectos de vinculación culminados con medición de impacto. "
+        },
+        {
+            "codigo": "1-AD-SOF 1.3.15.2",
+            "item": "95",
+            "elementoFundamental": "15",
+            "nombreEvidencia": "Informes de reuniones de socialización de las actividades de carrera "
+        },
+        {
+            "codigo": "1-AD-SOF 3.16.88.4",
+            "item": "96",
+            "elementoFundamental": "88 - 92",
+            "nombreEvidencia": "Informes de socialización de los resultados de evaluación de desempeño docente"
+        },
+        {
+            "codigo": "1-AD-SOF 2.9.50.2",
+            "item": "97",
+            "elementoFundamental": "50 - 135",
+            "nombreEvidencia": "Lineamientos institucionales para la organización del aprendizaje como instrumernto de aplicación para las buenas prácticas academicas (planificación y ejecución de horas PAE, anexos (listado de estudiantes, informe de estudiantes, registron de calificación de PAE)"
+        },
+        {
+            "codigo": "1-AD-SOF 1.1.4.7",
+            "item": "98",
+            "elementoFundamental": "4 - 20 - 21 - 46 - 73 - 74 - 76 - 82 - 129",
+            "nombreEvidencia": "Lineas de investigación aprobadas de la carrera."
+        },
+        {
+            "codigo": "1-AD-SOF 5.31.174.1",
+            "item": "99",
+            "elementoFundamental": "174",
+            "nombreEvidencia": "Lista certíficada actualizada, generada desde el Sianet por secretaria de carrera del total de estudiantes de las cohortes definidas que concluyeron el proceso de Titulación (Proyecto de titulación o aprobaron el examen complexivo)"
+        },
+        {
+            "codigo": "1-AD-SOF 5.26.154.1",
+            "item": "100",
+            "elementoFundamental": "154 - 160 - 156",
+            "nombreEvidencia": "Lista certificada de estudiantes a quienes se les ha concedido algún tipo de beneficio o servicio, especificando el tipo y monto del apoyo."
+        },
+        {
+            "codigo": "1-AD-SOF 3.15.83.2",
+            "item": "101",
+            "elementoFundamental": "83",
+            "nombreEvidencia": "Lista de profesores  titulares con dedicación a tiempo completo"
+        },
+        {
+            "codigo": "1-AD-SOF 3.15.84.1",
+            "item": "102",
+            "elementoFundamental": "84",
+            "nombreEvidencia": "Lista total de profesores relacionados con la carrera "
+        },
+        {
+            "codigo": "1-AD-SOF 3.18.97.1",
+            "item": "103",
+            "elementoFundamental": "97",
+            "nombreEvidencia": "Listado  de Artículos cientificos publicados por docentes de la carrera incluido el valor, entre 0 y 1, otorgado al impacto local, regional o nacional atribuido al artículo ¡-ésimo"
+        },
+        {
+            "codigo": "1-AD-SOF 3.18.99.1",
+            "item": "104",
+            "elementoFundamental": "99-108-112",
+            "nombreEvidencia": "Listado  de Artículos cientificos publicados por docentes de la carrera incluido el valor, entre 0 y 1, otorgado al impacto local, regional o nacional atribuido al artículo ¡-ésimo con sus respectivos links"
+        },
+        {
+            "codigo": "1-AD-SOF 3.19.104.1",
+            "item": "105",
+            "elementoFundamental": "104",
+            "nombreEvidencia": "Listado  de profesores de la carrera que son Autores o Coautores"
+        },
+        {
+            "codigo": "1-AD-SOF 2.8.45.5",
+            "item": "106",
+            "elementoFundamental": "45",
+            "nombreEvidencia": "Listado certificado  de estudiantes en titulación."
+        },
+        {
+            "codigo": "1-AD-SOF 5.30.170.1",
+            "item": "107",
+            "elementoFundamental": "170",
+            "nombreEvidencia": "Listado certíficado por secretaria de carrera de los estudiantes de las cohortes seleccionadas que se mantienen en la carrera durante el periodo de evaluación."
+        },
+        {
+            "codigo": "1-AD-SOF 5.31.175.1",
+            "item": "108",
+            "elementoFundamental": "175",
+            "nombreEvidencia": "Listado certíficado por secretaria de carrera del total de estudiantes de las cohortes definidas para el cálculo de la titulación"
+        },
+        {
+            "codigo": "1-AD-SOF 5.30.171.1",
+            "item": "109",
+            "elementoFundamental": "171",
+            "nombreEvidencia": "Listado certíficado por secretaria de carrera del total de estudiantes de las cohortes definidas para el cálculo de retención en un periodos de dos años."
+        },
+        {
+            "codigo": "1-AD-SOF 3.16.92.3",
+            "item": "110",
+            "elementoFundamental": "92",
+            "nombreEvidencia": "Listado de asistencia de docentes a la socialización de resultados de evaluación docente de la carrera."
+        },
+        {
+            "codigo": "1-AD-SOF 5.29.169.1",
+            "item": "111",
+            "elementoFundamental": "169",
+            "nombreEvidencia": "Listado de estudiantes matriculados durante los períodos académicos ordinarios por ciclo, asignatura y paralelo."
+        },
+        {
+            "codigo": "1-AD-SOF 3.13.67.4",
+            "item": "112",
+            "elementoFundamental": "67",
+            "nombreEvidencia": "Listado de IES  en los rankings de Universidades de  Latinoamericana que evidencien los logros académicos y experiencia en investigación"
+        },
+        {
+            "codigo": "1-AD-SOF 3.13.67.3",
+            "item": "113",
+            "elementoFundamental": "67",
+            "nombreEvidencia": "Listado de IES para el programa de becas para doctorado (PHD) para docentes de universidades y escuelas politécnicas "
+        },
+        {
+            "codigo": "1-AD-SOF 3.14.80.2",
+            "item": "114",
+            "elementoFundamental": "80",
+            "nombreEvidencia": "Listado de la producción cientifica (libros, capitulos de libros, Artículos, ponencias) que sean coherentes con el contexto local, nacional, regional o mundial."
+        },
+        {
+            "codigo": "1-AD-SOF 3.14.79.1",
+            "item": "115",
+            "elementoFundamental": "79",
+            "nombreEvidencia": "Listado de la producción cientifica (libros, capitulos de libros, Artículos, ponencias) relacionadas a las lineas de investigación y con el estudio de pertinencia de la carrera."
+        },
+        {
+            "codigo": "1-AD-SOF 3.14.78.1",
+            "item": "116",
+            "elementoFundamental": "78",
+            "nombreEvidencia": "Listado de la producción cientifica (libros, capitulos de libros, Artículos, ponencias) relacionadas a las lineas de investigación y las asignaturas de la carrera."
+        },
+        {
+            "codigo": "1-AD-SOF 3.14.81.1",
+            "item": "117",
+            "elementoFundamental": "81",
+            "nombreEvidencia": "Listado de la producción cientifica (libros, capitulos de libros, Artículos, ponencias) relacionados con las lineas de investigación y los proyectos de titulación aprobados de la carrera."
+        },
+        {
+            "codigo": "1-AD-SOF 2.9.47.5",
+            "item": "118",
+            "elementoFundamental": "47",
+            "nombreEvidencia": "Listado de libros adquiridos por carreras"
+        },
+        {
+            "codigo": "1-AD-SOF 3.17.93.1",
+            "item": "119",
+            "elementoFundamental": "93",
+            "nombreEvidencia": "Listado de profesores que han realizado a ponencias y\/o eventos de actualización científica y pedagógica  en el periodo de evaluación con su sumatoria"
+        },
+        {
+            "codigo": "1-AD-SOF 3.14.73.5",
+            "item": "120",
+            "elementoFundamental": "73 - 74",
+            "nombreEvidencia": "Listado de programas de y\/o Proyectos de investigación Aprobados de la carrera; incluye participantes docentes y estudiantes"
+        },
+        {
+            "codigo": "1-AD-SOF 3.14.75.2",
+            "item": "121",
+            "elementoFundamental": "75 - 77",
+            "nombreEvidencia": "Listado de proyectos aprobados ejecutados y en ejecución de la carrera en el periodo de evaluación en relación a las lineas de investigación de la carrera.\nListado de profesores con titularidad que forman parte de gupos de investigación de la carrera"
+        },
+        {
+            "codigo": "1-AD-SOF 1.4.21.3",
+            "item": "122",
+            "elementoFundamental": "21",
+            "nombreEvidencia": "Listado de proyectos de vinculación aprobados, ejecutados y de ejecución e informes finales certificado"
+        },
+        {
+            "codigo": "1-AD-SOF 2.7.38.1",
+            "item": "123",
+            "elementoFundamental": "38",
+            "nombreEvidencia": "Listado de selección de estudiantes por género, discapacidad, autodenominación, etnia, lugar de origen, edad de la carrera."
+        },
+        {
+            "codigo": "1-AD-SOF 3.13.67.1",
+            "item": "124",
+            "elementoFundamental": "67",
+            "nombreEvidencia": "Listado de universidades de excelencia "
+        },
+        {
+            "codigo": "1-AD-SOF 3.13.71.1",
+            "item": "125",
+            "elementoFundamental": "71 - 94 - 98 - 105 - 113",
+            "nombreEvidencia": "Listado del total de profesores de la carrera"
+        },
+        {
+            "codigo": "1-AD-SOF 3.14.73.7",
+            "item": "126",
+            "elementoFundamental": "73 - 74",
+            "nombreEvidencia": "Listado grupo de redes de investigación externos"
+        },
+        {
+            "codigo": "1-AD-SOF 3.20.119.1",
+            "item": "127",
+            "elementoFundamental": "119",
+            "nombreEvidencia": "Listado total de capitulos, publicados por profesores de la carrera, incluido el valor, entre 0 y 0,5, otorgado al impacto local, regional o nacional atribuido al libro ¡-ésimo con sus respectivos links"
+        },
+        {
+            "codigo": "1-AD-SOF 2.10.55.1",
+            "item": "128",
+            "elementoFundamental": "55",
+            "nombreEvidencia": "Listado total de laboratorios equipos, mobiliarios, softwares  de la carrera a evaluar"
+        },
+        {
+            "codigo": "1-AD-SOF 3.20.114.1",
+            "item": "129",
+            "elementoFundamental": "114",
+            "nombreEvidencia": "Listado total de libros, publicados por profesores de la carrera, incluido el valor, entre 0 y 1, otorgado al impacto local, regional o nacional atribuido al libro ¡-ésimo con sus respectivos links"
+        },
+        {
+            "codigo": "1-AD-SOF 3.14.73.8",
+            "item": "130",
+            "elementoFundamental": "73 - 74",
+            "nombreEvidencia": "Listados de docentes y estudiantes de los proyectos de investigación "
+        },
+        {
+            "codigo": "1-AD-SOF 3.20.111.1",
+            "item": "131",
+            "elementoFundamental": "111",
+            "nombreEvidencia": "Listados de profesores que han publicado  libros o capítulos de libros de la carrera con sus respectivos links"
+        },
+        {
+            "codigo": "1-AD-SOF 3.19.103.1",
+            "item": "132",
+            "elementoFundamental": "103",
+            "nombreEvidencia": "Listados de profesores que han publicado artículos cientificos (autores y coautores) de la carrera con sus respectivos links en revistas de impacto mundial"
+        },
+        {
+            "codigo": "1-AD-SOF 3.18.96.1",
+            "item": "133",
+            "elementoFundamental": "96",
+            "nombreEvidencia": "Listados de profesores que han publicado artículos cientificos (autores y coautores) de la carrera con sus respectivos links en revistas de impacto mundial incluido el indice SJR otorgado al artículo i-ésimo."
+        },
+        {
+            "codigo": "1-AD-SOF 5.29.166.1",
+            "item": "134",
+            "elementoFundamental": "166 - 167 - 168",
+            "nombreEvidencia": "Listados filtrado del distributivo académico de la carrera, certificado por secretaria de carrera."
+        },
+        {
+            "codigo": "1-AD-SOF 5.29.165.1",
+            "item": "135",
+            "elementoFundamental": "165",
+            "nombreEvidencia": "Listas certificadas emitidas por secretaria de carrera de los estudiantes matriculados."
+        },
+        {
+            "codigo": "1-AD-SOF 1.1.5.3",
+            "item": "136",
+            "elementoFundamental": "5",
+            "nombreEvidencia": "LOES (Ley Organica de Educacion Superior)"
+        },
+        {
+            "codigo": "1-AD-SOF 1.1.4.6",
+            "item": "137",
+            "elementoFundamental": "4 - 65 - 132 - 133 - 134 - 138",
+            "nombreEvidencia": "Malla curricular aprobada y en vigencia al momento de la evaluación  con prerequisitos y corequisitos."
+        },
+        {
+            "codigo": "1-AD-SOF 2.6.35.2",
+            "item": "138",
+            "elementoFundamental": "35",
+            "nombreEvidencia": "Mallas antes del ajuste y con el ajuste curricular"
+        },
+        {
+            "codigo": "1-AD-SOF 2.10.53.6",
+            "item": "139",
+            "elementoFundamental": "53",
+            "nombreEvidencia": "Manual de seguridad de uso de laboratorios"
+        },
+        {
+            "codigo": "1-AD-SOF 3.16.86.4",
+            "item": "140",
+            "elementoFundamental": "86",
+            "nombreEvidencia": "Manual de uso Software para la evaluación docente "
+        },
+        {
+            "codigo": "1-AD-SOF 2.11.56.3",
+            "item": "141",
+            "elementoFundamental": "56 - 57 - 60 - 61 - 62 - 163",
+            "nombreEvidencia": "Manual de usuario del EVEA –  Documento del Director de Sistemas con firmas y sellos, legalizado "
+        },
+        {
+            "codigo": "1-AD-SOF 4.24.145.2",
+            "item": "142",
+            "elementoFundamental": "145",
+            "nombreEvidencia": "Matriz comparativa de notas entre parciales resultado de tutorias."
+        },
+        {
+            "codigo": "1-AD-SOF 4.22.129.3",
+            "item": "143",
+            "elementoFundamental": "129",
+            "nombreEvidencia": "Matriz comparativa de plan de estudios, objetivos de carrera, resultados de aprendizaje. Perfil de egreso y lineas de investigación"
+        },
+        {
+            "codigo": "1-AD-SOF 1.4.22.3",
+            "item": "144",
+            "elementoFundamental": "22",
+            "nombreEvidencia": "Matriz comparativa entre lineas de investigación, Proyecto de vinculación y asignaturas de la carrera."
+        },
+        {
+            "codigo": "1-AD-SOF 3.14.75.1",
+            "item": "145",
+            "elementoFundamental": "75",
+            "nombreEvidencia": "Matriz con el listado de docentes que pertenecen a grupos de investigación con al menos una publicación o que esten desarrollando un proyecto de investigación acorde a las lineas de investigación de la carrera y en el periodo de evaluación. "
+        },
+        {
+            "codigo": "1-AD-SOF 3.12.66.1",
+            "item": "146",
+            "elementoFundamental": "66",
+            "nombreEvidencia": "Matriz de asignaturas dictadas por profesores con formación de posgrado de maestría o equivalente afín a la asignatura"
+        },
+        {
+            "codigo": "1-AD-SOF 3.14.74.10",
+            "item": "147",
+            "elementoFundamental": "74",
+            "nombreEvidencia": "Matriz de estudiantes de grado que participan en proyectos de investigación"
+        },
+        {
+            "codigo": "1-AD-SOF 1.2.12.1",
+            "item": "148",
+            "elementoFundamental": "12",
+            "nombreEvidencia": "Matriz de involucrados en la Planificación de la Carrera"
+        },
+        {
+            "codigo": "1-AD-SOF 3.14.74.9",
+            "item": "149",
+            "elementoFundamental": "74",
+            "nombreEvidencia": "Matriz de los grupos de investigación y su contribución al desarrollo de la investigación formativa y a la integración  con un currículo de la carrera y los proyectos de vinculación con la sociedad "
+        },
+        {
+            "codigo": "1-AD-SOF 2.5.26.3",
+            "item": "150",
+            "elementoFundamental": "26",
+            "nombreEvidencia": "Matriz de registros de cumplimiento de horários"
+        },
+        {
+            "codigo": "1-AD-SOF 2.10.54.1",
+            "item": "151",
+            "elementoFundamental": "54",
+            "nombreEvidencia": "Matriz de valoración de disponibilidad enfocado en equipamiento y funcionalidad según el plan de prácticas."
+        },
+        {
+            "codigo": "1-AD-SOF 3.13.69.1",
+            "item": "152",
+            "elementoFundamental": "69",
+            "nombreEvidencia": "Matriz que contenga Lista de docentes con título de PHD, Universidad, año de obtención del Título."
+        },
+        {
+            "codigo": "1-AD-SOF 4.21.123.1",
+            "item": "153",
+            "elementoFundamental": "123 - 125",
+            "nombreEvidencia": "Modelo educacional de la Universidad del periodo de evaluación."
+        },
+        {
+            "codigo": "1-AD-SOF 2.10.53.1",
+            "item": "154",
+            "elementoFundamental": "53",
+            "nombreEvidencia": "Normativa  \/ Reglamento de procesos de práctica"
+        },
+        {
+            "codigo": "1-AD-SOF 2.6.36.4",
+            "item": "155",
+            "elementoFundamental": "36",
+            "nombreEvidencia": "Nueva oferta académica de pre y posgrado"
+        },
+        {
+            "codigo": "1-AD-SOF 2.9.47.4",
+            "item": "156",
+            "elementoFundamental": "47",
+            "nombreEvidencia": "Número de ejemplares físicos que existen por libro ( Firmado y sellado por Biblioteca General)"
+        },
+        {
+            "codigo": "1-AD-SOF 2.9.51.1",
+            "item": "157",
+            "elementoFundamental": "51",
+            "nombreEvidencia": "Número de estudiantes por libro ( Firmado y sellado por Secretaría de Carrera)"
+        },
+        {
+            "codigo": "1-AD-SOF 2.9.49.1",
+            "item": "158",
+            "elementoFundamental": "49",
+            "nombreEvidencia": "Oficio de requeriemto de libros en base a las necesidades para investigación y titulación (coordinación de carrera)"
+        },
+        {
+            "codigo": "1-AD-SOF 2.9.49.2",
+            "item": "159",
+            "elementoFundamental": "49",
+            "nombreEvidencia": "Oficio de requeriemto de libros en base a las necesidades para investigación y titulación (Decanato consolidado de las carreras)"
+        },
+        {
+            "codigo": "1-AD-SOF 4.21.127.2",
+            "item": "160",
+            "elementoFundamental": "127",
+            "nombreEvidencia": "Página web de la Universidad"
+        },
+        {
+            "codigo": "1-AD-SOF 1.1.1.4",
+            "item": "161",
+            "elementoFundamental": "1 - 4 - 10 -",
+            "nombreEvidencia": "PDOT Local, Provincial y Regional"
+        },
+        {
+            "codigo": "1-AD-SOF 1.1.1.5",
+            "item": "162",
+            "elementoFundamental": "1 - 5 - 8 - 11 - 82",
+            "nombreEvidencia": "PEDI (Plan Estratégico de Desarrollo Institucional)."
+        },
+        {
+            "codigo": "1-AD-SOF 2.7.37.2",
+            "item": "163",
+            "elementoFundamental": "37",
+            "nombreEvidencia": "Perfil de ingreso"
+        },
+        {
+            "codigo": "1-AD-SOF 1.3.19.1",
+            "item": "164",
+            "elementoFundamental": "19",
+            "nombreEvidencia": "Plan de apoyo a los estudiantes que rinden el examen nacional de evaluación de carreras"
+        },
+        {
+            "codigo": "1-AD-SOF 1.3.14.1",
+            "item": "165",
+            "elementoFundamental": "14",
+            "nombreEvidencia": "Plan de Aseguramiento de la Calidad Carrera"
+        },
+        {
+            "codigo": "1-AD-SOF 1.3.15.1",
+            "item": "166",
+            "elementoFundamental": "15",
+            "nombreEvidencia": "Plan de autoevaluación interno de Carreras"
+        },
+        {
+            "codigo": "1-AD-SOF 1.2.11.1",
+            "item": "167",
+            "elementoFundamental": "11 - 89 -",
+            "nombreEvidencia": "Plan de Capacitación Docente y perfeccionamiento docente de la Carrera"
+        },
+        {
+            "codigo": "1-AD-SOF 1.3.17.1",
+            "item": "168",
+            "elementoFundamental": "17",
+            "nombreEvidencia": "Plan de comunicación interna y externa de Carrera (Invitaciones actores, firmas de asistentes, fotografías, actas de socialización)"
+        },
+        {
+            "codigo": "1-AD-SOF 1.1.4.4",
+            "item": "169",
+            "elementoFundamental": "4 - 10 - 80 -",
+            "nombreEvidencia": "Plan de desarrollo nacional"
+        },
+        {
+            "codigo": "1-AD-SOF 4.21.124.2",
+            "item": "170",
+            "elementoFundamental": "124",
+            "nombreEvidencia": "Plan de estudios."
+        },
+        {
+            "codigo": "1-AD-SOF 1.2.8.4",
+            "item": "171",
+            "elementoFundamental": "8 - 27 - 28 - 29 - 37",
+            "nombreEvidencia": "Plan de gestión académica de la carrera"
+        },
+        {
+            "codigo": "1-AD-SOF 2.9.48.1",
+            "item": "172",
+            "elementoFundamental": "48",
+            "nombreEvidencia": "Plan de inducción sobre el uso de Bases de datos virtuales, búsquedas en la web y los sistemas bibliográficos de la institución a docentes y estudientes a inicios de ciclo académico."
+        },
+        {
+            "codigo": "1-AD-SOF 2.9.48.3",
+            "item": "173",
+            "elementoFundamental": "48",
+            "nombreEvidencia": "Plan de inducción sobre participación en concursos de proyectos de investigación (Bases de datos virtuales, búsquedas en la web y los sistemas bibliográficos de la institución)."
+        },
+        {
+            "codigo": "1-AD-SOF 2.9.48.2",
+            "item": "174",
+            "elementoFundamental": "48",
+            "nombreEvidencia": "Plan de inducción sobre titulación (Bases de datos virtuales, búsquedas en la web y los sistemas bibliográficos de la institución)"
+        },
+        {
+            "codigo": "1-AD-SOF 3.14.73.2",
+            "item": "175",
+            "elementoFundamental": "73 - 74 -",
+            "nombreEvidencia": "Plan de investigación de la Carrera"
+        },
+        {
+            "codigo": "1-AD-SOF 2.10.53.3",
+            "item": "176",
+            "elementoFundamental": "53",
+            "nombreEvidencia": "Plan de mantenimiento de laboratorios"
+        },
+        {
+            "codigo": "1-AD-SOF 2.6.35.3",
+            "item": "177",
+            "elementoFundamental": "35",
+            "nombreEvidencia": "Plan de mejora a la malla y contenidos minimos en función del informe de ajuste de carrera"
+        },
+        {
+            "codigo": "1-AD-SOF 3.16.91.2",
+            "item": "178",
+            "elementoFundamental": "91",
+            "nombreEvidencia": "Plan de mejora del proceso de enseñanza aprendizaje"
+        },
+        {
+            "codigo": "1-AD-SOF 1.3.14.3",
+            "item": "179",
+            "elementoFundamental": "14 - 16 - 18 - 27",
+            "nombreEvidencia": "Plan de mejoras de Carrera"
+        },
+        {
+            "codigo": "1-AD-SOF 1.1.7.1",
+            "item": "180",
+            "elementoFundamental": "7",
+            "nombreEvidencia": "Plan de monitoreo y evaluación de PEI"
+        },
+        {
+            "codigo": "1-AD-SOF 4.24.144.2",
+            "item": "181",
+            "elementoFundamental": "144",
+            "nombreEvidencia": "Plan de prácticas pre-profesionales"
+        },
+        {
+            "codigo": "1-AD-SOF 4.22.128.1",
+            "item": "182",
+            "elementoFundamental": "128",
+            "nombreEvidencia": "Plan de revisión, actualización del plan de estudios"
+        },
+        {
+            "codigo": "1-AD-SOF 1.1.2.5",
+            "item": "183",
+            "elementoFundamental": "2 - 10 - 30 - 31 - 32 - 36",
+            "nombreEvidencia": "Plan de seguimiento a graduados (políticas)"
+        },
+        {
+            "codigo": "1-AD-SOF 2.8.41.4",
+            "item": "184",
+            "elementoFundamental": "41 - 42 - 43 - 44 - 45 - 46",
+            "nombreEvidencia": "Plan de titulación (para cada modalidad de Titulación)"
+        },
+        {
+            "codigo": "1-AD-SOF 4.24.141.2",
+            "item": "185",
+            "elementoFundamental": "141 - 142 - 143 - 144 - 151",
+            "nombreEvidencia": "Plan de Tutorias académicas"
+        },
+        {
+            "codigo": "1-AD-SOF 2.10.53.2",
+            "item": "186",
+            "elementoFundamental": "53",
+            "nombreEvidencia": "Plan de uso de laboratorios (incluye Guía de uso de Laboratorio)"
+        },
+        {
+            "codigo": "1-AD-SOF 1.4.20.1",
+            "item": "187",
+            "elementoFundamental": "20 - 144 -",
+            "nombreEvidencia": "Plan de vinculación con la sociedad e investigación de la carrera"
+        },
+        {
+            "codigo": "1-AD-SOF 1.4.24.2",
+            "item": "188",
+            "elementoFundamental": "24",
+            "nombreEvidencia": "Plan de vinculación e Informe de impacto de los proyecto ejecutados"
+        },
+        {
+            "codigo": "1-AD-SOF 1.1.1.1",
+            "item": "189",
+            "elementoFundamental": "1 - 2 - 4 - 5 - 6 - 8 - 10 - 39 - 121 - 123",
+            "nombreEvidencia": "Plan estratégico carrera (FODA-PESTEL-PROSPECTIVA)"
+        },
+        {
+            "codigo": "1-AD-SOF 1.1.1.3",
+            "item": "190",
+            "elementoFundamental": "1",
+            "nombreEvidencia": "Plan Nacionnal del Buen Vivir."
+        },
+        {
+            "codigo": "1-AD-SOF 3.16.88.3",
+            "item": "191",
+            "elementoFundamental": "88",
+            "nombreEvidencia": "Planes de capacitación docentes en base al informe de evaluación docente "
+        },
+        {
+            "codigo": "1-AD-SOF 4.23.139.1",
+            "item": "192",
+            "elementoFundamental": "139 - 144",
+            "nombreEvidencia": "Planificación PAE y PIS."
+        },
+        {
+            "codigo": "1-AD-SOF 1.1.5.1",
+            "item": "193",
+            "elementoFundamental": "5 - 8 - 11 - 47 - 49 - 158",
+            "nombreEvidencia": "POA  Carrera y Facultad"
+        },
+        {
+            "codigo": "1-AD-SOF 2.7.37.1",
+            "item": "194",
+            "elementoFundamental": "37",
+            "nombreEvidencia": "Políticas de SOFisión"
+        },
+        {
+            "codigo": "1-AD-SOF 5.26.153.3",
+            "item": "195",
+            "elementoFundamental": "153",
+            "nombreEvidencia": "Políticas de bienestar universitario"
+        },
+        {
+            "codigo": "1-AD-SOF 3.14.82.1",
+            "item": "196",
+            "elementoFundamental": "82",
+            "nombreEvidencia": "Políticas de gestión de los recursos para la investigación."
+        },
+        {
+            "codigo": "1-AD-SOF 3.14.73.3",
+            "item": "197",
+            "elementoFundamental": "73 - 74",
+            "nombreEvidencia": "Políticas de investigación de la carrera"
+        },
+        {
+            "codigo": "1-AD-SOF 2.11.56.2",
+            "item": "198",
+            "elementoFundamental": "56 - 62",
+            "nombreEvidencia": "Políticas de seguridad de la plataforma"
+        },
+        {
+            "codigo": "1-AD-SOF 4.25.151.7",
+            "item": "199",
+            "elementoFundamental": "151",
+            "nombreEvidencia": "Portafolio estudiantil"
+        },
+        {
+            "codigo": "1-AD-SOF 3.16.86.3",
+            "item": "200",
+            "elementoFundamental": "86",
+            "nombreEvidencia": "Programa de evaluación de desempeño docente"
+        },
+        {
+            "codigo": "1-AD-SOF 1.3.15.3",
+            "item": "201",
+            "elementoFundamental": "15",
+            "nombreEvidencia": "Propuestas de estudiantes y docentes para garantizar el logro de los resultados de aprendizaje esperados"
+        },
+        {
+            "codigo": "1-AD-SOF 4.21.121.3",
+            "item": "202",
+            "elementoFundamental": "121",
+            "nombreEvidencia": "Proyecto de ajuste de carrera"
+        },
+        {
+            "codigo": "1-AD-SOF 1.1.1.2",
+            "item": "203",
+            "elementoFundamental": "1 - 3 - 20 - 21 - 24 - 41 - 43 - 44 - 47 - 51 - 121 - 122 - 123 - 124 - 125 - 129 - 131 - 132 - 133 - 135 - 137 - 155 - 159",
+            "nombreEvidencia": "Proyecto de carrera de Diseño y Rediseño"
+        },
+        {
+            "codigo": "1-AD-SOF 3.14.82.4",
+            "item": "204",
+            "elementoFundamental": "82",
+            "nombreEvidencia": "Proyectos de Investigación."
+        },
+        {
+            "codigo": "1-AD-SOF 3.16.88.5",
+            "item": "205",
+            "elementoFundamental": "88",
+            "nombreEvidencia": "Reformas al curriculo de la carrera"
+        },
+        {
+            "codigo": "1-AD-SOF 4.24.142.5",
+            "item": "206",
+            "elementoFundamental": "142 - 151",
+            "nombreEvidencia": "Registro de socialización del plan y el cronograma."
+        },
+        {
+            "codigo": "1-AD-SOF 2.11.60.1",
+            "item": "207",
+            "elementoFundamental": "60 - 61 - 163",
+            "nombreEvidencia": "Registro de utilización herramientas sincrónicas y asincrónicas EVEA  - Director de Sistemas"
+        },
+        {
+            "codigo": "1-AD-SOF 2.9.48.5",
+            "item": "208",
+            "elementoFundamental": "48",
+            "nombreEvidencia": "Registros de las inducciones impartidas."
+        },
+        {
+            "codigo": "1-AD-SOF 5.26.153.1",
+            "item": "209",
+            "elementoFundamental": "153 - 155 - 157 - 158 - 160",
+            "nombreEvidencia": "Reglamento de Becas o ayudas económicas."
+        },
+        {
+            "codigo": "1-AD-SOF 1.2.11.6",
+            "item": "210",
+            "elementoFundamental": "11 - 86 - 87 - 90",
+            "nombreEvidencia": "Reglamento de carrera y escalafón del profesor investigador de la UEB (describir artículos)"
+        },
+        {
+            "codigo": "1-AD-SOF 3.16.86.2",
+            "item": "211",
+            "elementoFundamental": "86",
+            "nombreEvidencia": "Reglamento de evaluación docente"
+        },
+        {
+            "codigo": "1-AD-SOF 1.3.13.1",
+            "item": "212",
+            "elementoFundamental": "13 - 135 - 146 - 147 - 148 - 149",
+            "nombreEvidencia": "Reglamento de evaluación estudiantil."
+        },
+        {
+            "codigo": "1-AD-SOF 4.22.135.5",
+            "item": "213",
+            "elementoFundamental": "135",
+            "nombreEvidencia": "Reglamento de regimen académico,"
+        },
+        {
+            "codigo": "1-AD-SOF 2.8.41.1",
+            "item": "214",
+            "elementoFundamental": "41 - 42 - 43 - 44 - 45 - 46 - 155",
+            "nombreEvidencia": "Reglamento de titulación (políticas)"
+        },
+        {
+            "codigo": "1-AD-SOF 2.11.56.1",
+            "item": "215",
+            "elementoFundamental": "56 - 62 -",
+            "nombreEvidencia": "Reglamento de uso y gestión de la plataforma."
+        },
+        {
+            "codigo": "1-AD-SOF 4.25.146.1",
+            "item": "216",
+            "elementoFundamental": "146",
+            "nombreEvidencia": "Reporte contenido académico del silabo obtenido del sianet"
+        },
+        {
+            "codigo": "1-AD-SOF 2.5.26.1",
+            "item": "217",
+            "elementoFundamental": "26 - 90",
+            "nombreEvidencia": "Resoluciones y directrices de Comisión académica sobre asignación de horas en distributivo,"
+        },
+        {
+            "codigo": "1-AD-SOF 5.30.172.1",
+            "item": "218",
+            "elementoFundamental": "172",
+            "nombreEvidencia": "Resultado del cálculo de la tasa de retención"
+        },
+        {
+            "codigo": "1-AD-SOF 5.31.173.1",
+            "item": "219",
+            "elementoFundamental": "173",
+            "nombreEvidencia": "Resultado del cálculo de la tasa de TITULACIÓN"
+        },
+        {
+            "codigo": "1-AD-SOF 2.8.45.8",
+            "item": "220",
+            "elementoFundamental": "45",
+            "nombreEvidencia": "Rubricas de calificación de documentos de titulación"
+        },
+        {
+            "codigo": "1-AD-SOF 4.23.138.4",
+            "item": "221",
+            "elementoFundamental": "138",
+            "nombreEvidencia": "Sianet"
+        },
+        {
+            "codigo": "1-AD-SOF 2.9.47.2",
+            "item": "222",
+            "elementoFundamental": "47 - 50 - 58 - 61 - 62 - 124 - 131 - 132 - 133 - 135 - 137 - 138 - 139 - 140 - 146 - 148",
+            "nombreEvidencia": "Silabo"
+        },
+        {
+            "codigo": "1-AD-SOF 5.26.155.5",
+            "item": "223",
+            "elementoFundamental": "155",
+            "nombreEvidencia": "Sistema de aseguramiento"
+        },
+        {
+            "codigo": "1-AD-SOF 3.14.73.1",
+            "item": "224",
+            "elementoFundamental": "73",
+            "nombreEvidencia": "Sistema de investigación de la Universidad Estatal de Bolívar"
+        },
+        {
+            "codigo": "1-AD-SOF 3.16.92.1",
+            "item": "225",
+            "elementoFundamental": "92",
+            "nombreEvidencia": "Socialización de resultados de la evaluación docente de la carrera."
+        },
+        {
+            "codigo": "1-AD-SOF 3.17.95.1",
+            "item": "226",
+            "elementoFundamental": "95",
+            "nombreEvidencia": "ACP: actualización científica y pedagógicas."
+        },
+        {
+            "codigo": "1-AD-SOF 3.18.99.1",
+            "item": "227",
+            "elementoFundamental": "99",
+            "nombreEvidencia": " β: Factor que corrige por concentración. Se refiere al porcentaje de profesores que es deseable que realicen actividades de investigación y obtengan resultados (es decir, es mayor a cero y a lo sumo, puede ser uno). Este valor, permite definir el estándar."
+        },
+        {
+            "codigo": "1-AD-SOF 3.18.100.1",
+            "item": "228",
+            "elementoFundamental": "100",
+            "nombreEvidencia": "SJR¡: Índice SJR de la revista en la que ha sido publicado el artículo i-ésimo."
+        },
+        {
+            "codigo": "1-AD-SOF 3.18.101.1",
+            "item": "229",
+            "elementoFundamental": "101",
+            "nombreEvidencia": "ɑ¡: Valor, entre 0 y 1, otorgado al impacto local, regional o nacional atribuido al artículo ¡-ésimo."
+        },
+        {
+            "codigo": "1-AD-SOF 3.18.102.1",
+            "item": "230",
+            "elementoFundamental": "102",
+            "nombreEvidencia": "IPAIM:  Índice de producción académica con impacto mundial"
+        },
+        {
+            "codigo": "1-AD-SOF 3.19.106.1",
+            "item": "231",
+            "elementoFundamental": "106",
+            "nombreEvidencia": "NAR: Número de artículos o trabajos científicos de los profesores de la carrera, publicados o aceptados en revistas que constan en bases de datos, cuyos criterios de indexación contemplen parámetros de calidad reconocidos regionalmente."
+        },
+        {
+            "codigo": "1-AD-SOF 3.19.107.1",
+            "item": "232",
+            "elementoFundamental": "107",
+            "nombreEvidencia": "PR¡: Artículos o trabajos científicos del profesor i-ésimo de la carrera."
+        },
+        {
+            "codigo": "1-AD-SOF 3.19.109.1",
+            "item": "233",
+            "elementoFundamental": "109",
+            "nombreEvidencia": "ɑ¡: Valor, entre 0 y 1, otorgado al impacto local, regional o nacional atribuido al artículo i-ésimo."
+        },
+        {
+            "codigo": "1-AD-SOF 3.19.110.1",
+            "item": "234",
+            "elementoFundamental": "110",
+            "nombreEvidencia": "IPAIR: Índice de producción académica con impacto regional."
+        },
+        {
+            "codigo": "1-AD-SOF 3.18.99.1",
+            "item": "235",
+            "elementoFundamental": "112",
+            "nombreEvidencia": "β: Factor que corrige por concentración. Se refiere al porcentaje de profesores que es deseable que realicen actividades de investigación y obtengan resultados (es decir, es mayor a cero y a lo sumo, puede ser uno). Este valor permite definir el estándar"
+        },
+        {
+            "codigo": "1-AD-SOF 3.20.115.1",
+            "item": "236",
+            "elementoFundamental": "115",
+            "nombreEvidencia": "L¡: Libro i-ésimo publicado por profesores de la carrera."
+        },
+        {
+            "codigo": "1-AD-SOF 3.20.116.1",
+            "item": "237",
+            "elementoFundamental": "116",
+            "nombreEvidencia": "ɑ¡: Valor entre 0 y 1, otorgado al impacto local, regional o nacional atribuido al libro i-ésimo o capítulo de libro i-ésimo."
+        },
+        {
+            "codigo": "1-AD-SOF 3.20.117.1",
+            "item": "238",
+            "elementoFundamental": "117",
+            "nombreEvidencia": "CL: Número total de capítulos de libros publicados por profesores de la carrera."
+        },
+        {
+            "codigo": "1-AD-SOF 3.20.118.1",
+            "item": "239",
+            "elementoFundamental": "118",
+            "nombreEvidencia": "CL¡: Capítulo de lihro i-ésimo publicado por profesores de la carrera."
+        },
+        {
+            "codigo": "1-AD-SOF 3.20.120.1",
+            "item": "240",
+            "elementoFundamental": "120",
+            "nombreEvidencia": "LCL: Libros y\/o capítulos de libros revisados por pares."
+        },
+        {
+            "codigo": "1-AD-SOF 1.1.2.1",
+            "item": "241",
+            "elementoFundamental": "2",
+            "nombreEvidencia": "Manual de procedimientos"
+        }
+    ]
+}
