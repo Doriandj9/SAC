@@ -6,6 +6,7 @@
     <div class="layUp">Subir distributivo:</div>
     <div class="frmUp">
         <form action="" method="post" enctype="multipart/form-data">
+            
             <div id="uploader">
                 <div>Arrastra y suelta los archivos aquí<br><br>Tamaño máximo por archivo de <?php echo ini_get("upload_max_filesize");?></div>
             </div>

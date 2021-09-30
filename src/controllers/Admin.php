@@ -1,7 +1,6 @@
 <?php
 
 namespace controllers;
-
 class Admin{
 
     public function admin(){
@@ -16,12 +15,12 @@ class Admin{
             return "";
         }
         
-        $carpetaMoverArchivos="/public/records";
+        $carpetaMoverArchivos="public/records/";
         
         $source = $_FILES["file"]["tmp_name"];
         $fileName = $_FILES["file"]["name"];
         $destination = $carpetaMoverArchivos.$fileName;
-        
+      
         // comprovamos si ya existe el archivo.
         // comentar estas lineas si deseamos que se pueda sobreescribir
         // if (file_exists($destination)) {
@@ -38,11 +37,22 @@ class Admin{
         }   
         
         // movemos el archivo
+        copy($source,$destination);
         if (move_uploaded_file($source, $destination)) {
             echo json_encode(["result"=>1, "time"=>$_POST["time"], "fileName"=>$fileName, "error"=>""]);
         } else {
             echo json_encode(["result"=>0, "time"=>$_POST["time"], "fileName"=>$fileName, "error"=>"no se ha podido mover el archivo"]);
         }
+        // $resp = [
+        //     'response' => "exitoso"
+        // ];
+        // return [
+        //     'title' => 'Editar Permisos',
+        //         'template' => 'admin/exito.html.php',
+        //         'variables' => [
+        //             'respuesta' => $resp 
+        //         ]
+        //     ];
     }
     
     public function permiseActions(){

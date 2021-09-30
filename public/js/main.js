@@ -20,6 +20,7 @@
 
     
 // }
+console.log("hola");
 /** para el ingreso de registros del admin */
 (function(){
     window.addEventListener("load", () => {
@@ -37,24 +38,27 @@
         uploader.addEventListener("drop", function (e) {
             e.preventDefault();
             uploader.classList.remove("over");
-
             // enviamos cada archivo al servidor...
             for (let i = 0; i < e.dataTransfer.files.length; i++) {
                 const xhr = new XMLHttpRequest();
+                
                 let d=new Date();
                 
                 const data = new FormData();
                 const time=d.getTime();
                 sendFile(time, e.dataTransfer.files[i].name);
-                
+                var tamanio = e.dataTransfer.files[i].name.length;
                 data.append('file', e.dataTransfer.files[i]);
+                
                 data.append('time', time);
                 xhr.open('POST', '/admin/upload/information', true);
+                console.log(xhr);
                 xhr.onreadystatechange = function () {
                     if (xhr.readyState === 4) {
                         if (xhr.status === 200) {
                             if (xhr.response) {
-                                uploadedFile(xhr.response);
+                                uploadedFile(xhr.response, tamanio);
+
                             }
                         } else {
                             console.error(xhr.statusText);
@@ -85,19 +89,24 @@
      * Funcion que se ejecuta cuando el archivo ha sido recibido en el servidor
      * Marca el archivo como correcto o erroneo
      */
-    function uploadedFile(data) {
-        // data=JSON.parse(data);
-        let el=document.querySelectorAll("[data-time='"+data.time+data.fileName+"']");
+    function uploadedFile(data, tamanio) {
+        let dataJ = data.substring(0,60+tamanio);
+        //dataJ.substring(0,85);
+        //console.log(dataJ);
+        dataJ=JSON.parse(dataJ);
+
+        let el=document.querySelectorAll("[data-time='"+dataJ.time+dataJ.fileName+"']");
+        console.log(el);
         if (el.length==0) {
             return;
         }
         el=el[el.length-1];
         el.classList.remove("send");
-        if (data.result==1) {
+        if (dataJ.result==1) {
             el.classList.add("sended");
         } else {
             el.classList.add("error");
-            console.error(data.error);
+            console.error(dataJ.error);
         }
     }
 })();
