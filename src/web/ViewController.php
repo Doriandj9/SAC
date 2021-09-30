@@ -113,6 +113,11 @@ class ViewController implements \frame\WebRoutes{
                         'controller' => $adminController,
                         'action' => 'admin'
                     ],
+                    'POST' => [
+                        'controller' => $adminController,
+                        'action' => 'uploadInformation'
+                    ],
+
                     'login' => true
                     ],
                 'admin/permises/access' => [
