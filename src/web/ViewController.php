@@ -9,6 +9,9 @@ class ViewController implements \frame\WebRoutes{
     private $autentification;
     private $responsabilidadTable;
     private $evidencesTable;
+    private $criterioTable;
+    private $estandarTable;
+    private $elementoFundamentalTable;
      
     public function __construct()
     {
@@ -19,6 +22,15 @@ class ViewController implements \frame\WebRoutes{
                                                         $this->evidencesTable = new \models\DataBaseTable( new \models\conection\Conection(),
                                                         'evidencia', 'cod_evidencia' 
     );
+        $this->criterioTable = new \models\DataBaseTable(
+            new \models\conection\Conection(), 'criterio', 'cod_criterio'
+        );
+        $this->estandarTable= new \models\DataBaseTable(
+            new \models\conection\Conection(), 'estandar', 'cod_estandar'
+        );
+        $this->elementoFundamentalTable= new \models\DataBaseTable(
+            new \models\conection\Conection(), 'elemento fundamental','cod_elemento'
+        );
         $this->autentification = new \controllers\Autentification($this->profesorTable, 'email_profesor', 'password_profesor');
 
         
@@ -30,7 +42,12 @@ class ViewController implements \frame\WebRoutes{
         $homeController = new  \controllers\Home($this->autentification);
         $passwordController = new \controllers\Password(); 
         $teachersController = new  \controllers\Teachers($this->evidencesTable);
-        $adminController = new \controllers\Admin($this->profesorTable,$this->evidencesTable);
+        $adminController = new \controllers\Admin($this->profesorTable,
+                                                    $this->evidencesTable,
+                                                    $this->criterioTable,
+                                                    $this->estandarTable,
+                                                    $this->elementoFundamentalTable
+                                                );
         $evaluatorController = new \controllers\Evaluator();
             return [
             '' => [

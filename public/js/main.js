@@ -87,34 +87,34 @@
     }
 })();
 
-const inputSave = document.getElementById("guardar-data-click");
-const filesListControl = document.getElementById("filesList");
-inputSave.addEventListener("click",clickDefault);
-function evenListener(){
-    const listadeArchivos = Array.from(filesListControl.children);
-    console.log(listadeArchivos[0].textContent);
+// const inputSave = document.getElementById("guardar-data-click");
+// const filesListControl = document.getElementById("filesList");
+// inputSave.addEventListener("click",clickDefault);
+// function evenListener(){
+//     const listadeArchivos = Array.from(filesListControl.children);
+//     console.log(listadeArchivos[0].textContent);
     
-    if (listadeArchivos.length == 3 ){
-        if( listadeArchivos[0].textContent == "distributivoResultXML.json" &&
-        listadeArchivos[1].textContent == "Evidencia.json" &&
-        listadeArchivos[2].textContent == "ListaProfesores.json" ||
-        listadeArchivos[1].textContent == "distributivoResultXML.json" &&
-        listadeArchivos[2].textContent == "Evidencia.json" &&
-        listadeArchivos[0].textContent == "ListaProfesores.json" ||
-        listadeArchivos[2].textContent == "distributivoResultXML.json" &&
-        listadeArchivos[1].textContent == "Evidencia.json" &&
-        listadeArchivos[0].textContent == "ListaProfesores.json"
-        ){
-            inputSave.removeEventListener("click",clickDefault);
-            console.log("ahora si");
-        }
-    }
+//     if (listadeArchivos.length == 3 ){
+//         if( listadeArchivos[0].textContent == "distributivoResultXML.json" &&
+//         listadeArchivos[1].textContent == "Evidencia.json" &&
+//         listadeArchivos[2].textContent == "ListaProfesores.json" ||
+//         listadeArchivos[1].textContent == "distributivoResultXML.json" &&
+//         listadeArchivos[2].textContent == "Evidencia.json" &&
+//         listadeArchivos[0].textContent == "ListaProfesores.json" ||
+//         listadeArchivos[2].textContent == "distributivoResultXML.json" &&
+//         listadeArchivos[1].textContent == "Evidencia.json" &&
+//         listadeArchivos[0].textContent == "ListaProfesores.json"
+//         ){
+//             inputSave.removeEventListener("click",clickDefault);
+//             console.log("ahora si");
+//         }
+//     }
             
- }
+//  }
         
 
-function clickDefault(e){
-    e.preventDefault();
+// function clickDefault(e){
+//     e.preventDefault();
     
-}
+// }
 //console.log(filesListControl.querySelectorAll("[data-time]"));

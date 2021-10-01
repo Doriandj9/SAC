@@ -2,10 +2,10 @@
 
 
 
- $xml = file_get_contents('./DatosAIngresar/data/elemento5.xml');
- $StringXml = simplexml_load_string($xml);
-$result = json_encode($StringXml, JSON_UNESCAPED_UNICODE);
-file_put_contents('./DatosAIngresar/data/elemento5.json',$result);
+//  $xml = file_get_contents('./DatosAIngresar/data/elemento5.xml');
+//  $StringXml = simplexml_load_string($xml);
+// $result = json_encode($StringXml, JSON_UNESCAPED_UNICODE);
+// file_put_contents('./DatosAIngresar/data/elemento5.json',$result);
 // $_NEWARRAY = [];
 // function separarJson($json){
 //     $array = json_decode($json, true)['distributivo'];

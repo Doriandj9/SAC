@@ -23,7 +23,7 @@ class DataBaseTable{
     }
 
     private function runQuery($query, $params=[]){
-        // var_dump($query);
+       // var_dump($query);
         // var_dump($params);
         $result= $this->pdo->prepare($query);
         $result->execute($params);
