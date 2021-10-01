@@ -1,0 +1,194 @@
+{
+    "ELEMENTO": [
+        {
+            "codigo": "25",
+            "estandar": "5",
+            "nombre": "El equipo que gestiona los procesos académicos ha definido, a través de un mecanismo de participación de la comunidad académica, los procesos académicos sustantivos para garantizar la calidad de la educación superior, en el marco de una misión, visión objetivos estratégicos y resultados esperados"
+        },
+        {
+            "codigo": "26",
+            "estandar": "5",
+            "nombre": "La organización de los procesos académicos, contribuye directamente y de manera significativa, a planificar la distribución horaria de los profesores para las actividades de docencia, vinculación e investigación, de acuerdo a su tiempo de dedicación, y a alcanzar los resultados esperados de producción científica e investigación, aseguramiento interno de la calidad y considera la normativa del sistema de educación superior."
+        },
+        {
+            "codigo": "27",
+            "estandar": "5",
+            "nombre": "Los procesos académicos que se gestionan en la carrera están sustentados en la autoevaluación de la calidad de la educación, en la normativa vigente y su misión y visión."
+        },
+        {
+            "codigo": "28",
+            "estandar": "5",
+            "nombre": "Los procesos académicos se implementan a través de mecanismos, procedimientos y sistema acorde para alcanzar los objetivos planteados para cada proceso y en su conjunto; y se evalúan, monitorean y generan resultados empíricos que apoyan las decisiones."
+        },
+        {
+            "codigo": "29",
+            "estandar": "5",
+            "nombre": "La carrera demuestra que la gestión de los procesos académicos contribuye al aseguramiento interno de la calidad de la educación en la carrera."
+        },
+        {
+            "codigo": "30",
+            "estandar": "6",
+            "nombre": "El sistema de seguimiento a graduados que aplica la carrera contiene: i) instrumentos que permiten recolectar información periódica de las actividades profesionales o académicas de sus graduados; ii) mecanismos que permiten analizar los hallazgos y generar insumos de mejora; y, iii) procesos para el tratamiento de las propuestas de mejora en las que participan actores clave de la carrera, como por ejemplo, empleadores, colegios profesionales, entre otros."
+        },
+        {
+            "codigo": "31",
+            "estandar": "6",
+            "nombre": "Las políticas de seguimiento a graduados de la carrera plantean el uso de los resultados de las consultas a graduados y empleadores, profesionales, actores de la academia y miembros de la sociedad para girar la toma de decisiones que influyen en la calidad de la carrera."
+        },
+        {
+            "codigo": "32",
+            "estandar": "6",
+            "nombre": "Las políticas de seguimiento a graduados se articulan y son consistentes con las políticas institucionales de aseguramiento de la calidad."
+        },
+        {
+            "codigo": "33",
+            "estandar": "6",
+            "nombre": "La carrera recibe retroalimentación y utiliza los resultados del sistema de seguimiento a graduados para analizar las experiencias favorables durante la formación académica de los estudiantes, y los aspectos que requieren mejorar o modificar, en particular, aquellos enfocados en el perfil del egresado y el plan de estudios."
+        },
+        {
+            "codigo": "34",
+            "estandar": "6",
+            "nombre": "La carrera ha definido e implementa mecanismos y canales de comunicación con estudiantes regulares y egresados para difundir los resultados del seguimiento a graduados y las estrategias relacionadas con la mejora de la calidad de la educación en la carrera, derivadas de su análisis."
+        },
+        {
+            "codigo": "35",
+            "estandar": "6",
+            "nombre": "El seguimiento a graduados permite que las autoridades académicas de la carrera tomen decisiones encaminadas al mejoramiento del currículo, la efectividad en la inserción profesional y prestigio de la institución en los ámbitos académicos y profesionales."
+        },
+        {
+            "codigo": "36",
+            "estandar": "6",
+            "nombre": "El seguimiento a graduados forma parte de los procesos académicos implementados por la carrera, y contribuye a determinar los aspectos que la carrera requiere mejorar para incrementar su impacto en el contexto, en aspectos tales como: empleabilidad, estudios de posgrado y prestigio de la carrera en el contexto."
+        },
+        {
+            "codigo": "37",
+            "estandar": "7",
+            "nombre": "Las políticas de SOFisión se estructuran con base a un perfil de ingreso acorde al tipo de carrera, a los mecanismos de nivelación y preparación previa, así como en una planificación académica para las promociones de estudiantes que se SOFitirán."
+        },
+        {
+            "codigo": "38",
+            "estandar": "7",
+            "nombre": "Los mecanismos de selección de estudiantes respetan el principio de igualdad de oportunidades y permiten el cumplimiento de los reglamentos y normativas del sistema de educación superior."
+        },
+        {
+            "codigo": "39",
+            "estandar": "7",
+            "nombre": "El proceso de nivelación de estudiantes forma parte de las estrategias de la carrera para mejorar las tasas de eficiencia académica y alcanzar los resultados de aprendizaje planteados en el perfil de egreso."
+        },
+        {
+            "codigo": "40",
+            "estandar": "7",
+            "nombre": "Las políticas de SOFisión han sido socializadas con los departamentos y unidades académicas de la institución relacionados con la carrera."
+        },
+        {
+            "codigo": "41",
+            "estandar": "8",
+            "nombre": "Las políticas de titulación que implementa la carrera son consistentes con la misión, visión y objetivos de la unidad académica a la que pertenece (la carrera)."
+        },
+        {
+            "codigo": "42",
+            "estandar": "8",
+            "nombre": "La carrera implementa las políticas de titulación a través de procesos ágiles y mecanismos académicos rigurosos que contribuyen a que los estudiantes alcancen los resultados de aprendizaje esperados."
+        },
+        {
+            "codigo": "43",
+            "estandar": "8",
+            "nombre": "Los tipos de titulación definidos por la carrera para sus egresados (trabajo de titulación, examen complexivo, entre otros) son coherentes con el currículo, el perfil de egreso y los mecanismos académicos del proceso de titulación implementados por la carrera"
+        },
+        {
+            "codigo": "44",
+            "estandar": "8",
+            "nombre": "El proceso de revisión de trabajos de titulación está normado al interior de la institución y existen políticas y procedimientos para garantizar su implementación."
+        },
+        {
+            "codigo": "45",
+            "estandar": "8",
+            "nombre": "Los mecanismos de titulación incluyen: sistemas de tutorías, asignación de asesores académicos (tutores, directores, coordinadores, profesores de grupos de investigación), revisión de trabajos de titulación y seguimiento al rendimiento de egresados en- exámenes complexivos que permiten el cumplimiento de estándares académicos definidos por la carrera respecto a las opciones de titulación para los egresados."
+        },
+        {
+            "codigo": "46",
+            "estandar": "8",
+            "nombre": "Los mecanismos de titulación garantizan que los trabajos de titulación se relacionen con las líneas de investigación de la institución en la que participan profesores de la carrera, contribuyan al alcance de resultados de aprendizaje esperados perfil de egreso) y puedan formar parte de la producción científica de la carrera."
+        },
+        {
+            "codigo": "47",
+            "estandar": "9",
+            "nombre": "La carrera garantiza la disponibilidad y el acceso a los recursos bibliográficos dispuestos en la bibliografía de cada asignatura."
+        },
+        {
+            "codigo": "48",
+            "estandar": "9",
+            "nombre": "La carrera genera capacitaciones periódicas a estudiantes y profesores sobre el manejo de. Bases de datos virtuales, búsquedas en la web y los sistemas bibliográficos de la institución, en particular en los procesos de inducción, titulación y participación en concursos de proyectos de investigación."
+        },
+        {
+            "codigo": "49",
+            "estandar": "9",
+            "nombre": "La gestión de los recursos bibliográficos permiten la disponibilidad y el acceso, física o de manera virtual; a la producción científica de los profesores, los trabajos de investigación y titulación de estudiantes, y las lecturas obligatorias y complementarias establecidas en los sílabos del plan de estudios de la carrera."
+        },
+        {
+            "codigo": "50",
+            "estandar": "9",
+            "nombre": "La carrera considera en sus mecanismos y procedimientos de gestión de recursos bibliográficos, la aplicación de políticas de acceso a recursos educativos abiertos, en el caso de que sea necesario, para que los estudiantes - alcancen los resultados de aprendizaje esperados."
+        },
+        {
+            "codigo": "51",
+            "estandar": "9",
+            "nombre": "Los recursos bibliográficos que la carrera plantea en los sílabos de las asignaturas son suficientes, adecuados, pertinentes y vigentes, por lo que contribuyen positivamente al proceso de aprendizaje."
+        },
+        {
+            "codigo": "52",
+            "estandar": "9",
+            "nombre": "La calidad de los recursos bibliográficos es evaluada periódicamente por la carrera y sus resultados contribuyen a integrar las fuentes bibliográficas, bibliotecas físicas o digitales, en las actividades de profesores y estudiantes."
+        },
+        {
+            "codigo": "53",
+            "estandar": "10",
+            "nombre": "DIS: Ambientes de aprendizaje prácticos."
+        },
+        {
+            "codigo": "54",
+            "estandar": "10",
+            "nombre": "          :Valoración obtenida por cada laboratorio, taller u otro ambiente de aprendizaje, de acuerdo al aspecto de disponibilidad, evaluado en una escala del 1 al 5."
+        },
+        {
+            "codigo": "55",
+            "estandar": "10",
+            "nombre": "Q: Total de laboratorios, talleres u otros ambientes de aprendizaje evaluados."
+        },
+        {
+            "codigo": "56",
+            "estandar": "11",
+            "nombre": "El entorno virtual de aprendizaje (EVEA) permite que los actores involucrados en el uso de los recursos relacionados con la educación a distancia o en línea puedan aprovechar las potencialidades de la plataforma elegida."
+        },
+        {
+            "codigo": "57",
+            "estandar": "11",
+            "nombre": "El EVEA está constituido por tecnologías digitales, hospedado en la red y se puede tener acceso remoto a sus contenidos a través de algún tipo de dispositivo con conexión a Internet."
+        },
+        {
+            "codigo": "58",
+            "estandar": "11",
+            "nombre": "Las aplicaciones o programas informáticos que conforman el EVEA sirven de soporte para las actividades formativas de profesores y alumnos"
+        },
+        {
+            "codigo": "59",
+            "estandar": "11",
+            "nombre": "El entorno virtual de aprendizaje ha sido evaluado periódicamente, reflejando que resulta útil y adecuado para los actores involucrados, profesores y estudiantes."
+        },
+        {
+            "codigo": "60",
+            "estandar": "11",
+            "nombre": "El EVEA permite la creación y gestión de los espacios de enseñanza y aprendizaje en la red, donde los profesores y los alumnos puedan interaccionar durante su proceso de formación."
+        },
+        {
+            "codigo": "61",
+            "estandar": "11",
+            "nombre": "El EVA combina herramientas de comunicación sincrónica y asincrónica para la gestión de los materiales de aprendizaje de los actores relevantes incluidos en sistemas de seguimiento y en particular, la evaluación del progreso de los estudiantes, ofreciendo soporte tecnológico desde un enfoque didáctico para optimizar distintas fases del proceso de enseñanza y aprendizaje."
+        },
+        {
+            "codigo": "62",
+            "estandar": "11",
+            "nombre": "El EVA refuerza y contribuye positivamente a la interacción en la educación en modalidades a distancia o en línea; a través de los medios digitales se presentan propuestas pedagógicas que propicien el aprendizaje significativo."
+        }
+    ]
+}

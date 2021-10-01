@@ -2,10 +2,10 @@
 
 
 
-//  $xml = file_get_contents('./DatosAIngresar/Evidencias.xml');
-//  $StringXml = simplexml_load_string($xml);
-// $result = json_encode($StringXml, JSON_UNESCAPED_UNICODE);
-// file_put_contents('./DatosAIngresar/Evidencia.json',$result);
+ $xml = file_get_contents('./DatosAIngresar/data/elemento5.xml');
+ $StringXml = simplexml_load_string($xml);
+$result = json_encode($StringXml, JSON_UNESCAPED_UNICODE);
+file_put_contents('./DatosAIngresar/data/elemento5.json',$result);
 // $_NEWARRAY = [];
 // function separarJson($json){
 //     $array = json_decode($json, true)['distributivo'];
@@ -60,13 +60,13 @@
 //     file_put_contents('./DatosAIngresar/ListaProfesores.json', json_encode($arrayJ,JSON_UNESCAPED_UNICODE));
 // }
 
-$nombre = "ALBAN GALLO MANUEL EDUARDO";
-$nombreRecortado = str_split($nombre,10);
-//$nombreRecortado= $nombreRecortado[0]. "ueb.";
+// $nombre = "ALBAN GALLO MANUEL EDUARDO";
+// $nombreRecortado = str_split($nombre,10);
+// //$nombreRecortado= $nombreRecortado[0]. "ueb.";
 
-//echo $nombreRecortado;
-$unido = preg_replace('/(.+?)( )(.+?)/i', '$1$3', $nombre);
-$nuevo = strtolower($unido);
-var_dump($unido);
-$recort= substr($nuevo,0,15);
-echo $recort. "@ueb.edu.ec";
+// //echo $nombreRecortado;
+// $unido = preg_replace('/(.+?)( )(.+?)/i', '$1$3', $nombre);
+// $nuevo = strtolower($unido);
+// var_dump($unido);
+// $recort= substr($nuevo,0,15);
+// echo $recort. "@ueb.edu.ec";
