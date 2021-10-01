@@ -255,7 +255,7 @@
 	opacity: 1;
 }
 .tbing{
-	background-color: black;
+
 	width: 100%;
 }
 .tbing table{
@@ -280,7 +280,9 @@
 	width: 30px;
 	height: 30px;
 }
-
+.bytb > td{
+	height: 20px;
+}
 h2 {
 	text-align: center;
 }
@@ -401,20 +403,126 @@ h2 {
 
 
 
-
-
-
-
-
-
-
-
 /* Leyton */
+.continUp{
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-columns: 220px;
+}
+.layUp{
+	/* border: 1px solid black; */
+	text-align: right;
+	padding: 5px;
+	font-weight: bold;
+}
+.frmUp{
+	/* border: 1px solid black; */
+	padding: 5px;
+}
+.msg{
+	opacity: 0.8;
+	background-color: #f1c40f;
+	margin-top: 5px;
+	padding: 5px 10px;
+	color: red;
+	border-radius: 5px;
+	font-size: 9pt;
+}
+.msg>div{
+	padding-bottom: 5px;
+}
+.msg>div:nth-child(1){
+	font-weight: bold;
+	padding-bottom: 5px;
+	border-bottom: 1px solid red;
+}
+.msg>div:nth-child(2){
+	padding-top: 5px;
+}
+.btn{
+	background-color: var(--color-footer);
+	padding: 10px;
+	border-radius: 10px;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	margin: 6px 0px;
+}
+.btn:hover{
+	opacity: 0.8;
+}
+/*CSS PARA LAS CAJAS DE SUBIDA*/
+#uploader {
+    width: 100%;
+    height: 200px; 
+    background: #fff; 
+	border: 1px solid #000;;
+    text-align:center;
+	margin-bottom: 3px;
+}
+#uploader>div {
+    display:inline-block;
+}
+#uploader:before {
+    content: "";
+    display:inline-block;
+    height:100%;
+    vertical-align: middle;
+}
+#uploader.over {
+	background: var(--color-azul-barras);
+	opacity: 0.5;
+}
+
+#filesList>div {
+    line-height:1.8em;
+    padding:0 5px;
+}
+#filesList>div:nth-child(even) {
+    background:#efefef;
+}
+
+.send::after, .error::after, .sended::after {
+    font-weight:bold;
+    font-size:18px;
+    float:right;
+}
+.send::after {
+    content:"\21C4";
+    color:green;
+}
+.error::after {
+    content:"\2717";
+    color:red;
+}
+.sended::after {
+    content:"\2713";
+    color:green;
+}
 
 
+/* Jerson */
 
 
-
+/* Nathy */
+.permisaccess{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.permistable > thead > tr > th{
+	background-color: #c4c4c4;
+	text-align: center;
+	height: 30px;
+	width: 250px;
+}
+.permistable > tbody > tr > td{
+	background-color: #c4c4c4;
+	text-align: center;
+	height: 30px;
+	width: 250px;
+}
 
 
 
@@ -705,8 +813,69 @@ h2 {
 
 
 /* Jerson */
+#ba {
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 300px;
+}
+.header-find {
+	text-align: center;
+}
+#ba>div>label {
+margin-right: 10px;
+}
+.content-for-evaluation {
+	margin: auto;
+	width: 450px;
+	height: 200px;
 
+}
+.content-for-evaluation>div{
+	display: flex;
+	justify-content: start;
+	
+}
+.content-for-evaluation>div:first-child{
+	margin-bottom: 10px;
+}
+.content-for-evaluation>div>label{
+	width: 100px;
+}
+#bc {
+  height: 30px;
+  width: 230px;
+  margin-right: 10px;
+}
+#cal {
+	height: 25px;
+	width: 100px;
 
+  }
+  #ob {
+	
+	height: 100px;
+	width: 300px;
+	
+  }
+#btnbuscar {
+	background-color: var(--color-footer);
+	color: white;
+	width: 140px;
+	height: 30px;
+	border-radius: 10px;
+	margin: auto;
+}
+#btnGuardar {
+	background-color: var(--color-footer);
+	color: white;
+	padding: 10px;
+	width: 100px;
+	border-radius: 10px;
+	display: block;
+	margin: 10px auto 0 auto;
+	font-weight: bold;
+}
 
 
 
@@ -1090,3 +1259,47 @@ h2 {
 
 
 /*Dorian*/
+
+
+.admin-permission{
+margin: 1rem auto;
+}
+.admin-permission-content{
+	width: 30rem;
+	height:20rem;
+	margin: auto;
+	background-color: #C4C4C4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+}
+
+.admin-message-index{
+	text-align: center;
+}
+.submit-permission{
+	display: block;
+	margin: auto;
+	margin-top: 0.5rem;
+	background-color: #46728B;
+	border-radius: 0.9rem;
+	color: white;
+	font-weight: bold;
+	width: 7.2rem;
+	height: 2.5rem;
+}
+.fondo-permission>div{
+	height: 2.8rem;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+.fondo-permission>div>input{
+	width: 20px;
+	height: 20px;
+}
+.fondo-permission>div>label{
+	font-size: 1rem;
+	font-weight: bold;
+}

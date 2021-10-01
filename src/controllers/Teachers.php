@@ -3,12 +3,21 @@
 namespace controllers;
 
 class Teachers{
+    private $evidencesTable;
 
+    public function __construct(\models\DataBaseTable $evidencesTable)
+    {
+        $this->evidencesTable= $evidencesTable;
+    }
 
     public function ingreso(){
+        $evidences = $this->evidencesTable->selectJoinFull();
         return [
             'title' => 'Ingreso de evidencias - SAC',
-            'template' => 'teachers/ingreso.html.php'
+            'template' => 'teachers/ingreso.html.php',
+            'variables' => [
+                'evidences' => $evidences
+            ]
         ];
     }
 
@@ -33,5 +42,15 @@ class Teachers{
         ];
     }
 
-    
+    public function guardar(){
+        if(isset($_FILES['pdf']['name'])){
+            $archivo = (file_get_contents($_FILES['pdf']['tmp_name']));
+        $params = [
+            'pdf_archivo' => $archivo
+        ];
+        $this->evidencesTable->update($params ,  $_POST['cod'],);
+        }
+        
+       // header('location:/');
+    }
 }

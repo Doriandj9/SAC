@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DATOS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ELEMENTO>
+		<codigo>153</codigo>
+		<nombre>La carrera o unidad académica implementa o garantiza la implementación de las políticas de bienestar universitario para la comunidad académica y SOFinistrativa que la integra.</nombre>
+	</ELEMENTO>
+	<ELEMENTO/>
+	<ELEMENTO/>
+	<ELEMENTO>
+		<codigo>154</codigo>
+		<nombre>La carrera garantiza que sus estudiantes acceden a los servicios de bienestar universitario de la unidad o instancia institucional corrrespondiente, y ha definido mecanismos para dar seguimiento a estudiantes en situaciones que violentan sus derechos estudiantiles</nombre>
+	</ELEMENTO>
+	<ELEMENTO>
+		<codigo>155</codigo>
+		<nombre>La unidad acaedémica o carrera demuestra definir políticas de SOFisión y nivelación, titulación y los mecanismos del sistema de becas considerando la participación de la unidad o instancia institucional de bienestar universitario.</nombre>
+	</ELEMENTO>
+	<ELEMENTO/>
+	<ELEMENTO/>
+	<ELEMENTO/>
+	<ELEMENTO/>
+	<ELEMENTO>
+		<codigo>156</codigo>
+		<nombre>Los estudiantes de la carrera se benefician de las políticas de bienestar universitario y de los servicios de bienestar universitario, así como de los programas y/o proyectos  que ha implementado la unidad o instancia de bienestar universitario.</nombre>
+	</ELEMENTO>
+	<ELEMENTO/>
+	<ELEMENTO>
+		<codigo>157</codigo>
+		<nombre>El sistema de becas de la institución de educación superior se basa en una normativa interna de la institución y cuenta con actores, mecanismos y procedimientos claramente definidos.</nombre>
+	</ELEMENTO>
+	<ELEMENTO/>
+	<ELEMENTO>
+		<codigo>158</codigo>
+		<nombre>La asignación de becas, estipendios, descuentos o apoyos financieros se basa en un normativa interna, así como en el establecimiento y la implementación de mecanismos en los que participa la unidad o instancia institucional de binestar universitario.</nombre>
+	</ELEMENTO>
+	<ELEMENTO/>
+	<ELEMENTO/>
+	<ELEMENTO>
+		<codigo>159</codigo>
+		<nombre>La carrera articula mecanismos y procesos con las políticas institucionales de bienestar universitario para que sus estudiantes accedan a créditos, becas, ayudas económicas y concursos para becas de movilidad estudiantil, en correspondencia con las políticas de acción afirmativa y la normativa vigente.</nombre>
+	</ELEMENTO>
+	<ELEMENTO/>
+	<ELEMENTO/>
+	<ELEMENTO/>
+	<ELEMENTO/>
+	<ELEMENTO>
+		<codigo>160</codigo>
+		<nombre>La carrera cuenta con mecanismos de reconocimiento de las condiciones socioeconómicas de estudiantes, cuyos resultados se articulan a la toma de decisiones sobre la asignación de becas, estipendios y ayudas financieras.</nombre>
+	</ELEMENTO>
+	<ELEMENTO/>
+	<ELEMENTO/>
+	<ELEMENTO/>
+	<ELEMENTO>
+		<codigo>161</codigo>
+		<nombre>La carrera demuestra dar seguimiento a la periodicidad y calidad de las interacciones y definir mecanismos para el monitoreode las actividades que emitan mejorar su calidad, en términos de sus objetivos y resultados esperados.</nombre>
+	</ELEMENTO>
+	<ELEMENTO/>
+	<ELEMENTO>
+		<codigo>162</codigo>
+		<nombre>La carrera cuenta con herramientas informaticas que apoyan el trabajo independiente y colaborativo de estudiantes, así como el uso de la tecnología para generar las interacciones necesarias en comunidades virtuales de aprendizaje para alcanzar los resultados de aprendizaje esperados.</nombre>
+	</ELEMENTO>
+	<ELEMENTO>
+		<codigo>163</codigo>
+		<nombre>La carrrera ha planteado estrategias y mecanismos para que las interacciones entre estudiantes y profesores en comunidades virtuales de aprendizaje, tales como: tutorías individuaes, sesiones interactivas con el uso de tecnologías, tutorías sincrónicas y actividades asincrónicas, foros, blogs  o tareas en plataformas electrónicas, que impacten positivamente en la retroalimentación del profesor al aprendizaje del estudiante.</nombre>
+	</ELEMENTO>
+	<ELEMENTO/>
+	<ELEMENTO>
+		<codigo>164</codigo>
+		<nombre>La carrera demuestra dar seguimiento a la periocidad y calidad de las interacciones y definir mecanismos para el monitoreo de las actividades que permitan mejorar su calidad, en términos de sus objetivos y resultados esperados.</nombre>
+	</ELEMENTO>
+	<ELEMENTO>
+		<codigo>165</codigo>
+		<nombre>NE= Total de estudiantes de la carrera</nombre>
+	</ELEMENTO>
+	<ELEMENTO>
+		<codigo>166</codigo>
+		<nombre>TPC= Total de profesores con dedicación a tiempó completo a la carrera</nombre>
+	</ELEMENTO>
+	<ELEMENTO/>
+	<ELEMENTO>
+		<codigo>167</codigo>
+		<nombre>TMT= Total de profesores con dedicación a medio tiempó a la carrera</nombre>
+	</ELEMENTO>
+	<ELEMENTO/>
+	<ELEMENTO>
+		<codigo>168</codigo>
+		<nombre>TTP= Total de profesores con dedicación a tiempó parcial a la carrera</nombre>
+	</ELEMENTO>
+	<ELEMENTO/>
+	<ELEMENTO>
+		<codigo>169</codigo>
+		<nombre>EP= Estudiantes por profesor a tiempo completo</nombre>
+	</ELEMENTO>
+	<ELEMENTO>
+		<codigo>170</codigo>
+		<nombre>TER= Total de estudiantes de las cohortes seleccionadas que se mantienen en la carrera durante el periodo de evaluación.</nombre>
+	</ELEMENTO>
+	<ELEMENTO>
+		<codigo>171</codigo>
+		<nombre>TEA= Número total de estudiantes de las cohortes definidas para el cálculo de retención.</nombre>
+	</ELEMENTO>
+	<ELEMENTO>
+		<codigo>172</codigo>
+		<nombre>TR= Tasa de retención.</nombre>
+	</ELEMENTO>
+	<ELEMENTO>
+		<codigo>173</codigo>
+		<nombre>TT= Tasa de titulación</nombre>
+	</ELEMENTO>
+	<ELEMENTO>
+		<codigo>174</codigo>
+		<nombre>TET= Total de estudiantes de las cohortes definidas que concluyeron el proyecto de titulación o aprobaron el examen complexivo en un plazo menor o igual al plazo normativo definido.</nombre>
+	</ELEMENTO>
+	<ELEMENTO>
+		<codigo>175</codigo>
+		<nombre>TEC= Número total de estudiantes de las cohortes definidas para el cálculo de la titulación</nombre>
+	</ELEMENTO>
+</DATOS>

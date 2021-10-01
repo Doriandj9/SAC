@@ -1,7 +1,6 @@
 <?php
 
 namespace controllers;
-
 class Login{
 private $autenticaction;
 private $profesorTable;
@@ -12,15 +11,17 @@ public function __construct(\controllers\Autentification $autenticaction, \model
 }
 
     public function homeLogin(){
-        $passwordHash= password_hash('2100702667', PASSWORD_DEFAULT);
+
+
+        $passwordHash= password_hash('dorian', PASSWORD_DEFAULT);
         $paras = [    
-            'ci_profesor' => '0250666666',
-            'nombre_profesor' => 'Denis',
+            'ci_profesor' => '0250186666',
+            'nombre_profesor' => 'DENIS',
             'email_profesor' => 'denis@gmail.com',
             'password_profesor' => $passwordHash,
             'permission' => 16
         ];
-    //    $this->profesorTable->insert($paras);
+  //  $this->profesorTable->insert($paras);
         return [
             'title' => 'SAC',
             'login' => true,

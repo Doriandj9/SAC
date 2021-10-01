@@ -16,15 +16,15 @@
 			
 			<div><div class="menu_box" id="bxs">
 				<div class="menu_head">Menu Principal</div>
-					<div class="menu_body"><hr>
+					<div class="menu_body">
 						<div class="menu">
 						<a href="/home">Inicio</a>
-						<?php if(!empty($responsabilidad) && $responsabilidad[0]->nombre_responsabilidad  == 'Evaluador'):?>
-						<a href="/generate/reports">Evaluación</a>
+						<?php if(!empty($user->getResponsability()) && $user->getResponsability()[0]->nombre_responsabilidad == \web\Responsability::EVALUADOR):?>
+						<a href="/evaluation/evidences">Evaluación</a>
 						<a href="/generate/reports">Reportes</a>
-						<?php else: if($user->hashPermission(\entity\Teachers::ADMINSTRADOR)): ?>
-							<a href="/generate/reports">Cargar Informacion</a>
-						<a href="/generate/reports">Permisos de Acceso</a>
+						<?php else: if($user->hashPermission(\entity\Teachers::ADMINSTRADOR)):?>
+							<a href="/admin/upload/information">Cargar Informacion</a>
+						<a href="/admin/permises/access">Permisos de Acceso</a>
 						<a href="/generate/reports">Configuracion Basica</a>
 						<?php else: ?>
 							<a href="/entry/evidences">Ingreso</a>
@@ -58,5 +58,6 @@
 		</div>
 	</div>
 </body>
-<script src="/public/js/jss.js"></script>
+
+<script src="/public/js/main.js"></script>
 </html>

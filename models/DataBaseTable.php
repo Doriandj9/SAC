@@ -23,7 +23,8 @@ class DataBaseTable{
     }
 
     private function runQuery($query, $params=[]){
-        
+        // var_dump($query);
+        // var_dump($params);
         $result= $this->pdo->prepare($query);
         $result->execute($params);
         return $result;
@@ -66,7 +67,7 @@ class DataBaseTable{
     public function insert($params){
         $params = $this->addDate($params);
         $query = $this->createInsert($params);
-
+        
         $this->runQuery($query, $params);
     }
 
@@ -84,5 +85,29 @@ class DataBaseTable{
         $result = $this->runQuery($query);
         return $result->fetchAll(\PDO::FETCH_CLASS, $this->className, $this->arguments);
     }
-    
+   
+    public function selectJoinFull(){
+        $query = 'SELECT `nombre_criterio`,`cod_evidencia`,
+        `cod_elemento`,  `pdf_archivo`, `docx_archivo`, `xlxs_archivo`
+         ,`nombre_evidencia`,`cod_estandar` FROM `evidencia` INNER JOIN `evidencia_elemento fundamental` 
+        ON `evidencia_cod` = `cod_evidencia` INNER JOIN `elemento fundamental` ON
+        `elemento_cod` = `cod_elemento` INNER JOIN `estandar` ON `estandar_cod` = `cod_estandar`
+        INNER JOIN `criterio` WHERE `criterio_cod` = `cod_criterio`';
+        $result = $this->runQuery($query);
+        return $result->fetchAll(\PDO::FETCH_CLASS,$this->className, $this->arguments);
+    }
+
+    public function update($params, $id){
+        $query = 'UPDATE `'. $this->table . '` SET ';
+        foreach($params as $key => $value){
+            $query .= '`'. $key . '`:' . $key . ',' ;
+        }
+
+        $query= rtrim($query, ',');
+
+        $query .= ' WHERE `'. $this->primaryKey .'` = :' . $this->primaryKey;
+
+        $params['cod_evidencia'] = $id;
+        $this->runQuery($query, $params);
+    }
 }

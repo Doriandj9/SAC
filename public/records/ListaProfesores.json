@@ -1,0 +1,154 @@
+{
+    "lista":    [
+        {
+            "ci_profesor": "0201506672",
+            "nombre_profesor": "ALARCON  QUINATOA GINA JACKELINE"
+        },
+        {
+            "ci_profesor": "1712635265",
+            "nombre_profesor": "ALBÁN GALLO MANUEL EDUARDO"
+        },
+        {
+            "ci_profesor": "0201581196",
+            "nombre_profesor": "ALBAN TRUJILLO PAOLA ESTEFANIA"
+        },
+        {
+            "ci_profesor": "0703129981",
+            "nombre_profesor": "ALVARADO PACHECO EDDY STALIN"
+        },
+        {
+            "ci_profesor": "0604114348",
+            "nombre_profesor": "ALVARADO RAMOS ERIKA NATALY"
+        },
+        {
+            "ci_profesor": "0201011095",
+            "nombre_profesor": "BARRAGÁN QUISHPE JAIME AUGUSTO"
+        },
+        {
+            "ci_profesor": "0201567203",
+            "nombre_profesor": "BARRAGAN QUIZPHE CHRISTIAN FERNANDO"
+        },
+        {
+            "ci_profesor": "0604062711",
+            "nombre_profesor": "BARRETO BONILLA JESSICA ANDREA "
+        },
+        {
+            "ci_profesor": "0201541877",
+            "nombre_profesor": "BORJA BORJA CARMITA GALUTH"
+        },
+        {
+            "ci_profesor": "0603036294",
+            "nombre_profesor": "CABEZAS RAMOS JORGE RENATO "
+        },
+        {
+            "ci_profesor": "0960201572",
+            "nombre_profesor": "CABRERA REYES RAMÓN EDUARDO"
+        },
+        {
+            "ci_profesor": "0201577756",
+            "nombre_profesor": "CARRASCO LARA GABRIELA PAOLA"
+        },
+        {
+            "ci_profesor": "0201616018",
+            "nombre_profesor": "CASTILLO SANTACRUZ RAFAEL DUBERLY"
+        },
+        {
+            "ci_profesor": "0201315934",
+            "nombre_profesor": "CHAVEZ CHIMBO GALO WENSESLAO"
+        },
+        {
+            "ci_profesor": "0201722238",
+            "nombre_profesor": "CHAVEZ GARCIA ELSITA MARGOTH"
+        },
+        {
+            "ci_profesor": "0201618253",
+            "nombre_profesor": "GARCIA CAMACHO GALUTH IRENE"
+        },
+        {
+            "ci_profesor": "0201932183",
+            "nombre_profesor": "GARCIA GARCIA VERÓNICA TATIANA"
+        },
+        {
+            "ci_profesor": "0201780798",
+            "nombre_profesor": "GARCIA LEÓN JHOHANA GUADALUPE "
+        },
+        {
+            "ci_profesor": "0201861986",
+            "nombre_profesor": "GAVILANEZ CARDENAS CLARITA VANESSA"
+        },
+        {
+            "ci_profesor": "0201772092",
+            "nombre_profesor": "IZA LOPEZ KARINA JOHANA"
+        },
+        {
+            "ci_profesor": "0201697299",
+            "nombre_profesor": "LEÓN MONAR PATRICIA DE LOURDES "
+        }, 
+        {
+            "ci_profesor": "0201564465",
+            "nombre_profesor": "LLUMIGUANO POMA MARIA ELENA"
+        },
+        
+        {
+            "ci_profesor": "0201659224",
+            "nombre_profesor": "NUÑEZ SERVONES SABRINA ALEJANDRA "
+        },
+        
+        {
+            "ci_profesor": "0602028003",
+            "nombre_profesor": "OCAÑA MORALES JOSE MIGUEL"
+        },
+        
+        {
+            "ci_profesor": " 1710052661",
+            "nombre_profesor": "PAREDES CRUZ RENATO ESTUARDO"
+        },
+        
+        {
+            "ci_profesor": "0201302858",
+            "nombre_profesor": "PAREDES JIMENEZ SANDRA JANETH"
+        },
+       
+        {
+            "ci_profesor": "0201564341",
+            "nombre_profesor": "ROCHINA CHIMBO LAURA CECILIA"
+        },
+        
+        {
+            "ci_profesor": "0201416005",
+            "nombre_profesor": "SANCHEZ CHAVEZ GERMAN PATRICIO "
+        },
+        
+        {
+            "ci_profesor": "0201991536",
+            "nombre_profesor": "SANCHEZ MACIAS  RAFAEL  ALEJANDRO "
+        },
+        
+        {
+            "ci_profesor": "0201321346",
+            "nombre_profesor": "VALLE ARELLANO DANILO RENATO"
+        },
+        
+        {
+            "ci_profesor": "0201669884",
+            "nombre_profesor": "VELOZ SEGURA ELIZABETH ALEXANDRA"
+        },
+        
+      
+        {
+            "ci_profesor": "0201819471",
+            "nombre_profesor": "YACCHIREMA TARAGUAY IVÁN MARCELO"
+        },
+        
+        
+        {
+            "ci_profesor": "0601946957",
+            "nombre_profesor": "YANEZ CUADRADO SUSANA ALEXANDRA"
+        },
+        
+        {
+            "ci_profesor": "1311691800",
+            "nombre_profesor": "ZAMBRANO MOREIRA MARTHA LIZETH "
+        }
+    ]
+}
