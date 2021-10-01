@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DATOS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<entregables>
+		<codigo>1-AD-SOF 1.2.12.3</codigo>
+		<item>1</item>
+		<elemento>12</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.10.53.7</codigo>
+		<item>2</item>
+		<elemento>53</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 4.25.146.4</codigo>
+		<item>3</item>
+		<elemento>146 - 148 - 149 - 150</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.3.14.4</codigo>
+		<item>4</item>
+		<elemento>14</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.9.52.2</codigo>
+		<item>5</item>
+		<elemento>52</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.9.47.3</codigo>
+		<item>6</item>
+		<elemento>47 - 49</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.3.13.5</codigo>
+		<item>7</item>
+		<elemento>13 - 87 - 88</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.4.22.2</codigo>
+		<item>8</item>
+		<elemento>22</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.9.47.6</codigo>
+		<item>9</item>
+		<elemento>47 - 49</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.7.39.2</codigo>
+		<item>10</item>
+		<elemento>39</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.12.64.2</codigo>
+		<item>11</item>
+		<elemento>64 - 83 - 166 - 167 - 168</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.1.6.2</codigo>
+		<item>12</item>
+		<elemento>6</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.2.11.3</codigo>
+		<item>13</item>
+		<elemento>11</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 4.24.142.4</codigo>
+		<item>14</item>
+		<elemento>142 - 151</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.1.4.5</codigo>
+		<item>15</item>
+		<elemento>4 - 14 - 26 - 63 - 72 - 78 - 85 - 90 - 141 - 142 - 151</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.1.4.8</codigo>
+		<item>16</item>
+		<elemento>4 - 73 - 74 - 76</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 5.27.160.3</codigo>
+		<item>17</item>
+		<elemento>160</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.1.5.7</codigo>
+		<item>18</item>
+		<elemento>5 - 11 - 155</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.1.2.3</codigo>
+		<item>19</item>
+		<elemento>2 - 3 - 4 - 10 - 79 - 123 - 125 - 126</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.1.5.2</codigo>
+		<item>20</item>
+		<elemento>5 - 126</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 4.22.135.2</codigo>
+		<item>21</item>
+		<elemento>135 - 137</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 4.23.138.3</codigo>
+		<item>22</item>
+		<elemento>138</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.12.64.1</codigo>
+		<item>23</item>
+		<elemento>64 - 70</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.13.68.1</codigo>
+		<item>24</item>
+		<elemento>68</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.13.69.2</codigo>
+		<item>25</item>
+		<elemento>69</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.13.67.2</codigo>
+		<item>26</item>
+		<elemento>67</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.8.45.6</codigo>
+		<item>27</item>
+		<elemento>45</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.8.45.4</codigo>
+		<item>28</item>
+		<elemento>45</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.8.41.3</codigo>
+		<item>29</item>
+		<elemento>41 - 42 - 43 - 44</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 4.24.142.3</codigo>
+		<item>30</item>
+		<elemento>142 - 151</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.6.33.3</codigo>
+		<item>31</item>
+		<elemento>33</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 4.21.125.4</codigo>
+		<item>32</item>
+		<elemento>125</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.4.20.4</codigo>
+		<item>33</item>
+		<elemento>20</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 4.25.147.3</codigo>
+		<item>34</item>
+		<elemento>147</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.9.49.6</codigo>
+		<item>35</item>
+		<elemento>49</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.6.33.2</codigo>
+		<item>36</item>
+		<elemento>33 - 34 - 35 - 36</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.14.74.8</codigo>
+		<item>37</item>
+		<elemento>74</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 5.27.159.4</codigo>
+		<item>38</item>
+		<elemento>159</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.16.89.2</codigo>
+		<item>39</item>
+		<elemento>89</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.3.17.2</codigo>
+		<item>40</item>
+		<elemento>17</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.8.41.5</codigo>
+		<item>41</item>
+		<elemento>41 - 42 - 43 - 44</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.6.30.2</codigo>
+		<item>42</item>
+		<elemento>30 - 31 - 32 - 36</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.5.28.4</codigo>
+		<item>43</item>
+		<elemento>28 - 29</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.6.34.1</codigo>
+		<item>44</item>
+		<elemento>34</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 5.27.159.3</codigo>
+		<item>45</item>
+		<elemento>159</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 4.23.139.2</codigo>
+		<item>46</item>
+		<elemento>139 - 150</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 4.24.144.6</codigo>
+		<item>47</item>
+		<elemento>144</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.3.13.4</codigo>
+		<item>48</item>
+		<elemento>13</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 4.25.147.1</codigo>
+		<item>49</item>
+		<elemento>147</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.1.6.3</codigo>
+		<item>50</item>
+		<elemento>6</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 4.21.121.5</codigo>
+		<item>51</item>
+		<elemento>121</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.11.57.1</codigo>
+		<item>52</item>
+		<elemento>57</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.5.28.2</codigo>
+		<item>53</item>
+		<elemento>28 - 29 - 50 - 124 - 140</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.11.59.1</codigo>
+		<item>54</item>
+		<elemento>59</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.2.12.2</codigo>
+		<item>55</item>
+		<elemento>12</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.3.16.2</codigo>
+		<item>56</item>
+		<elemento>16 - 86 - 87 - 88</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.2.9.1</codigo>
+		<item>57</item>
+		<elemento>9</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.1.5.4</codigo>
+		<item>58</item>
+		<elemento>5 - 13 - 27</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.4.23.1</codigo>
+		<item>59</item>
+		<elemento>23</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.3.15.4</codigo>
+		<item>60</item>
+		<elemento>15 - 16</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.9.52.1</codigo>
+		<item>61</item>
+		<elemento>52</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 5.27.159.2</codigo>
+		<item>62</item>
+		<elemento>159</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.8.45.3</codigo>
+		<item>63</item>
+		<elemento>45 - 46</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.8.42.5</codigo>
+		<item>64</item>
+		<elemento>42 - 45</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 4.21.127.1</codigo>
+		<item>65</item>
+		<elemento>127</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.1.7.3</codigo>
+		<item>66</item>
+		<elemento>7</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.9.51.2</codigo>
+		<item>67</item>
+		<elemento>51</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 4.22.130.2</codigo>
+		<item>68</item>
+		<elemento>130</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 4.25.150.3</codigo>
+		<item>69</item>
+		<elemento>150</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 5.26.153.2</codigo>
+		<item>70</item>
+		<elemento>153 - 156 - 160</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.1.2.4</codigo>
+		<item>71</item>
+		<elemento>2 - 7 - 121 - 122</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.4.23.2</codigo>
+		<item>72</item>
+		<elemento>23</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.3.19.2</codigo>
+		<item>73</item>
+		<elemento>19</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.3.18.3</codigo>
+		<item>74</item>
+		<elemento>18</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.5.28.3</codigo>
+		<item>75</item>
+		<elemento>28 - 29</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.7.40.1</codigo>
+		<item>76</item>
+		<elemento>40</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.6.33.1</codigo>
+		<item>77</item>
+		<elemento>33</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 4.22.136.1</codigo>
+		<item>78</item>
+		<elemento>136 - 141 - 142 - 143 - 144 - 145 - 151 - 161</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.10.53.8</codigo>
+		<item>79</item>
+		<elemento>53</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.11.56.4</codigo>
+		<item>80</item>
+		<elemento>56 - 58 - 59 - 161 - 162 - 164</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.10.53.5</codigo>
+		<item>81</item>
+		<elemento>53</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 5.27.157.2</codigo>
+		<item>82</item>
+		<elemento>157 - 158</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.3.13.3</codigo>
+		<item>83</item>
+		<elemento>13</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 4.25.152.1</codigo>
+		<item>84</item>
+		<elemento>152</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.3.18.4</codigo>
+		<item>85</item>
+		<elemento>18 - 19</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.10.53.4</codigo>
+		<item>86</item>
+		<elemento>53</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 4.22.128.2</codigo>
+		<item>87</item>
+		<elemento>128 - 130</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.3.16.1</codigo>
+		<item>88</item>
+		<elemento>16 - 18</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.5.25.1</codigo>
+		<item>89</item>
+		<elemento>25</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.9.48.4</codigo>
+		<item>90</item>
+		<elemento>48</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.16.91.1</codigo>
+		<item>91</item>
+		<elemento>91</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 5.27.159.5</codigo>
+		<item>92</item>
+		<elemento>159</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.16.90.4</codigo>
+		<item>93</item>
+		<elemento>90</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.4.22.1</codigo>
+		<item>94</item>
+		<elemento>22</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.3.15.2</codigo>
+		<item>95</item>
+		<elemento>15</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.16.88.4</codigo>
+		<item>96</item>
+		<elemento>88 - 92</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.9.50.2</codigo>
+		<item>97</item>
+		<elemento>50 - 135</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.1.4.7</codigo>
+		<item>98</item>
+		<elemento>4 - 20 - 21 - 46 - 73 - 74 - 76 - 82 - 129</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 5.31.174.1</codigo>
+		<item>99</item>
+		<elemento>174</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 5.26.154.1</codigo>
+		<item>100</item>
+		<elemento>154 - 160 - 156</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.15.83.2</codigo>
+		<item>101</item>
+		<elemento>83</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.15.84.1</codigo>
+		<item>102</item>
+		<elemento>84</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.18.97.1</codigo>
+		<item>103</item>
+		<elemento>97</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.18.99.1</codigo>
+		<item>104</item>
+		<elemento>99-108-112</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.19.104.1</codigo>
+		<item>105</item>
+		<elemento>104</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.8.45.5</codigo>
+		<item>106</item>
+		<elemento>45</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 5.30.170.1</codigo>
+		<item>107</item>
+		<elemento>170</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 5.31.175.1</codigo>
+		<item>108</item>
+		<elemento>175</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 5.30.171.1</codigo>
+		<item>109</item>
+		<elemento>171</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.16.92.3</codigo>
+		<item>110</item>
+		<elemento>92</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 5.29.169.1</codigo>
+		<item>111</item>
+		<elemento>169</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.13.67.4</codigo>
+		<item>112</item>
+		<elemento>67</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.13.67.3</codigo>
+		<item>113</item>
+		<elemento>67</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.14.80.2</codigo>
+		<item>114</item>
+		<elemento>80</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.14.79.1</codigo>
+		<item>115</item>
+		<elemento>79</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.14.78.1</codigo>
+		<item>116</item>
+		<elemento>78</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.14.81.1</codigo>
+		<item>117</item>
+		<elemento>81</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.9.47.5</codigo>
+		<item>118</item>
+		<elemento>47</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.17.93.1</codigo>
+		<item>119</item>
+		<elemento>93</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.14.73.5</codigo>
+		<item>120</item>
+		<elemento>73 - 74</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.14.75.2</codigo>
+		<item>121</item>
+		<elemento>75 - 77</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.4.21.3</codigo>
+		<item>122</item>
+		<elemento>21</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.7.38.1</codigo>
+		<item>123</item>
+		<elemento>38</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.13.67.1</codigo>
+		<item>124</item>
+		<elemento>67</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.13.71.1</codigo>
+		<item>125</item>
+		<elemento>71 - 94 - 98 - 105 - 113</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.14.73.7</codigo>
+		<item>126</item>
+		<elemento>73 - 74</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.20.119.1</codigo>
+		<item>127</item>
+		<elemento>119</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.10.55.1</codigo>
+		<item>128</item>
+		<elemento>55</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.20.114.1</codigo>
+		<item>129</item>
+		<elemento>114</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.14.73.8</codigo>
+		<item>130</item>
+		<elemento>73 - 74</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.20.111.1</codigo>
+		<item>131</item>
+		<elemento>111</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.19.103.1</codigo>
+		<item>132</item>
+		<elemento>103</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.18.96.1</codigo>
+		<item>133</item>
+		<elemento>96</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 5.29.166.1</codigo>
+		<item>134</item>
+		<elemento>166 - 167 - 168</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 5.29.165.1</codigo>
+		<item>135</item>
+		<elemento>165</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.1.5.3</codigo>
+		<item>136</item>
+		<elemento>5</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.1.4.6</codigo>
+		<item>137</item>
+		<elemento>4 - 65 - 132 - 133 - 134 - 138</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.6.35.2</codigo>
+		<item>138</item>
+		<elemento>35</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.10.53.6</codigo>
+		<item>139</item>
+		<elemento>53</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.16.86.4</codigo>
+		<item>140</item>
+		<elemento>86</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.11.56.3</codigo>
+		<item>141</item>
+		<elemento>56 - 57 - 60 - 61 - 62 - 163</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 4.24.145.2</codigo>
+		<item>142</item>
+		<elemento>145</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 4.22.129.3</codigo>
+		<item>143</item>
+		<elemento>129</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.4.22.3</codigo>
+		<item>144</item>
+		<elemento>22</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.14.75.1</codigo>
+		<item>145</item>
+		<elemento>75</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.12.66.1</codigo>
+		<item>146</item>
+		<elemento>66</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.14.74.10</codigo>
+		<item>147</item>
+		<elemento>74</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.2.12.1</codigo>
+		<item>148</item>
+		<elemento>12</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.14.74.9</codigo>
+		<item>149</item>
+		<elemento>74</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.5.26.3</codigo>
+		<item>150</item>
+		<elemento>26</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.10.54.1</codigo>
+		<item>151</item>
+		<elemento>54</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.13.69.1</codigo>
+		<item>152</item>
+		<elemento>69</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 4.21.123.1</codigo>
+		<item>153</item>
+		<elemento>123 - 125</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.10.53.1</codigo>
+		<item>154</item>
+		<elemento>53</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.6.36.4</codigo>
+		<item>155</item>
+		<elemento>36</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.9.47.4</codigo>
+		<item>156</item>
+		<elemento>47</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.9.51.1</codigo>
+		<item>157</item>
+		<elemento>51</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.9.49.1</codigo>
+		<item>158</item>
+		<elemento>49</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.9.49.2</codigo>
+		<item>159</item>
+		<elemento>49</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 4.21.127.2</codigo>
+		<item>160</item>
+		<elemento>127</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.1.1.4</codigo>
+		<item>161</item>
+		<elemento>1 - 4 - 10 -</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.1.1.5</codigo>
+		<item>162</item>
+		<elemento>1 - 5 - 8 - 11 - 82</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.7.37.2</codigo>
+		<item>163</item>
+		<elemento>37</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.3.19.1</codigo>
+		<item>164</item>
+		<elemento>19</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.3.14.1</codigo>
+		<item>165</item>
+		<elemento>14</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.3.15.1</codigo>
+		<item>166</item>
+		<elemento>15</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.2.11.1</codigo>
+		<item>167</item>
+		<elemento>11 - 89 -</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.3.17.1</codigo>
+		<item>168</item>
+		<elemento>17</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.1.4.4</codigo>
+		<item>169</item>
+		<elemento>4 - 10 - 80 -</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 4.21.124.2</codigo>
+		<item>170</item>
+		<elemento>124</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.2.8.4</codigo>
+		<item>171</item>
+		<elemento>8 - 27 - 28 - 29 - 37</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.9.48.1</codigo>
+		<item>172</item>
+		<elemento>48</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.9.48.3</codigo>
+		<item>173</item>
+		<elemento>48</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.9.48.2</codigo>
+		<item>174</item>
+		<elemento>48</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.14.73.2</codigo>
+		<item>175</item>
+		<elemento>73 - 74 -</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.10.53.3</codigo>
+		<item>176</item>
+		<elemento>53</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.6.35.3</codigo>
+		<item>177</item>
+		<elemento>35</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.16.91.2</codigo>
+		<item>178</item>
+		<elemento>91</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.3.14.3</codigo>
+		<item>179</item>
+		<elemento>14 - 16 - 18 - 27</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.1.7.1</codigo>
+		<item>180</item>
+		<elemento>7</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 4.24.144.2</codigo>
+		<item>181</item>
+		<elemento>144</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 4.22.128.1</codigo>
+		<item>182</item>
+		<elemento>128</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.1.2.5</codigo>
+		<item>183</item>
+		<elemento>2 - 10 - 30 - 31 - 32 - 36</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.8.41.4</codigo>
+		<item>184</item>
+		<elemento>41 - 42 - 43 - 44 - 45 - 46</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 4.24.141.2</codigo>
+		<item>185</item>
+		<elemento>141 - 142 - 143 - 144 - 151</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.10.53.2</codigo>
+		<item>186</item>
+		<elemento>53</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.4.20.1</codigo>
+		<item>187</item>
+		<elemento>20 - 144 -</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.4.24.2</codigo>
+		<item>188</item>
+		<elemento>24</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.1.1.1</codigo>
+		<item>189</item>
+		<elemento>1 - 2 - 4 - 5 - 6 - 8 - 10 - 39 - 121 - 123</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.1.1.3</codigo>
+		<item>190</item>
+		<elemento>1</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.16.88.3</codigo>
+		<item>191</item>
+		<elemento>88</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 4.23.139.1</codigo>
+		<item>192</item>
+		<elemento>139 - 144</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.1.5.1</codigo>
+		<item>193</item>
+		<elemento>5 - 8 - 11 - 47 - 49 - 158</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.7.37.1</codigo>
+		<item>194</item>
+		<elemento>37</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 5.26.153.3</codigo>
+		<item>195</item>
+		<elemento>153</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.14.82.1</codigo>
+		<item>196</item>
+		<elemento>82</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.14.73.3</codigo>
+		<item>197</item>
+		<elemento>73 - 74</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.11.56.2</codigo>
+		<item>198</item>
+		<elemento>56 - 62</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 4.25.151.7</codigo>
+		<item>199</item>
+		<elemento>151</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.16.86.3</codigo>
+		<item>200</item>
+		<elemento>86</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.3.15.3</codigo>
+		<item>201</item>
+		<elemento>15</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 4.21.121.3</codigo>
+		<item>202</item>
+		<elemento>121</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.1.1.2</codigo>
+		<item>203</item>
+		<elemento>1 - 3 - 20 - 21 - 24 - 41 - 43 - 44 - 47 - 51 - 121 - 122 - 123 - 124 - 125 - 129 - 131 - 132 - 133 - 135 - 137 - 155 - 159</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.14.82.4</codigo>
+		<item>204</item>
+		<elemento>82</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.16.88.5</codigo>
+		<item>205</item>
+		<elemento>88</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 4.24.142.5</codigo>
+		<item>206</item>
+		<elemento>142 - 151</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.11.60.1</codigo>
+		<item>207</item>
+		<elemento>60 - 61 - 163</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.9.48.5</codigo>
+		<item>208</item>
+		<elemento>48</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 5.26.153.1</codigo>
+		<item>209</item>
+		<elemento>153 - 155 - 157 - 158 - 160</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.2.11.6</codigo>
+		<item>210</item>
+		<elemento>11 - 86 - 87 - 90</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.16.86.2</codigo>
+		<item>211</item>
+		<elemento>86</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.3.13.1</codigo>
+		<item>212</item>
+		<elemento>13 - 135 - 146 - 147 - 148 - 149</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 4.22.135.5</codigo>
+		<item>213</item>
+		<elemento>135</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.8.41.1</codigo>
+		<item>214</item>
+		<elemento>41 - 42 - 43 - 44 - 45 - 46 - 155</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.11.56.1</codigo>
+		<item>215</item>
+		<elemento>56 - 62 -</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 4.25.146.1</codigo>
+		<item>216</item>
+		<elemento>146</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.5.26.1</codigo>
+		<item>217</item>
+		<elemento>26 - 90</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 5.30.172.1</codigo>
+		<item>218</item>
+		<elemento>172</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 5.31.173.1</codigo>
+		<item>219</item>
+		<elemento>173</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.8.45.8</codigo>
+		<item>220</item>
+		<elemento>45</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 4.23.138.4</codigo>
+		<item>221</item>
+		<elemento>138</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 2.9.47.2</codigo>
+		<item>222</item>
+		<elemento>47 - 50 - 58 - 61 - 62 - 124 - 131 - 132 - 133 - 135 - 137 - 138 - 139 - 140 - 146 - 148</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 5.26.155.5</codigo>
+		<item>223</item>
+		<elemento>155</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.14.73.1</codigo>
+		<item>224</item>
+		<elemento>73</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.16.92.1</codigo>
+		<item>225</item>
+		<elemento>92</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.17.95.1</codigo>
+		<item>226</item>
+		<elemento>95</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.18.99.1</codigo>
+		<item>227</item>
+		<elemento>99</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.18.100.1</codigo>
+		<item>228</item>
+		<elemento>100</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.18.101.1</codigo>
+		<item>229</item>
+		<elemento>101</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.18.102.1</codigo>
+		<item>230</item>
+		<elemento>102</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.19.106.1</codigo>
+		<item>231</item>
+		<elemento>106</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.19.107.1</codigo>
+		<item>232</item>
+		<elemento>107</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.19.109.1</codigo>
+		<item>233</item>
+		<elemento>109</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.19.110.1</codigo>
+		<item>234</item>
+		<elemento>110</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.18.99.1</codigo>
+		<item>235</item>
+		<elemento>112</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.20.115.1</codigo>
+		<item>236</item>
+		<elemento>115</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.20.116.1</codigo>
+		<item>237</item>
+		<elemento>116</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.20.117.1</codigo>
+		<item>238</item>
+		<elemento>117</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.20.118.1</codigo>
+		<item>239</item>
+		<elemento>118</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 3.20.120.1</codigo>
+		<item>240</item>
+		<elemento>120</elemento>
+	</entregables>
+	<entregables>
+		<codigo>1-AD-SOF 1.1.2.1</codigo>
+		<item>241</item>
+		<elemento>2</elemento>
+	</entregables>
+</DATOS>

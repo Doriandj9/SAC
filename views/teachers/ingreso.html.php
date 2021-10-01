@@ -2,7 +2,7 @@
 					<div id="cnt" class="ideb">
                         Ingreso de Evidencias
                     </div>
-                    <form action="">
+                    <form>
                     <div class="pdt">
                         <div id="fpdt">Periodo de tiempo:</div>
                         <div><select name="anios" id="anios">
@@ -14,7 +14,7 @@
                             <option value="1">1 año</option>
                             <option value="semestral">semestrales</option>
                         </select></div>
-                        <div class="bntlt"><button type="submit">Listar</button></div>
+                        <div class="bntlt"><button>Listar</button></div>
                     </div>
                     </form>
                     <!-- Generando tabla dentro de un div -->

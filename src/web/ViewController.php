@@ -12,6 +12,7 @@ class ViewController implements \frame\WebRoutes{
     private $criterioTable;
     private $estandarTable;
     private $elementoFundamentalTable;
+    private $evidencia_elementoFundamentalTable;
      
     public function __construct()
     {
@@ -31,6 +32,9 @@ class ViewController implements \frame\WebRoutes{
         $this->elementoFundamentalTable= new \models\DataBaseTable(
             new \models\conection\Conection(), 'elemento fundamental','cod_elemento'
         );
+        $this->evidencia_elementoFundamentalTable= new \models\DataBaseTable(
+            new \models\conection\Conection(), 'evidencia_elemento fundamental', 'evidencia_cod'
+        );
         $this->autentification = new \controllers\Autentification($this->profesorTable, 'email_profesor', 'password_profesor');
 
         
@@ -46,9 +50,11 @@ class ViewController implements \frame\WebRoutes{
                                                     $this->evidencesTable,
                                                     $this->criterioTable,
                                                     $this->estandarTable,
-                                                    $this->elementoFundamentalTable
+                                                    $this->elementoFundamentalTable,
+                                                    $this->evidencia_elementoFundamentalTable
                                                 );
         $evaluatorController = new \controllers\Evaluator();
+        $controllerAsyJ = new \controllers\AsynJavaScript($this->evidencesTable);
             return [
             '' => [
                 'GET' => [
@@ -160,7 +166,13 @@ class ViewController implements \frame\WebRoutes{
                     ],
                     'login' => true,
                     'responsability' => \web\Responsability::EVALUADOR
-                    ], 
+                    ],
+                'data/evidences/asyn' => [
+                    'GET' => [
+                        'controller' => $controllerAsyJ,
+                        'action' => 'loadData'
+                    ],
+                ]
         ];
     }
 

@@ -8,11 +8,13 @@ class Admin{
     private $criterioTable;
     private $estandarTable;
     private $elementoFundamentalTable;
+    private $evidencia_elementoFundamentalTable;
     public function __construct(\models\DataBaseTable $profesoresTable, 
                             \models\DataBaseTable $evidenciasTable,
                             \models\DataBaseTable $criterioTable,
                             \models\DataBaseTable $estandarTable,
-                            \models\DataBaseTable $elementoFundamentalTable
+                            \models\DataBaseTable $elementoFundamentalTable,
+                            \models\DataBaseTable $evidencia_elementoFundamentalTable
                             )
     {
         $this->profesoresTable= $profesoresTable;
@@ -20,6 +22,7 @@ class Admin{
         $this->criterioTable= $criterioTable;
         $this->estandarTable= $estandarTable;
         $this->elementoFundamentalTable= $elementoFundamentalTable;
+        $this->evidencia_elementoFundamentalTable= $evidencia_elementoFundamentalTable;
     }
 
     public function admin(){
@@ -56,8 +59,7 @@ class Admin{
         }   
         
         // movemos el archivo
-        copy($source,$destination);
-        if (move_uploaded_file($source, $destination)) {
+            if (move_uploaded_file($source, $destination)) {
             echo json_encode(["result"=>1, "time"=>$_POST["time"], "fileName"=>$fileName, "error"=>""]);
         } else {
             echo json_encode(["result"=>0, "time"=>$_POST["time"], "fileName"=>$fileName, "error"=>"no se ha podido mover el archivo"]);
@@ -119,18 +121,32 @@ class Admin{
         //         ];
         //         $this->estandarTable->insert($data4);
         //     }
-        $dataElementosFundamentales = file_get_contents('./public/records/elementos.json');
-            $arrayElementofun = json_decode($dataElementosFundamentales, true)['ELEMENTO'];
+        // $dataElementosFundamentales = file_get_contents('./public/records/elementos.json');
+        //     $arrayElementofun = json_decode($dataElementosFundamentales, true)['ELEMENTO'];
 
-            foreach($arrayElementofun as $value){
+        //     foreach($arrayElementofun as $value){
 
-                $data5 = [
-                    'cod_elemento' => $value['codigo'],
-                    'nombre_elemento' => $value['nombre'],
-                    'estandar_cod' => $value['estandar']
+        //         $data5 = [
+        //             'cod_elemento' => $value['codigo'],
+        //             'nombre_elemento' => $value['nombre'],
+        //             'estandar_cod' => $value['estandar']
+        //         ];
+        //         $this->elementoFundamentalTable->insert($data5);
+        //     }
+            
+        $dataElementosFundamentales_Evidencias = file_get_contents('./public/records/entregablesF.json');
+        $arrayElementofun_Evidencia = json_decode($dataElementosFundamentales_Evidencias, true)['elementosF'];
+
+        foreach($arrayElementofun_Evidencia as $value){
+
+            foreach($value['elementos'] as $element){
+                $data6 = [
+                    'evidencia_cod' => $value['codigoE'],
+                    'elemento_cod' => $element,
                 ];
-                $this->elementoFundamentalTable->insert($data5);
+              $this->evidencia_elementoFundamentalTable->insert($data6);
             }
+        }
         }
 
            header('location: /');

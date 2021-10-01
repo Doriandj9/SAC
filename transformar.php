@@ -2,10 +2,10 @@
 
 
 
-//  $xml = file_get_contents('./DatosAIngresar/data/elemento5.xml');
+//  $xml = file_get_contents('./DatosAIngresar/evidencias/entregables.xml');
 //  $StringXml = simplexml_load_string($xml);
 // $result = json_encode($StringXml, JSON_UNESCAPED_UNICODE);
-// file_put_contents('./DatosAIngresar/data/elemento5.json',$result);
+// file_put_contents('./DatosAIngresar/evidencias/entregables.json',$result);
 // $_NEWARRAY = [];
 // function separarJson($json){
 //     $array = json_decode($json, true)['distributivo'];
@@ -70,3 +70,39 @@
 // var_dump($unido);
 // $recort= substr($nuevo,0,15);
 // echo $recort. "@ueb.edu.ec";
+
+
+// $string = "64 - 83 - 166 - 167 - 168";
+
+// $nuevoS = str_split($string, 5);
+// $fd = strip_tags($string);
+
+// var_dump($nuevoS);
+
+// var_dump($fd);
+
+// $striJSon = '
+
+// ';
+
+// $result = json_encode($striJSon, JSON_UNESCAPED_UNICODE);
+// file_put_contents('./DatosAIngresar/evidencias/entregablesF.json',$result);
+
+// $fundament = file_get_contents('DatosAIngresar/evidencias/entregablesF.json');
+// $arrayFun = json_decode($fundament, true)['elementosF'];
+
+// foreach($arrayFun as $key=> $value){
+//         echo "codigo de Evidencia: " . $value['codigoE'] . "<br>";
+//         echo "Se vincula con los siguientes elementos <br>";
+//         foreach($value['elementos'] as $value){
+//                 echo $value ."<br>";
+//         }
+
+//         echo "<br><br><br>";
+// }
+$valor=[
+        "valor" => 2
+];
+echo json_encode($valor)
+
+?>

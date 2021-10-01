@@ -23,7 +23,7 @@ class DataBaseTable{
     }
 
     private function runQuery($query, $params=[]){
-       // var_dump($query);
+       //echo $query;
         // var_dump($params);
         $result= $this->pdo->prepare($query);
         $result->execute($params);
@@ -68,7 +68,7 @@ class DataBaseTable{
         $params = $this->addDate($params);
         $query = $this->createInsert($params);
         
-        $this->runQuery($query, $params);
+       return $this->runQuery($query, $params);
     }
 
     public function selectFromColumn($column, $restrict){

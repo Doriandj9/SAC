@@ -1,9 +1,43 @@
+/**Funcion para mostrar y ocultar clave */
+function show() {
+    console.log("hola");
+    var p = document.getElementById('pwd');
+    p.setAttribute('type', 'text');
+}
+
+function hide() {
+    console.log("hola");
+    var p = document.getElementById('pwd');
+    p.setAttribute('type', 'password');
+}
+
+var pwShown = 0;
+
+document.getElementById("eye") == null ? '' : document.getElementById("eye").addEventListener("click", function () {
+    console.log("hola");
+    if (pwShown == 0) {
+        pwShown = 1;
+        show();
+    } else {
+        pwShown = 0;
+        hide();
+    }
+}, false);
+/** Funcion activar menu */
+
+
+
+
+
+
 
 /** para el ingreso de registros del admin */
 (function(){
     window.addEventListener("load", () => {
         const uploader = document.getElementById('uploader');
-
+        if (uploader == null){
+            return;
+        }
         uploader.addEventListener("dragover", e => {
             e.preventDefault();
             uploader.classList.add("over");
@@ -85,6 +119,7 @@
         }
         evenListener();
     }
+    
 })();
 
 // const inputSave = document.getElementById("guardar-data-click");
@@ -113,8 +148,21 @@
 //  }
         
 
-// function clickDefault(e){
-//     e.preventDefault();
+
+function LoadDadta(){
+    let httpRequest = new XMLHttpRequest();
+    const xhr = new XMLHttpRequest();
+    httpRequest.open('GET', '/data/evidences/asyn', true);
+    httpRequest.send(null);
+
+    httpRequest.onreadystatechange= function () {
+        console.log(httpRequest.status);
+        console.log(httpRequest.response);
+        const res = JSON.parse(httpRequest.response)
+        console.log(res);
+    }
+
     
-// }
-//console.log(filesListControl.querySelectorAll("[data-time]"));
+}
+
+LoadDadta();
