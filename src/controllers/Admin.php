@@ -78,13 +78,13 @@ class Admin{
                     strtolower(substr(preg_replace('/(.+?)( )(.+?)/i', '$1$3', $value['nombre_profesor']),0,15)). "@ueb.edu.ec",
                     'password_profesor' => password_hash($value['ci_profesor'], PASSWORD_DEFAULT) 
                 ];
-                
+
                 $this->profesoresTable->insert($data2);
                 echo $data2['email_profesor']. "<br>";
                 echo $data2['nombre_profesor']. "<br><br><br>";
             }
 
-          // header('location: /');
+           header('location: /');
         }
     }
     
