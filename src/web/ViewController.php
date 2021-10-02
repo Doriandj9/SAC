@@ -6,6 +6,7 @@ use controllers\Autentification;
 
 class ViewController implements \frame\WebRoutes{
     private $profesorTable;
+    private $passwordUpdate;
     private $autentification;
     private $responsabilidadTable;
     private $evidencesTable;
@@ -13,12 +14,13 @@ class ViewController implements \frame\WebRoutes{
     public function __construct()
     {
         $this->profesorTable= new \models\DataBaseTable(new \models\conection\Conection(),
-                                                        'profesor', 'ci_profesor','\entity\Teachers',[&$this->responsabilidadTable]);
+                                                        'profesor', 'ci_profesor', '\entity\Teachers',[&$this->responsabilidadTable]);
         $this->responsabilidadTable = new \models\DataBaseTable(new \models\conection\Conection(), 
                                                         'responsabilidad', 'cod_responsabilidad');
-                                                        $this->evidencesTable = new \models\DataBaseTable( new \models\conection\Conection(),
-                                                        'evidencia', 'cod_evidencia' 
-    );
+        $this->evidencesTable = new \models\DataBaseTable( new \models\conection\Conection(),
+                                                        'evidencia', 'cod_evidencia');
+        $this->passwordUpdate = new \models\DataBaseTable( new \models\conection\Conection(),
+                                                        'profesor', 'password_profesor');
         $this->autentification = new \controllers\Autentification($this->profesorTable, 'email_profesor', 'password_profesor');
 
         
@@ -28,7 +30,7 @@ class ViewController implements \frame\WebRoutes{
 
         $loginController = new \controllers\Login($this->autentification, $this->profesorTable);
         $homeController = new  \controllers\Home($this->autentification);
-        $passwordController = new \controllers\Password(); 
+        $passwordController = new \controllers\Password($this->profesorTable);
         $teachersController = new  \controllers\Teachers($this->evidencesTable);
         $adminController = new \controllers\Admin();
         $evaluatorController = new \controllers\Evaluator();
@@ -98,7 +100,7 @@ class ViewController implements \frame\WebRoutes{
                 ],
                 'POST' => [
                     'controller' => $passwordController,
-                    'action' => 'password'
+                    'action' => 'updatePassword'
                 ],
                 'login' => true
                 ],
@@ -117,8 +119,8 @@ class ViewController implements \frame\WebRoutes{
                         'controller' => $adminController,
                         'action' => 'uploadInformation'
                     ],
-
-                    'login' => true
+                    'login' => true,
+                    'permission' => \entity\Teachers::ADMINSTRADOR
                     ],
                 'admin/permises/access' => [
                     'GET' => [

@@ -6,6 +6,7 @@ class DataBaseTable{
     private $pdo;
     private $table;
     private $primaryKey;
+    private $password;
     private $className;
     private $arguments;
 
@@ -107,6 +108,19 @@ class DataBaseTable{
         $query .= ' WHERE `'. $this->primaryKey .'` = :' . $this->primaryKey;
 
         $params['cod_evidencia'] = $id;
+        $this->runQuery($query, $params);
+    }
+    public function updatePassword($params, $password){
+        $query = 'UPDATE `'. $this->table . '` SET ';
+        foreach($params as $key => $value){
+            $query .= '`'. $key . '`:' . $key . ',' ;
+        }
+
+        $query= rtrim($query, ',');
+
+        $query .= ' WHERE `'. $this->primaryKey .'` = :' . $this->primaryKey . ' AND `'. $this->password .'` = :' . $this->password;
+
+        $params['password_profesor'] = $password;
         $this->runQuery($query, $params);
     }
 }
