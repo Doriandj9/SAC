@@ -135,19 +135,20 @@ class Admin{
         //         $this->elementoFundamentalTable->insert($data5);
         //     }
             
-        $dataElementosFundamentales_Evidencias = file_get_contents('./public/records/entregablesF.json');
-        $arrayElementofun_Evidencia = json_decode($dataElementosFundamentales_Evidencias, true)['elementosF'];
+        // $dataElementosFundamentales_Evidencias = file_get_contents('./public/records/entregablesF.json');
+        // $arrayElementofun_Evidencia = json_decode($dataElementosFundamentales_Evidencias, true)['elementosF'];
 
-        foreach($arrayElementofun_Evidencia as $value){
+        // foreach($arrayElementofun_Evidencia as $value){
 
-            foreach($value['elementos'] as $element){
-                $data6 = [
-                    'evidencia_cod' => $value['codigoE'],
-                    'elemento_cod' => $element,
-                ];
-              $this->evidencia_elementoFundamentalTable->insert($data6);
-            }
-        }
+        //     foreach($value['elementos'] as $element){
+        //         $data6 = [
+        //             'evidencia_cod' => $value['codigoE'],
+        //             'elemento_cod' => $element,
+        //         ];
+        //       $this->evidencia_elementoFundamentalTable->insert($data6);
+        //     }
+        // }
+
         }
 
            header('location: /');
@@ -157,19 +158,25 @@ class Admin{
 
         $objetReflectio = new \ReflectionClass('\entity\Teachers');
         $permission = $objetReflectio->getConstants();
+        $teachers = $this->profesoresTable->select();
 
         if(isset($_GET['id'])){
+            $teacher = $this->profesoresTable->selectFromColumn('ci_profesor', $_GET['id'])[0];
             return [
                 'title' => 'Editar Permisos',
                 'template' => 'admin/editPermission.html.php',
                 'variables' => [
-                    'permissions' => $permission
+                    'permissions' => $permission,
+                    'teacher' => $teacher
                 ]
             ];
         }else{
             return [
                 'title' => 'Permisos de Acceso',
-                'template' => 'admin/permiseaccess.html.php'
+                'template' => 'admin/permiseaccess.html.php',
+                'variables' => [
+                    'teachers' => $teachers
+                ]
             ];
         }        
     }
