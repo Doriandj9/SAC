@@ -1,5 +1,5 @@
 <div class="msg">
-    <div>Importante!</div>
+    <div>¡¡Importante!!</div>
     <div>* Se deberán subir los archivos para el distributivo académico, lista de docentes y lista de estudiantes.</div>
     <div>* Se recomienda no utilizar caracteres especiales en el nombre de los archivos.</div>
 </div>
@@ -13,9 +13,6 @@
             
             <div id="uploader">
                 <div>Arrastra y suelta los archivos aquí<br>
-                    <label for="json">
-                        <img src="" alt=".json" title="Clic aquí para subir los archivos">
-                    </label><input type="file" id="json" name="json" accept=".json" multiple/>
                 <br>Tamaño máximo por archivo de <?php echo ini_get("upload_max_filesize");?></div>
             </div>
 
