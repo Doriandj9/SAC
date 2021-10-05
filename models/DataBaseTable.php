@@ -111,17 +111,19 @@ class DataBaseTable{
         $params['cod_evidencia'] = $id;
         $this->runQuery($query, $params);
     }
-    public function updatePassword($params, $password){
+    public function updatePassword($params, $cod){
         $query = 'UPDATE `'. $this->table . '` SET ';
         foreach($params as $key => $value){
-            $query .= '`'. $key . '`:' . $key . ',' ;
+            $query .= '`'. $key . '` = :' . $key . ',' ;
         }
 
         $query= rtrim($query, ',');
 
-        $query .= ' WHERE `'. $this->primaryKey .'` = :' . $this->primaryKey . ' AND `'. $this->password .'` = :' . $this->password;
-
-        $params['password_profesor'] = $password;
+        $query .= ' WHERE `'. $this->primaryKey .'` = :' . $this->primaryKey;
+        var_dump($query);
+        $params[$this->primaryKey] = $cod;
+        var_dump($params);
         $this->runQuery($query, $params);
+        
     }
 }

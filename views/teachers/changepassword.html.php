@@ -4,7 +4,7 @@
     Cambio de Clave
 </div>
 <div class="cl">
-<form action="changepassword" >
+<form action="" method="POST">
      <div>
     <label for="password">Contraseña anterior:</label>
     <input type="password" name="password" id="password"> 
@@ -17,8 +17,17 @@
     <label for="passwordnew1">Confirmar la contraseña nueva:</label>
     <input type="password" name="passwordnew1" id="passwordnew1">
     </div>
+    
+        <?php 
+            if(isset($error)): 
+        ?>
+        <div>
+        <p><?= $error; ?></p>
+        </div>
+        <?php endif; ?>
+    
     <div>
-        <input type="hidden" name="cod" id="cod" value="<?= "cod"; ?>">
+        <input type="hidden" name="cod" id="cod" value="<?= $usuario->ci_profesor; ?>">
     </div>
     <div>
     <input type="submit" value="Guardar" id="btnGuardarContrasenia">

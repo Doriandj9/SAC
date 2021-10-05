@@ -153,6 +153,7 @@ document.getElementById("eye") == null ? '' : document.getElementById("eye").add
 (function(){
 
     const buttonListar = document.getElementById("listar-evidencias");
+    console.log(buttonListar);
     if(buttonListar == null){
         return;
     } 

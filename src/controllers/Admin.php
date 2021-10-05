@@ -157,19 +157,25 @@ class Admin{
 
         $objetReflectio = new \ReflectionClass('\entity\Teachers');
         $permission = $objetReflectio->getConstants();
+        $teachers = $this->profesoresTable->select();
 
         if(isset($_GET['id'])){
+            $teacher = $this->profesoresTable->selectFromColumn('ci_profesor', $_GET['id'])[0];
             return [
                 'title' => 'Editar Permisos',
                 'template' => 'admin/editPermission.html.php',
                 'variables' => [
-                    'permissions' => $permission
+                    'permissions' => $permission,
+                    'teacher' => $teacher
                 ]
             ];
         }else{
             return [
                 'title' => 'Permisos de Acceso',
-                'template' => 'admin/permiseaccess.html.php'
+                'template' => 'admin/permiseaccess.html.php',
+                'variables' => [
+                    'teachers' => $teachers
+                ]
             ];
         }        
     }

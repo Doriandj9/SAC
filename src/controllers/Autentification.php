@@ -28,7 +28,7 @@ class Autentification{
         }
     }
 
-    public function validationAll(){
+    public function validationAll($verific=NULL){
 
         if(empty($_SESSION['email'])){
             return false;
@@ -36,6 +36,7 @@ class Autentification{
         
         $result = $this->profesorTable->selectFromColumn('email_profesor', $_SESSION['email'])[0];
 
+        
         if($result->{$this->password_profesor} == $_SESSION['password']){
             return true;
         }else{
