@@ -3,5 +3,5 @@ namespace web;
 
 class Responsability{
     const EVALUADOR= 'Evaluador';
-    const COORDINADOR= 'Coordinador' ;
+    const COORDINADOR= 'Coordinador';
 }

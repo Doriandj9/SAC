@@ -24,7 +24,8 @@ class DataBaseTable{
     }
 
     private function runQuery($query, $params=[]){
-        
+       // var_dump($query);
+        // var_dump($params);
         $result= $this->pdo->prepare($query);
         $result->execute($params);
         return $result;
@@ -67,7 +68,7 @@ class DataBaseTable{
     public function insert($params){
         $params = $this->addDate($params);
         $query = $this->createInsert($params);
-
+        
         $this->runQuery($query, $params);
     }
 

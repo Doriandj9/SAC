@@ -459,6 +459,7 @@ h2 {
 	border: 1px solid #000;;
     text-align:center;
 	margin-bottom: 3px;
+	color: #ccc;
 }
 #uploader>div {
     display:inline-block;
@@ -472,6 +473,8 @@ h2 {
 #uploader.over {
 	background: var(--color-azul-barras);
 	opacity: 0.5;
+	color: white;
+	transition: linear;
 }
 
 #filesList>div {

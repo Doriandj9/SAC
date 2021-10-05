@@ -1,0 +1,294 @@
+{
+    "ELEMENTO": [
+        {
+            "codigo": "63",
+            "estandar": "12",
+            "nombre": "AMsC: Total de asignaturas dictadas por profesores con formación de posgrado de maestría o equivalente afín a la asignatura."
+        },
+        {
+            "codigo": "64",
+            "estandar": "12",
+            "nombre": "APHD: Total de asignaturas dictadas por profesores con formación de PhD o equivalente afín a la asignatura."
+        },
+        {
+            "codigo": "65",
+            "estandar": "12",
+            "nombre": "TA: Total de asignaturas del currículo"
+        },
+        {
+            "codigo": "66",
+            "estandar": "12",
+            "nombre": "AFP: Afinidad de formación de posgrado."
+        },
+        {
+            "codigo": "67",
+            "estandar": "13",
+            "nombre": "PhDE: Total de profesores con formación académica de PhD obtenida en una institución de educación superior de:\ni) listado de universidades de excelencia;\nii) Listado de IES para el programa de becas para doctorado (PhD) para docentes de universidades y escuelas politécnicas; o \niii) listado de IES en los rankings de universidades de Latinoamérica; y, que evidencias logros académicos y experiencia en investigación."
+        },
+        {
+            "codigo": "68",
+            "estandar": "13",
+            "nombre": "MScE: Total de profesores con formación académica de MSc, obtenida en el listado de universidades de excelencia o en IES que constan en rankings internacionales de Latinoamérica; y, que evidencian logros académicos y experiencia en investigación"
+        },
+        {
+            "codigo": "69",
+            "estandar": "13",
+            "nombre": "PhD: Total de profesores con formación académica de  Phd  no incluida en PhDE."
+        },
+        {
+            "codigo": "70",
+            "estandar": "13",
+            "nombre": "MSc:Total de profesores con formación académica de MSc , no incluye en MScE"
+        },
+        {
+            "codigo": "71",
+            "estandar": "13",
+            "nombre": "TP: Número total de profesores relacionados con la carrera"
+        },
+        {
+            "codigo": "72",
+            "estandar": "13",
+            "nombre": "CCA: Composición del cuerpo académico"
+        },
+        {
+            "codigo": "73",
+            "estandar": "14",
+            "nombre": "Conformación de grupos de investigación que siguen parámetros académicos definidos por la propia institución que consideran de diversidad en la formación académica y experiencia en investigación de sus integrantes, la inclusión de futuros investigadores (estudiantes de doctorado, maestrías o equivalentes y estudiantes de grado que participan en proyectos de investigación), así como la relación de los grupos con las redes de investigación que ha establecido la institución y participación de investigadores de la IES y externos."
+        },
+        {
+            "codigo": "74",
+            "estandar": "14",
+            "nombre": "Los grupos de investigación contribuyen  al desarrollo de la investigación formativa y a la integración  con un currículo de la carrera y los proyectos de vinculación con la sociedad"
+        },
+        {
+            "codigo": "75",
+            "estandar": "14",
+            "nombre": "Los profesores con titularidad que forman parte de los grupos activos de investigación han realizado al menos una publicación o se encuentran desarrollando un proyecto de investigación durante el último año de acuerdo a las líneas de investigación relacionadas con la carrera "
+        },
+        {
+            "codigo": "76",
+            "estandar": "14",
+            "nombre": "La unidad académica que hace investigación a la que pertenece la carrera cuenta con líneas de investigación estructuradas sobre la base de grupos de investigación  "
+        },
+        {
+            "codigo": "77",
+            "estandar": "14",
+            "nombre": "Las líneas de investigación permiten articular los resultados, proyectos y actividad investigadora del personal académico con dedicación a la carrera "
+        },
+        {
+            "codigo": "78",
+            "estandar": "14",
+            "nombre": "Las líneas de investigación relacionadas con la producción  científica de los profesores con dedicación a la carrera son coherentes con el currículo de la carrera "
+        },
+        {
+            "codigo": "79",
+            "estandar": "14",
+            "nombre": "Las líneas de investigación relacionadas con la producción  científica de los profesores con dedicación a la carrera son coherentes con la pertinencia "
+        },
+        {
+            "codigo": "80",
+            "estandar": "14",
+            "nombre": "Las líneas de investigación relacionadas con la producción  científica de los profesores con dedicación a la carrera son coherentes con el contexto local, nacional, regional o mundial."
+        },
+        {
+            "codigo": "81",
+            "estandar": "14",
+            "nombre": "Las líneas de investigación relacionadas con la producción  científica de los profesores con dedicación a la carrera se articulan a los mecanismos de titulación de los estudiantes "
+        },
+        {
+            "codigo": "82",
+            "estandar": "14",
+            "nombre": "10. Las Líneas de investigación y políticas de gestión de los recursos para la investigación responden a los proyectos de investigación relacionados con la carrera o la unidad académica que integra la carrera y se recogen en la planificación estratégica institucional "
+        },
+        {
+            "codigo": "83",
+            "estandar": "15",
+            "nombre": "PTC: Total de profesores titulares con dedicación a tiempo completo."
+        },
+        {
+            "codigo": "84",
+            "estandar": "15",
+            "nombre": "TP: Número total de profesores relacionados con la carrera "
+        },
+        {
+            "codigo": "85",
+            "estandar": "15",
+            "nombre": "TID: Titularidad y dedicación "
+        },
+        {
+            "codigo": "86",
+            "estandar": "16",
+            "nombre": "1. La carrera aplica  políticas, mecanismos y procedimientos para la evaluación integral del personal académico, así como el marco normativo vigente del sistema de educación superior."
+        },
+        {
+            "codigo": "87",
+            "estandar": "16",
+            "nombre": "2. La evaluación del personal académico participan actores claves como: autoridades, profesores, pares académicos y estudiantes, incluida una instancia de apoyo a la gestión de los elementos técnicos y\/o tecnológicos del proceso de evaluación."
+        },
+        {
+            "codigo": "88",
+            "estandar": "16",
+            "nombre": "3. La carrera evidencia que la evaluación integral del cuerpo académico se aplica al menos una evaluación por periodo académico, y que se evidencie el uso de los resultados para la toma de decisiones. "
+        },
+        {
+            "codigo": "89",
+            "estandar": "16",
+            "nombre": "4. Los resultados de la evaluación integral docente permiten la planificación de formación docente y la actualización científica y pedagógica del personal académico."
+        },
+        {
+            "codigo": "90",
+            "estandar": "16",
+            "nombre": "5. La evaluación integral del cuerpo académico se realiza de acuerdo al tiempo de dedicación (tiempo parcial, medio tiempo o tiempo completo) y a las actividades establecidas en el marco de la normativa del sistema de educación superior, docencia, investigación y gestión."
+        },
+        {
+            "codigo": "91",
+            "estandar": "16",
+            "nombre": "6. Los resultados de la evaluación son utilizados para analizar, la efectividad de las actividades de docencia, los resultados son difundidos a la comunidad académica, se elaboran estrategias para mejorar el proceso de enseñanza aprendizaje, permitiendo alcanzar los resultados de aprendizaje esperados para los estudiantes."
+        },
+        {
+            "codigo": "92",
+            "estandar": "16",
+            "nombre": "7. La carrera demuestra el interés de difundir, con rigor y transparencia, el diseño e implementación de la evaluación integral del cuerpo académico."
+        },
+        {
+            "codigo": "93",
+            "estandar": "17",
+            "nombre": "TPAC: Total de profesores que han asistido a eventos de actualización científica y pedagógica, o que han dictado ponencias en eventos científicos externos."
+        },
+        {
+            "codigo": "94",
+            "estandar": "17",
+            "nombre": "TP: Número total de profesores relacionados con la carrera. "
+        },
+        {
+            "codigo": "95",
+            "estandar": "17",
+            "nombre": "ACP: actualización científica y pedagógicas."
+        },
+        {
+            "codigo": "96",
+            "estandar": "18",
+            "nombre": "NPAM: Número de profesores que son autores o coautores de los artículos publicados durante el periodo de evaluación en revistas indexadas con impacto mundial."
+        },
+        {
+            "codigo": "97",
+            "estandar": "18",
+            "nombre": "NSJR: Número de artículos académicos publicados por los profesores de la carrera durante el periodo de evaluación."
+        },
+        {
+            "codigo": "98",
+            "estandar": "18",
+            "nombre": "TP: Número total de profesores relacionados con la carrera."
+        },
+        {
+            "codigo": "99",
+            "estandar": "18",
+            "nombre": " β: Factor que corrige por concentración. Se refiere al porcentaje de profesores que es deseable que realicen actividades de investigación y obtengan resultados (es decir, es mayor a cero y a lo sumo, puede ser uno). Este valor, permite definir el estándar."
+        },
+        {
+            "codigo": "100",
+            "estandar": "18",
+            "nombre": "SJR¡: Índice SJR de la revista en la que ha sido publicado el artículo i-ésimo."
+        },
+        {
+            "codigo": "101",
+            "estandar": "18",
+            "nombre": "ɑ¡: Valor, entre 0 y 1, otorgado al impacto local, regional o nacional atribuido al artículo ¡-ésimo."
+        },
+        {
+            "codigo": "102",
+            "estandar": "18",
+            "nombre": "IPAIM:  Índice de producción académica con impacto mundial"
+        },
+        {
+            "codigo": "103",
+            "estandar": "19",
+            "nombre": "NPAR: Número de profesores que son autores o coautores de los artículos publicados durante el periodo de evaluación que se consideran en este indicador."
+        },
+        {
+            "codigo": "104",
+            "estandar": "19",
+            "nombre": "NPAM: Número de profesores que son autores o coautores de los artículos publicados durante el periodo de evaluación en revistas indexadas con impacto mundial."
+        },
+        {
+            "codigo": "105",
+            "estandar": "19",
+            "nombre": "TP: Número total de profesores relacionados con la carrera."
+        },
+        {
+            "codigo": "106",
+            "estandar": "19",
+            "nombre": "NAR: Número de artículos o trabajos científicos de los profesores de la carrera, publicados o aceptados en revistas que constan en bases de datos, cuyos criterios de indexación contemplen parámetros de calidad reconocidos regionalmente."
+        },
+        {
+            "codigo": "107",
+            "estandar": "19",
+            "nombre": "PR¡: Artículos o trabajos científicos del profesor i-ésimo de la carrera."
+        },
+        {
+            "codigo": "108",
+            "estandar": "19",
+            "nombre": "β: Factor que corrige por concentración. Se refiere al porcentaje de profesores que es deseable que realicen actividades de investigación y obtengan resultados (es decir, es mayor a cero y a lo sumo. puede ser uno). Este valor, permite definir el estándar."
+        },
+        {
+            "codigo": "109",
+            "estandar": "19",
+            "nombre": "ɑ¡: Valor, entre 0 y 1, otorgado al impacto local, regional o nacional atribuido al artículo i-ésimo."
+        },
+        {
+            "codigo": "110",
+            "estandar": "19",
+            "nombre": "IPAIR: Índice de producción académica con impacto regional."
+        },
+        {
+            "codigo": "111",
+            "estandar": "20",
+            "nombre": "NPL: Número de profesores que son autores o coautores de libros o capítulos de libros publicados durante el periodo de evaluación que se considera en este indicador."
+        },
+        {
+            "codigo": "112",
+            "estandar": "20",
+            "nombre": "β: Factor que corrige por concentración. Se refiere al porcentaje de profesores que es deseable que realicen actividades de investigación y obtengan resultados (es decir, es mayor a cero y a lo sumo, puede ser uno). Este valor permite definir el estándar"
+        },
+        {
+            "codigo": "113",
+            "estandar": "20",
+            "nombre": "TP: Número total de profesores relacionados con la carrera."
+        },
+        {
+            "codigo": "114",
+            "estandar": "20",
+            "nombre": "L: Número total de libros publicados por profesores de la carrera."
+        },
+        {
+            "codigo": "115",
+            "estandar": "20",
+            "nombre": "L¡: Libro i-ésimo publicado por profesores de la carrera."
+        },
+        {
+            "codigo": "116",
+            "estandar": "20",
+            "nombre": "ɑ¡: Valor entre 0 y 1, otorgado al impacto local, regional o nacional atribuido al libro i-ésimo o capítulo de libro i-ésimo."
+        },
+        {
+            "codigo": "117",
+            "estandar": "20",
+            "nombre": "CL: Número total de capítulos de libros publicados por profesores de la carrera."
+        },
+        {
+            "codigo": "118",
+            "estandar": "20",
+            "nombre": "CL¡: Capítulo de lihro i-ésimo publicado por profesores de la carrera."
+        },
+        {
+            "codigo": "119",
+            "estandar": "20",
+            "nombre": "θ¡: Valor otorgado al capítulo de libro i-ésimo entre 0 y 0,5."
+        },
+        {
+            "codigo": "120",
+            "estandar": "20",
+            "nombre": "LCL: Libros y\/o capítulos de libros revisados por pares."
+        }
+    ]
+}

@@ -12,7 +12,11 @@
         <form action="" method="post" enctype="multipart/form-data">
             
             <div id="uploader">
-                <div>Arrastra y suelta los archivos aquí<br><br>Tamaño máximo por archivo de <?php echo ini_get("upload_max_filesize");?></div>
+                <div>Arrastra y suelta los archivos aquí<br>
+                    <label for="json">
+                        <img src="" alt=".json" title="Clic aquí para subir los archivos">
+                    </label><input type="file" id="json" name="json" accept=".json" multiple/>
+                <br>Tamaño máximo por archivo de <?php echo ini_get("upload_max_filesize");?></div>
             </div>
 
             <div>* Subir archivos .json</div>
@@ -21,7 +25,11 @@
             <!-- Se muestra el nombre del documento subido -->
             </div>
 
-            <div><button type="submit" id="send" name="send" class="btn">Enviar</button></div>
+            <!-- <div><button type="submit" id="send" name="send" class="btn">Enviar</button></div> -->
+        </form>
+        <form action="/admin/data/save" method="post">
+            <input type="text" name="guardar" hidden>
+            <input type="submit" value="Guardar" id="guardar-data-click">
         </form>
     </div>
 </div>

@@ -5,7 +5,6 @@
 </div>
 <div class="cl">
 <form action="changepassword" >
-<?php foreach($teacher as $key => $value): ?>
      <div>
     <label for="password">Contraseña anterior:</label>
     <input type="password" name="password" id="password"> 
@@ -19,12 +18,11 @@
     <input type="password" name="passwordnew1" id="passwordnew1">
     </div>
     <div>
-        <input type="hidden" name="cod" id="cod" value="<?= $value->ci_profesor; ?>">
+        <input type="hidden" name="cod" id="cod" value="<?= "cod"; ?>">
     </div>
     <div>
     <input type="submit" value="Guardar" id="btnGuardarContrasenia">
     </div>
-<?php endforeach; ?>
 </form>
 </div>
 
