@@ -47,7 +47,7 @@ class Password{
                         'template' => 'teachers/changepassword.html.php',
                         'variables' => [
                             'usuario' => $user,
-                            'error' => 'La nueva contraseña no coinciden, por favor verifice y vuelva a intentarlo.'
+                            'error' => 'La nueva contraseña no coinciden, por favor verifique y vuelva a intentarlo.'
                         ]
                     ];
                 }

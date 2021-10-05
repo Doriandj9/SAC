@@ -17,6 +17,7 @@
                     <div class="lg">
                     <?php if( isset($error)): ?>
                     <div class="alert">
+                        <img src="/public/img/warning.png" alt="warning" width="30px">
                         <p>
                             <?= $error ?>
                         </p>
