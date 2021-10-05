@@ -55,17 +55,17 @@ class Admin{
 
     public function saveDataDataBase(){
         if(isset($_POST['guardar'])){
-            // $dataEvidencias = file_get_contents('./public/records/Evidencia.json');
-            // $arrayDataEvidencias = json_decode($dataEvidencias, true)['EVIDENCIAS'];
-            // foreach($arrayDataEvidencias as $value){
-            //     $data = [
-            //         'cod_evidencia' => $value['codigo'],
-            //         'nombre_evidencia' => $value['nombreEvidencia']
-            //     ];
-            //     $this->evidenciasTable->insert($data);
-            //    echo $value['codigo']. "<br>";
-            //    echo $value['nombreEvidencia']. "<br> <br> <br>";
-            // }
+            //  $dataEvidencias = file_get_contents('./public/records/Evidencia.json');
+            //  $arrayDataEvidencias = json_decode($dataEvidencias, true)['EVIDENCIAS'];
+            //  foreach($arrayDataEvidencias as $value){
+            //      $data = [
+            //          'cod_evidencia' => $value['codigo'],
+            //          'nombre_evidencia' => $value['nombreEvidencia']
+            //      ];
+            //      $this->evidenciasTable->insert($data);
+            //     // echo $value['codigo']. "<br>";
+            //     // echo $value['nombreEvidencia']. "<br> <br> <br>";
+            //  }
             $dataListadoProfesores = file_get_contents('./public/records/ListaProfesores.json');
             $arrayLista = json_decode($dataListadoProfesores, true)['lista'];
 
@@ -80,8 +80,8 @@ class Admin{
                 ];
 
                 $this->profesoresTable->insert($data2);
-                echo $data2['email_profesor']. "<br>";
-                echo $data2['nombre_profesor']. "<br><br><br>";
+                // echo $data2['email_profesor']. "<br>";
+                // echo $data2['nombre_profesor']. "<br><br><br>";
             }
 
            header('location: /');
