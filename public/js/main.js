@@ -303,10 +303,46 @@ document.getElementById("eye") == null ? '' : document.getElementById("eye").add
         
     }
 
- 
-    
-   
-  
     
 })();
 
+/** Mostrar claves segunda forma */
+document.querySelector('.show span').addEventListener('click', e => {
+    const passwordInput = document.querySelector('#password');
+    if (e.target.classList.contains('show')) {
+        e.target.classList.remove('show');
+        e.target.textContent = 'Ocultar';
+        passwordInput.type = 'text';
+    } else {
+        e.target.classList.add('show');
+        e.target.textContent = 'Mostrar';
+        passwordInput.type = 'password';
+    }
+});
+
+document.querySelector('.show2 span').addEventListener('click', e => {
+    const passwordInput2 = document.querySelector('#passwordnew');
+    if (e.target.classList.contains('show')) {
+        e.target.classList.remove('show');
+        e.target.textContent = 'Ocultar';
+        passwordInput2.type = 'text';
+    } else {
+        e.target.classList.add('show');
+        e.target.textContent = 'Mostrar';
+        passwordInput2.type = 'password';
+    }
+});
+
+document.querySelector('.show3 span').addEventListener('click', e => {
+    const passwordInput3 = document.querySelector('#passwordnew1');
+    if (e.target.classList.contains('show')) {
+        e.target.classList.remove('show');
+        e.target.textContent = 'Ocultar';
+        passwordInput3.type = 'text';
+    } else {
+        e.target.classList.add('show');
+        e.target.textContent = 'Mostrar';
+        passwordInput3.type = 'password';
+    }
+});
+/** Aquí termina el mostrar y ocultar claves del change password */
