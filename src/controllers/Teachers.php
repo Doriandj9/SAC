@@ -35,16 +35,9 @@ class Teachers{
         ];
     }
 
-    public function actualizarClave(){
-        return [
-            'title' => 'Actualización de clave - SAC',
-            'template' => 'teachers/cambioclave.html.php'
-        ];
-    }
-
     public function guardar(){
         if(isset($_FILES['pdf']['name'])){
-            $archivo = (file_get_contents($_FILES['pdf']['tmp_name']));
+            $archivo = $_FILES['pdf']['name'];
         $params = [
             'pdf_archivo' => $archivo
         ];

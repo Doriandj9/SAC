@@ -6,19 +6,40 @@ use controllers\Autentification;
 
 class ViewController implements \frame\WebRoutes{
     private $profesorTable;
+    private $passwordUpdate;
     private $autentification;
     private $responsabilidadTable;
     private $evidencesTable;
+    private $criterioTable;
+    private $estandarTable;
+    private $elementoFundamentalTable;
+    private $evidencia_elementoFundamentalTable;
      
     public function __construct()
     {
         $this->profesorTable= new \models\DataBaseTable(new \models\conection\Conection(),
-                                                        'profesor', 'ci_profesor','\entity\Teachers',[&$this->responsabilidadTable]);
+                                                        'profesor', 'ci_profesor', '\entity\Teachers',[&$this->responsabilidadTable]);
         $this->responsabilidadTable = new \models\DataBaseTable(new \models\conection\Conection(), 
                                                         'responsabilidad', 'cod_responsabilidad');
+        $this->evidencesTable = new \models\DataBaseTable( new \models\conection\Conection(),
+                                                        'evidencia', 'cod_evidencia');
+        $this->passwordUpdate = new \models\DataBaseTable( new \models\conection\Conection(),
+                                                        'profesor', 'password_profesor');
                                                         $this->evidencesTable = new \models\DataBaseTable( new \models\conection\Conection(),
                                                         'evidencia', 'cod_evidencia' 
     );
+        $this->criterioTable = new \models\DataBaseTable(
+            new \models\conection\Conection(), 'criterio', 'cod_criterio'
+        );
+        $this->estandarTable= new \models\DataBaseTable(
+            new \models\conection\Conection(), 'estandar', 'cod_estandar'
+        );
+        $this->elementoFundamentalTable= new \models\DataBaseTable(
+            new \models\conection\Conection(), 'elemento fundamental','cod_elemento'
+        );
+        $this->evidencia_elementoFundamentalTable= new \models\DataBaseTable(
+            new \models\conection\Conection(), 'evidencia_elemento fundamental', 'evidencia_cod'
+        );
         $this->autentification = new \controllers\Autentification($this->profesorTable, 'email_profesor', 'password_profesor');
 
         
@@ -28,10 +49,17 @@ class ViewController implements \frame\WebRoutes{
 
         $loginController = new \controllers\Login($this->autentification, $this->profesorTable);
         $homeController = new  \controllers\Home($this->autentification);
-        $passwordController = new \controllers\Password(); 
+        $passwordController = new \controllers\Password($this->profesorTable, $this->autentification);
         $teachersController = new  \controllers\Teachers($this->evidencesTable);
-        $adminController = new \controllers\Admin($this->profesorTable,$this->evidencesTable);
+        $adminController = new \controllers\Admin($this->profesorTable,
+                                                    $this->evidencesTable,
+                                                    $this->criterioTable,
+                                                    $this->estandarTable,
+                                                    $this->elementoFundamentalTable,
+                                                    $this->evidencia_elementoFundamentalTable
+                                                );
         $evaluatorController = new \controllers\Evaluator();
+        $controllerAsyJ = new \controllers\AsynJavaScript($this->evidencesTable);
             return [
             '' => [
                 'GET' => [
@@ -98,7 +126,7 @@ class ViewController implements \frame\WebRoutes{
                 ],
                 'POST' => [
                     'controller' => $passwordController,
-                    'action' => 'password'
+                    'action' => 'updatePassword'
                 ],
                 'login' => true
                 ],
@@ -143,7 +171,13 @@ class ViewController implements \frame\WebRoutes{
                     ],
                     'login' => true,
                     'responsability' => \web\Responsability::EVALUADOR
-                    ], 
+                    ],
+                'data/evidences/asyn' => [
+                    'GET' => [
+                        'controller' => $controllerAsyJ,
+                        'action' => 'loadData'
+                    ],
+                ]
         ];
     }
 

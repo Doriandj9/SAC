@@ -12,7 +12,11 @@
         <form action="" method="post" enctype="multipart/form-data">
             
             <div id="uploader">
-                <div>Arrastra y suelta los archivos aquí<br><br>Tamaño máximo por archivo de <?php echo ini_get("upload_max_filesize");?></div>
+                <div>Arrastra y suelta los archivos aquí<br>
+                    <label for="json">
+                        <img src="" alt=".json" title="Clic aquí para subir los archivos">
+                    </label><input type="file" id="json" name="json" accept=".json" multiple/>
+                <br>Tamaño máximo por archivo de <?php echo ini_get("upload_max_filesize");?></div>
             </div>
 
             <div>* Subir archivos .json</div>
