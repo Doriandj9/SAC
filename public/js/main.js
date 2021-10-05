@@ -164,7 +164,7 @@ document.getElementById("eye") == null ? '' : document.getElementById("eye").add
 
     function clickListar(e){
         e.preventDefault();
-        const httpRequest = new XMLHttpRequest();
+        // const httpRequest = new XMLHttpRequest();
         const selectedAnio = document.getElementById("anios");
         let valorSelectedAnio = selectedAnio.value;
         if(valorSelectedAnio == "#"){

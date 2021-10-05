@@ -1,10 +1,7 @@
 {
     "criterios":
     [
-        {
-          "codigo": "1",
-          "nombre":"PERTINENCIA" 
-        },
+        
         {
             "codigo": "2",
             "nombre": "ORGANIZACION Y RR"

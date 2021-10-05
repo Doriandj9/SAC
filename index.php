@@ -10,6 +10,6 @@ try{
 }catch(\PDOException $e){
     $title = "ERROR DATABASE";
     $content = "ERROR: ". $e->getMessage() . " in " . $e->getFile() . " : " . $e->getLine();
-    //var_dump($content);
+    var_dump($content);
     include __DIR__ .'/views/templates/layout.html.php';
 }
