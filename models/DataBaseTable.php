@@ -87,9 +87,9 @@ class DataBaseTable{
     }
    
     public function selectJoinFull(){
-        $query = 'SELECT `nombre_criterio`,`cod_evidencia`,
-        `cod_elemento`,  `pdf_archivo`, `docx_archivo`, `xlxs_archivo`
-         ,`nombre_evidencia`,`cod_estandar` FROM `evidencia` INNER JOIN `evidencia_elemento fundamental` 
+        $query = 'SELECT `nombre_criterio`,`cod_estandar`,
+        `cod_elemento`, `nombre_evidencia`, `cod_evidencia`, `pdf_archivo`, `docx_archivo`, `xlxs_archivo`
+          FROM `evidencia` INNER JOIN `evidencia_elemento fundamental` 
         ON `evidencia_cod` = `cod_evidencia` INNER JOIN `elemento fundamental` ON
         `elemento_cod` = `cod_elemento` INNER JOIN `estandar` ON `estandar_cod` = `cod_estandar`
         INNER JOIN `criterio` WHERE `criterio_cod` = `cod_criterio`';

@@ -41,4 +41,3 @@
     </div>
 
 </div>
-<script src="/public/js/jss.js"></script>

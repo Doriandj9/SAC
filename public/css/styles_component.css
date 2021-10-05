@@ -283,6 +283,9 @@
 .bytb > td{
 	height: 20px;
 }
+.text-center-td{
+	text-align: center;
+}
 h2 {
 	text-align: center;
 }

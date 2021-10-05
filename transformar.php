@@ -100,9 +100,21 @@
 
 //         echo "<br><br><br>";
 // }
-$valor=[
-        "valor" => 2
-];
-echo json_encode($valor)
+// $valor=[
+//         "valor" => 2
+// ];
+// echo json_encode($valor)
+
+$ruta = __DIR__ . '/models/prueba';
+// if(mkdir($ruta,0777,true)){
+//         echo "correcto";
+// }else{
+//         echo "fallo";
+// }
+// if(rmdir($ruta)){
+//         echo "se elimino correctamente";
+// }else{
+//         echo "no se pudo eliminar";
+// }
 
 ?>

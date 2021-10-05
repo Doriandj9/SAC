@@ -64,6 +64,7 @@ class Admin{
         } else {
             echo json_encode(["result"=>0, "time"=>$_POST["time"], "fileName"=>$fileName, "error"=>"no se ha podido mover el archivo"]);
         }
+        die;
     }
 
     public function saveDataDataBase(){

@@ -14,7 +14,7 @@
                             <option value="1">1 año</option>
                             <option value="semestral">semestrales</option>
                         </select></div>
-                        <div class="bntlt"><button>Listar</button></div>
+                        <div class="bntlt"><button id="listar-evidencias">Listar</button></div>
                     </div>
                     </form>
                     <!-- Generando tabla dentro de un div -->
@@ -32,28 +32,6 @@
                             </tr>
                             </thead>
                             <tbody>
-                                <?php foreach($evidences as $key => $value): ?>
-                                    
-                                    <tr class="bytb">
-                                        <td> <?= $value->nombre_criterio ?? ''; ?>  </td>
-                                        <td> <?= $value->cod_estandar ?? ''; ?> </td>
-                                        <td> <?= $value->cod_elemento ?? ''; ?> </td>
-                                        <td> <?= $value->nombre_evidencia ?? ''; ?> </td>
-                                        <td> <label for="pdf">
-                                            <img src="/public/img/pdf1.svg" alt=".pdf" title="Clic aquí para subir un archivo.">
-                                        </label><input type="file" id="pdf" name="pdf" accept=".pdf" /> </td>
-                                        <td> <label for="doc">
-                                            <img src="/public/img/doc1.svg" alt=".doc" title="Clic aquí para subir un archivo.">
-                                        </label><input type="file" id="doc" name="doc" accept=".doc" /></td>
-                                        <td> <label for="xlsx">
-                                            <img src="/public/img/xls1.svg" alt=".xlsx" title="Clic aquí para subir un archivo.">
-                                        </label><input type="file" id="xlsx" name="xls" accept=".xlsx" /> </td>
-                                        <td> Estado <input type="text" name="cod" hidden value="<?= $value->cod_evidencia;?>" id="cod"></td>
-                                        
-                                    </tr>
-                                <?php endforeach; ?>
-
-
                                 <!-- <td>{Criterio}</td>
                                 <td>{Estandar}</td>
                                 <td>{Elemento}</td>
@@ -67,6 +45,31 @@
                         </table>
                         <input type="submit" value="Guardar">
                         </form>
+                        <div id="page-for-data">
+
+                        </div>
                     </div>
-                    
-                    
+
+<?php
+
+// foreach($evidences as $key => $value): 
+    $html = '                                
+    <tr class="bytb">
+        <td> <?= $value->nombre_criterio ??  ?>  </td>
+        <td> <?= $value->cod_estandar ??  ?> </td>
+        <td> <?= $value->cod_elemento ??  ?> </td>
+        <td> <?= $value->nombre_evidencia ??  ?> </td>
+        <td> <label for="pdf">
+            <img src="/public/img/pdf1.svg" alt=".pdf" title="Clic aquí para subir un archivo.">
+        </label><input type="file" id="pdf" name="pdf" accept=".pdf" /> </td>
+        <td> <label for="doc">
+            <img src="/public/img/doc1.svg" alt=".doc" title="Clic aquí para subir un archivo.">
+        </label><input type="file" id="doc" name="doc" accept=".doc" /></td>
+        <td> <label for="xlsx">
+            <img src="/public/img/xls1.svg" alt=".xlsx" title="Clic aquí para subir un archivo.">
+        </label><input type="file" id="xlsx" name="xls" accept=".xlsx" /> </td>
+        <td> Estado <input type="text" name="cod" hidden value="<?= $value->cod_evidencia?>" id="cod"></td>   
+    </tr>';
+//endforeach; 
+
+?>
