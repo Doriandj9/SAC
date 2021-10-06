@@ -21,12 +21,10 @@
             <div id="filesList">
             <!-- Se muestra el nombre del documento subido -->
             </div>
-
-            <!-- <div><button type="submit" id="send" name="send" class="btn">Enviar</button></div> -->
         </form>
         <form action="/admin/data/save" method="post">
             <input type="text" name="guardar" hidden>
-            <input type="submit" value="Guardar" id="guardar-data-click">
+            <input type="submit" value="Guardar" id="guardar-data-click" class="btn">
         </form>
     </div>
 </div>
