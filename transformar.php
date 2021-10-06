@@ -105,6 +105,8 @@
 // ];
 // echo json_encode($valor)
 
+use function PHPSTORM_META\type;
+
 $ruta = __DIR__ . '/models/prueba';
 // if(mkdir($ruta,0777,true)){
 //         echo "correcto";
@@ -116,5 +118,26 @@ $ruta = __DIR__ . '/models/prueba';
 // }else{
 //         echo "no se pudo eliminar";
 // }
+$dateTime = "2021-10-05 23:29:47";
+
+$date = new DateTime($dateTime);
+$fecha = $date->format('Y-m-d H:i:s');
+
+echo $fecha;
 
 ?>
+<!-- <form action="" method="POST">
+<input type="date" name="fecha[date]" id="">
+<input type="time" name="fecha[time]" id="">
+<input type="date" name="fecha1[date]" id="">
+<input type="time" name="fecha1[time]" id="">
+<input type="date" name="fecha2[date]" id="">
+<input type="time" name="fecha2[time]" id="">
+ <input type="submit" value="OK">
+ </form> -->
+<?php
+ $stringA = "sada";
+ echo type($stringA);
+
+
+ ?>

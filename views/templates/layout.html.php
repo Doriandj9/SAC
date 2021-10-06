@@ -25,7 +25,7 @@
 						<?php else: if($user->hashPermission(\entity\Teachers::ADMINSTRADOR)):?>
 							<a href="/admin/upload/information">Cargar Informacion</a>
 						<a href="/admin/permises/access">Permisos de Acceso</a>
-						<a href="/generate/reports">Configuracion Basica</a>
+						<a href="/admin/load/information">Configuracion Basica</a>
 						<?php else: ?>
 							<a href="/entry/evidences">Ingreso</a>
 						<a href="/show/evidences">Evidencias</a>
@@ -42,8 +42,12 @@
 			<div><div class="contain_box" id="bxs">
 				<div class="contain_head">
 					<div id="ico"><img src="/public/img/perfil.svg" alt="perfil-icon" width="30px"></div>
-					<div id="wel">Bienvenido(a): <?= $user->nombre_profesor?> </div>
-					<div id="car">Carrera de: {nombre_carrera}</div>
+					<?php if ($user->hashPermission(\entity\Teachers::ADMINSTRADOR)): ?>
+						<div id="wel">Bienvenido(a): <?= "ADMINISTRADOR" ?> </div>
+						<?php else: ?>
+					<div id="wel">Bienvenido(a): <?= $user->getUserDataTable()[0]->nombre_profesor ?? '' ;  ?> </div>
+					<div id="car">Carrera de:<?= $user->getUserDataTable()[0]->nombre_carrera ?? ''; ?>  </div>
+					<?php endif; ?>
 				</div>
 				<div class="contain_body">
 					<?= $content; ?>

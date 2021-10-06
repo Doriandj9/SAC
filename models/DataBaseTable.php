@@ -31,7 +31,15 @@ class DataBaseTable{
         return $result;
 
     }
+    private function inserDate($params){
+        foreach($params as $key=> $value){
+            if($key instanceof \DateTime){
+                $params[$key] = $value->format('Y-m-d H:i:s');
+            }
+        }
 
+        return $params;
+    }
     private function addDate($params){
         foreach($params as $key=> $value){
             if($key instanceof \DateTime){
@@ -81,9 +89,18 @@ class DataBaseTable{
         return $result->fetchAll(\PDO::FETCH_CLASS, $this->className, $this->arguments);
     }
 
-    public function select(){
+    public function select($limit = null, $offset =null){
         $query = 'SELECT * FROM `' . $this->table. '` ';
+
+        if($limit != null){
+            $query .= 'LIMIT '. $limit;
+        }
+
+        if($offset !=null){
+            $query .= ' OFFSET ' . $offset;
+        }
         $result = $this->runQuery($query);
+        
         return $result->fetchAll(\PDO::FETCH_CLASS, $this->className, $this->arguments);
     }
    
@@ -98,19 +115,20 @@ class DataBaseTable{
         return $result->fetchAll(\PDO::FETCH_CLASS,$this->className, $this->arguments);
     }
 
-    public function update($params, $id){
+    public function update($params){
+        $params = $this->inserDate($params);
         $query = 'UPDATE `'. $this->table . '` SET ';
         foreach($params as $key => $value){
-            $query .= '`'. $key . '`:' . $key . ',' ;
+            $query .= '`'. $key . '`=:' . $key . ',' ;
         }
 
         $query= rtrim($query, ',');
 
         $query .= ' WHERE `'. $this->primaryKey .'` = :' . $this->primaryKey;
-
-        $params['cod_evidencia'] = $id;
         $this->runQuery($query, $params);
     }
+
+
     public function updatePassword($params, $cod){
         $query = 'UPDATE `'. $this->table . '` SET ';
         foreach($params as $key => $value){
@@ -125,5 +143,34 @@ class DataBaseTable{
         var_dump($params);
         $this->runQuery($query, $params);
         
+    }
+
+    public function getFullJoinCarrier(){
+        $query = 'SELECT * FROM `carrera_profesor` INNER JOIN `profesor` 
+        ON `carrera_profesor`.`profesor_ci` = `profesor`.`ci_profesor` INNER JOIN `periodo academico` 
+        ON `periodo academico`.`ci_profesor` = `profesor`.`ci_profesor` INNER JOIN `carrera_periodo academico`
+        ON `carrera_periodo academico`.`academico_periodo_id` = `id_periodo_academico` INNER JOIN `carrera`
+        WHERE `carrera`.`id_carrera` = `carrera_periodo academico`.`carrera_id` AND `carrera`.`id_carrera` 
+        =  `carrera_profesor`.`carrera_id` ';
+        $result = $this->runQuery($query);
+        return $result->fetchAll(\PDO::FETCH_CLASS, $this->className, $this->arguments);
+    }
+    public function getFullJoinCarrierForColumProfesorCi($value){
+        $query = 'SELECT * FROM `carrera_profesor` INNER JOIN `profesor` 
+        ON `carrera_profesor`.`profesor_ci` = `profesor`.`ci_profesor` INNER JOIN `periodo academico` 
+        ON `periodo academico`.`ci_profesor` = `profesor`.`ci_profesor` INNER JOIN `carrera_periodo academico`
+        ON `carrera_periodo academico`.`academico_periodo_id` = `id_periodo_academico` INNER JOIN `carrera`
+        WHERE `carrera`.`id_carrera` = `carrera_periodo academico`.`carrera_id` AND `carrera`.`id_carrera` 
+        =  `carrera_profesor`.`carrera_id`  AND `profesor`.`ci_profesor` ='. $value;
+        $result = $this->runQuery($query);
+        return $result->fetchAll(\PDO::FETCH_CLASS, $this->className, $this->arguments);
+    }
+
+    public function getCountTable(){
+        $query = 'SELECT COUNT(`'. $this->primaryKey.'`) FROM `'. $this->table.'`';
+
+        $result = $this->runQuery($query);
+        
+        return $result->fetch();
     }
 }
