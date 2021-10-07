@@ -1,5 +1,5 @@
 
-<div class="tbing"> 
+<div class="tbing content-table-information"> 
     <form action="" method="post">
     <table>
         <thead>
@@ -14,7 +14,7 @@
             <?php foreach( $evidences as $value ): ?>
                 
                 
-            <tr >
+            <tr class="tdbody-information">
                 <td><?=$value->nombre_evidencia ?? ''; ?></td>
                 <td> <?= $value->fecha_inicio ?? 
                 "<input type='date' name='fecha".$i."[dateI]' id=''> 
@@ -30,7 +30,7 @@
     </table>
     <div class="numbers-page" id="pages-for-data">
         <?php
-             $count = ceil(intval($count[0]) / 10);
+             $count = ceil(intval($count[0]) / 15);
              $page = intval($page);
              for ($i = 1; $i <= $count; $i++ ):
         ?>
@@ -43,6 +43,6 @@
 
       <?php endfor;  ?>
     </div>
-    <input type="submit" value="Guardar">
+    <input type="submit" value="Guardar" class="buttun-save-data-information btn">
     </form>
 </div>

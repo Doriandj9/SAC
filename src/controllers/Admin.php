@@ -188,9 +188,9 @@ class Admin{
         if( !is_int($page)){
             $page = intval($page, 10);
         }
-        $offset = ($page-1) * 10;
+        $offset = ($page-1) * 15;
         $count = $this->evidenciasTable->getCountTable();
-        $evidences = $this->evidenciasTable->select(10,$offset);
+        $evidences = $this->evidenciasTable->select(15,$offset);
         return [
             'title' => 'Permisos de Acceso',
             'template' => 'admin/loadInformation.html.php',

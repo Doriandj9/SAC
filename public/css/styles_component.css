@@ -1333,23 +1333,43 @@ margin: 1rem auto;
 .numbers-page{
 	width: 55rem;
 	height: 3rem;
+	background-color: white;
 	margin: 1.5rem auto 0.5rem auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	border-radius: 1rem;
 	
 }
 
 .numbers-page > a{
-/* width: calc(35rem/23); */
-height: 1.5rem;
+height: 3rem;
+color: black;
 text-align: center;
-line-height: 1.5rem;
+line-height: 3rem;
+border-radius: 0.5rem;
+}
+.numbers-page > a.active{
+	color: white;
+}
+.buttun-save-data-information{
+	margin: 1rem auto 1rem auto;
+	display: block;
+
+}
+.tdbody-information > td{
+	border: 1px solid black;
 }
 
-.numbers-page > a.active::before{
-	content: "[";
-}
-.numbers-page > a.active::after{
-	content: "]";
+#tabla2 {
+	margin : 5px 5px 5px 5px;
+	font : 12px sans-serif, Geneva, Helvetica;
+	text-align : left;
+	
+	
+	}
+.content-table-information{
+	border-color : #000099;
+	border : 2px solid #505c6a;
+	background-color : #dde2e7;
 }
