@@ -8,6 +8,7 @@
 	<title><?= $title; ?></title>
 </head>
 <body>
+
 	<div class="maincontain">
 
 		<div class="header" style="background-image: url(/public/img/sac.png);"></div>
@@ -58,6 +59,6 @@
 		</div>
 	</div>
 </body>
-
+</script>
 <script src="/public/js/main.js"></script>
 </html>

@@ -345,4 +345,4 @@ document.querySelector('.show3 span').addEventListener('click', e => {
         passwordInput3.type = 'password';
     }
 });
-/** Aquí termina el mostrar y ocultar claves del change password */
+
