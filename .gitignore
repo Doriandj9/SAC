@@ -1,0 +1,2 @@
+# Ingonara la siguiente carpeta que no se aga git add para reducir carga al git
+/vendor/
