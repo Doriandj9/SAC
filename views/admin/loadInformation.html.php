@@ -17,10 +17,53 @@
             <tr class="tdbody-information">
                 <td><?=$value->nombre_evidencia ?? ''; ?></td>
                 <td> <?= $value->fecha_inicio ?? 
-                "<input type='date' name='fecha".$i."[dateI]' id=''> 
-                <input type='time' name='fecha".$i."[timeI]' id=''>"; ?>  </td>
-                <td> <?= $value->fecha_fin ?? "<input type='date' name='fecha".$i."[dateF]' id=''> 
-                <input type='time' name='fecha".$i."[timeF]' id=''>"; ?> 
+
+                "
+            <table>
+                <tbody>
+                    <tr>
+                        <th>Fecha</th>
+                        <td>
+                        <input type='date' name='fecha".$i."[dateI]' id=''> 
+                        </td>
+                    
+                    </tr>
+                
+                    <tr>
+                    <th>Hora</th>
+                        <td>
+                        <input type='time' name='fecha".$i."[timeI]' id=''>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+                "; ?>
+            </td>
+
+                <td> <?= $value->fecha_fin ??
+
+                "
+                <table>
+                <tbody>
+                    <tr>
+                        <th>Fecha</th>
+                        <td>
+                        <input type='date' name='fecha".$i."[dateF]' id=''> 
+                        </td>
+                    
+                    </tr>
+                
+                    <tr>
+                    <th>Hora</th>
+                        <td>
+                        <input type='time' name='fecha".$i."[timeF]' id=''>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+                
+                
+                "; ?> 
                 <input type="hidden" name="fecha<?=$i;?>[cod]" value="<?= $value->cod_evidencia ?>" >
                  </td>
             </tr>
@@ -46,3 +89,5 @@
     <input type="submit" value="Guardar" class="buttun-save-data-information btn">
     </form>
 </div>
+
+

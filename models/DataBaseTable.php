@@ -106,11 +106,13 @@ class DataBaseTable{
    
     public function selectJoinFull(){
         $query = 'SELECT `nombre_criterio`,`cod_estandar`,
-        `cod_elemento`, `nombre_evidencia`, `cod_evidencia`, `pdf_archivo`, `docx_archivo`, `xlxs_archivo`
+        GROUP_CONCAT(`cod_elemento`) as `cod_elemento`, `nombre_evidencia`, `cod_evidencia`, `pdf_archivo`, `docx_archivo`, `xlxs_archivo`
           FROM `evidencia` INNER JOIN `evidencia_elemento fundamental` 
         ON `evidencia_cod` = `cod_evidencia` INNER JOIN `elemento fundamental` ON
         `elemento_cod` = `cod_elemento` INNER JOIN `estandar` ON `estandar_cod` = `cod_estandar`
-        INNER JOIN `criterio` WHERE `criterio_cod` = `cod_criterio`';
+        INNER JOIN `criterio` WHERE `criterio_cod` = `cod_criterio`
+        GROUP BY `nombre_evidencia` ORDER BY `cod_criterio`
+        ';
         $result = $this->runQuery($query);
         return $result->fetchAll(\PDO::FETCH_CLASS,$this->className, $this->arguments);
     }
@@ -172,5 +174,6 @@ class DataBaseTable{
         $result = $this->runQuery($query);
         
         return $result->fetch();
+    
     }
 }

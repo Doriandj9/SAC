@@ -118,12 +118,7 @@ $ruta = __DIR__ . '/models/prueba';
 // }else{
 //         echo "no se pudo eliminar";
 // }
-$dateTime = "2021-10-05 23:29:47";
 
-$date = new DateTime($dateTime);
-$fecha = $date->format('Y-m-d H:i:s');
-
-echo $fecha;
 
 ?>
 <!-- <form action="" method="POST">
@@ -136,8 +131,10 @@ echo $fecha;
  <input type="submit" value="OK">
  </form> -->
 <?php
- $stringA = "sada";
- echo type($stringA);
+
+$n = ' ho la ';
+$n = trim($n);
+var_dump($n);
 
 
  ?>
