@@ -153,7 +153,7 @@ document.getElementById("eye") == null ? '' : document.getElementById("eye").add
 (function(){
 
     const buttonListar = document.getElementById("listar-evidencias");
-    console.log(buttonListar);
+    //console.log(buttonListar);
     if(buttonListar == null){
         return;
     } 
@@ -315,6 +315,7 @@ document.getElementById("eye") == null ? '' : document.getElementById("eye").add
 
     function update(){
     const getClassNumbers = document.getElementById('pages-for-data');
+    if (getClassNumbers == null) return;
     const totalLength = Array.from(getClassNumbers.children);
     if(totalLength.length == 0){
         setTimeout(()=>{
