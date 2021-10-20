@@ -1,0 +1,33 @@
+{
+    "responsabilidad":
+    [
+        {
+          "nombre_responsabilidad": "Coordinadora",
+          "descripcion_responsabilidad":"Coordinacion de la Carrera" 
+        },
+        {
+          "nombre_responsabilidad": "Secretaria",
+          "descripcion_responsabilidad":"Secretaria de la Carrera" 
+        },
+        {
+          "nombre_responsabilidad": "Encargado",
+          "descripcion_responsabilidad":"Encargado de laboratorio"
+        },
+        {
+          "nombre_responsabilidad": "Profesores",
+          "descripcion_responsabilidad":"Practicas Preprofesionales"
+        },
+        {
+          "nombre_responsabilidad": "Profesores",
+          "descripcion_responsabilidad":"Profesores con horas de tutorias"
+        },
+        {
+            "nombre_responsabilidad": "Evaluador",
+            "descripcion_responsabilidad":"Evaluar las Evidencias de la Carrera"
+        },
+        {
+            "nombre_responsabilidad": "Administrador",
+            "descripcion_responsabilidad":"Administrar el sistema SAC"
+        }
+    ]
+}

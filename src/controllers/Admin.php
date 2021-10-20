@@ -104,7 +104,7 @@ class Admin{
             // $dataCriterio = file_get_contents('./public/records/criterios.json');
             // $arrayCriterio = json_decode($dataCriterio, true)['criterios'];
 
-            // foreach($arrayCriterio as $value){
+            //  foreach($arrayCriterio as $value){
 
             //     $data3 = [
             //         'cod_criterio' => $value['codigo'],
@@ -138,19 +138,19 @@ class Admin{
         //         $this->elementoFundamentalTable->insert($data5);
         //     }
             
-        // $dataElementosFundamentales_Evidencias = file_get_contents('./public/records/entregablesF.json');
-        // $arrayElementofun_Evidencia = json_decode($dataElementosFundamentales_Evidencias, true)['elementosF'];
+        $dataElementosFundamentales_Evidencias = file_get_contents('./public/records/entregablesF.json');
+        $arrayElementofun_Evidencia = json_decode($dataElementosFundamentales_Evidencias, true)['elementosF'];
 
-        // foreach($arrayElementofun_Evidencia as $value){
+        foreach($arrayElementofun_Evidencia as $value){
 
-        //     foreach($value['elementos'] as $element){
-        //         $data6 = [
-        //             'evidencia_cod' => $value['codigoE'],
-        //             'elemento_cod' => $element,
-        //         ];
-        //       $this->evidencia_elementoFundamentalTable->insert($data6);
-        //     }
-        // }
+            foreach($value['elementos'] as $element){
+                $data6 = [
+                    'evidencia_cod' => $value['codigoE'],
+                    'elemento_cod' => $element,
+                ];
+              $this->evidencia_elementoFundamentalTable->insert($data6);
+            }
+        }
         }
 
            header('location: /');
