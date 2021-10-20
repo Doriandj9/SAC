@@ -13,16 +13,16 @@ public function __construct(\controllers\Autentification $autenticaction, \model
     public function homeLogin(){
 
 
-        $passwordHash= password_hash('dorian', PASSWORD_DEFAULT);
+        $passwordHash= password_hash('123456789', PASSWORD_DEFAULT);
         $paras = [    
-            'id_profesor' => '0250186665',
+            'id_profesor' => '0123456789',
             'nombre_profesor' => 'DENIS',
             'email_profesor' => 'denis@gmail.com',
             'password_profesor' => $passwordHash,
             'permission' => 16,
             'periodo_academico_id' => '2021-2021'
         ];
-   // $this->profesorTable->insert($paras);
+    // $this->profesorTable->insert($paras);
         return [
             'title' => 'SAC',
             'login' => true,

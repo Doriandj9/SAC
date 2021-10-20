@@ -191,6 +191,19 @@ class ViewController implements \frame\WebRoutes{
                     'login' => true,
                     'permission' => \entity\Teachers::ADMINSTRADOR
                 ],
+                'admin/load/coordinator' =>[
+                    'GET' => [
+                        'controller' => $adminController,
+                        'action' => 'loadCoordinator'
+                    ],
+                    'POST' => [
+                        'controller' => $adminController,
+                        'action' => 'saveCoordinator'
+                    ],
+                    'login' => true,
+                    'permission' => \entity\Teachers::ADMINSTRADOR
+                ],
+
                 'evaluation/evidences'=> [
                     'GET' => [
                         'controller' => $evaluatorController,

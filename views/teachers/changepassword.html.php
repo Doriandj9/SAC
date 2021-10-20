@@ -12,7 +12,7 @@
 
 <div class="form-pass">
     <form action="" method="post">
-        <div class="oculta"><input type="hidden" name="cod" id="cod" value="<?= $usuario->ci_profesor; ?>"></div>
+        <div class="oculta"><input type="hidden" name="cod" id="cod" value="<?= $usuario->id_profesor; ?>"></div>
         <div><label for="password">Ingrese la contraseña actual:</label></div>
         <div class="ipt show">
             <input type="password" name="password" id="password" placeholder="Contraseña actual" required>
