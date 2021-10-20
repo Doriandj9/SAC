@@ -51,7 +51,8 @@ class DataBaseTable{
         return $params;
     }
 
-    private function createInsert($params){
+    private function createInsert($params, $trim = false){
+
         $query = 'INSERT INTO ' . $this->table . ' (';
 
         foreach($params as $key=> $value){
@@ -61,21 +62,31 @@ class DataBaseTable{
         $query = rtrim($query, ',');
 
         $query .= ') VALUES (';
+            foreach ($params as $key=> $value){
+                $query .= ':' . $key . ','; 
+            }
+    
+            $query = rtrim($query, ',');
+    
+            $query .= ')';
+        
 
-        foreach ($params as $key=> $value){
-            $query .= ':' . $key . ','; 
-        }
-
-        $query = rtrim($query, ',');
-
-        $query .= ')';
+        
 
         return $query;
     }
 
-    public function insert($params){
+    public function insert($params, $trim = false){
         $params = $this->addDate($params);
         $query = $this->createInsert($params);
+        if($trim){
+            foreach ($params as $key=> $value){
+                $params[$key] = trim($value);
+            }
+        }
+           
+        
+        
         
        return $this->runQuery($query, $params);
     }

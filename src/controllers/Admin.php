@@ -36,6 +36,7 @@ class Admin{
         ];
     }
     public function uploadInformation(){
+
         if (!isset($_FILES["file"]) or count($_FILES["file"])==0) {
             return "";
         }
@@ -45,6 +46,8 @@ class Admin{
         $source = $_FILES["file"]["tmp_name"];
         $fileName = $_FILES["file"]["name"];
         $destination = $carpetaMoverArchivos.$fileName;
+
+       
       
         // comprovamos si ya existe el archivo.
         // comentar estas lineas si deseamos que se pueda sobreescribir

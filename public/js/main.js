@@ -61,6 +61,7 @@ document.getElementById("eye") == null ? '' : document.getElementById("eye").add
                 sendFile(time, e.dataTransfer.files[i].name);
                 var tamanio = e.dataTransfer.files[i].name.length;
                 data.append('file', e.dataTransfer.files[i]);
+                data.append('hola', 'true');
                 data.append('time', time);
                 xhr.open('POST', '/admin/upload/information', true);
                 console.log(xhr);
