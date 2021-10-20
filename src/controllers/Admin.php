@@ -201,6 +201,15 @@ class Admin{
             ]
         ];
     }
+    public function loadCoordinator(){
+
+        return[
+            'title' => 'Ingresar Coodinador',
+            'template' => 'admin/loadCoordinator.html.php'
+        ];
+
+    }
+    
 
     public function saveInformation(){
         var_dump($_POST);
