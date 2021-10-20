@@ -15,13 +15,14 @@ public function __construct(\controllers\Autentification $autenticaction, \model
 
         $passwordHash= password_hash('dorian', PASSWORD_DEFAULT);
         $paras = [    
-            'ci_profesor' => '0250186666',
+            'id_profesor' => '0250186665',
             'nombre_profesor' => 'DENIS',
             'email_profesor' => 'denis@gmail.com',
             'password_profesor' => $passwordHash,
-            'permission' => 16
+            'permission' => 16,
+            'periodo_academico_id' => '2021-2021'
         ];
-  //  $this->profesorTable->insert($paras);
+   // $this->profesorTable->insert($paras);
         return [
             'title' => 'SAC',
             'login' => true,

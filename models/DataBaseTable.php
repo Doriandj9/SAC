@@ -24,8 +24,8 @@ class DataBaseTable{
     }
 
     private function runQuery($query, $params=[]){
-       //echo $query;
-        // var_dump($params);
+    //    echo $query;
+    //      var_dump($params);
         $result= $this->pdo->prepare($query);
         $result->execute($params);
         return $result;
@@ -84,8 +84,9 @@ class DataBaseTable{
 
         $query = 'SELECT * FROM '. $this->table . ' WHERE '. $column . '= :'. $this->primaryKey;
         $params = [ $this->primaryKey => $restrict ];
-
         $result = $this->runQuery($query, $params);
+        
+      //  var_dump($result->fetchAll());
         return $result->fetchAll(\PDO::FETCH_CLASS, $this->className, $this->arguments);
     }
 
@@ -113,6 +114,7 @@ class DataBaseTable{
         INNER JOIN criterio WHERE criterio_cod = cod_criterio
         GROUP BY nombre_evidencia ORDER BY cod_criterio
         ';
+        
         $result = $this->runQuery($query);
         return $result->fetchAll(\PDO::FETCH_CLASS,$this->className, $this->arguments);
     }
@@ -154,6 +156,7 @@ class DataBaseTable{
         ON carrera_periodo academico.academico_periodo_id = id_periodo_academico INNER JOIN carrera
         WHERE carrera.id_carrera = carrera_periodo academico.carrera_id AND carrera.id_carrera 
         =  carrera_profesor.carrera_id ';
+        
         $result = $this->runQuery($query);
         return $result->fetchAll(\PDO::FETCH_CLASS, $this->className, $this->arguments);
     }
@@ -165,6 +168,7 @@ class DataBaseTable{
         WHERE carrera.id_carrera = carrera_periodo academico.carrera_id AND carrera.id_carrera 
         =  carrera_profesor.carrera_id  AND profesor.ci_profesor ='. $value;
         $result = $this->runQuery($query);
+        
         return $result->fetchAll(\PDO::FETCH_CLASS, $this->className, $this->arguments);
     }
 

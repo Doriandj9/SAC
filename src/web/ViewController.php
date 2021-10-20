@@ -19,7 +19,7 @@ class ViewController implements \frame\WebRoutes{
     public function __construct()
     {
         $this->profesorTable= new \models\DataBaseTable(new \models\conection\Conection(),
-                                                        'profesor', 'ci_profesor', '\entity\Teachers',[
+                                                        'profesor', 'id_profesor', '\entity\Teachers',[
                                                             &$this->responsabilidadTable,
                                                             &$this->carrera_profesorTable
                                                         ]);
