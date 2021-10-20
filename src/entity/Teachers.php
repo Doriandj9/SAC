@@ -3,7 +3,7 @@
 namespace entity;
 
 class Teachers{
-    public $ci_profesor;
+    public $id_profesor;
     public $nombre_profesor;
     public $email_profesor;
     public $password_profesor;
@@ -26,7 +26,7 @@ class Teachers{
     }
 
     public function getResponsability(){
-        $responsabilidad = $this->responsabilidadTable->selectFromColumn('profesor_ci',$this->ci_profesor);
+        $responsabilidad = $this->responsabilidadTable->selectFromColumn('profesor_id',$this->id_profesor);
         return $responsabilidad ? $responsabilidad: [];
     }
 
@@ -35,7 +35,7 @@ class Teachers{
     }
 
     public function hashResponsability($responsability){
-        $responsabilidades = $this->responsabilidadTable->selectFromColumn('profesor_ci', $this->ci_profesor);
+        $responsabilidades = $this->responsabilidadTable->selectFromColumn('profesor_id', $this->id_profesor);
         if(!$responsabilidades){
             return false;
         }
@@ -45,7 +45,7 @@ class Teachers{
 
     public function getUserDataTable(){
         if($this->dataThe_carrera_profesorTable == null){
-          $this->dataThe_carrera_profesorTable =  $this->carrera_profesorTable->getFullJoinCarrierForColumProfesorCi($this->ci_profesor);
+          $this->dataThe_carrera_profesorTable =  $this->carrera_profesorTable->getFullJoinCarrierForColumProfesorCi($this->id_profesor);
         }
         return $this->dataThe_carrera_profesorTable;
     }
