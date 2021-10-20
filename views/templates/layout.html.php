@@ -8,6 +8,7 @@
 	<title><?= $title; ?></title>
 </head>
 <body>
+
 	<div class="maincontain">
 
 		<div class="header" style="background-image: url(/public/img/sac.png);"></div>
@@ -23,7 +24,7 @@
 						<a href="/evaluation/evidences">Evaluación</a>
 						<a href="/generate/reports">Reportes</a>
 						<?php else: if($user->hashPermission(\entity\Teachers::ADMINSTRADOR)):?>
-							<a href="/admin/upload/information">Cargar Informacion</a>
+							<a href="/cordinator/upload/information">Cargar Informacion</a>
 						<a href="/admin/permises/access">Permisos de Acceso</a>
 						<a href="/admin/load/information">Configuracion Basica</a>
 						<?php else: ?>
@@ -62,6 +63,6 @@
 		</div>
 	</div>
 </body>
-
+</script>
 <script src="/public/js/main.js"></script>
 </html>

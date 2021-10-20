@@ -1,5 +1,5 @@
 
-<div class="tbing"> 
+<div class="tbing content-table-information"> 
     <form action="" method="post">
     <table>
         <thead>
@@ -14,13 +14,56 @@
             <?php foreach( $evidences as $value ): ?>
                 
                 
-            <tr >
+            <tr class="tdbody-information">
                 <td><?=$value->nombre_evidencia ?? ''; ?></td>
                 <td> <?= $value->fecha_inicio ?? 
-                "<input type='date' name='fecha".$i."[dateI]' id=''> 
-                <input type='time' name='fecha".$i."[timeI]' id=''>"; ?>  </td>
-                <td> <?= $value->fecha_fin ?? "<input type='date' name='fecha".$i."[dateF]' id=''> 
-                <input type='time' name='fecha".$i."[timeF]' id=''>"; ?> 
+
+                "
+            <table>
+                <tbody>
+                    <tr>
+                        <th>Fecha</th>
+                        <td>
+                        <input type='date' name='fecha".$i."[dateI]' id=''> 
+                        </td>
+                    
+                    </tr>
+                
+                    <tr>
+                    <th>Hora</th>
+                        <td>
+                        <input type='time' name='fecha".$i."[timeI]' id=''>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+                "; ?>
+            </td>
+
+                <td> <?= $value->fecha_fin ??
+
+                "
+                <table>
+                <tbody>
+                    <tr>
+                        <th>Fecha</th>
+                        <td>
+                        <input type='date' name='fecha".$i."[dateF]' id=''> 
+                        </td>
+                    
+                    </tr>
+                
+                    <tr>
+                    <th>Hora</th>
+                        <td>
+                        <input type='time' name='fecha".$i."[timeF]' id=''>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+                
+                
+                "; ?> 
                 <input type="hidden" name="fecha<?=$i;?>[cod]" value="<?= $value->cod_evidencia ?>" >
                  </td>
             </tr>
@@ -30,7 +73,7 @@
     </table>
     <div class="numbers-page" id="pages-for-data">
         <?php
-             $count = ceil(intval($count[0]) / 10);
+             $count = ceil(intval($count[0]) / 15);
              $page = intval($page);
              for ($i = 1; $i <= $count; $i++ ):
         ?>
@@ -43,6 +86,8 @@
 
       <?php endfor;  ?>
     </div>
-    <input type="submit" value="Guardar">
+    <input type="submit" value="Guardar" class="buttun-save-data-information btn">
     </form>
 </div>
+
+
