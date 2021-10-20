@@ -1,6 +1,10 @@
 {
     "ESTANDARES": [
-        
+        {
+            "codigo": "1",
+            "nombre": "La misión y visión de la carrera son consistentes con la misión y visión institucional; están claramente definidas en cuanto a sus propósitos y objetivos, y guían efectivamente la planificación y ejecución de las actividades académicas.",
+            "criterio": "1"
+        },
         {
             "codigo": "2",
             "criterio": "1",
@@ -153,7 +157,7 @@
         {
             "codigo": "31",
             "criterio": "5",
-            "nombre": "La carrera demuestra que, al menos, el 80% de los estudiantes que ingresaron en las cohortes definidas para la evaluación se titulan dentro de los plazos establecidos por la normativa.\nPeriodo de evaluación: Las cohortes definidas en el plazo comprendido entre la duración de la carrera y el plazo normativo otorgado en el marco normativo"
+            "nombre": "31. La carrera demuestra que, al menos, el 80% de los estudiantes que ingresaron en las cohortes definidas para la evaluación se titulan dentro de los plazos establecidos por la normativa.\nPeriodo de evaluación: Las cohortes definidas en el plazo comprendido entre la duración de la carrera y el plazo normativo otorgado en el marco normativo"
         }
     ]
 }

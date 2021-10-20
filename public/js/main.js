@@ -304,45 +304,37 @@ document.getElementById("eye") == null ? '' : document.getElementById("eye").add
     }
 
     
+   
+    
+   
+  
+    
 })();
 
-/** Mostrar claves segunda forma */
-document.querySelector('.show span').addEventListener('click', e => {
-    const passwordInput = document.querySelector('#password');
-    if (e.target.classList.contains('show')) {
-        e.target.classList.remove('show');
-        e.target.textContent = 'Ocultar';
-        passwordInput.type = 'text';
-    } else {
-        e.target.classList.add('show');
-        e.target.textContent = 'Mostrar';
-        passwordInput.type = 'password';
+(function (){
+
+    function update(){
+    const getClassNumbers = document.getElementById('pages-for-data');
+    const totalLength = Array.from(getClassNumbers.children);
+    if(totalLength.length == 0){
+        setTimeout(()=>{
+            update();
+        },500)
+    }else{
+        totalLength.forEach(a => {
+            a.style.width = 50/totalLength.length+"rem";
+        })
     }
+    
+    }
+<<<<<<< HEAD
 });
 
-document.querySelector('.show2 span').addEventListener('click', e => {
-    const passwordInput2 = document.querySelector('#passwordnew');
-    if (e.target.classList.contains('show')) {
-        e.target.classList.remove('show');
-        e.target.textContent = 'Ocultar';
-        passwordInput2.type = 'text';
-    } else {
-        e.target.classList.add('show');
-        e.target.textContent = 'Mostrar';
-        passwordInput2.type = 'password';
-    }
-});
+=======
 
-document.querySelector('.show3 span').addEventListener('click', e => {
-    const passwordInput3 = document.querySelector('#passwordnew1');
-    if (e.target.classList.contains('show')) {
-        e.target.classList.remove('show');
-        e.target.textContent = 'Ocultar';
-        passwordInput3.type = 'text';
-    } else {
-        e.target.classList.add('show');
-        e.target.textContent = 'Mostrar';
-        passwordInput3.type = 'password';
-    }
-});
+   update();
+    
+   
 
+})();
+>>>>>>> 4e2542959b7d4eb7f621063c5112d71c5605d199

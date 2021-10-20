@@ -528,7 +528,7 @@ h2 {
 }
 
 
-/* Jerson */
+
 
 
 /* Nathy */
@@ -1329,4 +1329,27 @@ margin: 1rem auto;
 .fondo-permission>div>label{
 	font-size: 1rem;
 	font-weight: bold;
+}
+.numbers-page{
+	width: 55rem;
+	height: 3rem;
+	margin: 1.5rem auto 0.5rem auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.numbers-page > a{
+/* width: calc(35rem/23); */
+height: 1.5rem;
+text-align: center;
+line-height: 1.5rem;
+}
+
+.numbers-page > a.active::before{
+	content: "[";
+}
+.numbers-page > a.active::after{
+	content: "]";
 }

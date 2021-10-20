@@ -9,15 +9,20 @@ class Teachers{
     public $password_profesor;
     public $permission;
     private $responsabilidadTable;
+    private $carrera_profesorTable;
+    private $dataThe_carrera_profesorTable;
     const INGRESAR_EVIDENCIA= 1;
     const EDITAR_EVIDENCIA= 2;
     const ACTUALIZAR_EVIDENCIA= 4;
     const ELIMINAR_EVIDENCIA= 8;
     const ADMINSTRADOR = 16;
 
-    public function __construct(\models\DataBaseTable $responsabilidadTable)
+    public function __construct(\models\DataBaseTable $responsabilidadTable,
+                                \models\DataBaseTable $carrera_profesorTable
+    )
     {
         $this->responsabilidadTable= $responsabilidadTable;
+        $this->carrera_profesorTable= $carrera_profesorTable;
     }
 
     public function getResponsability(){
@@ -30,8 +35,19 @@ class Teachers{
     }
 
     public function hashResponsability($responsability){
-        $responsabilidades = $this->responsabilidadTable->selectFromColumn('profesor_ci', $this->ci_profesor)[0];
-        return $responsabilidades->nombre_responsabilidad == $responsability ? true : false;
+        $responsabilidades = $this->responsabilidadTable->selectFromColumn('profesor_ci', $this->ci_profesor);
+        if(!$responsabilidades){
+            return false;
+        }
+            return $responsabilidades[0]->nombre_responsabilidad == $responsability ? true : false;
+        
 }
+
+    public function getUserDataTable(){
+        if($this->dataThe_carrera_profesorTable == null){
+          $this->dataThe_carrera_profesorTable =  $this->carrera_profesorTable->getFullJoinCarrierForColumProfesorCi($this->ci_profesor);
+        }
+        return $this->dataThe_carrera_profesorTable;
+    }
 
 }

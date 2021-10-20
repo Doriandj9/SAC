@@ -1,6 +1,11 @@
 {
     "ELEMENTO": [
         {
+            "codigo": "1",
+            "estandar": "1",
+            "nombre": " La carrera responde a través de su misión, con el contexto y la planificación nacional para el desarrollo"
+        },
+        {
             "codigo": "2",
             "estandar": "1",
             "nombre": "La carrera cuenta con una estructura organizacional en concordancia con su misión y visión  y con la misión y visón de la institución; y ha definido mecanismos y procedimientos que garantizan la evaluación y monitorización del impacto de la carrera en su contexto."

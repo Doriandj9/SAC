@@ -1,6 +1,9 @@
 <?php
 
 namespace controllers;
+
+use function PHPSTORM_META\type;
+
 class Admin{
 
     private $profesoresTable;
@@ -101,7 +104,7 @@ class Admin{
             // $dataCriterio = file_get_contents('./public/records/criterios.json');
             // $arrayCriterio = json_decode($dataCriterio, true)['criterios'];
 
-            // foreach($arrayCriterio as $value){
+            //  foreach($arrayCriterio as $value){
 
             //     $data3 = [
             //         'cod_criterio' => $value['codigo'],
@@ -135,19 +138,19 @@ class Admin{
         //         $this->elementoFundamentalTable->insert($data5);
         //     }
             
-        // $dataElementosFundamentales_Evidencias = file_get_contents('./public/records/entregablesF.json');
-        // $arrayElementofun_Evidencia = json_decode($dataElementosFundamentales_Evidencias, true)['elementosF'];
+        $dataElementosFundamentales_Evidencias = file_get_contents('./public/records/entregablesF.json');
+        $arrayElementofun_Evidencia = json_decode($dataElementosFundamentales_Evidencias, true)['elementosF'];
 
-        // foreach($arrayElementofun_Evidencia as $value){
+        foreach($arrayElementofun_Evidencia as $value){
 
-        //     foreach($value['elementos'] as $element){
-        //         $data6 = [
-        //             'evidencia_cod' => $value['codigoE'],
-        //             'elemento_cod' => $element,
-        //         ];
-        //       $this->evidencia_elementoFundamentalTable->insert($data6);
-        //     }
-        // }
+            foreach($value['elementos'] as $element){
+                $data6 = [
+                    'evidencia_cod' => $value['codigoE'],
+                    'elemento_cod' => $element,
+                ];
+              $this->evidencia_elementoFundamentalTable->insert($data6);
+            }
+        }
         }
 
            header('location: /');
@@ -178,5 +181,48 @@ class Admin{
                 ]
             ];
         }        
+    }
+
+    public function loadInformation(){
+        $page = isset($_GET['page']) ? $_GET['page']: 1;
+        if( !is_int($page)){
+            $page = intval($page, 10);
+        }
+        $offset = ($page-1) * 10;
+        $count = $this->evidenciasTable->getCountTable();
+        $evidences = $this->evidenciasTable->select(10,$offset);
+        return [
+            'title' => 'Permisos de Acceso',
+            'template' => 'admin/loadInformation.html.php',
+            'variables' => [
+                'evidences' => $evidences,
+                'page' => $page,
+                'count' => $count
+            ]
+        ];
+    }
+
+    public function saveInformation(){
+        var_dump($_POST);
+        $array = $_POST;
+        date_default_timezone_set('America/Guayaquil');
+        foreach($array as $value){
+
+            if($value['dateI'] != ''
+            && $value['timeI'] != '' 
+            && $value['dateF'] != ''
+            && $value['timeF'] != ''
+            && $value['cod'] != ''
+            ){
+                $data =[
+                    'fecha_inicio' => $value['dateI']. " ". $value['timeI'],
+                    'fecha_fin' => $value['dateF']. " ".$value['timeF'],
+                    'cod_evidencia' => $value['cod']
+                ];
+                $this->evidenciasTable->update($data);
+            }
+        }
+        
+        header('location: /admin/load/information');
     }
 }

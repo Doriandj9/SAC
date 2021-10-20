@@ -14,11 +14,15 @@ class ViewController implements \frame\WebRoutes{
     private $estandarTable;
     private $elementoFundamentalTable;
     private $evidencia_elementoFundamentalTable;
+    private $carrera_profesorTable;
      
     public function __construct()
     {
         $this->profesorTable= new \models\DataBaseTable(new \models\conection\Conection(),
-                                                        'profesor', 'ci_profesor', '\entity\Teachers',[&$this->responsabilidadTable]);
+                                                        'profesor', 'ci_profesor', '\entity\Teachers',[
+                                                            &$this->responsabilidadTable,
+                                                            &$this->carrera_profesorTable
+                                                        ]);
         $this->responsabilidadTable = new \models\DataBaseTable(new \models\conection\Conection(), 
                                                         'responsabilidad', 'cod_responsabilidad');
         $this->evidencesTable = new \models\DataBaseTable( new \models\conection\Conection(),
@@ -39,6 +43,9 @@ class ViewController implements \frame\WebRoutes{
         );
         $this->evidencia_elementoFundamentalTable= new \models\DataBaseTable(
             new \models\conection\Conection(), 'evidencia_elemento fundamental', 'evidencia_cod'
+        );
+        $this->carrera_profesorTable= new \models\DataBaseTable(
+            new \models\conection\Conection(), 'carrera_profesor', 'carrera_id'
         );
         $this->autentification = new \controllers\Autentification($this->profesorTable, 'email_profesor', 'password_profesor');
 
@@ -69,7 +76,8 @@ class ViewController implements \frame\WebRoutes{
                 'POST' => [
                     'controller' => $loginController,
                     'action' => 'verifyLogin'
-                ]
+                ],
+                'all' => true
                 ],
 
         'home' => [
@@ -77,8 +85,8 @@ class ViewController implements \frame\WebRoutes{
                 'controller' => $homeController,
                 'action' => 'home'
             ],
-            
-            'login' => true
+            'login' => true,
+            'all' => true
             ],
 
             'entry/evidences' => [
@@ -128,7 +136,8 @@ class ViewController implements \frame\WebRoutes{
                     'controller' => $passwordController,
                     'action' => 'updatePassword'
                 ],
-                'login' => true
+                'login' => true,
+                'all' => true
                 ],
             'exit' => [
                 'GET' => [
@@ -164,6 +173,18 @@ class ViewController implements \frame\WebRoutes{
                     'login' => true,
                     'permission' => \entity\Teachers::ADMINSTRADOR
                     ],
+                'admin/load/information' =>[
+                    'GET' => [
+                        'controller' => $adminController,
+                        'action' => 'loadInformation'
+                    ],
+                    'POST' => [
+                        'controller' => $adminController,
+                        'action' => 'saveInformation'
+                    ],
+                    'login' => true,
+                    'permission' => \entity\Teachers::ADMINSTRADOR
+                ],
                 'evaluation/evidences'=> [
                     'GET' => [
                         'controller' => $evaluatorController,
@@ -189,12 +210,18 @@ class ViewController implements \frame\WebRoutes{
     public function hashPermission($permission): bool
     {
         $user = $this->autentification->getUser();
+        if(!$user){
+            return false;
+        }
         return $user->hashPermission($permission) ? true: false;
     }
 
     public function hashResponsability($responsability): bool
     {
         $user = $this->autentification->getUser();
+        if(!$user){
+            return false;
+        }
         return $user->hashResponsability($responsability) ? true: false;
     }
 }
