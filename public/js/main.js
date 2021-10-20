@@ -303,10 +303,33 @@ document.getElementById("eye") == null ? '' : document.getElementById("eye").add
         
     }
 
- 
+    
+   
     
    
   
     
 })();
 
+(function (){
+
+    function update(){
+    const getClassNumbers = document.getElementById('pages-for-data');
+    const totalLength = Array.from(getClassNumbers.children);
+    if(totalLength.length == 0){
+        setTimeout(()=>{
+            update();
+        },500)
+    }else{
+        totalLength.forEach(a => {
+            a.style.width = 50/totalLength.length+"rem";
+        })
+    }
+    
+    }
+
+   update();
+    
+   
+
+})();

@@ -1,6 +1,9 @@
 <?php
 
 namespace controllers;
+
+use function PHPSTORM_META\type;
+
 class Admin{
 
     private $profesoresTable;
@@ -178,5 +181,48 @@ class Admin{
                 ]
             ];
         }        
+    }
+
+    public function loadInformation(){
+        $page = isset($_GET['page']) ? $_GET['page']: 1;
+        if( !is_int($page)){
+            $page = intval($page, 10);
+        }
+        $offset = ($page-1) * 10;
+        $count = $this->evidenciasTable->getCountTable();
+        $evidences = $this->evidenciasTable->select(10,$offset);
+        return [
+            'title' => 'Permisos de Acceso',
+            'template' => 'admin/loadInformation.html.php',
+            'variables' => [
+                'evidences' => $evidences,
+                'page' => $page,
+                'count' => $count
+            ]
+        ];
+    }
+
+    public function saveInformation(){
+        var_dump($_POST);
+        $array = $_POST;
+        date_default_timezone_set('America/Guayaquil');
+        foreach($array as $value){
+
+            if($value['dateI'] != ''
+            && $value['timeI'] != '' 
+            && $value['dateF'] != ''
+            && $value['timeF'] != ''
+            && $value['cod'] != ''
+            ){
+                $data =[
+                    'fecha_inicio' => $value['dateI']. " ". $value['timeI'],
+                    'fecha_fin' => $value['dateF']. " ".$value['timeF'],
+                    'cod_evidencia' => $value['cod']
+                ];
+                $this->evidenciasTable->update($data);
+            }
+        }
+        
+        header('location: /admin/load/information');
     }
 }
