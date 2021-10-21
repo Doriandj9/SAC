@@ -24,13 +24,18 @@
 						<a href="/evaluation/evidences">Evaluación</a>
 						<a href="/generate/reports">Reportes</a>
 						<?php else: if($user->hashPermission(\entity\Teachers::ADMINSTRADOR)):?>
-							<a href="/admin/upload/information">Cargar Informacion</a>
+						<a href="/admin/upload/information">Cargar Informacion</a>
+						<a href="/admin/load/coordinator">Ingresar Coordinador</a>
 						<a href="/admin/permises/access">Permisos de Acceso</a>
+						<a href="/admin/load/information">Configuracion Basica</a>
+						<?php else: if (!empty($user->getResponsability()) && $user->getResponsability()[0]->nombre_responsabilidad == \web\Responsability::COORDINADOR): ?>
+							<a href="/admin/permises/access">Permisos de Acceso</a>
 						<a href="/admin/load/information">Configuracion Basica</a>
 						<?php else: ?>
 							<a href="/entry/evidences">Ingreso</a>
 						<a href="/show/evidences">Evidencias</a>
 						<a href="/generate/reports">Reportes</a>
+						<?php endif; ?>
 						<?php endif; ?>
 							<?php endif; ?>					
 						<a href="/change/password">Cambiar clave</a>

@@ -329,14 +329,9 @@ document.getElementById("eye") == null ? '' : document.getElementById("eye").add
     }
     
     }
-<<<<<<< HEAD
-});
-
-=======
 
    update();
     
    
 
 })();
->>>>>>> 4e2542959b7d4eb7f621063c5112d71c5605d199
