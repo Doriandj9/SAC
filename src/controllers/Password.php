@@ -34,6 +34,7 @@ class Password{
             $newpwd = password_hash($_POST['passwordnew'],PASSWORD_DEFAULT);
 
             if(password_verify($pwd,$user->password_profesor)){
+                var_dump($_SESSION['password']);
                 if($_POST['passwordnew'] == $_POST['passwordnew1']){
                     $params = [
                         'password_profesor' => $newpwd

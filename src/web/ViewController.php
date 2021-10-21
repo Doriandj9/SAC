@@ -15,13 +15,15 @@ class ViewController implements \frame\WebRoutes{
     private $elementoFundamentalTable;
     private $evidencia_elementoFundamentalTable;
     private $carrera_profesorTable;
+    private $profesor_responsabilidad;
      
     public function __construct()
     {
         $this->profesorTable= new \models\DataBaseTable(new \models\conection\Conection(),
                                                         'profesor', 'id_profesor', '\entity\Teachers',[
                                                             &$this->responsabilidadTable,
-                                                            &$this->carrera_profesorTable
+                                                            &$this->carrera_profesorTable,
+                                                            &$this->profesor_responsabilidad
                                                         ]);
         $this->responsabilidadTable = new \models\DataBaseTable(new \models\conection\Conection(), 
                                                         'responsabilidad', 'cod_responsabilidad');
@@ -46,6 +48,10 @@ class ViewController implements \frame\WebRoutes{
         );
         $this->carrera_profesorTable= new \models\DataBaseTable(
             new \models\conection\Conection(), 'carrera_profesor', 'carrera_id'
+        );
+        $this->profesor_responsabilidad= new \models\DataBaseTable(
+            new \models\conection\Conection(),
+            'profesor_responsabilidad','profesor_id'
         );
         $this->autentification = new \controllers\Autentification($this->profesorTable, 'email_profesor', 'password_profesor');
 
@@ -185,6 +191,19 @@ class ViewController implements \frame\WebRoutes{
                     'login' => true,
                     'permission' => \entity\Teachers::ADMINSTRADOR
                 ],
+                'admin/load/coordinator' =>[
+                    'GET' => [
+                        'controller' => $adminController,
+                        'action' => 'loadCoordinator'
+                    ],
+                    'POST' => [
+                        'controller' => $adminController,
+                        'action' => 'saveCoordinator'
+                    ],
+                    'login' => true,
+                    'permission' => \entity\Teachers::ADMINSTRADOR
+                ],
+
                 'evaluation/evidences'=> [
                     'GET' => [
                         'controller' => $evaluatorController,

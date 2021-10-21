@@ -11,6 +11,7 @@ class Teachers{
     private $responsabilidadTable;
     private $carrera_profesorTable;
     private $dataThe_carrera_profesorTable;
+    private $profesor_responsabilidad;
     const INGRESAR_EVIDENCIA= 1;
     const EDITAR_EVIDENCIA= 2;
     const ACTUALIZAR_EVIDENCIA= 4;
@@ -18,15 +19,17 @@ class Teachers{
     const ADMINSTRADOR = 16;
 
     public function __construct(\models\DataBaseTable $responsabilidadTable,
-                                \models\DataBaseTable $carrera_profesorTable
+                                \models\DataBaseTable $carrera_profesorTable,
+                                \models\DataBaseTable $profesor_responsabilidad
     )
     {
         $this->responsabilidadTable= $responsabilidadTable;
         $this->carrera_profesorTable= $carrera_profesorTable;
+        $this->profesor_responsabilidad= $profesor_responsabilidad;
     }
 
     public function getResponsability(){
-        $responsabilidad = $this->responsabilidadTable->selectFromColumn('profesor_id',$this->id_profesor);
+        $responsabilidad = $this->profesor_responsabilidad->selectFromColumn('profesor_id',$this->id_profesor);
         return $responsabilidad ? $responsabilidad: [];
     }
 
@@ -35,7 +38,7 @@ class Teachers{
     }
 
     public function hashResponsability($responsability){
-        $responsabilidades = $this->responsabilidadTable->selectFromColumn('profesor_id', $this->id_profesor);
+        $responsabilidades = $this->profesor_responsabilidad->selectFromColumn('profesor_id', $this->id_profesor);
         if(!$responsabilidades){
             return false;
         }
