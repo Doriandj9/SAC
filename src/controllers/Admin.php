@@ -237,4 +237,14 @@ class Admin{
         
         header('location: /admin/load/information');
     }
+
+    public function loadPeriod(){
+        return[
+            'title' => 'Ingresar Coodinador',
+            'template' => 'admin/loadPeriod.html.php'
+        ];
+    }
+    public function savePeriod(){
+        
+    }
 }

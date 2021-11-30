@@ -1422,3 +1422,15 @@ border-radius: 0.5rem;
 	border : 2px solid #505c6a;
 	background-color : #dde2e7;
 }
+.periodo-mensaje{
+	font-weight: bold;
+	text-align: center;
+	margin-top: 1.5rem;
+	padding-bottom: 2%;
+	border-bottom: 1px solid #505c6a ;
+}
+.form-period{
+	margin: 1rem auto;
+	width: 50%;
+	
+}
