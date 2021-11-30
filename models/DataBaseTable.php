@@ -96,8 +96,15 @@ class DataBaseTable{
         $query = 'SELECT * FROM '. $this->table . ' WHERE '. $column . '= :'. $this->primaryKey;
         $params = [ $this->primaryKey => $restrict ];
         $result = $this->runQuery($query, $params);
-        
-      //  var_dump($result->fetchAll());
+        return $result->fetchAll(\PDO::FETCH_CLASS, $this->className, $this->arguments);
+    }
+    public function selectFromColumnSeparate($column, $restrict){
+
+        $query = 'SELECT * FROM '. $this->table . ' WHERE '. $column . '= :'. $column;
+        $params = [ $column => $restrict ];
+       
+        $result = $this->runQuery($query, $params);
+       
         return $result->fetchAll(\PDO::FETCH_CLASS, $this->className, $this->arguments);
     }
 
@@ -155,7 +162,7 @@ class DataBaseTable{
         $query .= ' WHERE '. $this->primaryKey .' = :' . $this->primaryKey;
         var_dump($query);
         $params[$this->primaryKey] = $cod;
-        var_dump($params);
+        
         $this->runQuery($query, $params);
         
     }
@@ -172,15 +179,16 @@ class DataBaseTable{
         return $result->fetchAll(\PDO::FETCH_CLASS, $this->className, $this->arguments);
     }
     public function getFullJoinCarrierForColumProfesorCi($value){
-        $query = 'SELECT * FROM carrera_profesor INNER JOIN profesor 
-        ON carrera_profesor.profesor_ci = profesor.ci_profesor INNER JOIN periodo academico 
-        ON periodo academico.ci_profesor = profesor.ci_profesor INNER JOIN carrera_periodo academico
-        ON carrera_periodo academico.academico_periodo_id = id_periodo_academico INNER JOIN carrera
-        WHERE carrera.id_carrera = carrera_periodo academico.carrera_id AND carrera.id_carrera 
-        =  carrera_profesor.carrera_id  AND profesor.ci_profesor ='. $value;
-        $result = $this->runQuery($query);
         
-        return $result->fetchAll(\PDO::FETCH_CLASS, $this->className, $this->arguments);
+        $query = 'SELECT * FROM profesor  INNER JOIN periodo_academico 
+        ON profesor.periodo_academico_id = periodo_academico.id_periodo_academico 
+        INNER JOIN carrera_periodo_academico ON periodo_academico.id_periodo_academico = carrera_periodo_academico.academico_periodo_id
+		INNER JOIN carrera ON carrera.cod_carrera = carrera_periodo_academico.carrera_cod 
+        AND  profesor.id_profesor = :id_profesor';
+        $stament = ['id_profesor' => $value];
+       $result = $this->runQuery($query,$stament); 
+        
+       return $result->fetchAll(\PDO::FETCH_CLASS, $this->className, $this->arguments);
     }
 
     public function getCountTable(){

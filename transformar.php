@@ -132,9 +132,6 @@ $ruta = __DIR__ . '/models/prueba';
  </form> -->
 <?php
 
-$n = ' ho la ';
-$n = trim($n);
-var_dump($n);
-
+echo $a;
 
  ?>
