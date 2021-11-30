@@ -16,7 +16,7 @@
                 <div class="container__file">
                     <input type="text" name="fileText__Dtr" id="fileText__Dtr" placeholder="Buscar archivo" readonly class="file__txt">
                     <label for="inputFile__Dtr" class="form__file-btn">&#128193; Examinar</label>
-                    <input type="file" name="inputFile__Dtr" id="inputFile__Dtr"  class="form__file" required>
+                    <input type="file" name="inputFile__Dtr" id="inputFile__Dtr" class="form__file" required>
                 </div>
                 <progress id="progressBar1" value="0" max="100" class="progressBar"></progress>
                 <input type="submit" value="Guardar" class="btn" name="saveFile__Dtr" id="saveFile__Dtr">
@@ -118,7 +118,7 @@
                 <input type="submit" value="Guardar" class="btn" name="" id="">
             </form>
         </div>
-    </div>  
+    </div>
     <!-- Otro7 -->
     <div id="cnt" class="link">
         <h4>OTRO 7</h4>
@@ -137,7 +137,7 @@
             </form>
         </div>
     </div>
-<!-- Fin del Scrollbar -->
+    <!-- Fin del Scrollbar -->
 </div>
 <!-- Js para los formularios de file y progress -->
 <script src="/public/js/containText.js"></script>
