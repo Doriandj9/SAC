@@ -166,7 +166,7 @@ class Admin{
         $teachers = $this->profesoresTable->select();
 
         if(isset($_GET['id'])){
-            $teacher = $this->profesoresTable->selectFromColumn('ci_profesor', $_GET['id'])[0];
+            $teacher = $this->profesoresTable->selectFromColumn('id_profesor', $_GET['id'])[0];
             return [
                 'title' => 'Editar Permisos',
                 'template' => 'admin/editPermission.html.php',
