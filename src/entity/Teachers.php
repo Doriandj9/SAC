@@ -29,8 +29,12 @@ class Teachers{
     }
 
     public function getResponsability(){
-        $responsabilidad = $this->profesor_responsabilidad->selectFromColumn('profesor_id',$this->id_profesor);
-        return $responsabilidad ? $responsabilidad: [];
+        $responsabilidades = $this->profesor_responsabilidad->selectFromColumn('profesor_id',$this->id_profesor);
+        if(!$responsabilidades){
+            return false;
+        }
+        $responsabilidad = $this->responsabilidadTable->selectFromColumnSeparate('cod_responsabilidad', $responsabilidades[0]->responsabilidad_cod);
+        return $responsabilidad ? $responsabilidad : [];
     }
 
     public function hashPermission($permission){
@@ -42,7 +46,9 @@ class Teachers{
         if(!$responsabilidades){
             return false;
         }
-            return $responsabilidades[0]->nombre_responsabilidad == $responsability ? true : false;
+        $responsabilidad = $this->responsabilidadTable->selectFromColumnSeparate('cod_responsabilidad', $responsabilidades[0]->responsabilidad_cod);
+       
+            return $responsabilidad[0]->nombre_responsabilidad == $responsability ? true : false;
         
 }
 

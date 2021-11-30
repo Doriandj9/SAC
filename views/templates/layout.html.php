@@ -19,6 +19,7 @@
 				<div class="menu_head">Menu Principal</div>
 					<div class="menu_body">
 						<div class="menu">
+							aaaaaa
 						<a href="/home">Inicio</a>
 						<?php if(!empty($user->getResponsability()) && $user->getResponsability()[0]->nombre_responsabilidad == \web\Responsability::EVALUADOR):?>
 						<a href="/evaluation/evidences">Evaluación</a>
@@ -26,10 +27,13 @@
 						<?php else: if($user->hashPermission(\entity\Teachers::ADMINSTRADOR)):?>
 						<a href="/admin/upload/information">Cargar Informacion</a>
 						<a href="/admin/load/coordinator">Ingresar Coordinador</a>
+						<a href="/admin/save/period">Periodo Academico</a>
 						<a href="/admin/permises/access">Permisos de Acceso</a>
 						<a href="/admin/load/information">Configuracion Basica</a>
-						<?php else: if (!empty($user->getResponsability()) && $user->getResponsability()[0]->nombre_responsabilidad == \web\Responsability::COORDINADOR): ?>
-							<a href="/admin/permises/access">Permisos de Acceso</a>
+						<a href="/admin/load/carrier">Ingresar Carrera</a>
+						<?php else: if (!empty($user->getResponsability())
+						 && $user->getResponsability()[0]->nombre_responsabilidad == \web\Responsability::COORDINADOR): ?>
+						<a href="/admin/permises/access">Permisos de Acceso</a>
 						<a href="/admin/load/information">Configuracion Basica</a>
 						<?php else: ?>
 							<a href="/entry/evidences">Ingreso</a>

@@ -1432,3 +1432,62 @@ border-radius: 0.5rem;
 	border : 2px solid #505c6a;
 	background-color : #dde2e7;
 }
+.periodo-mensaje{
+	font-weight: bold;
+	text-align: center;
+	margin-top: 1.5rem;
+	padding-bottom: 2%;
+	border-bottom: 1px solid #505c6a ;
+}
+.form-period{
+	margin: 1rem auto;
+	width: 50%;
+}
+.form-period>div{
+	margin-top: 25px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.form-period>div>label{
+font-weight: bold;
+}
+.form-period>div>input{
+	width: 200px;
+	height: 25px;
+	box-shadow: 0 0  1px rgba(0, 0, 0, 0.1);
+	
+}
+.form-period>div>textarea{
+	width: 200px;
+	height: 100px;
+	background-color: #c4c4c4;
+	
+}
+/*Margenes */
+/*top*/
+.margin-top-1{
+	margin-top: 1rem;
+}
+.margin-top-2{
+	margin-top: 2rem;
+}
+.margin-top-2-5{
+	margin-top: 2.5rem;
+}
+.margin-top-3{
+	margin-top: 2rem;
+}
+/*buttom*/
+.margin-buttom-1{
+	margin-bottom: 1rem;
+}
+.margin-buttom-2{
+	margin-bottom: 2rem;
+}
+.margin-buttom-2-5{
+	margin-bottom: 2.5rem;
+}
+.margin-buttom-3{
+	margin-bottom: 2rem;
+}
