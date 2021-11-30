@@ -1,6 +1,6 @@
 <?php
 
-    include __DIR__ .'/vendor/autoload.php';
+include __DIR__ .'/vendor/autoload.php';
 
 try{
     $route = ltrim(strtok($_SERVER['REQUEST_URI'],'?'),'/');
@@ -13,3 +13,5 @@ try{
     var_dump($content);
     include __DIR__ .'/views/templates/layout.html.php';
 }
+
+
