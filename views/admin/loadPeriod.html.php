@@ -16,20 +16,4 @@
         </form>
     </div>
     <form action="" method="post">
-
-    
-    <table>
-        <thead>
-        <tr>
-            <th>cedula</th>
-        </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>
-                    <input type="text" name="f">
-                </td>
-            </tr>
-        </tbody>
-    </table></form>
 </div>
