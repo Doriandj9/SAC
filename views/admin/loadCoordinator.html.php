@@ -11,6 +11,7 @@
                     <th>Nombre y Apellido</th>
                     <th>E-mail</th>
                     <th>Carrera</th>
+                    <th>Periodo Academico</th>
 
                 </tr>
             </thead>
@@ -28,11 +29,20 @@
                     <td>
                         <select name="carrera" id="anios" required>
                             <option value="#" selected disabled>-- Asignar Carrera --</option>
-                            <option value="">Software</option>
-                            <option value="">Turismo</option>
-
+                            <?php foreach($carreras as $value): ?>
+                                    <option value="<?= $value->cod_carrera; ?>"> <?= $value->nombre_carrera; ?> </option>
+                                <?php endforeach; ?>
                         </select>
                     </td>
+                    <td>
+                        <select name="periodo" id="anios" required>
+                            <option value="#" selected disabled>-- Asignar Periodo --</option>
+                            <?php foreach($periodo as $value): ?>
+                                    <option value="<?= $value->id_periodo_academico; ?>"> <?= $value->id_periodo_academico; ?> </option>
+                                <?php endforeach; ?>
+                        </select>
+                    </td>
+
                 </tr>
             </tbody>
         </table>

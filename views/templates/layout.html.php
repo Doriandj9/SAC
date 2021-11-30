@@ -29,8 +29,10 @@
 						<a href="/admin/save/period">Periodo Academico</a>
 						<a href="/admin/permises/access">Permisos de Acceso</a>
 						<a href="/admin/load/information">Configuracion Basica</a>
-						<?php else: if (!empty($user->getResponsability()) && $user->getResponsability()[0]->nombre_responsabilidad == \web\Responsability::COORDINADOR): ?>
-							<a href="/admin/permises/access">Permisos de Acceso</a>
+						<a href="/admin/load/carrier">Ingresar Carrera</a>
+						<?php else: if (!empty($user->getResponsability())
+						 && $user->getResponsability()[0]->nombre_responsabilidad == \web\Responsability::COORDINADOR): ?>
+						<a href="/admin/permises/access">Permisos de Acceso</a>
 						<a href="/admin/load/information">Configuracion Basica</a>
 						<?php else: ?>
 							<a href="/entry/evidences">Ingreso</a>

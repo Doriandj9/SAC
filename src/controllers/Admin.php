@@ -12,12 +12,23 @@ class Admin{
     private $estandarTable;
     private $elementoFundamentalTable;
     private $evidencia_elementoFundamentalTable;
+    private $facultadTable;
+    private $carreraTable;
+    private $periodoTable;
+    private $profesor_responsabilidadTable;
+    private $carrera_periodo_academicoTable;
+
     public function __construct(\models\DataBaseTable $profesoresTable, 
                             \models\DataBaseTable $evidenciasTable,
                             \models\DataBaseTable $criterioTable,
                             \models\DataBaseTable $estandarTable,
                             \models\DataBaseTable $elementoFundamentalTable,
-                            \models\DataBaseTable $evidencia_elementoFundamentalTable
+                            \models\DataBaseTable $evidencia_elementoFundamentalTable,
+                            \models\DataBaseTable $facultadTable,
+                            \models\DataBaseTable $carreraTable,
+                            \models\DataBaseTable $periodoTable,
+                            \models\DataBaseTable $profesor_responsabilidadTable,
+                            \models\DataBaseTable $carrera_periodo_academicoTable
                             )
     {
         $this->profesoresTable= $profesoresTable;
@@ -26,6 +37,11 @@ class Admin{
         $this->estandarTable= $estandarTable;
         $this->elementoFundamentalTable= $elementoFundamentalTable;
         $this->evidencia_elementoFundamentalTable= $evidencia_elementoFundamentalTable;
+        $this->facultadTable= $facultadTable;
+        $this->carreraTable= $carreraTable;
+        $this->periodoTable= $periodoTable;
+        $this->profesor_responsabilidadTable= $profesor_responsabilidadTable;
+        $this->carrera_periodo_academicoTable= $carrera_periodo_academicoTable;
     }
 
     public function admin(){
@@ -205,10 +221,15 @@ class Admin{
         ];
     }
     public function loadCoordinator(){
-
+        $carreras = $this->carreraTable->select();
+        $periodo = $this->periodoTable->select();
         return[
             'title' => 'Ingresar Coodinador',
-            'template' => 'admin/loadCoordinator.html.php'
+            'template' => 'admin/loadCoordinator.html.php',
+            'variables' =>[
+                'carreras' => $carreras,
+                'periodo'=> $periodo
+            ]
         ];
 
     }
@@ -244,7 +265,64 @@ class Admin{
             'template' => 'admin/loadPeriod.html.php'
         ];
     }
+    public function saveCoordinator(){
+       $password = new \web\Utiles;
+        $coordinadorData =[
+            'id_profesor' => $_POST['cedula'],
+            'nombre_profesor' => $_POST['nombres'],
+            'email_profesor' => $_POST['email'],
+            'password_profesor' =>  $password->hashPassword($_POST['cedula']),
+            'periodo_academico_id' => $_POST['periodo']
+        ];
+        $responsabilidad_profesorData = [
+            'profesor_id' => $_POST['cedula'],
+            'responsabilidad_cod' => 1
+        ];
+        $this->profesoresTable->insert($coordinadorData);
+        $this->profesor_responsabilidadTable->insert($responsabilidad_profesorData);
+        header('location: /admin/load/coordinator');
+
+    }
     public function savePeriod(){
-        
+        $periodoData = [
+            'id_periodo_academico' => $_POST['cedula'],
+            'fecha_inicial' => $_POST['fechaInicio'],
+            'fecha_final'=> $_POST['fechaFinal'],
+            'descripcion'=> $_POST['descripcion']
+        ];
+        $this->periodoTable->insert($periodoData);
+        header('location: /admin/save/period');
+    
+    }
+
+    public function loadCarrier(){
+        $facultades = $this->facultadTable->select();
+        $carreras = $this->carreraTable->select();
+        $periodo = $this->periodoTable->select();
+        return[
+            'title' => 'Ingresar Coodinador',
+            'template' => 'admin/loadCarrier.html.php',
+            'variables' => [
+                'facultades' => $facultades,
+                'carreras' => $carreras,
+                'periodo'=> $periodo
+            ]
+        ];
+    }
+
+    public function saveCarrier(){
+        $carreraData = [
+            'cod_carrera' => $_POST['cod-carrera'],
+            'nombre_carrera' => $_POST['nombre-carrera'],
+            'facultad_id' => $_POST['facultad']
+        ];
+        $carrera_periodo_academicoData = [
+            'carrera_cod' =>$_POST['cod-carrera'],
+            'academico_periodo_id' => $_POST['periodo']
+        ];
+        $this->carreraTable->insert($carreraData);
+        $this->carrera_periodo_academicoTable->insert($carrera_periodo_academicoData);
+       
+        header('location: /admin/load/carrier');
     }
 }
