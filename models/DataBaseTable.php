@@ -180,11 +180,11 @@ class DataBaseTable{
     }
     public function getFullJoinCarrierForColumProfesorCi($value){
         
-        $query = 'SELECT * FROM profesor  INNER JOIN periodo_academico 
-        ON profesor.periodo_academico_id = periodo_academico.id_periodo_academico 
-        INNER JOIN carrera_periodo_academico ON periodo_academico.id_periodo_academico = carrera_periodo_academico.academico_periodo_id
-		INNER JOIN carrera ON carrera.cod_carrera = carrera_periodo_academico.carrera_cod 
-        AND  profesor.id_profesor = :id_profesor';
+        $query = 'SELECT * FROM profesor INNER JOIN carrera_profesor 
+        ON profesor.id_profesor = carrera_profesor.profesor_id
+        INNER JOIN carrera
+        ON carrera.cod_carrera = carrera_profesor.carrera_cod
+        WHERE profesor.id_profesor = :id_profesor';
         $stament = ['id_profesor' => $value];
        $result = $this->runQuery($query,$stament); 
         

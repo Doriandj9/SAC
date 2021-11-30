@@ -91,7 +91,8 @@ class ViewController implements \frame\WebRoutes{
                                                     $this->carreraTable,
                                                     $this->periodoTable,
                                                     $this->profesor_responsabilidad,
-                                                    $this->carrera_periodo_academicoTable
+                                                    $this->carrera_periodo_academicoTable,
+                                                    $this->carrera_profesorTable,
                                                 );
         $evaluatorController = new \controllers\Evaluator();
         $controllerAsyJ = new \controllers\AsynJavaScript($this->evidencesTable);
