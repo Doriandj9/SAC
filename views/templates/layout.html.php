@@ -19,6 +19,7 @@
 				<div class="menu_head">Menu Principal</div>
 					<div class="menu_body">
 						<div class="menu">
+							aaaaaa
 						<a href="/home">Inicio</a>
 						<?php if(!empty($user->getResponsability()) && $user->getResponsability()[0]->nombre_responsabilidad == \web\Responsability::EVALUADOR):?>
 						<a href="/evaluation/evidences">Evaluación</a>
