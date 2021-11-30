@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>ProgressBar - Ejemplo</title>
+</head>
+<body>
+
+    <div class="form">
+        <form action="enviar.php" method="POST" enctype="multipart/form-data" id="formUpload">
+            <div class="content__form">
+                <input type="text" name="fileText" id="fileText" placeholder="Buscar archivo" readonly class="file__txt">
+                <label for="inputFile" class="form__file-btn">&#128193; Examinar</label>
+                <input type="file" name="inputFile" id="inputFile" class="form__file" required>
+            </div>
+            <progress id="progressBar" value="0" max="100" class="progressBar"></progress>
+            <input type="submit" value="Guardar" class="btn" name="saveFile" id="saveFile">
+        </form>
+    </div>
+    <script src="progressBar.js"></script>	
+    <script src="containText.js"></script>
+    
+</body>
+</html>
