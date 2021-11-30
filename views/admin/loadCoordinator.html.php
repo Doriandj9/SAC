@@ -26,7 +26,7 @@
                                 </td>
                                 <td>
                                 <select name="carrera" id="anios">
-                            <option value="#" selected disabled>-- seleccione una opción --</option>
+                            <option value="#" selected disabled>-- Asignar Carrera --</option>
                             <option value="">Software</option>
                             <option value="">Turismo</option>
                             
@@ -37,6 +37,12 @@
                             </form>
                         </table>
                         
+                    </div>
+
+                    <div id="ba">  
+                     <div class="content-for-evaluation">
+                     <input type="submit" value="Guardar" id="btnGuardar">
+                    </div>
                     </div>
 
 
