@@ -1,0 +1,1678 @@
+{
+    "elementosF":[
+        {
+            "codigoE": "1-AD-SOF 1.2.12.3",
+            "elementos": [
+                "12"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.10.53.7",
+            "elementos": [
+                "53"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 4.25.146.4",
+            "elementos": [
+                "146",
+                "148",
+                "149",
+                "150"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.3.14.4",
+            "elementos": [
+                "14"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.9.52.2",
+            "elementos": [
+                "52"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.9.47.3",
+            "elementos": [
+                "47",
+                "49"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.3.13.5",
+            "elementos": [
+                "13",
+                "87",
+                "88"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.4.22.2",
+            "elementos": [
+                "22"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.9.47.6",
+            "elementos": [
+                "47",
+                "49"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.7.39.2",
+            "elementos": [
+                "39"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.12.64.2",
+            "elementos": [
+                "64",
+                "83",
+                "166",
+                "167",
+                "168"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.1.6.2",
+            "elementos": [
+                "6"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.2.11.3",
+            "elementos": [
+                "11"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 4.24.142.4",
+            "elementos": [
+                "142",
+                "151"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.1.4.5",
+            "elementos": [
+                "4",
+                "14",
+                "26",
+                "63",
+                "72",
+                "78",
+                "85",
+                "90",
+                "141",
+                "142",
+                "151"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.1.4.8",
+            "elementos": [
+                "4",
+                "73",
+                "74",
+                "76"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 5.27.160.3",
+            "elementos": [
+                "160"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.1.5.7",
+            "elementos": [
+                "5",
+                "11",
+                "155"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.1.2.3",
+            "elementos": [
+                "2",
+                "3",
+                "4",
+                "10",
+                "79",
+                "123",
+                "125",
+                "126"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.1.5.2",
+            "elementos": [
+                "5",
+                "126"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 4.22.135.2",
+            "elementos": [
+                "135",
+                "137"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 4.23.138.3",
+            "elementos": [
+                "138"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.12.64.1",
+            "elementos": [
+                "64",
+                "70"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.13.68.1",
+            "elementos": [
+                "68"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.13.69.2",
+            "elementos": [
+                "69"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.13.67.2",
+            "elementos": [
+                "67"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.8.45.6",
+            "elementos": [
+                "45"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.8.45.4",
+            "elementos": [
+                "45"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.8.41.3",
+            "elementos": [
+                "41",
+                "42",
+                "43",
+                "44"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 4.24.142.3",
+            "elementos": [
+                "142",
+                "151"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.6.33.3",
+            "elementos": [
+                "33"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 4.21.125.4",
+            "elementos": [
+                "125"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.4.20.4",
+            "elementos": [
+                "20"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 4.25.147.3",
+            "elementos": [
+                "147"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.9.49.6",
+            "elementos": [
+                "49"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.6.33.2",
+            "elementos": [
+                "33",
+                "34",
+                "35",
+                "36"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.14.74.8",
+            "elementos": [
+                "74"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 5.27.159.4",
+            "elementos": [
+                "159"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.16.89.2",
+            "elementos": [
+                "89"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.3.17.2",
+            "elementos": [
+                "17"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.8.41.5",
+            "elementos": [
+                "41",
+                "42",
+                "43",
+                "44"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.6.30.2",
+            "elementos": [
+                "30",
+                "31",
+                "32",
+                "36"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.5.28.4",
+            "elementos": [
+                "28",
+                "29"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.6.34.1",
+            "elementos": [
+                "34"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 5.27.159.3",
+            "elementos": [
+                "159"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 4.23.139.2",
+            "elementos": [
+                "139",
+                "150"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 4.24.144.6",
+            "elementos": [
+                "144"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.3.13.4",
+            "elementos": [
+                "13"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 4.25.147.1",
+            "elementos": [
+                "147"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.1.6.3",
+            "elementos": [
+                "6"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 4.21.121.5",
+            "elementos": [
+                "121"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.11.57.1",
+            "elementos": [
+                "57"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.5.28.2",
+            "elementos": [
+                "28",
+                "29",
+                "50",
+                "124",
+                "140"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.11.59.1",
+            "elementos": [
+                "59"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.2.12.2",
+            "elementos": [
+                "12"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.3.16.2",
+            "elementos": [
+                "16",
+                "86",
+                "87",
+                "88"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.2.9.1",
+            "elementos": [
+                "9"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.1.5.4",
+            "elementos": [
+                "5",
+                "13",
+                "27"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.4.23.1",
+            "elementos": [
+                "23"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.3.15.4",
+            "elementos": [
+                "15",
+                "16"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.9.52.1",
+            "elementos": [
+                "52"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 5.27.159.2",
+            "elementos": [
+                "159"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.8.45.3",
+            "elementos": [
+                "45",
+                "46"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.8.42.5",
+            "elementos": [
+                "42",
+                "45"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 4.21.127.1",
+            "elementos": [
+                "127"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.1.7.3",
+            "elementos": [
+                "7"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.9.51.2",
+            "elementos": [
+                "51"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 4.22.130.2",
+            "elementos": [
+                "130"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 4.25.150.3",
+            "elementos": [
+                "150"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 5.26.153.2",
+            "elementos": [
+                "153",
+                "156",
+                "160"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.1.2.4",
+            "elementos": [
+                "2",
+                "7",
+                "121",
+                "122"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.4.23.2",
+            "elementos": [
+                "23"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.3.19.2",
+            "elementos": [
+                "19"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.3.18.3",
+            "elementos": [
+                "18"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.5.28.3",
+            "elementos": [
+                "28",
+                "29"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.7.40.1",
+            "elementos": [
+                "40"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.6.33.1",
+            "elementos": [
+                "33"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 4.22.136.1",
+            "elementos": [
+                "136",
+                "141",
+                "142",
+                "143",
+                "144",
+                "145",
+                "151",
+                "161"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.10.53.8",
+            "elementos": [
+                "53"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.11.56.4",
+            "elementos": [
+                "56",
+                "58",
+                "59",
+                "161",
+                "162",
+                "164"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.10.53.5",
+            "elementos": [
+                "53"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 5.27.157.2",
+            "elementos": [
+                "157",
+                "158"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.3.13.3",
+            "elementos": [
+                "13"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 4.25.152.1",
+            "elementos": [
+                "152"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.3.18.4",
+            "elementos": [
+                "18",
+                "19"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.10.53.4",
+            "elementos": [
+                "53"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 4.22.128.2",
+            "elementos": [
+                "128",
+                "130"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.3.16.1",
+            "elementos": [
+                "16",
+                "18"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.5.25.1",
+            "elementos": [
+                "25"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.9.48.4",
+            "elementos": [
+                "48"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.16.91.1",
+            "elementos": [
+                "91"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 5.27.159.5",
+            "elementos": [
+                "159"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.16.90.4",
+            "elementos": [
+                "90"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.4.22.1",
+            "elementos": [
+                "22"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.3.15.2",
+            "elementos": [
+                "15"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.16.88.4",
+            "elementos": [
+                "88",
+                "92"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.9.50.2",
+            "elementos": [
+                "50",
+                "135"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.1.4.7",
+            "elementos": [
+                "4",
+                "20",
+                "21",
+                "46",
+                "73",
+                "74",
+                "76",
+                "82",
+                "129"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 5.31.174.1",
+            "elementos": [
+                "174"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 5.26.154.1",
+            "elementos": [
+                "154",
+                "160",
+                "156"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.15.83.2",
+            "elementos": [
+                "83"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.15.84.1",
+            "elementos": [
+                "84"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.18.97.1",
+            "elementos": [
+                "97"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.18.99.1",
+            "elementos": [
+                "99108112"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.19.104.1",
+            "elementos": [
+                "104"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.8.45.5",
+            "elementos": [
+                "45"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 5.30.170.1",
+            "elementos": [
+                "170"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 5.31.175.1",
+            "elementos": [
+                "175"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 5.30.171.1",
+            "elementos": [
+                "171"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.16.92.3",
+            "elementos": [
+                "92"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 5.29.169.1",
+            "elementos": [
+                "169"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.13.67.4",
+            "elementos": [
+                "67"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.13.67.3",
+            "elementos": [
+                "67"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.14.80.2",
+            "elementos": [
+                "80"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.14.79.1",
+            "elementos": [
+                "79"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.14.78.1",
+            "elementos": [
+                "78"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.14.81.1",
+            "elementos": [
+                "81"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.9.47.5",
+            "elementos": [
+                "47"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.17.93.1",
+            "elementos": [
+                "93"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.14.73.5",
+            "elementos": [
+                "73",
+                "74"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.14.75.2",
+            "elementos": [
+                "75",
+                "77"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.4.21.3",
+            "elementos": [
+                "21"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.7.38.1",
+            "elementos": [
+                "38"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.13.67.1",
+            "elementos": [
+                "67"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.13.71.1",
+            "elementos": [
+                "71",
+                "94",
+                "98",
+                "105",
+                "113"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.14.73.7",
+            "elementos": [
+                "73",
+                "74"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.20.119.1",
+            "elementos": [
+                "119"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.10.55.1",
+            "elementos": [
+                "55"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.20.114.1",
+            "elementos": [
+                "114"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.14.73.8",
+            "elementos": [
+                "73",
+                "74"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.20.111.1",
+            "elementos": [
+                "111"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.19.103.1",
+            "elementos": [
+                "103"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.18.96.1",
+            "elementos": [
+                "96"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 5.29.166.1",
+            "elementos": [
+                "166",
+                "167",
+                "168"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 5.29.165.1",
+            "elementos": [
+                "165"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.1.5.3",
+            "elementos": [
+                "5"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.1.4.6",
+            "elementos": [
+                "4",
+                "65",
+                "132",
+                "133",
+                "134",
+                "138"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.6.35.2",
+            "elementos": [
+                "35"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.10.53.6",
+            "elementos": [
+                "53"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.16.86.4",
+            "elementos": [
+                "86"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.11.56.3",
+            "elementos": [
+                "56",
+                "57",
+                "60",
+                "61",
+                "62",
+                "163"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 4.24.145.2",
+            "elementos": [
+                "145"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 4.22.129.3",
+            "elementos": [
+                "129"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.4.22.3",
+            "elementos": [
+                "22"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.14.75.1",
+            "elementos": [
+                "75"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.12.66.1",
+            "elementos": [
+                "66"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.14.74.10",
+            "elementos": [
+                "74"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.2.12.1",
+            "elementos": [
+                "12"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.14.74.9",
+            "elementos": [
+                "74"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.5.26.3",
+            "elementos": [
+                "26"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.10.54.1",
+            "elementos": [
+                "54"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.13.69.1",
+            "elementos": [
+                "69"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 4.21.123.1",
+            "elementos": [
+                "123",
+                "125"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.10.53.1",
+            "elementos": [
+                "53"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.6.36.4",
+            "elementos": [
+                "36"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.9.47.4",
+            "elementos": [
+                "47"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.9.51.1",
+            "elementos": [
+                "51"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.9.49.1",
+            "elementos": [
+                "49"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.9.49.2",
+            "elementos": [
+                "49"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 4.21.127.2",
+            "elementos": [
+                "127"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.1.1.4",
+            "elementos": [
+                "1",
+                "4",
+                "10"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.1.1.5",
+            "elementos": [
+                "1",
+                "5",
+                "8",
+                "11",
+                "82"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.7.37.2",
+            "elementos": [
+                "37"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.3.19.1",
+            "elementos": [
+                "19"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.3.14.1",
+            "elementos": [
+                "14"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.3.15.1",
+            "elementos": [
+                "15"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.2.11.1",
+            "elementos": [
+                "11",
+                "89"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.3.17.1",
+            "elementos": [
+                "17"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.1.4.4",
+            "elementos": [
+                "4",
+                "10",
+                "80"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 4.21.124.2",
+            "elementos": [
+                "124"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.2.8.4",
+            "elementos": [
+                "8",
+                "27",
+                "28",
+                "29",
+                "37"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.9.48.1",
+            "elementos": [
+                "48"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.9.48.3",
+            "elementos": [
+                "48"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.9.48.2",
+            "elementos": [
+                "48"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.14.73.2",
+            "elementos": [
+                "73",
+                "74"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.10.53.3",
+            "elementos": [
+                "53"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.6.35.3",
+            "elementos": [
+                "35"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.16.91.2",
+            "elementos": [
+                "91"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.3.14.3",
+            "elementos": [
+                "14",
+                "16",
+                "18",
+                "27"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.1.7.1",
+            "elementos": [
+                "7"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 4.24.144.2",
+            "elementos": [
+                "144"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 4.22.128.1",
+            "elementos": [
+                "128"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.1.2.5",
+            "elementos": [
+                "2",
+                "10",
+                "30",
+                "31",
+                "32",
+                "36"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.8.41.4",
+            "elementos": [
+                "41",
+                "42",
+                "43",
+                "44",
+                "45",
+                "46"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 4.24.141.2",
+            "elementos": [
+                "141",
+                "142",
+                "143",
+                "144",
+                "151"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.10.53.2",
+            "elementos": [
+                "53"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.4.20.1",
+            "elementos": [
+                "20",
+                "144"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.4.24.2",
+            "elementos": [
+                "24"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.1.1.1",
+            "elementos": [
+                "1",
+                "2",
+                "4",
+                "5",
+                "6",
+                "8",
+                "10",
+                "39",
+                "121",
+                "123"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.1.1.3",
+            "elementos": [
+                "1"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.16.88.3",
+            "elementos": [
+                "88"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 4.23.139.1",
+            "elementos": [
+                "139",
+                "144"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.1.5.1",
+            "elementos": [
+                "5",
+                "8",
+                "11",
+                "47",
+                "49",
+                "158"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.7.37.1",
+            "elementos": [
+                "37"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 5.26.153.3",
+            "elementos": [
+                "153"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.14.82.1",
+            "elementos": [
+                "82"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.14.73.3",
+            "elementos": [
+                "73",
+                "74"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.11.56.2",
+            "elementos": [
+                "56",
+                "62"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 4.25.151.7",
+            "elementos": [
+                "151"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.16.86.3",
+            "elementos": [
+                "86"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.3.15.3",
+            "elementos": [
+                "15"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 4.21.121.3",
+            "elementos": [
+                "121"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.1.1.2",
+            "elementos": [
+                "1",
+                "3",
+                "20",
+                "21",
+                "24",
+                "41",
+                "43",
+                "44",
+                "47",
+                "51",
+                "121",
+                "122",
+                "123",
+                "124",
+                "125",
+                "129",
+                "131",
+                "132",
+                "133",
+                "135",
+                "137",
+                "155",
+                "159"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.14.82.4",
+            "elementos": [
+                "82"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.16.88.5",
+            "elementos": [
+                "88"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 4.24.142.5",
+            "elementos": [
+                "142",
+                "151"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.11.60.1",
+            "elementos": [
+                "60",
+                "61",
+                "163"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.9.48.5",
+            "elementos": [
+                "48"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 5.26.153.1",
+            "elementos": [
+                "153",
+                "155",
+                "157",
+                "158",
+                "160"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.2.11.6",
+            "elementos": [
+                "11",
+                "86",
+                "87",
+                "90"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.16.86.2",
+            "elementos": [
+                "86"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.3.13.1",
+            "elementos": [
+                "13",
+                "135",
+                "146",
+                "147",
+                "148",
+                "149"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 4.22.135.5",
+            "elementos": [
+                "135"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.8.41.1",
+            "elementos": [
+                "41",
+                "42",
+                "43",
+                "44",
+                "45",
+                "46",
+                "155"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.11.56.1",
+            "elementos": [
+                "56",
+                "62"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 4.25.146.1",
+            "elementos": [
+                "146"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.5.26.1",
+            "elementos": [
+                "26",
+                "90"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 5.30.172.1",
+            "elementos": [
+                "172"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 5.31.173.1",
+            "elementos": [
+                "173"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.8.45.8",
+            "elementos": [
+                "45"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 4.23.138.4",
+            "elementos": [
+                "138"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 2.9.47.2",
+            "elementos": [
+                "47",
+                "50",
+                "58",
+                "61",
+                "62",
+                "124",
+                "131",
+                "132",
+                "133",
+                "135",
+                "137",
+                "138",
+                "139",
+                "140",
+                "146",
+                "148"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 5.26.155.5",
+            "elementos": [
+                "155"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.14.73.1",
+            "elementos": [
+                "73"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.16.92.1",
+            "elementos": [
+                "92"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.17.95.1",
+            "elementos": [
+                "95"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.18.99.1",
+            "elementos": [
+                "99"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.18.100.1",
+            "elementos": [
+                "100"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.18.101.1",
+            "elementos": [
+                "101"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.18.102.1",
+            "elementos": [
+                "102"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.19.106.1",
+            "elementos": [
+                "106"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.19.107.1",
+            "elementos": [
+                "107"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.19.109.1",
+            "elementos": [
+                "109"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.19.110.1",
+            "elementos": [
+                "110"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.18.99.1",
+            "elementos": [
+                "112"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.20.115.1",
+            "elementos": [
+                "115"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.20.116.1",
+            "elementos": [
+                "116"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.20.117.1",
+            "elementos": [
+                "117"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.20.118.1",
+            "elementos": [
+                "118"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 3.20.120.1",
+            "elementos": [
+                "120"
+            ]
+        },
+        {
+            "codigoE": "1-AD-SOF 1.1.2.1",
+            "elementos": [
+                "2"
+            ]
+        }
+    ]
+}
