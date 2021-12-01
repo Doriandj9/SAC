@@ -68,12 +68,12 @@ class ViewController implements \frame\WebRoutes
         );
         $this->elementoFundamentalTable = new \models\DataBaseTable(
             new \models\conection\Conection(),
-            'elemento fundamental',
+            'elemento_fundamental',
             'cod_elemento'
         );
         $this->evidencia_elementoFundamentalTable = new \models\DataBaseTable(
             new \models\conection\Conection(),
-            'evidencia_elemento fundamental',
+            'evidencia_elemento_fundamental',
             'evidencia_cod'
         );
         $this->facultadTable = new \models\DataBaseTable(
@@ -138,6 +138,10 @@ class ViewController implements \frame\WebRoutes
             $this->profesor_responsabilidad,
             $this->autentification,
             $this->carrera_profesorTable,
+            $this->criterioTable,
+            $this->estandarTable,
+            $this->elementoFundamentalTable,
+            $this->evidencia_elementoFundamentalTable,
         );
         $controllerAsyJ = new \controllers\AsynJavaScript($this->evidencesTable);
         return [
