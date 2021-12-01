@@ -10,6 +10,10 @@ class Coordinator
   private $profesor_responsabilidadTable;
   private $authentification;
   private $carrera_profesorTable;
+  private $criterioTable;
+  private $estandarTable;
+  private $elementoFundamentalTable;
+  private $evidencia_elementoFundamentalTable;
 
   public function __construct(
     \models\DataBaseTable $evidenciasTable,
@@ -18,6 +22,10 @@ class Coordinator
     \models\DataBaseTable $profesor_responsabilidadTable,
     \controllers\Autentification $authentification,
     \models\DataBaseTable $carrera_profesorTable,
+    \models\DataBaseTable $criterioTable,
+    \models\DataBaseTable $estandarTable,
+    \models\DataBaseTable $elementoFundamentalTable,
+    \models\DataBaseTable $evidencia_elementoFundamentalTable,
 
   ) {
     $this->evidenciasTable = $evidenciasTable;
@@ -26,6 +34,10 @@ class Coordinator
     $this->profesor_responsabilidadTable = $profesor_responsabilidadTable;
     $this->authentification = $authentification;
     $this->carrera_profesorTable = $carrera_profesorTable;
+    $this->criterioTable = $criterioTable;
+    $this->estandarTable = $estandarTable;
+    $this->elementoFundamentalTable = $elementoFundamentalTable;
+    $this->evidencia_elementoFundamentalTable = $evidencia_elementoFundamentalTable;
   }
   // Devuelve una vista para ingresar los documentos necesarios para el SAC
   public function coordinator()
@@ -89,16 +101,25 @@ class Coordinator
 
     // $evidences = $this->saveEvidences();
     // if (!$evidences) {
-      $this->uploadInformation();
-    
-    if (isset($_POST['option'])){
-      if ($_POST['option'] == "#saveFile__DtrI"){
-        $evidences = $this->saveEvidences();
-        $this->verifyData($evidences);
-      }else if($_POST['option'] == "#saveFile__ListDI"){
-        $teachers = $this->saveTeacher();
-        $this->verifyData($teachers);
-      }
+    $this->uploadInformation();
+
+    if (isset($_POST['option'])) {
+      match ($_POST['option']) {
+        '#saveFile__DtrI' => $this->verifyData($this->saveEvidences()),
+        '#saveFile__ListDI' => $this->verifyData($this->saveTeacher()),
+        '#saveFile__CrtI' => $this->verifyData($this->saveCriterion()),
+        '#saveFile__EstI' => $this->verifyData($this->saveStandard()),
+        '#saveFile__ElmI' => $this->verifyData($this->saveElementFundamental()),
+        '#saveFile__ElmeI' => $this->verifyData($this->saveElementFundamentalEvidences()),
+        'default' => $this->saveError()
+      };
+      // if ($_POST['option'] == "#saveFile__DtrI"){
+      //   $evidences = $this->saveEvidences();
+      //   $this->verifyData($evidences);
+      // }else if($_POST['option'] == "#saveFile__ListDI"){
+      //   $teachers = $this->saveTeacher();
+      //   $this->verifyData($teachers);
+      // }
     }
     die;
     // } else {
@@ -107,12 +128,20 @@ class Coordinator
     // header('location: /');
   }
 
-  private function verifyData($result){
-    if (!$result){
+  private function saveError()
+  {
+    echo json_encode([
+      'error' => "No hay datos para ingresar"
+    ]);
+  }
+
+  private function verifyData($result)
+  {
+    if (!$result) {
       echo json_encode([
         'result' => "No hubo errores en el ingreso de datos"
       ]);
-    }else{
+    } else {
       echo json_encode($result);
     }
   }
