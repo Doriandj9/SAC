@@ -191,7 +191,7 @@ class Coordinator
         'carrera_cod' => $userData
       ];
 
-      //$this->profesoresTable->insert($data2);
+      $this->profesoresTable->insert($data2);
       $this->carrera_profesorTable->insert($data3);
     }
   }
