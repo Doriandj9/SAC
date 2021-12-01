@@ -22,44 +22,49 @@ document.getElementById("eye") == null ? '' : document.getElementById("eye").add
     }
 }, false);
 /** FUNCION PARA MOSTRAR Y OCULTAR CLAVE POR MEDIO DE BOTON */
-document.querySelector('.show span').addEventListener('click', e => {
-    const passwordInput = document.querySelector('#password');
-    if (e.target.classList.contains('show')) {
-        e.target.classList.remove('show');
-        e.target.textContent = 'Ocultar';
-        passwordInput.type = 'text';
-    } else {
-        e.target.classList.add('show');
-        e.target.textContent = 'Mostrar';
-        passwordInput.type = 'password';
-    }
-});
-// CONTINUE FUNCTION BACK
-document.querySelector('.show2 span').addEventListener('click', e => {
-    const passwordInput2 = document.querySelector('#passwordnew');
-    if (e.target.classList.contains('show')) {
-        e.target.classList.remove('show');
-        e.target.textContent = 'Ocultar';
-        passwordInput2.type = 'text';
-    } else {
-        e.target.classList.add('show');
-        e.target.textContent = 'Mostrar';
-        passwordInput2.type = 'password';
-    }
-});
+(function(){
+    const eye = document.querySelector('.show span');
+    if(eye == null) return;
+    eye.addEventListener('click', e => {
+        const passwordInput = document.querySelector('#password');
+        if (e.target.classList.contains('show')) {
+            e.target.classList.remove('show');
+            e.target.textContent = 'Ocultar';
+            passwordInput.type = 'text';
+        } else {
+            e.target.classList.add('show');
+            e.target.textContent = 'Mostrar';
+            passwordInput.type = 'password';
+        }
+    });
+    // CONTINUE FUNCTION BACK
+    document.querySelector('.show2 span').addEventListener('click', e => {
+        const passwordInput2 = document.querySelector('#passwordnew');
+        if (e.target.classList.contains('show')) {
+            e.target.classList.remove('show');
+            e.target.textContent = 'Ocultar';
+            passwordInput2.type = 'text';
+        } else {
+            e.target.classList.add('show');
+            e.target.textContent = 'Mostrar';
+            passwordInput2.type = 'password';
+        }
+    });
+    
+    document.querySelector('.show3 span').addEventListener('click', e => {
+        const passwordInput3 = document.querySelector('#passwordnew1');
+        if (e.target.classList.contains('show')) {
+            e.target.classList.remove('show');
+            e.target.textContent = 'Ocultar';
+            passwordInput3.type = 'text';
+        } else {
+            e.target.classList.add('show');
+            e.target.textContent = 'Mostrar';
+            passwordInput3.type = 'password';
+        }
+    });
+})();
 
-document.querySelector('.show3 span').addEventListener('click', e => {
-    const passwordInput3 = document.querySelector('#passwordnew1');
-    if (e.target.classList.contains('show')) {
-        e.target.classList.remove('show');
-        e.target.textContent = 'Ocultar';
-        passwordInput3.type = 'text';
-    } else {
-        e.target.classList.add('show');
-        e.target.textContent = 'Mostrar';
-        passwordInput3.type = 'password';
-    }
-});
 
 /** FUNCION PARA CERRAR VENTANAS DE ALERTA */
 

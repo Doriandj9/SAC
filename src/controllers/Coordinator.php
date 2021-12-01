@@ -57,7 +57,7 @@ class Coordinator
     }
     $offset = ($page - 1) * 15;
     $count = $this->evidenciasTable->getCountTable();
-    $evidences = $this->evidenciasTable->select(15, $offset);
+    $evidences = $this->evidenciasTable->select(15, $offset, true, "cod_evidencia");
     return [
       'title' => 'Permisos de Acceso',
       'template' => 'coordinator/loadInformation.html.php',
@@ -84,15 +84,15 @@ class Coordinator
         && $value['cod'] != ''
       ) {
         $data = [
-          'fecha_inicio' => $value['dateI'] . " " . $value['timeI'],
-          'fecha_fin' => $value['dateF'] . " " . $value['timeF'],
+          'fecha_inicial' => $value['dateI'] . " " . $value['timeI'],
+          'fecha_final' => $value['dateF'] . " " . $value['timeF'],
           'cod_evidencia' => $value['cod']
         ];
         $this->evidenciasTable->update($data);
       }
     }
 
-    header('location: /admin/load/information');
+    header('location: /coordinator/load/information');
   }
 
   // 
