@@ -142,7 +142,7 @@ class Coordinator
         'result' => "No hubo errores en el ingreso de datos"
       ]);
     } else {
-      echo json_encode($result);
+      echo json_encode($result, JSON_UNESCAPED_UNICODE);
     }
   }
 
@@ -204,6 +204,7 @@ class Coordinator
     $user = $this->authentification->getUser();
     $userData = $user->getUserDataTable()[0]->cod_carrera;
 
+    $errors = [];
     foreach ($arrayLista as $value) {
 
       $data2 = [
@@ -220,8 +221,19 @@ class Coordinator
         'carrera_cod' => $userData
       ];
 
-      $this->profesoresTable->insert($data2);
-      $this->carrera_profesorTable->insert($data3);
+      try {
+        $this->profesoresTable->insert($data2);
+        $this->carrera_profesorTable->insert($data3);
+      } catch (\PDOException $e) {
+        $errors[] = [
+          'error' => $e
+        ];
+      }
+    }
+    if (count($errors) > 0) {
+      return $errors;
+    } else {
+      return false;
     }
   }
 
@@ -230,6 +242,7 @@ class Coordinator
     $dataCriterio = file_get_contents('./public/records/criterios.json');
     $arrayCriterio = json_decode($dataCriterio, true)['criterios'];
 
+    $errors = [];
     foreach ($arrayCriterio as $value) {
 
       $data3 = [
@@ -237,7 +250,18 @@ class Coordinator
         'nombre_criterio' => $value['nombre']
       ];
 
-      $this->criterioTable->insert($data3);
+      try {
+        $this->criterioTable->insert($data3);
+      } catch (\PDOException $e) {
+        $errors[] = [
+          'error' => $e
+        ];
+      }
+    }
+    if (count($errors) > 0) {
+      return $errors;
+    } else {
+      return false;
     }
   }
 
