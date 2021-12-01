@@ -296,9 +296,14 @@ class Admin
             'profesor_id' => $_POST['cedula'],
             'carrera_cod' => $_POST['carrera']
         ];
-        $this->profesoresTable->insert($coordinadorData);
+        try{
+            $this->profesoresTable->insert($coordinadorData);
         $this->profesor_responsabilidadTable->insert($responsabilidad_profesorData);
         $this->carrera_profesorTable->insert($carrera_profesor_data);
+        }catch(\PDOException $e){
+            
+        }
+        
         header('location: /admin/load/coordinator');
     }
     public function savePeriod()
