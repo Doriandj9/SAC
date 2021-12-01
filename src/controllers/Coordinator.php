@@ -269,7 +269,7 @@ class Coordinator
   {
     $dataEstandares = file_get_contents('./public/records/estandares.json');
     $arrayEstandar = json_decode($dataEstandares, true)['ESTANDARES'];
-
+    $errors = [];
     foreach ($arrayEstandar as $value) {
 
       $data4 = [
@@ -277,7 +277,19 @@ class Coordinator
         'nombre_estandar' => $value['nombre'],
         'criterio_cod' => $value['criterio']
       ];
-      $this->estandarTable->insert($data4);
+      try {
+        $this->estandarTable->insert($data4);
+      } catch (\PDOException $e) {
+        $errors[] = [
+          'error' => $e
+        ];
+      }
+     
+    }
+    if (count($errors) > 0) {
+      return $errors;
+    } else {
+      return false;
     }
   }
 
@@ -285,7 +297,7 @@ class Coordinator
   {
     $dataElementosFundamentales = file_get_contents('./public/records/elementos.json');
     $arrayElementofun = json_decode($dataElementosFundamentales, true)['ELEMENTO'];
-
+    $errors = [];
     foreach ($arrayElementofun as $value) {
 
       $data5 = [
@@ -293,7 +305,18 @@ class Coordinator
         'nombre_elemento' => $value['nombre'],
         'estandar_cod' => $value['estandar']
       ];
-      $this->elementoFundamentalTable->insert($data5);
+      try {
+        $this->elementoFundamentalTable->insert($data5);
+      } catch (\PDOException $e) {
+        $errors[] = [
+          'error' => $e
+        ];
+      }
+    }
+    if (count($errors) > 0) {
+      return $errors;
+    } else {
+      return false;
     }
   }
 
@@ -301,7 +324,7 @@ class Coordinator
   {
     $dataElementosFundamentales_Evidencias = file_get_contents('./public/records/entregablesF.json');
     $arrayElementofun_Evidencia = json_decode($dataElementosFundamentales_Evidencias, true)['elementosF'];
-
+    $errors = [];
     foreach ($arrayElementofun_Evidencia as $value) {
 
       foreach ($value['elementos'] as $element) {
@@ -309,8 +332,20 @@ class Coordinator
           'evidencia_cod' => $value['codigoE'],
           'elemento_cod' => $element,
         ];
-        $this->evidencia_elementoFundamentalTable->insert($data6);
+        try {
+          $this->evidencia_elementoFundamentalTable->insert($data6);
+        } catch (\PDOException $e) {
+          $errors[] = [
+            'error' => $e
+          ];
+        }    
       }
     }
+    if (count($errors) > 0) {
+      return $errors;
+    } else {
+      return false;
+    }
   }
+
 }
