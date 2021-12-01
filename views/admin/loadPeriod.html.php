@@ -1,7 +1,7 @@
 <div class="period-main">
-    <div class="periodo-mensaje">
-        Ingrese el Periodo Academico
-    </div>
+<div id="cnt" class="ideb">
+    Ingresar el Periodo Academico:
+</div>
     <div class="periodo-content-form">
         <form action="" method="post" class="form-period">
             <div>
