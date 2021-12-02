@@ -139,11 +139,18 @@ class DataBaseTable
 
     public function selectJoinFull()
     {
-        $query = 'SELECT nombre_criterio,cod_estandar, cod_elemento, nombre_evidencia, cod_evidencia, pdf_archivo, docx_archivo, xlxs_archivo
-        FROM evidencia INNER JOIN evidencia_elemento_fundamental 
-        ON evidencia_cod = cod_evidencia INNER JOIN elemento_fundamental ON
-        elemento_cod = cod_elemento INNER JOIN estandar ON estandar_cod = cod_estandar
-        INNER JOIN criterio ON criterio_cod = cod_criterio ORDER BY cod_criterio';
+        $query = 'SELECT array_agg(nombre_criterio ORDER BY nombre_criterio)as nombre_criterio, nombre_evidencia, 
+        array_agg(elemento_cod) as cod_elemento, 
+        cod_evidencia, pdf_archivo, docx_archivo,
+        array_agg(estandar_cod) as cod_estandar,
+        xlxs_archivo FROM evidencia INNER JOIN 
+        evidencia_elemento_fundamental 
+        ON evidencia.cod_evidencia = evidencia_elemento_fundamental.evidencia_cod
+        INNER JOIN elemento_fundamental ON evidencia_elemento_fundamental.elemento_cod = elemento_fundamental.cod_elemento
+        INNER JOIN estandar ON elemento_fundamental.estandar_cod = estandar.cod_estandar
+        INNER JOIN criterio ON estandar.criterio_cod = criterio.cod_criterio
+        GROUP BY cod_evidencia 
+        ORDER BY nombre_evidencia ';
 
         $result = $this->runQuery($query);
         return $result->fetchAll(\PDO::FETCH_CLASS, $this->className, $this->arguments);

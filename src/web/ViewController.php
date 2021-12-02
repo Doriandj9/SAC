@@ -114,7 +114,7 @@ class ViewController implements \frame\WebRoutes
         $loginController = new \controllers\Login($this->autentification, $this->profesorTable);
         $homeController = new  \controllers\Home($this->autentification);
         $passwordController = new \controllers\Password($this->profesorTable, $this->autentification);
-        $teachersController = new  \controllers\Teachers($this->evidencesTable);
+        $teachersController = new  \controllers\Teachers($this->evidencesTable, $this->profesorTable,$this->autentification);
         $adminController = new \controllers\Admin(
             $this->profesorTable,
             $this->evidencesTable,

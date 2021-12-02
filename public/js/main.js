@@ -113,6 +113,7 @@ document.getElementById("eye") == null ? '' : document.getElementById("eye").add
         httpRequest.onreadystatechange = function (){
             if(count == 0){
                 if(httpRequest.status == 200){
+                    console.log(httpRequest.response)
                     const response =  JSON.parse(httpRequest.response);
                       localStorage.setItem("data", JSON.stringify(response));
                       pictureData();
@@ -136,6 +137,7 @@ document.getElementById("eye") == null ? '' : document.getElementById("eye").add
            if(data == null){
             data = JSON.parse(localStorage.getItem("data")).result;
            }
+           prueba();
            /** Aqui  */
            const tbody = document.querySelector("tbody");
            const tbodyChildern = Array.from(tbody.children);
@@ -149,7 +151,7 @@ document.getElementById("eye") == null ? '' : document.getElementById("eye").add
            let start = rows * cuuretPage;
            let end = rows+start;
             data = data.slice(start, end);
-           
+           let count = 0;
            data.forEach(elements => {
                const tr = document.createElement("tr");
                tbody.append(tr);
@@ -168,18 +170,42 @@ document.getElementById("eye") == null ? '' : document.getElementById("eye").add
             td3.innerHTML = elements.cod_elemento;
             td3.classList.add("text-center-td");
             td4.innerHTML = elements.nombre_evidencia;
-            td5.innerHTML = `<label for="pdf">
-            <img src="/public/img/pdf1.svg" alt=".pdf" title="Clic aquí para subir un archivo.">
-            </label><input type="file" id="pdf" name="pdf" accept=".pdf" />`;
-            td6.innerHTML=`
+            if(elements.pdf_archivo != null){
+                td5.innerHTML = `<label for="pdf">
+            <img class="subido" src="/public/img/doble-verificacion.png" alt=".pdf" title="Clic aquí para subir un archivo.">
+            </label><input type="file" id="pdf" name="file${count}[pdf]" accept=".pdf" />`;
+            }else{
+                td5.innerHTML = `<label for="pdf">
+            <img  src="/public/img/pdf1.svg" alt=".pdf" title="Clic aquí para subir un archivo.">
+            </label><input type="file" id="pdf" name="file${count}[pdf]" accept=".pdf" />`;
+            }
+            if(elements.docx_archivo != null){
+                td6.innerHTML=`
+            <label for="doc"><img class="subido" src="/public/img/doble-verificacion.png" alt=".doc" title="Clic aquí para subir un archivo.">
+            </label><input type="file" id="doc" name="file${count}[doc]" accept=".doc" />
+            `;
+            }else{
+                td6.innerHTML=`
             <label for="doc"><img src="/public/img/doc1.svg" alt=".doc" title="Clic aquí para subir un archivo.">
-            </label><input type="file" id="doc" name="doc" accept=".doc" />
+            </label><input type="file" id="doc" name="file${count}[doc]" accept=".doc" />
             `;
-            td7.innerHTML = `
+            }
+
+            if(elements.xlxs_archivo != null){
+                td7.innerHTML = `
+            <label for="xlsx"><img class="subido" src="/public/img/doble-verificacion.png" alt=".xlsx" title="Clic aquí para subir un archivo.">
+            </label><input type="file" id="xlsx" name="file${count}[xlsx]" accept=".xlsx" />
+            `;
+            }else{
+                td7.innerHTML = `
             <label for="xlsx"><img src="/public/img/xls1.svg" alt=".xlsx" title="Clic aquí para subir un archivo.">
-            </label><input type="file" id="xlsx" name="xlsx" accept=".xlsx" />
+            </label><input type="file" id="xlsx" name="file${count}[xlsx]" accept=".xlsx" />
             `;
-            input.setAttribute("name",elements.cod_evidencia);
+            }
+            
+            
+            input.setAttribute("name", `file${count}[cod_evidences]`);
+            input.setAttribute("value", elements.cod_evidencia);
             input.style.display= "none";
             td8.innerHTML = "No entregado";
             tr.classList.add("bytb");
@@ -192,6 +218,7 @@ document.getElementById("eye") == null ? '' : document.getElementById("eye").add
             tr.append(td7);
             tr.append(input);
             tr.append(td8);  
+            count ++;
            })
            
        }
@@ -226,7 +253,12 @@ document.getElementById("eye") == null ? '' : document.getElementById("eye").add
 
     
    
-    
+    function prueba(){
+        const json = JSON.parse(localStorage.getItem('data'));
+        let s = "{ja}";
+        let a  = s.trim('{')
+        console.log(a);
+    }
    
   
     
