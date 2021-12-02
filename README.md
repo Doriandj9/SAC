@@ -1,6 +1,6 @@
 # Sistema de Aseguramiento de la Calidad
 Este es un sistema desarrollado para la Universidad Estatal de Bolívar por un grupo de desarrollo de software como practicas preprofesionales
-> :Todos los archivos se encentra en github en el seguiente repositorio[Repositorio SAC](https://github.com/Doriandj9/SAC) seguido deben hacer Restore en la base de datos con el archivo sac que se presenta en la raiz del sistema
+> :warning: Todos los archivos se encentra en github en el seguiente repositorio[Repositorio SAC](https://github.com/Doriandj9/SAC) seguido deben hacer Restore en la base de datos con el archivo sac que se presenta en la raiz del sistema
 ## Integrantes del grupo de desarrollo 
 
 - [Leyton Arevalo](https://github.com/Leyton16)
