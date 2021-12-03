@@ -36,12 +36,31 @@ class EntryPoint{
         $title = $result['title'];
         if(isset($array[$this->route]['login']) && !$this->viewController->getAutentification()->validationAll()){
             header('location: /');
-        }else if(isset($array[$this->route]['permission']) && !$this->viewController->hashPermission($array[$this->route]['permission'])) {
+        }
+        else if(isset($array[$this->route]['permission']) && !$this->viewController->hashPermission($array[$this->route]['permission'])) 
+        {
                 header('location: /');
-        }else if(isset($array[$this->route]['responsability']) && !$this->viewController->
-        hashResponsability($array[$this->route]['responsability'])) {
+        }
+        else if(isset($array[$this->route]['responsability']) && !$this->viewController->
+        hashResponsability($array[$this->route]['responsability']))
+        {
+
                 header('location: /');
-        }else {
+        }
+        else if(!isset($array[$this->route]['permission']) 
+        && $this->viewController->hashPermission(\entity\Teachers::ADMINSTRADOR)
+        && !isset($array[$this->route]['all']) ||
+        !isset($array[$this->route]['responsability']) 
+        && $this->viewController->hashResponsability(\web\Responsability::EVALUADOR)
+        && !isset($array[$this->route]['all']) ||
+        !isset($array[$this->route]['responsability']) 
+        && $this->viewController->hashResponsability(\web\Responsability::COORDINADOR)
+        && !isset($array[$this->route]['all'])
+        ) 
+        {
+            header('location: /');
+        }
+        else{
 
             if(isset($result['login'])){
                 if(isset($result['variables'])){

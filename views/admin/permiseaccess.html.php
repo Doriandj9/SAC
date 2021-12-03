@@ -12,11 +12,16 @@
                             </tr>
                             </thead>
                     <tbody>
+                    <?php foreach($teachers as $value): ?>
                             <tr class="nnnn">
-                                <td>{Nombre}</td>
-                                <td>{Correo Electronico}</td>
-                                <td>{Editar permisos}</td>                            
-                                </tr>
+                                <td><?= $value->nombre_profesor ?? '' ;?></td>
+                                <td><?= $value->email_profesor ?? ''; ?> </td>
+                                <td><a href="/admin/permises/access?<?php
+                                    $encry = \web\Utiles::routeEncryte('id',$value->id_profesor);
+                                    echo $encry['id']."=". $encry['element'];
+                                ?>">EDITAR</a></td>                            
+                            </tr>
+                    <?php endforeach; ?>
                             </tbody>
                             </table>
                     </div>
