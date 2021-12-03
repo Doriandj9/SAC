@@ -24,6 +24,7 @@
     }
     /*Contenedor padre*/
     .maincontain{
+        position: relative;
         max-width: 80em;
         min-width: 60em;
         margin-left: auto;

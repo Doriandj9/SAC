@@ -1464,6 +1464,36 @@ font-weight: bold;
 	background-color: #c4c4c4;
 	
 }
+.visualizacion-resultados{
+	position: absolute;
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	overflow: auto;
+}
+.visualizacion-resultados > p {
+	margin: 0 2.5rem 1rem 2.5rem;
+	border: 2px solid var(--color-azul-barras);
+	border-radius: 0.5rem;
+	padding: 1%;
+	font-size: 1.8rem;
+	overflow: auto;
+	box-shadow: 7px 7px 14px var(--color-azul-barras);
+	
+}
+.visualizacion-resultados > button{
+	margin-top: 2rem;
+	display: block;
+	width: 12rem;
+	border-radius: 1rem;
+	height: 5rem;
+	font-size: 2rem;
+	margin: 2rem auto;
+	font-weight: bold;
+	background-color: var(--color-azul-barras);
+}
 /*Margenes */
 /*top*/
 .margin-top-1{

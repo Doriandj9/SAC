@@ -130,6 +130,7 @@ class Coordinator
 
   private function saveError()
   {
+    
     echo json_encode([
       'error' => "No hay datos para ingresar"
     ]);
@@ -138,10 +139,12 @@ class Coordinator
   private function verifyData($result)
   {
     if (!$result) {
+      echo "|";
       echo json_encode([
         'result' => "No hubo errores en el ingreso de datos"
       ]);
     } else {
+      echo "|";
       echo json_encode($result, JSON_UNESCAPED_UNICODE);
     }
   }
@@ -185,8 +188,10 @@ class Coordinator
       try {
         $this->evidenciasTable->insert($data);
       } catch (\PDOException $e) {
+
         $errors[] = [
-          'error' => $e
+          'error' => $e,
+          'info_data'=> $data
         ];
       }
     }
@@ -226,6 +231,7 @@ class Coordinator
         $this->carrera_profesorTable->insert($data3);
       } catch (\PDOException $e) {
         $errors[] = [
+          'info_data'=> $data2,
           'error' => $e
         ];
       }
@@ -254,7 +260,8 @@ class Coordinator
         $this->criterioTable->insert($data3);
       } catch (\PDOException $e) {
         $errors[] = [
-          'error' => $e
+          'error' => $e,
+          'info_data'=> $data3
         ];
       }
     }
@@ -281,7 +288,8 @@ class Coordinator
         $this->estandarTable->insert($data4);
       } catch (\PDOException $e) {
         $errors[] = [
-          'error' => $e
+          'error' => $e,
+          'info_data' => $data4
         ];
       }
      
@@ -309,7 +317,8 @@ class Coordinator
         $this->elementoFundamentalTable->insert($data5);
       } catch (\PDOException $e) {
         $errors[] = [
-          'error' => $e
+          'error' => $e,
+          'info_data' => $data5
         ];
       }
     }
@@ -336,7 +345,8 @@ class Coordinator
           $this->evidencia_elementoFundamentalTable->insert($data6);
         } catch (\PDOException $e) {
           $errors[] = [
-            'error' => $e
+            'error' => $e,
+            'info_data' => $data6
           ];
         }    
       }
