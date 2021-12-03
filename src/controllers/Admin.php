@@ -103,9 +103,9 @@ class Admin
         $objetReflectio = new \ReflectionClass('\entity\Teachers');
         $permission = $objetReflectio->getConstants();
         $teachers = $this->profesoresTable->select();
-
-        if (isset($_GET['id'])) {
-            $teacher = $this->profesoresTable->selectFromColumn('id_profesor', $_GET['id'])[0];
+        
+        if (isset($_GET['KJ-TRF-IYTAQWSSA'])) {
+            $teacher = $this->profesoresTable->selectFromColumn('id_profesor', \web\Utiles::descriptador($_GET['KJ-TRF-IYTAQWSSA']))[0];
             return [
                 'title' => 'Editar Permisos',
                 'template' => 'admin/editPermission.html.php',

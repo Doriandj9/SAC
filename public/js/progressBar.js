@@ -20,7 +20,6 @@
   });
 
   function save(inputFile, progressB, name) {
-    console.log(progressB);
     let xhr = new XMLHttpRequest();
 
     let d = new Date();
@@ -31,15 +30,20 @@
     data.append("time", time);
     data.append("option", name);
     xhr.open("POST", "/coordinator/upload/information", true);
-    console.log(xhr);
+    
     xhr.upload.addEventListener("progress", function (e) {
       let porcentaje = (e.loaded / e.total) * 100;
+      if(Math.round(porcentaje) == 100){
+        cargaPrevia();
+      }
       progressB.value = Math.round(porcentaje);
     });
+    
     xhr.onreadystatechange = function () {
       if (xhr.readyState === 4) {
         if (xhr.status === 200) {
           if (xhr.response) {
+            
             analizadorJsonResponse(xhr.response);
           }
         } else {
@@ -49,10 +53,24 @@
       }
     };
     xhr.send(data);
-    console.log(inputFile);
-    console.log("Hola desde la funcion");
+    
   }
+  /**
+   * 
+   * 
+   */
 
+  function cargaPrevia(){
+    const menucontent = document.getElementById('maincontain-sac');
+    const divCargaprevia = document.createElement('div');
+    divCargaprevia.setAttribute('id','carga-previa');
+    divCargaprevia.classList.add('carga-revia-padre');
+    divCargaprevia.innerHTML = `
+    <div class="carga-previa-style"></div>
+    `;
+    console.log('.......cargando');
+    menucontent.append(divCargaprevia);
+  }
   /**
    * Esta funcion analiza el JSON que devuelve el servidor al almacenar la informacion en la base de datos 
    * Ademas de separar los dos JSON que son la respuesta de que se guardo el archivo en el servidor local
@@ -63,7 +81,7 @@
       let jsons = response.split('|').map(res => JSON.parse(res));
       const resulArchivoGuardado= jsons[0];
       const resultDatosGuardadosDB = jsons[1];
-      console.log(resulArchivoGuardado);
+      
       let reslutGuardadoBD = `<h1 class="margin-top-2 margin-buttom-2-5" style="text-align: center ;">
        Resultado de guardar la informacion en la base de datos
         </h1>`;
@@ -102,9 +120,12 @@
   function pictureResult(res){
     const contentResult = document.createElement('div');
     const maincontainSac= document.getElementById('maincontain-sac');
+    const divCargaprevia = document.getElementById('carga-previa');
     contentResult.classList.add('visualizacion-resultados');
     contentResult.setAttribute('id','visualizacion-Res')
     contentResult.innerHTML = res;
+    console.log('....fin de carga');
+    divCargaprevia.remove();
     maincontainSac.append(contentResult);
     cerrarVistaResult();
   }
@@ -115,7 +136,6 @@
   const buttonCerrarResult = document.getElementById('entendido-cerrar');
   buttonCerrarResult.addEventListener('click', e => {
     e.preventDefault();
-    console.log('si valio');
     const contentResult = document.getElementById('visualizacion-Res');
       contentResult.remove();
   })

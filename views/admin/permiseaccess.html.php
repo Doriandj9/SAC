@@ -16,7 +16,10 @@
                             <tr class="nnnn">
                                 <td><?= $value->nombre_profesor ?? '' ;?></td>
                                 <td><?= $value->email_profesor ?? ''; ?> </td>
-                                <td><a href="/admin/permises/access?id=<?=$value->ci_profesor; ?>">EDITAR</a></td>                            
+                                <td><a href="/admin/permises/access?<?php
+                                    $encry = \web\Utiles::routeEncryte('id',$value->id_profesor);
+                                    echo $encry['id']."=". $encry['element'];
+                                ?>">EDITAR</a></td>                            
                             </tr>
                     <?php endforeach; ?>
                             </tbody>
