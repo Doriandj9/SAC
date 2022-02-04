@@ -26,7 +26,7 @@ Luego tenemos la carpeta con las Views(vistas) aqui hay las diferentes vistas qu
 ## Base de Datos
 
 ```html
-El sistema utiliza la base de datos PostgresSQL siendo la mas utilizada para los sistemas empresariales o robustos y como medida de adaptacion de sistemas dentro de la __Universidad Estatal de Bolivar__
+El sistema utiliza la base de datos PostgresSQL siendo la mas utilizada para los sistemas empresariales o robustos y como medida de adaptacion de sistemas dentro de la Universidad Estatal de Bolivar
 ```
 ### Como empezar a utilizar el sistema
 1. Primero se extiendo una vista de inicio de sesión donde unicamente en un principio podra ingresar el administrador que viene previamente incorporado en la base de datos para ello tiene que ingresar su correo electronico y su contraseña
